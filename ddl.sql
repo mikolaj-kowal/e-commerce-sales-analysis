@@ -10,7 +10,7 @@ CREATE TABLE Customers (
     email VARCHAR(100) UNIQUE NOT NULL,
     phone_number VARCHAR(30),
     signup_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    country VARCHAR(50),
+    country VARCHAR(70),
     city VARCHAR(50),
     loyalty_points INT DEFAULT 0,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -77,8 +77,8 @@ CREATE TABLE Shipping (
     shipping_address VARCHAR(200),
     carrier VARCHAR(50),
     tracking_number VARCHAR(100),
-    ship_date DATE,
-    delivery_date DATE,
+    ship_date TIMESTAMP,
+    delivery_date TIMESTAMP,
     status ENUM('Pending','Shipped','Delivered','Returned','Cancelled'),
     FOREIGN KEY (order_id) REFERENCES Orders(order_id)
 );

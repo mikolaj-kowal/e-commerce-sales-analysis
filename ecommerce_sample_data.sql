@@ -1,3387 +1,16857 @@
-USE ecommerce_db;
+USE ecommerce_db; 
 
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Danielle','Johnson','jeffreydoyle@hotmail.com','+49 125-859-4606','Germany','New Roberttown',125);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Clayton','Hall','jennifermiles@robinson-lawrence.com','+33 242-854-1779','France','Lake Roberto',346);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Joshua','Lewis','daviscolin@yahoo.com','+61 189-704-7012','Australia','Lindsaymouth',16);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Amanda','Dudley','arnoldmaria@hotmail.com','+48 195-323-3911','Poland','Barbaraland',258);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Brandon','Perez','wyattmichelle@yahoo.com','+31 127-674-3357','Netherlands','Shawnstad',366);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Francisco','Kelly','lynchgeorge@hotmail.com','+61 529-325-7459','Australia','East Steven',301);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Joseph','Schaefer','megan03@trujillo.com','+44 928-990-206','UK','East Robinshire',388);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Nancy','Edwards','pwilkerson@yahoo.com','+1 814-532-5674','USA','West Donald',142);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Julie','Ryan','icox@hotmail.com','+1 320-881-5614','USA','Daviston',52);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Michelle','Hernandez','ycarlson@carlson-mcdonald.com','+49 489-199-5981','Germany','Lake Jenniferside',433);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Karen','Mack','cartereric@gmail.com','+39 718-370-811','Italy','Teresaburgh',373);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('William','Rodriguez','ericfarmer@hotmail.com','+1 649-227-6301','Canada','New Mariotown',40);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Daniel','Cox','brianhumphrey@gmail.com','+61 400-949-6025','Australia','Lake Toddland',295);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Tiffany','Patel','donnaarroyo@baker.biz','+33 821-171-850','France','New Karina',338);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Hannah','Marquez','samuel87@gmail.com','+33 891-396-1407','France','East Caleb',437);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Andrew','Spencer','jonescrystal@jones.com','+33 987-203-6327','France','New Johnfort',142);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Jason','Anderson','kristenaguirre@gmail.com','+1 750-954-6077','Canada','North Donnastad',83);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Rodney','Owens','brownjessica@wright.net','+39 463-314-4474','Italy','Taylorburgh',359);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Joshua','Wright','jmorton@williams.com','+49 723-750-2903','Germany','Port Melindaburgh',273);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Richard','Olson','martinaaron@yahoo.com','+33 267-573-6316','France','Saramouth',138);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Justin','Horton','jamesrobinson@gmail.com','+61 324-801-5413','Australia','Lake Leeton',431);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Breanna','Shaw','yuchristopher@jones.com','+48 334-941-625','Poland','Wilsonshire',412);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('John','Wheeler','ksandoval@stewart.com','+39 510-374-1184','Italy','West Randy',108);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Emily','Evans','smithchristine@hotmail.com','+31 997-835-5255','Netherlands','North Amandahaven',108);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Joseph','Mahoney','mikemoore@warner.net','+1 505-758-7617','Canada','Lake Lisaport',73);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Sarah','Garcia','darrell18@nelson.com','+44 242-352-9297','UK','Jamesview',275);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('William','King','waltersmaria@smith.com','+44 864-698-7119','UK','Lake Scott',459);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Janice','Hoffman','landryhannah@gardner.org','+31 508-470-3693','Netherlands','South David',70);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Kyle','Nolan','jason31@deleon-henson.biz','+61 605-193-871','Australia','East Michelle',440);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Theresa','Cochran','whitesandra@yahoo.com','+49 256-742-2721','Germany','West Erik',405);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Jacqueline','Reyes','dwalker@torres-pope.com','+34 710-165-6404','Spain','North Donna',195);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Raymond','Ramirez','michael86@zavala.com','+31 579-641-4219','Netherlands','Gregoryview',497);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Benjamin','Carlson','samuel81@yahoo.com','+61 981-111-1976','Australia','West Bradley',349);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Ryan','Meyer','ryan59@alvarado-martinez.com','+61 868-373-5673','Australia','Elizabethmouth',57);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Richard','Phillips','robertbentley@adkins.biz','+44 545-261-7533','UK','West Justinchester',1);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Kristi','Lawson','rramos@gmail.com','+44 612-880-3027','UK','Leonburgh',259);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Donna','Campbell','cardenaskaren@hotmail.com','+49 991-740-4989','Germany','Jeffreyborough',430);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Dylan','Williams','gibsonolivia@hotmail.com','+61 723-303-2604','Australia','Lake Heather',191);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Troy','Sanchez','osbornejeffery@holmes.com','+1 652-897-8789','USA','Andersonmouth',470);
-INSERT INTO Customers (first_name,last_name,email,phone_number,country,city,loyalty_points) VALUES ('Elizabeth','Travis','usalazar@hotmail.com','+48 713-431-8105','Poland','Rivasside',9);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (1,'Electronics',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (2,'Laptops',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (3,'Smartphones',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (4,'Headphones',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (5,'Cameras',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (6,'Home Appliances',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (7,'Refrigerators',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (8,'Washing Machines ',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (9,'Furniture',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (10,'Beds',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (11,'Clothing',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (12,'Men',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (13,'Women',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (14,'Shoes',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (15,'Accessories',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (16,'Sports',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (17,'Fitness',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (18,'Books',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (19,'Fiction',NULL);
-INSERT INTO Categories (category_id,category_name,parent_category_id) VALUES (20,'Non-Fiction',NULL);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (1,'Product 1',7,'Nike',1346.66,47);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (2,'Product 2',15,'Canon',503.33,8);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (3,'Product 3',11,'Sony',467.93,28);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (4,'Product 4',1,'Samsung',127.16,8);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (5,'Product 5',2,'adidas',483.63,85);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (6,'Product 6',16,'Dell',1449.47,73);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (7,'Product 7',19,'LG',951.22,52);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (8,'Product 8',7,'samsung',867.79,54);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (9,'Product 9',14,'LG',117.8,83);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (10,'Product 10',4,'Sony',685.21,13);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (11,'Product 11',8,'Dell',902.74,54);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (12,'Product 12',6,'Nike',1750.23,9);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (13,'Product 13',15,'canon',1307.77,69);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (14,'Product 14',1,'Samsung',1698.9,21);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (15,'Product 15',14,'LG',1730.65,7);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (16,'Product 16',6,'bosch',786.94,100);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (17,'Product 17',15,'Nike',1915.06,100);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (18,'Product 18',18,'LG',600.45,7);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (19,'Product 19',19,'canon',634.07,6);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (20,'Product 20',19,'LG',1706.91,20);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (21,'Product 21',2,'canon',379.79,76);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (22,'Product 22',3,'Dell',1883.78,72);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (23,'Product 23',8,'Ikea',1242.57,53);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (24,'Product 24',19,'Ikea',1870.07,26);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (25,'Product 25',11,'Dell',270.45,82);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (26,'Product 26',10,'LG',1506.21,9);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (27,'Product 27',1,'LG',1130.36,12);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (28,'Product 28',3,'Canon',537.75,44);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (29,'Product 29',3,'Dell',323.92,69);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (30,'Product 30',10,'Ikea',1616.13,67);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (31,'Product 31',1,'Canon',1330.14,17);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (32,'Product 32',9,'Samsung',1487.41,19);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (33,'Product 33',9,'Nike',1438.05,26);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (34,'Product 34',9,'Canon',1811.62,6);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (35,'Product 35',3,'Bosch',97.73,42);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (36,'Product 36',5,'Nike',889.25,90);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (37,'Product 37',14,'canon',159.74,88);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (38,'Product 38',5,'canon',744.74,70);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (39,'Product 39',5,'Bosch',623.43,5);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (40,'Product 40',12,'Dell',1337.2,45);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (41,'Product 41',18,'Bosch',1501.46,30);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (42,'Product 42',6,'Apple',59.32,94);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (43,'Product 43',11,'Bosch',1729.49,31);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (44,'Product 44',9,'Apple',225.11,4);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (45,'Product 45',16,'Dell',1837.72,44);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (46,'Product 46',10,'Dell',1323.47,51);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (47,'Product 47',11,'Nike',1934.11,35);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (48,'Product 48',12,'Canon',1962.49,68);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (49,'Product 49',11,'Sony',1941.1,22);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (50,'Product 50',19,'nike',1197.18,44);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (51,'Product 51',11,'Bosch',1027.73,49);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (52,'Product 52',19,'Dell',1420.48,0);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (53,'Product 53',17,'Canon',1881.12,94);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (54,'Product 54',7,'Adidas',1898.26,42);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (55,'Product 55',20,'Adidas',258.0,38);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (56,'Product 56',17,'Nike',659.1,89);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (57,'Product 57',10,'Canon',846.69,48);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (58,'Product 58',6,'Ikea',818.09,0);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (59,'Product 59',10,'Nike',1573.66,77);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (60,'Product 60',11,'LG',1354.5,65);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (61,'Product 61',16,'Apple',574.73,84);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (62,'Product 62',20,'adidas',1904.48,30);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (63,'Product 63',10,'Dell',303.23,5);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (64,'Product 64',8,'LG',1539.29,58);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (65,'Product 65',14,'Ikea',1395.74,63);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (66,'Product 66',13,'Dell',1378.37,96);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (67,'Product 67',4,'Bosch',1610.18,89);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (68,'Product 68',17,'lg',505.9,15);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (69,'Product 69',15,'Apple',1338.48,71);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (70,'Product 70',20,'Adidas',1783.94,78);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (71,'Product 71',17,'Bosch',1100.27,20);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (72,'Product 72',16,'LG',502.01,81);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (73,'Product 73',9,'Canon',486.1,56);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (74,'Product 74',3,'Nike',678.34,69);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (75,'Product 75',3,'Apple',772.24,19);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (76,'Product 76',7,'Samsung',668.45,59);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (77,'Product 77',14,'Sony',846.09,98);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (78,'Product 78',19,'Sony',1533.53,48);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (79,'Product 79',16,'Sony',604.24,49);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (80,'Product 80',14,'Canon',1096.8,77);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (81,'Product 81',8,'LG',877.31,3);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (82,'Product 82',13,'Adidas',1598.3,92);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (83,'Product 83',6,'LG',1961.64,68);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (84,'Product 84',1,'Bosch',1329.37,10);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (85,'Product 85',14,'Apple',371.64,33);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (86,'Product 86',13,'Adidas',660.42,97);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (87,'Product 87',13,'Nike',1665.53,32);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (88,'Product 88',3,'lg',1083.44,44);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (89,'Product 89',8,'Samsung',1306.99,96);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (90,'Product 90',1,'Dell',50.56,19);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (91,'Product 91',8,'Apple',237.63,27);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (92,'Product 92',15,'Nike',343.9,77);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (93,'Product 93',4,'Apple',225.12,3);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (94,'Product 94',10,'Ikea',1916.76,50);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (95,'Product 95',7,'Samsung',1662.84,31);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (96,'Product 96',4,'Nike',1204.82,15);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (97,'Product 97',19,'Sony',862.47,47);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (98,'Product 98',3,'Canon',35.18,53);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (99,'Product 99',16,'Samsung',730.75,58);
-INSERT INTO Products (product_id,product_name,category_id,brand,price,stock_quantity) VALUES (100,'Product 100',5,'Bosch',1048.28,83);
-INSERT INTO Orders (order_id,customer_id,status) VALUES (1,18,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (2,18,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (3,24,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (4,38,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (5,19,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (6,4,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (7,29,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (8,31,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (9,38,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (10,33,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (11,12,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (12,26,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (13,14,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (14,19,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (15,38,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (16,27,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (17,10,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (18,32,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (19,37,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (20,30,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (21,30,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (22,39,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (23,3,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (24,11,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (25,17,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (26,20,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (27,10,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (28,16,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (29,39,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (30,15,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (31,21,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (32,29,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (33,36,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (34,7,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (35,36,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (36,7,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (37,40,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (38,30,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (39,18,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (40,3,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (41,33,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (42,26,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (43,6,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (44,13,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (45,38,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (46,36,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (47,29,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (48,10,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (49,20,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (50,5,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (51,11,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (52,20,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (53,31,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (54,6,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (55,9,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (56,8,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (57,33,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (58,22,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (59,3,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (60,24,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (61,20,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (62,10,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (63,24,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (64,29,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (65,12,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (66,27,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (67,9,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (68,6,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (69,16,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (70,9,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (71,33,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (72,7,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (73,5,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (74,31,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (75,33,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (76,11,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (77,14,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (78,17,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (79,36,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (80,14,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (81,11,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (82,12,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (83,30,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (84,13,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (85,37,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (86,19,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (87,24,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (88,30,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (89,27,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (90,30,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (91,4,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (92,21,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (93,4,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (94,27,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (95,13,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (96,35,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (97,2,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (98,23,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (99,15,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (100,2,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (101,6,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (102,31,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (103,21,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (104,9,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (105,6,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (106,6,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (107,39,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (108,27,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (109,22,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (110,16,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (111,5,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (112,39,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (113,22,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (114,15,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (115,30,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (116,36,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (117,5,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (118,40,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (119,37,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (120,36,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (121,32,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (122,23,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (123,19,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (124,18,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (125,35,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (126,4,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (127,28,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (128,15,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (129,29,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (130,7,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (131,10,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (132,19,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (133,21,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (134,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (135,28,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (136,12,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (137,8,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (138,37,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (139,27,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (140,19,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (141,13,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (142,25,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (143,27,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (144,18,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (145,35,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (146,6,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (147,8,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (148,17,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (149,4,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (150,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (151,35,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (152,31,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (153,37,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (154,21,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (155,26,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (156,25,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (157,22,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (158,7,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (159,7,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (160,6,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (161,20,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (162,31,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (163,31,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (164,10,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (165,34,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (166,13,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (167,7,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (168,4,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (169,21,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (170,26,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (171,29,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (172,18,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (173,40,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (174,4,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (175,15,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (176,22,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (177,38,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (178,12,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (179,26,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (180,38,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (181,13,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (182,2,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (183,1,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (184,23,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (185,5,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (186,8,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (187,22,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (188,11,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (189,40,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (190,37,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (191,11,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (192,29,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (193,36,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (194,36,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (195,8,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (196,38,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (197,27,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (198,23,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (199,35,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (200,19,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (201,4,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (202,5,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (203,1,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (204,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (205,40,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (206,24,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (207,5,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (208,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (209,7,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (210,35,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (211,6,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (212,4,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (213,22,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (214,20,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (215,36,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (216,37,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (217,3,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (218,24,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (219,15,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (220,9,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (221,39,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (222,12,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (223,31,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (224,37,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (225,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (226,29,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (227,6,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (228,12,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (229,26,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (230,7,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (231,15,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (232,18,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (233,23,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (234,32,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (235,34,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (236,22,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (237,37,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (238,1,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (239,17,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (240,19,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (241,40,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (242,26,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (243,31,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (244,16,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (245,12,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (246,20,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (247,34,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (248,32,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (249,14,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (250,8,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (251,3,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (252,38,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (253,4,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (254,23,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (255,39,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (256,25,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (257,36,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (258,34,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (259,4,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (260,16,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (261,36,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (262,29,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (263,15,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (264,6,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (265,8,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (266,10,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (267,13,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (268,2,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (269,6,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (270,31,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (271,34,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (272,15,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (273,23,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (274,40,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (275,34,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (276,18,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (277,6,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (278,27,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (279,39,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (280,4,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (281,29,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (282,24,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (283,29,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (284,16,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (285,39,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (286,24,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (287,34,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (288,21,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (289,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (290,33,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (291,13,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (292,4,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (293,12,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (294,13,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (295,25,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (296,14,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (297,33,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (298,35,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (299,39,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (300,10,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (301,39,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (302,28,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (303,39,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (304,29,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (305,40,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (306,26,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (307,10,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (308,1,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (309,6,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (310,37,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (311,40,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (312,29,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (313,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (314,20,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (315,18,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (316,12,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (317,39,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (318,17,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (319,32,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (320,1,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (321,31,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (322,20,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (323,16,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (324,35,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (325,38,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (326,37,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (327,9,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (328,27,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (329,36,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (330,31,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (331,30,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (332,38,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (333,28,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (334,37,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (335,37,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (336,16,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (337,31,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (338,2,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (339,18,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (340,30,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (341,15,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (342,35,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (343,2,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (344,21,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (345,19,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (346,14,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (347,10,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (348,15,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (349,29,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (350,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (351,6,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (352,36,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (353,16,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (354,28,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (355,4,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (356,24,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (357,8,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (358,15,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (359,38,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (360,18,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (361,35,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (362,28,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (363,20,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (364,7,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (365,26,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (366,26,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (367,21,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (368,35,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (369,11,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (370,40,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (371,23,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (372,3,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (373,33,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (374,26,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (375,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (376,35,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (377,17,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (378,36,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (379,27,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (380,38,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (381,27,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (382,16,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (383,27,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (384,39,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (385,39,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (386,40,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (387,17,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (388,13,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (389,2,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (390,28,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (391,3,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (392,30,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (393,18,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (394,11,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (395,18,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (396,30,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (397,6,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (398,24,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (399,15,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (400,33,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (401,20,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (402,26,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (403,14,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (404,32,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (405,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (406,8,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (407,27,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (408,2,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (409,22,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (410,29,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (411,14,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (412,9,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (413,27,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (414,29,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (415,3,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (416,40,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (417,36,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (418,1,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (419,38,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (420,26,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (421,33,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (422,3,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (423,27,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (424,22,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (425,35,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (426,4,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (427,28,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (428,4,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (429,8,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (430,5,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (431,16,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (432,19,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (433,33,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (434,18,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (435,21,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (436,12,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (437,8,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (438,3,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (439,5,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (440,35,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (441,21,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (442,38,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (443,38,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (444,29,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (445,1,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (446,13,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (447,10,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (448,22,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (449,15,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (450,24,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (451,16,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (452,24,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (453,24,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (454,40,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (455,32,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (456,24,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (457,12,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (458,15,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (459,13,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (460,36,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (461,23,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (462,39,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (463,39,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (464,30,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (465,14,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (466,29,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (467,12,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (468,11,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (469,5,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (470,29,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (471,14,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (472,22,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (473,21,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (474,24,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (475,21,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (476,15,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (477,19,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (478,3,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (479,34,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (480,36,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (481,20,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (482,20,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (483,32,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (484,23,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (485,10,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (486,35,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (487,27,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (488,12,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (489,6,'Delivered');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (490,7,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (491,18,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (492,26,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (493,31,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (494,40,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (495,36,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (496,2,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (497,22,'Shipped');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (498,13,'Pending');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (499,35,'Returned');
-INSERT INTO Orders (order_id,customer_id,status) VALUES (500,33,'Pending');
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1,1,56,3,659.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (2,1,42,1,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (3,1,36,2,889.25,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (4,1,97,2,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (5,2,2,3,503.33,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (6,2,11,1,902.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (7,2,63,3,303.23,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (8,2,89,2,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (9,2,58,1,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (10,3,68,2,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (11,3,96,3,1204.82,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (12,3,46,3,1323.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (13,3,35,2,97.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (14,3,30,1,1616.13,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (15,4,25,2,270.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (16,5,14,1,1698.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (17,5,61,2,574.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (18,5,44,1,225.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (19,5,33,2,1438.05,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (20,6,73,2,486.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (21,6,32,1,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (22,7,55,2,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (23,7,79,3,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (24,7,98,1,35.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (25,7,34,3,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (26,7,21,1,379.79,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (27,8,30,2,1616.13,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (28,9,15,3,1730.65,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (29,9,83,1,1961.64,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (30,9,19,1,634.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (31,9,22,2,1883.78,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (32,10,11,3,902.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (33,10,56,3,659.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (34,10,78,2,1533.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (35,10,12,1,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (36,11,84,2,1329.37,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (37,11,24,3,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (38,11,82,2,1598.3,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (39,11,61,2,574.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (40,11,43,2,1729.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (41,12,12,2,1750.23,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (42,12,42,1,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (43,12,66,1,1378.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (44,12,53,1,1881.12,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (45,13,17,2,1915.06,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (46,13,90,2,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (47,13,4,3,127.16,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (48,13,91,1,237.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (49,13,71,1,1100.27,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (50,14,62,2,1904.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (51,14,59,3,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (52,14,50,1,1197.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (53,14,9,2,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (54,15,58,3,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (55,15,45,2,1837.72,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (56,16,96,2,1204.82,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (57,16,50,3,1197.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (58,16,64,1,1539.29,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (59,17,10,2,685.21,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (60,17,44,3,225.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (61,18,9,1,117.8,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (62,18,30,3,1616.13,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (63,18,56,1,659.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (64,18,57,1,846.69,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (65,18,4,1,127.16,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (66,19,23,1,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (67,19,80,3,1096.8,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (68,20,60,2,1354.5,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (69,21,50,2,1197.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (70,21,31,2,1330.14,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (71,22,100,1,1048.28,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (72,22,29,3,323.92,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (73,22,80,2,1096.8,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (74,23,12,2,1750.23,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (75,23,96,2,1204.82,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (76,24,38,3,744.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (77,24,15,2,1730.65,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (78,24,19,1,634.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (79,24,72,2,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (80,25,14,3,1698.9,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (81,25,61,1,574.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (82,25,79,1,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (83,26,13,1,1307.77,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (84,27,63,3,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (85,28,88,2,1083.44,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (86,29,43,1,1729.49,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (87,30,77,1,846.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (88,30,19,1,634.07,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (89,31,34,1,1811.62,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (90,31,95,2,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (91,32,6,3,1449.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (92,32,59,3,1573.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (93,32,8,2,867.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (94,32,55,3,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (95,32,63,3,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (96,33,77,3,846.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (97,33,59,3,1573.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (98,33,13,3,1307.77,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (99,33,84,3,1329.37,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (100,34,41,3,1501.46,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (101,34,48,1,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (102,34,9,1,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (103,34,12,2,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (104,35,53,2,1881.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (105,36,85,2,371.64,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (106,36,14,2,1698.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (107,37,85,3,371.64,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (108,37,4,1,127.16,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (109,37,90,2,50.56,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (110,37,45,1,1837.72,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (111,37,19,3,634.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (112,38,48,2,1962.49,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (113,38,100,3,1048.28,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (114,39,63,3,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (115,39,54,2,1898.26,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (116,39,97,3,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (117,39,45,2,1837.72,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (118,40,77,1,846.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (119,40,27,2,1130.36,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (120,40,99,1,730.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (121,40,38,2,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (122,41,51,3,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (123,42,15,2,1730.65,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (124,42,42,1,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (125,42,89,2,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (126,43,96,2,1204.82,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (127,43,43,1,1729.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (128,43,66,3,1378.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (129,44,20,3,1706.91,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (130,44,23,3,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (131,44,60,3,1354.5,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (132,44,88,3,1083.44,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (133,44,81,2,877.31,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (134,45,65,1,1395.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (135,45,60,2,1354.5,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (136,45,8,2,867.79,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (137,46,74,3,678.34,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (138,46,42,3,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (139,46,65,1,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (140,46,58,1,818.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (141,47,48,2,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (142,47,53,2,1881.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (143,47,81,3,877.31,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (144,48,75,3,772.24,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (145,49,17,3,1915.06,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (146,49,83,3,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (147,49,66,2,1378.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (148,50,65,3,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (149,51,53,2,1881.12,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (150,52,48,3,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (151,52,60,2,1354.5,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (152,53,14,3,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (153,53,37,1,159.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (154,53,35,2,97.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (155,53,56,1,659.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (156,53,58,2,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (157,54,4,2,127.16,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (158,54,92,3,343.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (159,55,79,1,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (160,55,3,2,467.93,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (161,55,20,3,1706.91,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (162,55,15,2,1730.65,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (163,56,69,1,1338.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (164,56,92,1,343.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (165,56,55,1,258.0,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (166,56,31,3,1330.14,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (167,56,24,3,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (168,57,61,1,574.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (169,57,48,2,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (170,57,46,1,1323.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (171,57,31,3,1330.14,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (172,58,90,2,50.56,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (173,58,18,1,600.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (174,58,5,2,483.63,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (175,58,6,1,1449.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (176,59,46,1,1323.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (177,59,35,1,97.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (178,59,56,2,659.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (179,60,94,2,1916.76,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (180,61,92,2,343.9,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (181,61,89,2,1306.99,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (182,61,58,1,818.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (183,61,79,2,604.24,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (184,61,82,1,1598.3,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (185,62,17,1,1915.06,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (186,63,98,1,35.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (187,63,68,2,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (188,63,41,3,1501.46,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (189,63,32,1,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (190,64,37,3,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (191,64,26,1,1506.21,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (192,64,10,2,685.21,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (193,64,92,2,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (194,64,88,2,1083.44,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (195,65,29,1,323.92,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (196,65,18,1,600.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (197,65,4,2,127.16,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (198,65,60,3,1354.5,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (199,65,79,1,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (200,66,41,3,1501.46,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (201,66,58,2,818.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (202,67,8,1,867.79,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (203,67,39,1,623.43,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (204,67,42,3,59.32,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (205,67,45,3,1837.72,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (206,67,11,2,902.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (207,68,75,1,772.24,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (208,68,85,3,371.64,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (209,68,73,1,486.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (210,68,11,1,902.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (211,68,84,1,1329.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (212,69,59,1,1573.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (213,69,21,2,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (214,69,62,2,1904.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (215,70,72,1,502.01,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (216,70,31,2,1330.14,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (217,70,35,2,97.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (218,70,19,1,634.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (219,70,38,2,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (220,71,40,2,1337.2,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (221,71,12,2,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (222,71,31,1,1330.14,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (223,71,7,1,951.22,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (224,72,34,3,1811.62,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (225,72,98,2,35.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (226,73,58,3,818.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (227,73,80,3,1096.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (228,73,17,1,1915.06,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (229,73,48,2,1962.49,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (230,73,97,1,862.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (231,74,78,3,1533.53,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (232,74,42,3,59.32,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (233,75,39,2,623.43,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (234,75,48,2,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (235,75,54,3,1898.26,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (236,75,93,3,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (237,75,77,2,846.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (238,76,88,1,1083.44,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (239,76,74,3,678.34,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (240,77,100,3,1048.28,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (241,77,95,3,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (242,77,91,1,237.63,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (243,77,72,2,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (244,77,68,2,505.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (245,78,32,2,1487.41,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (246,78,29,2,323.92,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (247,79,16,3,786.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (248,79,51,2,1027.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (249,79,38,1,744.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (250,80,35,3,97.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (251,80,18,1,600.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (252,80,32,1,1487.41,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (253,80,82,1,1598.3,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (254,80,13,2,1307.77,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (255,81,62,3,1904.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (256,81,97,2,862.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (257,81,37,3,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (258,81,99,1,730.75,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (259,82,64,1,1539.29,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (260,82,5,1,483.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (261,82,73,3,486.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (262,82,43,2,1729.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (263,83,15,2,1730.65,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (264,83,94,2,1916.76,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (265,84,82,2,1598.3,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (266,84,66,2,1378.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (267,84,52,3,1420.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (268,84,24,1,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (269,84,42,1,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (270,85,84,2,1329.37,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (271,85,8,3,867.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (272,85,60,2,1354.5,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (273,86,29,1,323.92,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (274,86,62,1,1904.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (275,86,96,3,1204.82,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (276,86,54,3,1898.26,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (277,86,97,3,862.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (278,87,15,1,1730.65,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (279,87,74,3,678.34,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (280,87,22,2,1883.78,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (281,87,15,3,1730.65,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (282,87,92,3,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (283,88,60,3,1354.5,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (284,88,93,1,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (285,88,33,1,1438.05,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (286,88,75,1,772.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (287,88,55,2,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (288,89,58,2,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (289,89,11,3,902.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (290,89,84,2,1329.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (291,89,23,3,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (292,90,49,1,1941.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (293,90,59,2,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (294,90,36,1,889.25,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (295,90,5,3,483.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (296,90,79,1,604.24,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (297,91,52,2,1420.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (298,92,39,1,623.43,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (299,92,53,2,1881.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (300,93,68,2,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (301,93,53,1,1881.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (302,93,49,1,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (303,93,31,1,1330.14,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (304,94,32,2,1487.41,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (305,94,43,3,1729.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (306,94,58,2,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (307,94,69,3,1338.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (308,95,27,2,1130.36,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (309,95,2,1,503.33,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (310,95,95,1,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (311,95,32,3,1487.41,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (312,96,34,2,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (313,96,60,1,1354.5,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (314,96,98,2,35.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (315,97,75,3,772.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (316,97,38,1,744.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (317,97,43,1,1729.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (318,97,73,1,486.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (319,97,71,3,1100.27,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (320,98,93,3,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (321,98,24,3,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (322,99,2,1,503.33,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (323,99,48,1,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (324,100,37,1,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (325,100,23,1,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (326,100,68,1,505.9,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (327,100,25,3,270.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (328,100,46,2,1323.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (329,101,49,3,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (330,101,8,3,867.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (331,101,90,1,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (332,101,64,2,1539.29,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (333,102,10,3,685.21,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (334,103,76,1,668.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (335,103,10,2,685.21,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (336,104,96,2,1204.82,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (337,104,13,2,1307.77,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (338,104,10,2,685.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (339,104,100,2,1048.28,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (340,104,82,2,1598.3,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (341,105,92,1,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (342,105,35,1,97.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (343,106,57,2,846.69,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (344,106,14,1,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (345,106,24,2,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (346,107,2,2,503.33,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (347,107,50,1,1197.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (348,107,74,3,678.34,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (349,107,88,2,1083.44,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (350,108,10,2,685.21,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (351,108,32,3,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (352,108,77,3,846.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (353,108,59,1,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (354,109,56,3,659.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (355,109,39,2,623.43,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (356,109,62,2,1904.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (357,110,36,2,889.25,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (358,110,15,3,1730.65,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (359,110,76,3,668.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (360,110,88,3,1083.44,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (361,111,18,3,600.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (362,111,31,2,1330.14,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (363,111,92,2,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (364,111,10,2,685.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (365,112,99,1,730.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (366,113,2,1,503.33,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (367,114,51,2,1027.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (368,114,45,1,1837.72,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (369,114,14,2,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (370,115,62,2,1904.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (371,115,13,2,1307.77,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (372,115,41,1,1501.46,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (373,115,6,3,1449.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (374,115,3,2,467.93,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (375,116,30,2,1616.13,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (376,116,24,3,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (377,116,51,1,1027.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (378,116,58,3,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (379,117,24,2,1870.07,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (380,117,26,2,1506.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (381,117,34,3,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (382,117,68,3,505.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (383,117,77,2,846.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (384,118,41,1,1501.46,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (385,118,40,1,1337.2,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (386,119,24,2,1870.07,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (387,119,72,1,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (388,119,37,1,159.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (389,119,41,2,1501.46,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (390,120,88,2,1083.44,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (391,120,91,2,237.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (392,120,22,1,1883.78,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (393,120,98,1,35.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (394,121,15,2,1730.65,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (395,121,70,1,1783.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (396,121,70,1,1783.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (397,121,14,3,1698.9,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (398,121,39,1,623.43,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (399,122,79,1,604.24,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (400,122,27,1,1130.36,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (401,123,35,3,97.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (402,123,18,2,600.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (403,123,36,3,889.25,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (404,123,90,1,50.56,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (405,123,19,3,634.07,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (406,124,58,1,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (407,124,52,3,1420.48,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (408,124,89,2,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (409,124,63,2,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (410,125,55,1,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (411,125,35,2,97.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (412,126,81,2,877.31,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (413,127,84,2,1329.37,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (414,127,36,1,889.25,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (415,128,91,1,237.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (416,129,90,2,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (417,130,48,2,1962.49,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (418,130,49,1,1941.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (419,130,9,3,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (420,131,88,2,1083.44,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (421,131,12,1,1750.23,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (422,131,97,1,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (423,131,45,2,1837.72,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (424,131,18,1,600.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (425,132,27,3,1130.36,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (426,132,96,2,1204.82,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (427,132,83,1,1961.64,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (428,133,73,2,486.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (429,133,70,3,1783.94,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (430,133,98,2,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (431,133,3,3,467.93,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (432,134,11,3,902.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (433,134,36,1,889.25,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (434,134,11,3,902.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (435,134,20,3,1706.91,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (436,135,32,1,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (437,136,91,1,237.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (438,137,55,2,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (439,137,34,3,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (440,137,64,2,1539.29,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (441,138,95,3,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (442,138,6,1,1449.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (443,139,32,2,1487.41,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (444,139,35,1,97.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (445,139,16,3,786.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (446,140,12,3,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (447,140,2,2,503.33,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (448,140,38,3,744.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (449,141,1,2,1346.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (450,141,30,3,1616.13,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (451,142,27,3,1130.36,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (452,143,96,1,1204.82,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (453,143,65,1,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (454,143,10,3,685.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (455,143,56,3,659.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (456,144,26,1,1506.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (457,145,58,2,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (458,145,34,1,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (459,146,51,3,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (460,146,87,2,1665.53,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (461,146,23,1,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (462,147,100,1,1048.28,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (463,148,9,1,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (464,149,56,3,659.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (465,149,64,1,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (466,149,88,2,1083.44,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (467,149,46,1,1323.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (468,149,36,2,889.25,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (469,150,12,2,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (470,151,92,2,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (471,151,70,2,1783.94,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (472,151,73,3,486.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (473,151,50,2,1197.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (474,152,30,1,1616.13,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (475,152,32,3,1487.41,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (476,152,35,3,97.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (477,152,98,1,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (478,152,46,1,1323.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (479,153,25,2,270.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (480,153,23,2,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (481,153,12,1,1750.23,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (482,153,78,1,1533.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (483,153,68,2,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (484,154,19,3,634.07,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (485,155,39,2,623.43,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (486,155,21,3,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (487,155,82,2,1598.3,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (488,156,17,1,1915.06,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (489,156,90,3,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (490,156,99,3,730.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (491,157,45,2,1837.72,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (492,157,82,1,1598.3,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (493,158,50,2,1197.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (494,159,84,3,1329.37,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (495,159,21,2,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (496,159,5,2,483.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (497,159,41,2,1501.46,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (498,159,10,2,685.21,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (499,160,79,2,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (500,160,56,3,659.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (501,160,78,2,1533.53,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (502,160,7,1,951.22,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (503,160,27,1,1130.36,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (504,161,7,2,951.22,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (505,162,4,1,127.16,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (506,163,12,3,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (507,163,24,2,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (508,163,48,1,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (509,164,86,2,660.42,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (510,165,88,2,1083.44,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (511,165,61,2,574.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (512,165,51,3,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (513,165,65,3,1395.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (514,165,16,2,786.94,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (515,166,34,2,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (516,166,12,2,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (517,166,71,2,1100.27,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (518,166,67,2,1610.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (519,166,90,3,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (520,167,100,1,1048.28,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (521,167,69,2,1338.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (522,167,34,2,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (523,167,74,3,678.34,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (524,167,5,1,483.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (525,168,48,1,1962.49,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (526,168,39,2,623.43,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (527,168,63,3,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (528,169,78,3,1533.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (529,169,25,2,270.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (530,169,53,3,1881.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (531,169,98,3,35.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (532,170,73,1,486.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (533,170,25,1,270.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (534,170,32,1,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (535,170,7,2,951.22,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (536,170,36,2,889.25,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (537,171,76,3,668.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (538,171,45,1,1837.72,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (539,171,96,3,1204.82,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (540,171,37,1,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (541,172,3,3,467.93,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (542,172,61,1,574.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (543,172,77,1,846.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (544,172,33,3,1438.05,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (545,172,92,3,343.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (546,173,14,1,1698.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (547,173,72,3,502.01,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (548,173,39,3,623.43,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (549,173,62,1,1904.48,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (550,173,36,3,889.25,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (551,174,88,1,1083.44,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (552,174,84,2,1329.37,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (553,174,34,2,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (554,175,65,2,1395.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (555,175,85,3,371.64,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (556,175,38,1,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (557,176,46,1,1323.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (558,176,54,2,1898.26,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (559,177,25,3,270.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (560,177,88,2,1083.44,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (561,177,53,1,1881.12,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (562,177,18,1,600.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (563,178,43,3,1729.49,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (564,178,41,3,1501.46,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (565,178,1,2,1346.66,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (566,178,27,1,1130.36,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (567,179,50,1,1197.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (568,179,69,1,1338.48,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (569,179,2,2,503.33,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (570,179,3,3,467.93,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (571,180,9,1,117.8,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (572,180,38,2,744.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (573,181,3,1,467.93,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (574,181,94,1,1916.76,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (575,181,94,1,1916.76,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (576,181,16,2,786.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (577,182,54,2,1898.26,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (578,183,85,1,371.64,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (579,183,80,3,1096.8,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (580,183,54,1,1898.26,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (581,183,37,1,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (582,184,21,1,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (583,184,27,3,1130.36,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (584,184,43,1,1729.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (585,185,83,1,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (586,185,38,2,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (587,185,7,1,951.22,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (588,186,2,1,503.33,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (589,187,52,2,1420.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (590,188,90,3,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (591,188,21,1,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (592,189,62,2,1904.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (593,189,53,2,1881.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (594,190,67,3,1610.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (595,190,56,3,659.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (596,190,62,2,1904.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (597,191,22,1,1883.78,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (598,191,42,1,59.32,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (599,191,36,1,889.25,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (600,191,71,3,1100.27,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (601,192,58,2,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (602,192,64,3,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (603,192,14,2,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (604,192,5,3,483.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (605,193,44,2,225.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (606,193,29,2,323.92,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (607,193,72,3,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (608,193,92,3,343.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (609,194,6,1,1449.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (610,195,59,1,1573.66,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (611,195,14,2,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (612,196,1,3,1346.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (613,196,71,2,1100.27,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (614,196,66,1,1378.37,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (615,196,94,1,1916.76,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (616,197,51,2,1027.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (617,197,58,1,818.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (618,197,53,3,1881.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (619,198,65,3,1395.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (620,198,91,1,237.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (621,199,2,3,503.33,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (622,199,4,2,127.16,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (623,199,7,3,951.22,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (624,199,26,2,1506.21,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (625,200,5,2,483.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (626,200,14,3,1698.9,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (627,200,96,3,1204.82,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (628,200,31,3,1330.14,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (629,200,89,3,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (630,201,26,3,1506.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (631,201,29,3,323.92,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (632,201,97,3,862.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (633,202,95,3,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (634,202,49,1,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (635,203,91,1,237.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (636,203,20,2,1706.91,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (637,203,100,3,1048.28,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (638,203,63,3,303.23,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (639,204,45,1,1837.72,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (640,205,97,3,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (641,205,15,3,1730.65,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (642,205,58,1,818.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (643,205,6,3,1449.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (644,205,49,1,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (645,206,6,2,1449.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (646,206,42,3,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (647,206,13,1,1307.77,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (648,206,81,1,877.31,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (649,207,59,3,1573.66,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (650,208,81,2,877.31,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (651,208,41,1,1501.46,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (652,208,87,1,1665.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (653,208,83,3,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (654,209,78,1,1533.53,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (655,209,98,2,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (656,209,51,3,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (657,210,39,3,623.43,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (658,210,2,3,503.33,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (659,211,96,3,1204.82,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (660,211,28,2,537.75,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (661,212,10,2,685.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (662,212,33,1,1438.05,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (663,212,93,3,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (664,212,43,2,1729.49,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (665,212,86,3,660.42,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (666,213,20,3,1706.91,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (667,213,41,2,1501.46,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (668,213,1,2,1346.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (669,213,29,3,323.92,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (670,213,36,2,889.25,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (671,214,14,1,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (672,214,36,1,889.25,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (673,214,34,3,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (674,214,94,1,1916.76,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (675,214,65,3,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (676,215,70,2,1783.94,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (677,215,47,2,1934.11,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (678,215,99,3,730.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (679,215,18,2,600.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (680,215,51,2,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (681,216,46,1,1323.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (682,216,98,2,35.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (683,216,9,2,117.8,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (684,216,30,1,1616.13,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (685,217,91,3,237.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (686,218,33,2,1438.05,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (687,218,67,2,1610.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (688,218,45,2,1837.72,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (689,218,78,1,1533.53,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (690,218,57,1,846.69,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (691,219,93,1,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (692,219,87,2,1665.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (693,219,27,3,1130.36,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (694,220,19,1,634.07,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (695,220,34,1,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (696,220,77,3,846.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (697,220,93,3,225.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (698,220,11,1,902.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (699,221,99,1,730.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (700,221,22,3,1883.78,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (701,221,59,3,1573.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (702,221,30,2,1616.13,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (703,221,17,1,1915.06,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (704,222,77,1,846.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (705,222,12,2,1750.23,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (706,222,78,3,1533.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (707,222,100,3,1048.28,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (708,222,67,2,1610.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (709,223,76,3,668.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (710,223,55,1,258.0,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (711,223,62,1,1904.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (712,224,1,2,1346.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (713,224,89,2,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (714,224,47,1,1934.11,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (715,224,55,3,258.0,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (716,224,34,3,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (717,225,48,3,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (718,225,33,2,1438.05,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (719,226,28,3,537.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (720,227,77,2,846.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (721,227,9,2,117.8,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (722,227,48,1,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (723,227,93,2,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (724,228,2,1,503.33,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (725,228,25,1,270.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (726,228,79,1,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (727,228,47,1,1934.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (728,229,2,3,503.33,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (729,229,12,3,1750.23,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (730,229,93,3,225.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (731,229,45,2,1837.72,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (732,229,78,1,1533.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (733,230,38,2,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (734,230,66,2,1378.37,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (735,230,89,2,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (736,230,73,2,486.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (737,230,97,2,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (738,231,46,3,1323.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (739,231,90,2,50.56,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (740,231,37,1,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (741,231,87,3,1665.53,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (742,232,64,3,1539.29,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (743,232,31,3,1330.14,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (744,233,16,1,786.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (745,234,24,3,1870.07,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (746,234,51,1,1027.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (747,234,7,3,951.22,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (748,234,62,3,1904.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (749,235,89,1,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (750,235,87,1,1665.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (751,235,75,1,772.24,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (752,236,64,2,1539.29,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (753,236,54,3,1898.26,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (754,237,93,2,225.12,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (755,238,64,1,1539.29,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (756,238,63,2,303.23,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (757,238,72,3,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (758,238,51,1,1027.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (759,239,72,3,502.01,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (760,239,45,1,1837.72,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (761,239,16,2,786.94,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (762,240,87,3,1665.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (763,240,100,3,1048.28,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (764,240,11,2,902.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (765,241,11,1,902.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (766,242,100,2,1048.28,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (767,242,53,1,1881.12,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (768,242,3,1,467.93,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (769,242,85,2,371.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (770,243,99,2,730.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (771,244,81,1,877.31,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (772,244,68,1,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (773,244,5,3,483.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (774,244,42,2,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (775,245,56,3,659.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (776,245,45,2,1837.72,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (777,245,12,2,1750.23,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (778,245,47,2,1934.11,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (779,245,20,2,1706.91,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (780,246,38,3,744.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (781,246,1,3,1346.66,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (782,246,25,2,270.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (783,246,51,1,1027.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (784,247,84,3,1329.37,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (785,247,53,1,1881.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (786,247,24,1,1870.07,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (787,248,3,1,467.93,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (788,248,69,1,1338.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (789,248,14,2,1698.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (790,249,40,2,1337.2,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (791,249,60,3,1354.5,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (792,249,43,1,1729.49,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (793,249,8,2,867.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (794,250,99,2,730.75,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (795,250,95,1,1662.84,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (796,250,59,3,1573.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (797,250,67,3,1610.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (798,251,62,3,1904.48,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (799,251,26,2,1506.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (800,251,86,1,660.42,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (801,252,32,1,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (802,252,75,3,772.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (803,252,89,3,1306.99,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (804,252,48,1,1962.49,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (805,253,83,1,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (806,253,17,2,1915.06,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (807,253,41,3,1501.46,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (808,254,6,2,1449.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (809,254,72,2,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (810,254,25,3,270.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (811,255,68,1,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (812,256,80,2,1096.8,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (813,257,37,2,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (814,257,83,2,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (815,257,13,3,1307.77,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (816,257,6,1,1449.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (817,257,5,1,483.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (818,258,47,1,1934.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (819,259,96,2,1204.82,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (820,259,91,1,237.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (821,259,68,1,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (822,259,39,1,623.43,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (823,259,67,1,1610.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (824,260,96,3,1204.82,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (825,260,96,1,1204.82,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (826,260,87,2,1665.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (827,260,14,1,1698.9,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (828,260,71,2,1100.27,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (829,261,53,3,1881.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (830,261,93,2,225.12,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (831,261,73,3,486.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (832,262,93,1,225.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (833,263,3,3,467.93,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (834,263,71,3,1100.27,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (835,263,13,1,1307.77,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (836,264,28,3,537.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (837,264,93,2,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (838,264,23,2,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (839,264,77,3,846.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (840,264,5,3,483.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (841,265,2,3,503.33,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (842,265,7,2,951.22,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (843,265,41,3,1501.46,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (844,265,42,3,59.32,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (845,265,20,1,1706.91,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (846,266,11,2,902.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (847,266,71,2,1100.27,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (848,266,11,2,902.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (849,267,10,2,685.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (850,267,42,3,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (851,268,45,3,1837.72,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (852,268,80,1,1096.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (853,269,32,3,1487.41,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (854,270,27,3,1130.36,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (855,270,27,3,1130.36,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (856,270,71,2,1100.27,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (857,271,22,1,1883.78,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (858,271,26,3,1506.21,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (859,271,7,2,951.22,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (860,272,91,1,237.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (861,272,63,3,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (862,272,24,1,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (863,272,72,3,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (864,272,6,1,1449.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (865,273,31,3,1330.14,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (866,273,8,3,867.79,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (867,273,50,1,1197.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (868,274,31,3,1330.14,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (869,274,55,2,258.0,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (870,274,58,3,818.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (871,274,27,3,1130.36,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (872,275,99,1,730.75,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (873,275,41,1,1501.46,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (874,275,24,2,1870.07,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (875,275,94,1,1916.76,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (876,276,14,1,1698.9,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (877,276,4,3,127.16,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (878,277,65,3,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (879,277,92,3,343.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (880,278,53,1,1881.12,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (881,278,97,1,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (882,278,23,2,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (883,279,51,3,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (884,279,67,1,1610.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (885,279,59,1,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (886,280,57,2,846.69,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (887,280,100,2,1048.28,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (888,280,22,2,1883.78,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (889,281,15,1,1730.65,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (890,281,51,2,1027.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (891,281,58,1,818.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (892,281,59,3,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (893,281,59,1,1573.66,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (894,282,91,2,237.63,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (895,282,49,3,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (896,282,6,1,1449.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (897,282,73,3,486.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (898,282,21,1,379.79,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (899,283,16,1,786.94,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (900,283,1,3,1346.66,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (901,284,85,2,371.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (902,284,53,2,1881.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (903,284,77,3,846.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (904,284,32,3,1487.41,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (905,284,80,3,1096.8,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (906,285,12,1,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (907,285,54,1,1898.26,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (908,285,87,2,1665.53,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (909,286,98,2,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (910,287,79,1,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (911,287,74,3,678.34,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (912,288,74,3,678.34,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (913,288,17,3,1915.06,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (914,288,67,3,1610.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (915,288,64,1,1539.29,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (916,288,91,2,237.63,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (917,289,43,2,1729.49,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (918,290,15,3,1730.65,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (919,291,87,2,1665.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (920,291,5,3,483.63,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (921,291,62,1,1904.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (922,292,93,3,225.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (923,292,72,3,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (924,292,27,3,1130.36,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (925,292,46,1,1323.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (926,292,36,1,889.25,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (927,293,91,2,237.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (928,293,35,2,97.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (929,293,64,1,1539.29,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (930,294,65,1,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (931,294,65,1,1395.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (932,294,44,2,225.11,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (933,294,100,2,1048.28,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (934,295,40,1,1337.2,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (935,296,25,2,270.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (936,296,69,2,1338.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (937,297,70,2,1783.94,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (938,297,35,1,97.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (939,298,17,1,1915.06,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (940,299,46,2,1323.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (941,299,26,3,1506.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (942,299,97,2,862.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (943,299,12,3,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (944,299,13,2,1307.77,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (945,300,51,1,1027.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (946,300,42,2,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (947,300,4,1,127.16,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (948,301,14,2,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (949,301,42,3,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (950,301,39,3,623.43,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (951,301,52,3,1420.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (952,301,31,3,1330.14,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (953,302,44,3,225.11,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (954,302,23,3,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (955,302,95,3,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (956,302,15,3,1730.65,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (957,302,42,3,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (958,303,64,3,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (959,303,12,1,1750.23,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (960,303,75,3,772.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (961,304,88,2,1083.44,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (962,304,73,3,486.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (963,305,38,1,744.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (964,305,71,1,1100.27,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (965,306,52,2,1420.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (966,306,70,1,1783.94,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (967,306,61,1,574.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (968,306,72,2,502.01,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (969,307,18,1,600.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (970,307,83,2,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (971,307,90,3,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (972,307,80,1,1096.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (973,308,92,3,343.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (974,308,53,3,1881.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (975,309,97,2,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (976,309,67,1,1610.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (977,309,32,2,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (978,309,88,3,1083.44,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (979,309,79,1,604.24,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (980,310,46,2,1323.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (981,310,22,1,1883.78,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (982,310,94,3,1916.76,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (983,310,8,3,867.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (984,311,63,1,303.23,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (985,311,65,1,1395.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (986,311,33,1,1438.05,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (987,312,34,3,1811.62,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (988,312,63,1,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (989,313,85,2,371.64,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (990,313,27,3,1130.36,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (991,314,30,2,1616.13,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (992,314,61,2,574.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (993,314,68,2,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (994,314,37,2,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (995,314,87,2,1665.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (996,315,35,1,97.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (997,315,84,3,1329.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (998,315,60,3,1354.5,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (999,316,2,3,503.33,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1000,316,9,1,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1001,316,13,3,1307.77,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1002,316,88,2,1083.44,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1003,316,29,3,323.92,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1004,317,12,3,1750.23,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1005,318,85,1,371.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1006,318,36,2,889.25,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1007,318,33,1,1438.05,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1008,318,36,1,889.25,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1009,319,51,1,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1010,319,14,1,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1011,319,28,3,537.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1012,319,57,3,846.69,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1013,319,14,1,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1014,320,35,1,97.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1015,320,51,3,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1016,320,66,3,1378.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1017,320,62,2,1904.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1018,321,69,2,1338.48,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1019,321,88,2,1083.44,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1020,321,8,3,867.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1021,321,47,3,1934.11,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1022,321,11,2,902.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1023,322,81,3,877.31,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1024,323,9,3,117.8,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1025,323,64,3,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1026,323,3,1,467.93,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1027,323,8,2,867.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1028,324,30,1,1616.13,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1029,324,95,1,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1030,324,84,1,1329.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1031,324,80,1,1096.8,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1032,324,90,3,50.56,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1033,325,15,2,1730.65,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1034,326,28,1,537.75,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1035,326,43,1,1729.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1036,326,36,1,889.25,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1037,327,49,1,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1038,327,63,1,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1039,327,1,1,1346.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1040,327,91,3,237.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1041,327,54,3,1898.26,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1042,328,79,3,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1043,328,77,1,846.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1044,329,16,3,786.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1045,329,80,2,1096.8,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1046,330,21,3,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1047,330,7,3,951.22,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1048,331,95,1,1662.84,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1049,332,26,3,1506.21,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1050,332,30,1,1616.13,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1051,332,30,1,1616.13,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1052,332,95,2,1662.84,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1053,333,79,2,604.24,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1054,333,50,2,1197.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1055,334,18,1,600.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1056,334,59,2,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1057,334,98,2,35.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1058,335,53,3,1881.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1059,336,56,3,659.1,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1060,336,76,1,668.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1061,336,54,1,1898.26,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1062,337,64,1,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1063,337,72,1,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1064,337,28,1,537.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1065,337,38,1,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1066,338,99,1,730.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1067,338,24,2,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1068,338,91,3,237.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1069,338,81,1,877.31,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1070,339,80,2,1096.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1071,340,47,1,1934.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1072,340,72,3,502.01,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1073,340,18,2,600.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1074,341,35,3,97.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1075,341,36,1,889.25,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1076,341,48,2,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1077,342,80,2,1096.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1078,342,25,2,270.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1079,342,11,2,902.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1080,342,37,1,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1081,343,88,3,1083.44,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1082,343,61,2,574.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1083,343,57,3,846.69,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1084,343,38,1,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1085,344,86,3,660.42,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1086,344,59,2,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1087,344,40,1,1337.2,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1088,344,30,2,1616.13,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1089,344,37,1,159.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1090,345,91,3,237.63,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1091,345,21,1,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1092,346,45,1,1837.72,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1093,346,58,3,818.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1094,346,69,2,1338.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1095,347,65,2,1395.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1096,347,61,2,574.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1097,347,73,3,486.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1098,347,44,3,225.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1099,347,94,2,1916.76,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1100,348,12,2,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1101,348,78,3,1533.53,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1102,348,75,3,772.24,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1103,349,51,1,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1104,349,41,3,1501.46,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1105,349,86,2,660.42,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1106,349,19,3,634.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1107,349,48,2,1962.49,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1108,350,21,3,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1109,350,94,2,1916.76,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1110,350,76,3,668.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1111,351,82,2,1598.3,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1112,351,23,3,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1113,351,91,3,237.63,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1114,351,26,1,1506.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1115,352,4,1,127.16,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1116,352,34,2,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1117,353,98,2,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1118,354,89,1,1306.99,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1119,354,66,3,1378.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1120,354,34,1,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1121,354,19,2,634.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1122,355,68,3,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1123,355,66,1,1378.37,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1124,355,98,1,35.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1125,356,75,2,772.24,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1126,356,2,1,503.33,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1127,356,48,2,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1128,356,44,1,225.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1129,356,28,1,537.75,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1130,357,10,1,685.21,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1131,357,3,2,467.93,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1132,357,40,3,1337.2,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1133,357,18,2,600.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1134,358,27,1,1130.36,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1135,358,55,3,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1136,359,16,2,786.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1137,359,9,2,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1138,359,97,1,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1139,359,78,1,1533.53,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1140,360,21,3,379.79,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1141,360,65,3,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1142,360,13,3,1307.77,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1143,361,28,3,537.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1144,362,30,2,1616.13,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1145,362,98,2,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1146,362,60,1,1354.5,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1147,362,64,2,1539.29,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1148,362,72,3,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1149,363,71,2,1100.27,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1150,363,55,1,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1151,364,67,3,1610.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1152,364,16,1,786.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1153,364,52,3,1420.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1154,364,95,1,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1155,365,55,3,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1156,365,36,3,889.25,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1157,366,36,1,889.25,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1158,366,14,1,1698.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1159,366,63,2,303.23,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1160,366,81,1,877.31,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1161,366,13,3,1307.77,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1162,367,80,3,1096.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1163,367,98,1,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1164,367,60,1,1354.5,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1165,368,56,1,659.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1166,369,18,2,600.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1167,369,63,1,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1168,369,85,3,371.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1169,369,61,3,574.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1170,370,42,1,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1171,370,76,1,668.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1172,370,47,2,1934.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1173,371,8,3,867.79,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1174,371,32,1,1487.41,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1175,371,76,1,668.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1176,372,73,3,486.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1177,372,35,1,97.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1178,372,76,1,668.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1179,372,49,3,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1180,373,79,2,604.24,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1181,373,56,1,659.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1182,374,96,1,1204.82,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1183,374,76,2,668.45,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1184,374,9,3,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1185,374,55,1,258.0,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1186,374,10,3,685.21,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1187,375,80,3,1096.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1188,375,86,3,660.42,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1189,375,3,3,467.93,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1190,376,94,3,1916.76,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1191,376,67,1,1610.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1192,376,60,1,1354.5,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1193,376,20,3,1706.91,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1194,376,56,2,659.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1195,377,31,1,1330.14,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1196,377,25,1,270.45,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1197,377,40,2,1337.2,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1198,377,72,2,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1199,378,93,2,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1200,379,51,3,1027.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1201,380,12,1,1750.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1202,380,99,2,730.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1203,380,75,3,772.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1204,380,96,3,1204.82,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1205,381,8,2,867.79,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1206,381,90,1,50.56,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1207,381,70,2,1783.94,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1208,381,88,1,1083.44,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1209,381,19,2,634.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1210,382,50,2,1197.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1211,382,88,1,1083.44,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1212,382,57,2,846.69,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1213,382,51,2,1027.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1214,382,12,1,1750.23,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1215,383,11,2,902.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1216,383,95,2,1662.84,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1217,383,92,2,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1218,384,89,1,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1219,384,83,3,1961.64,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1220,384,81,2,877.31,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1221,384,1,2,1346.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1222,385,58,2,818.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1223,385,34,1,1811.62,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1224,385,37,1,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1225,386,60,1,1354.5,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1226,387,48,1,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1227,388,96,2,1204.82,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1228,388,17,2,1915.06,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1229,388,77,1,846.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1230,389,31,3,1330.14,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1231,389,32,2,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1232,389,11,1,902.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1233,390,13,3,1307.77,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1234,391,65,3,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1235,391,39,2,623.43,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1236,391,17,3,1915.06,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1237,392,41,3,1501.46,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1238,393,37,2,159.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1239,393,67,2,1610.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1240,393,22,2,1883.78,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1241,393,98,1,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1242,394,15,2,1730.65,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1243,394,57,2,846.69,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1244,394,59,2,1573.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1245,394,93,1,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1246,395,1,3,1346.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1247,395,54,1,1898.26,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1248,395,99,2,730.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1249,395,43,1,1729.49,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1250,395,88,3,1083.44,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1251,396,85,1,371.64,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1252,396,6,3,1449.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1253,396,42,3,59.32,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1254,396,28,1,537.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1255,396,42,1,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1256,397,21,2,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1257,397,37,3,159.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1258,398,58,2,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1259,398,35,3,97.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1260,398,12,2,1750.23,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1261,398,79,1,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1262,399,68,3,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1263,399,38,2,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1264,399,11,2,902.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1265,399,20,1,1706.91,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1266,400,55,2,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1267,400,60,3,1354.5,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1268,400,46,2,1323.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1269,400,99,3,730.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1270,400,15,3,1730.65,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1271,401,93,2,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1272,401,80,2,1096.8,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1273,401,24,1,1870.07,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1274,401,11,3,902.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1275,401,87,1,1665.53,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1276,402,80,3,1096.8,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1277,402,89,3,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1278,402,39,1,623.43,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1279,403,84,1,1329.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1280,403,81,3,877.31,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1281,404,58,3,818.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1282,405,77,3,846.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1283,405,5,2,483.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1284,405,63,3,303.23,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1285,405,30,3,1616.13,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1286,405,68,1,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1287,406,83,2,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1288,406,90,2,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1289,406,21,2,379.79,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1290,406,61,2,574.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1291,406,30,3,1616.13,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1292,407,21,3,379.79,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1293,407,37,3,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1294,407,86,2,660.42,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1295,407,23,1,1242.57,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1296,408,46,3,1323.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1297,408,23,3,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1298,408,9,2,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1299,409,99,3,730.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1300,410,14,3,1698.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1301,411,94,2,1916.76,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1302,411,98,3,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1303,412,57,2,846.69,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1304,412,32,2,1487.41,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1305,413,20,3,1706.91,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1306,413,30,1,1616.13,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1307,414,92,3,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1308,415,8,3,867.79,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1309,415,54,2,1898.26,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1310,415,93,3,225.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1311,415,45,1,1837.72,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1312,415,68,3,505.9,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1313,416,84,2,1329.37,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1314,416,39,1,623.43,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1315,416,69,2,1338.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1316,417,44,3,225.11,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1317,417,3,1,467.93,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1318,417,31,2,1330.14,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1319,417,65,1,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1320,417,48,2,1962.49,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1321,418,31,3,1330.14,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1322,418,45,2,1837.72,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1323,418,86,3,660.42,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1324,419,59,1,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1325,419,92,2,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1326,419,11,1,902.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1327,420,75,2,772.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1328,420,57,3,846.69,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1329,420,94,2,1916.76,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1330,421,59,2,1573.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1331,421,96,1,1204.82,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1332,422,48,2,1962.49,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1333,423,37,1,159.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1334,423,95,2,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1335,423,16,3,786.94,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1336,424,93,3,225.12,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1337,424,98,1,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1338,424,98,2,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1339,424,20,3,1706.91,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1340,425,95,2,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1341,425,22,3,1883.78,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1342,425,74,3,678.34,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1343,425,72,3,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1344,426,65,1,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1345,426,85,3,371.64,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1346,426,3,2,467.93,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1347,426,32,3,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1348,427,4,3,127.16,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1349,427,49,2,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1350,427,15,1,1730.65,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1351,427,37,1,159.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1352,428,4,3,127.16,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1353,428,39,2,623.43,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1354,429,31,3,1330.14,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1355,429,64,3,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1356,430,53,3,1881.12,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1357,431,73,2,486.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1358,431,11,3,902.74,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1359,431,19,2,634.07,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1360,432,8,2,867.79,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1361,433,21,3,379.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1362,434,79,3,604.24,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1363,434,88,2,1083.44,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1364,435,59,3,1573.66,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1365,435,3,3,467.93,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1366,436,90,3,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1367,436,98,2,35.18,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1368,436,84,3,1329.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1369,436,69,1,1338.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1370,436,87,1,1665.53,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1371,437,25,2,270.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1372,437,29,3,323.92,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1373,437,98,2,35.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1374,438,91,3,237.63,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1375,438,1,1,1346.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1376,438,15,2,1730.65,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1377,438,22,3,1883.78,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1378,439,17,2,1915.06,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1379,440,59,1,1573.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1380,440,83,3,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1381,440,42,2,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1382,440,36,1,889.25,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1383,440,64,2,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1384,441,25,2,270.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1385,441,74,1,678.34,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1386,441,89,2,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1387,441,32,1,1487.41,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1388,442,32,1,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1389,442,31,2,1330.14,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1390,442,43,3,1729.49,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1391,443,8,1,867.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1392,444,79,3,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1393,444,9,1,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1394,444,72,1,502.01,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1395,445,60,2,1354.5,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1396,445,44,3,225.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1397,445,59,3,1573.66,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1398,445,76,1,668.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1399,446,33,2,1438.05,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1400,446,62,3,1904.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1401,446,24,1,1870.07,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1402,446,6,1,1449.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1403,446,40,3,1337.2,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1404,447,40,3,1337.2,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1405,447,38,2,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1406,447,67,3,1610.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1407,447,8,1,867.79,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1408,448,89,3,1306.99,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1409,448,77,3,846.09,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1410,448,75,3,772.24,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1411,448,79,2,604.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1412,449,28,1,537.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1413,449,95,2,1662.84,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1414,449,27,2,1130.36,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1415,449,1,2,1346.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1416,449,10,2,685.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1417,450,26,1,1506.21,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1418,451,3,1,467.93,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1419,451,13,1,1307.77,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1420,452,68,3,505.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1421,452,92,1,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1422,453,55,3,258.0,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1423,453,6,3,1449.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1424,453,69,2,1338.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1425,453,42,1,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1426,453,81,2,877.31,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1427,454,66,2,1378.37,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1428,454,64,3,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1429,455,75,2,772.24,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1430,455,27,1,1130.36,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1431,455,58,1,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1432,456,11,1,902.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1433,456,38,2,744.74,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1434,456,30,3,1616.13,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1435,456,60,3,1354.5,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1436,456,55,2,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1437,457,34,3,1811.62,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1438,457,46,1,1323.47,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1439,458,10,2,685.21,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1440,459,34,1,1811.62,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1441,459,37,2,159.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1442,459,52,3,1420.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1443,459,61,3,574.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1444,459,51,1,1027.73,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1445,460,44,1,225.11,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1446,460,25,2,270.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1447,460,27,2,1130.36,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1448,460,72,1,502.01,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1449,461,54,2,1898.26,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1450,461,98,3,35.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1451,462,27,2,1130.36,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1452,462,69,2,1338.48,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1453,462,61,1,574.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1454,462,73,2,486.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1455,463,24,1,1870.07,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1456,464,67,1,1610.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1457,464,42,2,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1458,464,21,1,379.79,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1459,465,40,2,1337.2,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1460,465,21,3,379.79,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1461,466,78,1,1533.53,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1462,466,73,2,486.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1463,466,60,3,1354.5,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1464,466,95,1,1662.84,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1465,467,23,3,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1466,467,59,2,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1467,468,38,3,744.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1468,468,90,3,50.56,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1469,468,64,2,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1470,468,48,1,1962.49,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1471,468,65,2,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1472,469,44,3,225.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1473,469,25,2,270.45,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1474,469,2,2,503.33,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1475,469,91,1,237.63,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1476,470,36,1,889.25,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1477,470,3,3,467.93,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1478,470,23,2,1242.57,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1479,470,69,3,1338.48,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1480,471,28,2,537.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1481,471,82,3,1598.3,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1482,471,50,3,1197.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1483,471,57,1,846.69,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1484,471,7,2,951.22,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1485,472,29,1,323.92,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1486,473,27,3,1130.36,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1487,473,55,1,258.0,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1488,473,28,1,537.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1489,473,42,1,59.32,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1490,473,52,3,1420.48,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1491,474,28,2,537.75,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1492,475,43,1,1729.49,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1493,475,86,2,660.42,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1494,476,3,3,467.93,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1495,476,40,1,1337.2,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1496,477,49,1,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1497,477,31,3,1330.14,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1498,478,97,1,862.47,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1499,478,94,2,1916.76,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1500,478,32,1,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1501,479,57,3,846.69,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1502,479,9,2,117.8,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1503,480,65,1,1395.74,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1504,480,93,2,225.12,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1505,481,58,3,818.09,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1506,481,35,2,97.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1507,481,47,2,1934.11,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1508,481,22,2,1883.78,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1509,481,55,3,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1510,482,94,1,1916.76,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1511,482,49,2,1941.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1512,482,59,2,1573.66,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1513,482,72,3,502.01,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1514,482,10,2,685.21,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1515,483,51,3,1027.73,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1516,483,50,2,1197.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1517,483,83,3,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1518,483,53,1,1881.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1519,484,90,1,50.56,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1520,484,55,3,258.0,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1521,484,32,2,1487.41,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1522,485,59,3,1573.66,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1523,485,33,1,1438.05,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1524,485,2,1,503.33,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1525,485,83,3,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1526,485,51,3,1027.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1527,486,40,3,1337.2,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1528,486,97,3,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1529,486,14,3,1698.9,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1530,486,19,2,634.07,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1531,486,96,2,1204.82,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1532,487,94,2,1916.76,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1533,487,23,2,1242.57,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1534,487,91,1,237.63,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1535,488,96,1,1204.82,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1536,489,49,1,1941.1,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1537,490,35,1,97.73,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1538,491,97,2,862.47,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1539,491,44,2,225.11,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1540,491,41,1,1501.46,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1541,491,86,2,660.42,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1542,492,78,1,1533.53,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1543,493,1,3,1346.66,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1544,493,3,3,467.93,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1545,494,55,2,258.0,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1546,494,94,2,1916.76,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1547,494,78,1,1533.53,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1548,495,58,1,818.09,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1549,495,85,3,371.64,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1550,496,50,2,1197.18,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1551,496,93,2,225.12,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1552,496,86,1,660.42,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1553,497,99,3,730.75,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1554,497,83,2,1961.64,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1555,497,92,3,343.9,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1556,497,84,3,1329.37,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1557,497,30,1,1616.13,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1558,498,48,1,1962.49,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1559,498,49,3,1941.1,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1560,498,40,1,1337.2,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1561,498,50,2,1197.18,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1562,498,99,2,730.75,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1563,499,19,2,634.07,5);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1564,499,64,3,1539.29,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1565,499,19,3,634.07,10);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1566,500,91,3,237.63,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1567,500,81,1,877.31,0);
-INSERT INTO Order_Items (order_item_id,order_id,product_id,quantity,unit_price,discount) VALUES (1568,500,38,3,744.74,0);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (1,1,'PayPal',5540.06);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (2,2,'PayPal',6754.49);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (3,3,'Bank Transfer',10408.26);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (4,4,'PayPal',540.9);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (5,5,'PayPal',5949.57);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (6,6,'Bank Transfer',2493.61);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (7,7,'Card',8178.55);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (8,8,'PayPal',3232.26);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (9,9,'PayPal',11555.22);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (10,10,'Bank Transfer',9502.81);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (11,11,'PayPal',16073.99);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (12,12,'Bank Transfer',6819.27);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (13,13,'PayPal',5650.62);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (14,14,'Bank Transfer',9962.72);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (15,15,'PayPal',6129.71);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (16,16,'Bank Transfer',7540.47);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (17,17,'PayPal',2045.75);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (18,18,'PayPal',6599.14);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (19,19,'Bank Transfer',4532.97);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (20,20,'Bank Transfer',2709.0);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (21,21,'Bank Transfer',5054.64);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (22,22,'Bank Transfer',4213.64);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (23,23,'Bank Transfer',5910.1);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (24,24,'Card',7333.61);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (25,25,'PayPal',6275.67);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (26,26,'PayPal',1307.77);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (27,27,'PayPal',909.69);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (28,28,'Card',2166.88);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (29,29,'Card',1729.49);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (30,30,'Card',1480.16);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (31,31,'PayPal',5137.3);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (32,32,'PayPal',12488.66);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (33,33,'Card',15170.67);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (34,34,'PayPal',10085.13);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (35,35,'Bank Transfer',3762.24);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (36,36,'PayPal',4141.08);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (37,37,'Card',5083.13);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (38,38,'Card',7069.82);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (39,39,'Bank Transfer',10969.06);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (40,40,'Card',5327.04);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (41,41,'PayPal',3083.19);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (42,42,'Card',6134.6);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (43,43,'Card',8310.24);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (44,44,'PayPal',17916.88);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (45,45,'Bank Transfer',5840.32);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (46,46,'Card',4426.81);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (47,47,'Bank Transfer',10291.15);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (48,48,'PayPal',2316.72);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (49,49,'Card',14386.84);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (50,50,'Bank Transfer',4187.22);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (51,51,'Bank Transfer',3762.24);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (52,52,'PayPal',8596.47);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (53,53,'PayPal',7747.18);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (54,54,'Card',1286.02);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (55,55,'Card',10122.13);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (56,56,'PayPal',11541.01);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (57,57,'Bank Transfer',9813.6);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (58,58,'PayPal',3118.3);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (59,59,'PayPal',2739.4);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (60,60,'Card',3833.52);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (61,61,'PayPal',6926.65);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (62,62,'PayPal',1915.06);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (63,63,'PayPal',7073.77);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (64,64,'Bank Transfer',6210.53);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (65,65,'Bank Transfer',5846.43);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (66,66,'Bank Transfer',6140.56);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (67,67,'Bank Transfer',8987.82);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (68,68,'Card',4605.37);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (69,69,'Card',6142.2);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (70,70,'Card',5481.3);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (71,71,'Bank Transfer',8456.22);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (72,72,'Bank Transfer',5505.22);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (73,73,'PayPal',12447.18);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (74,74,'Bank Transfer',4778.55);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (75,75,'Bank Transfer',13234.16);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (76,76,'PayPal',3118.46);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (77,77,'PayPal',10386.81);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (78,78,'Bank Transfer',3622.66);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (79,79,'Card',5161.02);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (80,80,'Card',6594.89);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (81,81,'Bank Transfer',8648.35);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (82,82,'Bank Transfer',6940.2);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (83,83,'Card',7294.82);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (84,84,'Card',12144.17);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (85,85,'Bank Transfer',7971.11);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (86,86,'Bank Transfer',14125.05);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (87,87,'PayPal',13756.88);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (88,88,'Card',7014.91);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (89,89,'Bank Transfer',10730.85);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (90,90,'Card',8032.8);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (91,91,'Card',2840.96);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (92,92,'Bank Transfer',4385.67);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (93,93,'Card',6164.16);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (94,94,'Bank Transfer',13814.91);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (95,95,'Card',8889.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (96,96,'PayPal',5048.1);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (97,97,'PayPal',8577.86);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (98,98,'Card',6285.57);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (99,99,'Card',2465.82);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (100,100,'PayPal',5366.5);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (101,101,'Card',11555.81);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (102,102,'Bank Transfer',2055.63);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (103,103,'Bank Transfer',2038.87);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (104,104,'PayPal',11653.76);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (105,105,'Bank Transfer',441.63);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (106,106,'Bank Transfer',7132.42);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (107,107,'PayPal',6405.74);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (108,108,'PayPal',9944.58);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (109,109,'PayPal',7033.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (110,110,'PayPal',12226.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (111,111,'Bank Transfer',6519.85);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (112,112,'Bank Transfer',730.75);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (113,113,'Bank Transfer',503.33);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (114,114,'Card',7290.98);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (115,115,'Card',13210.23);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (116,116,'Bank Transfer',12324.47);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (117,117,'PayPal',15411.3);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (118,118,'Card',2838.66);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (119,119,'Card',7375.81);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (120,120,'Bank Transfer',4561.1);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (121,121,'Card',12749.31);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (122,122,'Bank Transfer',1734.6);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (123,123,'Bank Transfer',6114.61);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (124,124,'Bank Transfer',8299.97);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (125,125,'Bank Transfer',453.46);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (126,126,'Card',1754.62);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (127,127,'PayPal',3547.99);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (128,128,'Card',237.63);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (129,129,'PayPal',101.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (130,130,'Card',6219.48);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (131,131,'Card',9055.47);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (132,132,'Card',7757.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (133,133,'Card',7798.17);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (134,134,'Bank Transfer',11426.42);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (135,135,'Bank Transfer',1487.41);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (136,136,'PayPal',237.63);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (137,137,'Card',9029.44);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (138,138,'PayPal',6437.99);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (139,139,'Bank Transfer',5433.37);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (140,140,'Card',8491.57);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (141,141,'Bank Transfer',7541.71);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (142,142,'Card',3391.08);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (143,143,'PayPal',6633.49);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (144,144,'Card',1506.21);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (145,145,'Bank Transfer',3447.8);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (146,146,'Bank Transfer',7656.82);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (147,147,'PayPal',1048.28);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (148,148,'Card',117.8);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (149,149,'Card',8785.44);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (150,150,'Card',3500.46);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (151,151,'Card',8108.34);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (152,152,'PayPal',7730.2);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (153,153,'Bank Transfer',7321.6);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (154,154,'Bank Transfer',1902.21);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (155,155,'Bank Transfer',5582.83);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (156,156,'PayPal',4258.99);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (157,157,'PayPal',5273.74);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (158,158,'PayPal',2394.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (159,159,'Card',10088.29);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (160,160,'Bank Transfer',8334.42);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (161,161,'PayPal',1902.44);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (162,162,'Card',127.16);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (163,163,'PayPal',10953.32);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (164,164,'Bank Transfer',1320.84);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (165,165,'Card',12160.63);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (166,166,'Card',12696.28);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (167,167,'Bank Transfer',9867.13);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (168,168,'Card',4119.04);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (169,169,'Bank Transfer',10890.39);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (170,170,'Bank Transfer',5924.9);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (171,171,'Card',7598.27);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (172,172,'PayPal',8170.46);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (173,173,'PayPal',9647.45);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (174,174,'Card',7365.42);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (175,175,'PayPal',4651.14);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (176,176,'PayPal',5119.99);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (177,177,'Bank Transfer',5459.8);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (178,178,'Card',13516.53);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (179,179,'Card',4946.11);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (180,180,'Bank Transfer',1607.28);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (181,181,'Bank Transfer',5875.33);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (182,182,'PayPal',3796.52);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (183,183,'Bank Transfer',5720.04);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (184,184,'Card',5500.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (185,185,'PayPal',4400.34);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (186,186,'PayPal',553.33);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (187,187,'PayPal',2840.96);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (188,188,'PayPal',531.47);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (189,189,'PayPal',7571.2);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (190,190,'Bank Transfer',10616.8);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (191,191,'Card',6133.16);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (192,192,'Bank Transfer',11102.74);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (193,193,'Card',3635.79);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (194,194,'Bank Transfer',1449.47);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (195,195,'Bank Transfer',4971.46);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (196,196,'Bank Transfer',9535.65);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (197,197,'Bank Transfer',8516.91);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (198,198,'Bank Transfer',4424.85);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (199,199,'Bank Transfer',7630.39);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (200,200,'PayPal',17589.81);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (201,201,'Card',8077.8);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (202,202,'PayPal',6929.62);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (203,203,'Bank Transfer',7705.98);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (204,204,'PayPal',1855.72);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (205,205,'Bank Transfer',14886.96);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (206,206,'Card',5261.98);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (207,207,'Card',4720.98);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (208,208,'Bank Transfer',10806.53);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (209,209,'Bank Transfer',4687.08);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (210,210,'Card',3380.28);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (211,211,'Card',4689.96);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (212,212,'Bank Transfer',8924.07);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (213,213,'PayPal',13567.23);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (214,214,'Bank Transfer',14126.99);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (215,215,'Bank Transfer',12884.71);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (216,216,'PayPal',3245.56);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (217,217,'PayPal',712.89);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (218,218,'PayPal',12152.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (219,219,'PayPal',6947.26);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (220,220,'PayPal',6562.06);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (221,221,'Bank Transfer',16250.39);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (222,222,'Bank Transfer',15312.34);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (223,223,'Bank Transfer',4167.83);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (224,224,'Bank Transfer',13450.27);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (225,225,'PayPal',8763.57);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (226,226,'Bank Transfer',1613.25);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (227,227,'Bank Transfer',4356.51);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (228,228,'Card',3312.13);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (229,229,'Bank Transfer',12645.01);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (230,230,'Bank Transfer',9557.34);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (231,231,'PayPal',9227.86);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (232,232,'Card',8608.29);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (233,233,'Bank Transfer',786.94);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (234,234,'PayPal',15205.04);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (235,235,'PayPal',3744.76);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (236,236,'PayPal',8773.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (237,237,'PayPal',450.24);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (238,238,'PayPal',4679.51);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (239,239,'Bank Transfer',4917.63);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (240,240,'Card',9946.91);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (241,241,'PayPal',902.74);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (242,242,'PayPal',5188.89);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (243,243,'Bank Transfer',1461.5);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (244,244,'Bank Transfer',2952.74);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (245,245,'PayPal',16435.24);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (246,246,'Bank Transfer',7846.83);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (247,247,'PayPal',7739.3);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (248,248,'PayPal',5204.21);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (249,249,'Card',10202.97);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (250,250,'Bank Transfer',12675.86);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (251,251,'PayPal',9386.28);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (252,252,'Card',9687.59);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (253,253,'PayPal',10296.14);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (254,254,'PayPal',4714.31);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (255,255,'PayPal',505.9);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (256,256,'Card',2193.6);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (257,257,'Card',10099.17);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (258,258,'Bank Transfer',1934.11);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (259,259,'Bank Transfer',5386.78);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (260,260,'Bank Transfer',12049.78);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (261,261,'Bank Transfer',7551.9);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (262,262,'Bank Transfer',259.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (263,263,'Card',6029.37);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (264,264,'PayPal',8537.79);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (265,265,'Bank Transfer',9801.68);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (266,266,'Card',5811.5);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (267,267,'PayPal',1548.38);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (268,268,'Card',6609.96);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (269,269,'PayPal',4462.23);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (270,270,'Bank Transfer',8982.7);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (271,271,'Bank Transfer',8304.85);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (272,272,'PayPal',5972.89);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (273,273,'PayPal',7790.97);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (274,274,'Bank Transfer',10351.77);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (275,275,'PayPal',7889.11);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (276,276,'Bank Transfer',2080.38);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (277,277,'PayPal',5218.92);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (278,278,'PayPal',5221.73);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (279,279,'PayPal',6267.03);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (280,280,'Card',7557.5);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (281,281,'Bank Transfer',10898.84);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (282,282,'Card',9586.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (283,283,'PayPal',4826.92);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (284,284,'Card',14796.42);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (285,285,'Bank Transfer',6979.55);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (286,286,'Card',70.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (287,287,'Bank Transfer',2639.26);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (288,288,'PayPal',14625.29);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (289,289,'Bank Transfer',3458.98);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (290,290,'Bank Transfer',5191.95);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (291,291,'Bank Transfer',6686.43);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (292,292,'Bank Transfer',7785.19);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (293,293,'PayPal',2210.01);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (294,294,'Card',5338.26);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (295,295,'Card',1337.2);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (296,296,'PayPal',3217.86);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (297,297,'Card',3665.61);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (298,298,'Card',1915.06);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (299,299,'Bank Transfer',16756.74);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (300,300,'PayPal',1273.53);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (301,301,'PayPal',13697.91);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (302,302,'Card',14761.47);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (303,303,'Bank Transfer',8684.82);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (304,304,'PayPal',3625.18);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (305,305,'PayPal',1845.01);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (306,306,'Card',6203.65);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (307,307,'Bank Transfer',5772.21);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (308,308,'Bank Transfer',6675.06);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (309,309,'Card',10164.5);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (310,310,'Bank Transfer',12884.37);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (311,311,'PayPal',3137.02);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (312,312,'Card',5738.09);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (313,313,'Card',4134.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (314,314,'Bank Transfer',9044.06);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (315,315,'Bank Transfer',8149.34);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (316,316,'Card',8689.74);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (317,317,'Bank Transfer',5250.69);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (318,318,'Card',4477.44);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (319,319,'PayPal',8578.85);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (320,320,'Card',11124.99);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (321,321,'Card',15055.02);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (322,322,'Bank Transfer',2631.93);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (323,323,'Card',7174.78);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (324,324,'Card',5856.82);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (325,325,'PayPal',3461.3);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (326,326,'PayPal',3156.49);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (327,327,'Card',9998.66);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (328,328,'Card',2658.81);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (329,329,'Bank Transfer',4554.42);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (330,330,'PayPal',3993.03);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (331,331,'Card',1662.84);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (332,332,'Card',11076.57);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (333,333,'Card',3602.84);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (334,334,'Bank Transfer',3818.13);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (335,335,'Card',5643.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (336,336,'Bank Transfer',4544.01);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (337,337,'Card',3323.79);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (338,338,'PayPal',6061.09);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (339,339,'Bank Transfer',2193.6);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (340,340,'Bank Transfer',4641.04);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (341,341,'Bank Transfer',5107.42);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (342,342,'Card',4699.72);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (343,343,'Bank Transfer',7684.59);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (344,344,'PayPal',9857.78);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (345,345,'Bank Transfer',1092.68);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (346,346,'PayPal',6968.95);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (347,347,'Bank Transfer',9908.09);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (348,348,'PayPal',10417.77);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (349,349,'PayPal',12680.14);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (350,350,'PayPal',6978.24);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (351,351,'PayPal',9143.41);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (352,352,'Bank Transfer',3750.4);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (353,353,'Card',70.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (354,354,'Card',8521.86);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (355,355,'PayPal',2931.25);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (356,356,'Bank Transfer',6735.65);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (357,357,'PayPal',6833.57);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (358,358,'PayPal',1904.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (359,359,'PayPal',4205.48);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (360,360,'Bank Transfer',9293.9);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (361,361,'Bank Transfer',1613.25);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (362,362,'Card',9241.73);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (363,363,'PayPal',2458.54);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (364,364,'Card',11541.76);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (365,365,'Bank Transfer',3441.75);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (366,366,'PayPal',7995.23);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (367,367,'PayPal',4680.08);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (368,368,'PayPal',659.1);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (369,369,'PayPal',4343.24);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (370,370,'Bank Transfer',4595.99);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (371,371,'Card',4759.23);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (372,372,'Card',8047.78);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (373,373,'Card',1867.58);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (374,374,'PayPal',5208.75);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (375,375,'Card',6675.45);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (376,376,'Card',15153.89);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (377,377,'Card',5279.01);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (378,378,'PayPal',450.24);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (379,379,'Bank Transfer',3083.19);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (380,380,'Card',9142.91);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (381,381,'PayPal',7705.6);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (382,382,'Card',8976.87);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (383,383,'Bank Transfer',5818.96);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (384,384,'PayPal',11639.85);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (385,385,'Card',3607.54);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (386,386,'Card',1354.5);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (387,387,'PayPal',1962.49);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (388,388,'Card',7085.85);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (389,389,'PayPal',7867.98);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (390,390,'PayPal',3923.31);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (391,391,'PayPal',11179.26);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (392,392,'Card',4504.38);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (393,393,'Card',7342.58);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (394,394,'Card',8527.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (395,395,'Bank Transfer',12357.55);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (396,396,'Bank Transfer',5495.08);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (397,397,'PayPal',1238.8);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (398,398,'Card',6034.07);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (399,399,'Bank Transfer',6519.57);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (400,400,'Card',14610.64);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (401,401,'Card',8887.66);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (402,402,'Card',7834.8);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (403,403,'Card',3961.3);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (404,404,'Bank Transfer',2454.27);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (405,405,'Bank Transfer',9769.51);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (406,406,'Bank Transfer',10781.83);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (407,407,'Card',4182.0);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (408,408,'Card',7933.72);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (409,409,'Bank Transfer',2192.25);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (410,410,'Card',5096.7);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (411,411,'Card',3939.06);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (412,412,'Card',4668.2);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (413,413,'PayPal',6736.86);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (414,414,'PayPal',1031.7);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (415,415,'PayPal',10430.67);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (416,416,'Bank Transfer',5959.13);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (417,417,'Bank Transfer',9124.26);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (418,418,'Bank Transfer',9647.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (419,419,'Card',3164.2);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (420,420,'Card',7918.07);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (421,421,'Card',4352.14);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (422,422,'PayPal',3924.98);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (423,423,'PayPal',5846.24);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (424,424,'Bank Transfer',5901.63);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (425,425,'Card',12518.07);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (426,426,'Bank Transfer',7908.75);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (427,427,'Card',6154.07);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (428,428,'PayPal',1628.34);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (429,429,'PayPal',8608.29);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (430,430,'Card',5643.36);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (431,431,'Bank Transfer',4948.56);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (432,432,'Bank Transfer',1735.58);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (433,433,'PayPal',1139.37);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (434,434,'Bank Transfer',3979.6);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (435,435,'Card',6124.77);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (436,436,'PayPal',7214.16);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (437,437,'Bank Transfer',1583.02);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (438,438,'Bank Transfer',11172.19);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (439,439,'Bank Transfer',3830.12);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (440,440,'Card',11545.05);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (441,441,'Card',5320.63);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (442,442,'Bank Transfer',9336.16);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (443,443,'Bank Transfer',867.79);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (444,444,'PayPal',2432.53);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (445,445,'Bank Transfer',8748.76);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (446,446,'Bank Transfer',15920.68);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (447,447,'Card',11199.41);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (448,448,'Card',9984.44);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (449,449,'Card',10187.89);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (450,450,'PayPal',1506.21);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (451,451,'Card',1775.7);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (452,452,'Card',1861.6);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (453,453,'Bank Transfer',9613.31);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (454,454,'Bank Transfer',7374.61);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (455,455,'PayPal',3492.93);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (456,456,'PayPal',11820.11);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (457,457,'Bank Transfer',6758.33);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (458,458,'PayPal',1370.42);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (459,459,'Card',9144.46);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (460,460,'Card',3528.74);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (461,461,'Card',3902.06);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (462,462,'Bank Transfer',6436.61);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (463,463,'PayPal',1870.07);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (464,464,'PayPal',2108.61);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (465,465,'Bank Transfer',3800.77);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (466,466,'PayPal',8232.07);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (467,467,'Card',6875.03);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (468,468,'PayPal',10218.45);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (469,469,'PayPal',2460.52);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (470,470,'Bank Transfer',8793.62);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (471,471,'PayPal',12211.07);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (472,472,'Card',323.92);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (473,473,'PayPal',8507.59);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (474,474,'PayPal',1046.5);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (475,475,'Bank Transfer',3050.33);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (476,476,'Bank Transfer',2740.99);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (477,477,'PayPal',5931.52);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (478,478,'Bank Transfer',6183.4);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (479,479,'Card',2775.67);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (480,480,'Card',1845.98);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (481,481,'PayPal',11059.51);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (482,482,'Card',11822.73);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (483,483,'Bank Transfer',13243.59);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (484,484,'PayPal',3799.38);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (485,485,'Card',15630.47);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (486,486,'PayPal',15373.49);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (487,487,'Bank Transfer',6556.29);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (488,488,'PayPal',1204.82);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (489,489,'Bank Transfer',1941.1);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (490,490,'Card',97.73);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (491,491,'PayPal',4997.46);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (492,492,'Card',1533.53);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (493,493,'Bank Transfer',5443.77);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (494,494,'Bank Transfer',5883.05);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (495,495,'Card',1933.01);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (496,496,'Bank Transfer',3505.02);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (497,497,'Card',12751.47);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (498,498,'Bank Transfer',12978.85);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (499,499,'Bank Transfer',7788.22);
-INSERT INTO Payments (payment_id,order_id,payment_method,amount) VALUES (500,500,'Card',3824.42);
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (1,1,'774 Mary Harbor Simsview, CA 94026','DHL','TRK33834','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (2,2,'316 Rivera Mountain Brownchester, WI 77057','FedEx','TRK41890','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (3,3,'USS Gates FPO AP 50358','FedEx','TRK34267','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (4,4,'3467 Paul Skyway Ramseymouth, DC 82061','UPS','TRK80010','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (5,5,'3755 Ramirez Village Suite 417 Lake Amberstad, SD 09494','DHL','TRK19710','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (6,6,'33092 David Skyway New Staciemouth, KS 48852','UPS','TRK78494','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (7,7,'41904 Sanders Stravenue North Brittany, SC 32331','UPS','TRK63545','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (8,8,'919 Michael Meadow Suite 185 Port Robertfort, NE 47973','UPS','TRK40595','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (9,9,'262 Gilbert Plain Suite 769 Marcusbury, CO 37060','FedEx','TRK49857','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (10,10,'9965 Troy Islands South Jason, KS 45109','DHL','TRK85529','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (11,11,'083 John Lodge Suite 837 Westtown, LA 29546','DHL','TRK74942','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (12,12,'9578 Coleman Summit Michaelmouth, ME 33452','DHL','TRK91973','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (13,13,'1823 Joanna Harbor Tinaborough, IN 47802','UPS','TRK94896','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (14,14,'824 Terri Plaza Heidiberg, WV 64841','DHL','TRK10336','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (15,15,'477 Peterson Center Shelleyfort, CA 53022','UPS','TRK41300','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (16,16,'29413 Angela Mall Port Alexandra, NV 39475','DHL','TRK23154','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (17,17,'28120 Hayes Ranch Carterbury, VT 37557','FedEx','TRK79942','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (18,18,'34936 Amy Rue Apt. 421 East Laurashire, LA 58061','DHL','TRK59131','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (19,19,'90659 Johnson Forks Apt. 490 South April, KY 24289','UPS','TRK40433','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (20,20,'Unit 6717 Box 5655 DPO AP 14211','DHL','TRK93746','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (21,21,'7468 Shawn Island Suite 516 Lake Mollymouth, AR 25087','DHL','TRK12875','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (22,22,'09324 Andrea Course Apt. 171 South Sarah, NY 92960','FedEx','TRK15167','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (23,23,'3782 Lee Rapid Apt. 146 Sarahhaven, AL 37573','DHL','TRK79579','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (24,24,'78755 Gibson Islands Apt. 396 Port Kimberly, MD 98110','DHL','TRK80329','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (25,25,'2702 Kane Well Suite 187 Lake Douglasberg, NJ 35238','FedEx','TRK49608','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (26,26,'USCGC Brennan FPO AE 81432','FedEx','TRK80804','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (27,27,'16117 Heather Burgs Apt. 504 Nicholasberg, NC 54509','UPS','TRK58566','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (28,28,'21969 Tyler Prairie East Steven, NH 33967','UPS','TRK69600','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (29,29,'8217 Huerta Hills Suite 474 South Melissa, IA 50487','UPS','TRK82641','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (30,30,'406 Smith Way Apt. 974 New Laurie, SC 25421','FedEx','TRK13379','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (31,31,'521 Murphy Mall East David, MN 70080','DHL','TRK57453','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (32,32,'47451 Mccarty Divide Apt. 685 Port Ralphview, DE 60110','FedEx','TRK29442','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (33,33,'859 Deborah Roads Blankenshipport, MT 15793','DHL','TRK54424','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (34,34,'7113 Paul Land Matthewsberg, MT 86342','UPS','TRK82924','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (35,35,'640 Robinson Mills Apt. 515 Bruceview, DE 60101','UPS','TRK47700','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (36,36,'900 Sanchez Crossroad North Maria, IL 77359','FedEx','TRK39643','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (37,37,'2904 Vanessa Plains Laurenville, AK 17776','UPS','TRK79531','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (38,38,'502 Williams Streets Foxland, NV 47954','UPS','TRK90981','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (39,39,'8390 Ellis Burgs South Melaniechester, CT 64761','FedEx','TRK73783','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (40,40,'15921 Joshua Roads Suite 698 Shawnchester, WY 92484','UPS','TRK59834','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (41,41,'7365 Ross Stream West Ronaldview, FL 90524','UPS','TRK51033','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (42,42,'PSC 1111, Box 6152 APO AP 08362','UPS','TRK67104','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (43,43,'165 Parrish Stravenue Apt. 494 Dalehaven, FL 86580','DHL','TRK56019','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (44,44,'402 Park Inlet Michaelburgh, FL 74729','DHL','TRK92756','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (45,45,'01836 Chavez Estate Larrymouth, OK 78649','FedEx','TRK76462','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (46,46,'29014 Stanley Oval Perryborough, NY 15419','FedEx','TRK94689','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (47,47,'34324 Murphy Avenue Burgessburgh, MS 70307','FedEx','TRK60667','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (48,48,'1596 Mckinney Mall Dariustown, GA 81519','FedEx','TRK96787','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (49,49,'535 Charles Roads Apt. 883 Michaelberg, CT 19695','UPS','TRK54791','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (50,50,'9979 Lin Road Suite 271 Ramosport, KY 78019','UPS','TRK88282','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (51,51,'19986 Carpenter Turnpike Apt. 793 Cassidyhaven, AR 59551','DHL','TRK68841','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (52,52,'182 John Mill Suite 889 West Nathan, MS 54079','UPS','TRK36174','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (53,53,'925 Brandi Divide Suite 462 West Angelicamouth, DC 88334','FedEx','TRK59015','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (54,54,'685 Michael Falls West Stacey, ID 30194','UPS','TRK47601','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (55,55,'Unit 2141 Box 8880 DPO AP 44641','UPS','TRK65027','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (56,56,'622 Marie Trail Lake Samuel, MN 89153','UPS','TRK78951','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (57,57,'473 Kyle Valleys Suite 359 Murrayport, MS 66417','DHL','TRK27486','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (58,58,'92407 Spencer Cove West Christopherburgh, NV 67787','FedEx','TRK62196','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (59,59,'37506 Randy Landing Apt. 615 North Lucas, VT 85692','DHL','TRK34486','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (60,60,'04727 Gilbert Common West Jasonberg, VA 80308','FedEx','TRK48504','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (61,61,'808 Jennifer Highway Suite 095 New Robert, TN 11722','DHL','TRK77251','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (62,62,'88888 Peter Mountains Apt. 654 West Kristinastad, VA 86628','DHL','TRK60181','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (63,63,'221 Johnson Flats Apt. 305 Zacharyside, KS 05300','FedEx','TRK60723','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (64,64,'7652 Holt Land Suite 161 Morrisonburgh, LA 42602','FedEx','TRK48058','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (65,65,'447 Jackson Mills Suite 705 Hillton, TN 84061','FedEx','TRK72739','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (66,66,'29702 Joel Rue Michaelshire, PA 20612','FedEx','TRK87042','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (67,67,'7192 Sanders Run Suite 310 South April, OH 15936','DHL','TRK26406','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (68,68,'739 Benson Overpass Apt. 121 Thompsonmouth, TX 42390','DHL','TRK92203','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (69,69,'8313 Joel Park West Angelastad, OH 17510','DHL','TRK51853','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (70,70,'46786 Morrow Cliffs West Dawn, NH 89644','DHL','TRK85718','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (71,71,'PSC 0182, Box 4225 APO AP 30053','FedEx','TRK71680','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (72,72,'43842 Mendez Course Apt. 992 Lake Claudia, PA 44753','FedEx','TRK35513','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (73,73,'10943 Montgomery Burgs Smallside, SD 40097','FedEx','TRK15276','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (74,74,'255 Hester Curve Suite 881 Johnville, NV 32996','FedEx','TRK49221','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (75,75,'6963 Lisa Ports Jamesburgh, NY 61687','FedEx','TRK39824','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (76,76,'0168 Levy Forge Suite 004 Harperfort, ND 01572','DHL','TRK64890','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (77,77,'45650 Williams Points Apt. 584 South Williamside, RI 89682','FedEx','TRK54869','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (78,78,'65585 James Pass Porterton, DC 94032','FedEx','TRK74094','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (79,79,'729 Mark Ridge Suite 269 Brittneyhaven, NY 70275','DHL','TRK67983','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (80,80,'0551 Silva Underpass Apt. 974 Lake Brett, GA 69213','FedEx','TRK28018','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (81,81,'30913 Scott Manor Apt. 636 Salaston, DC 68485','UPS','TRK32946','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (82,82,'786 Frye Mount Suite 854 Leebury, OH 39625','FedEx','TRK74738','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (83,83,'3757 Castro Underpass Suite 419 Huangfurt, MI 19699','FedEx','TRK54185','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (84,84,'157 Burgess Forest Apt. 848 Derrickshire, IA 07154','DHL','TRK44995','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (85,85,'301 Rivera Mountains Lake Kellitown, GA 53835','FedEx','TRK50760','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (86,86,'3454 Rebecca Corners Apt. 802 Khanburgh, AZ 52535','FedEx','TRK20730','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (87,87,'400 Bradley Coves Justinside, NM 18090','UPS','TRK69432','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (88,88,'3152 Wong Stravenue Apt. 054 East Cheryl, MO 56560','UPS','TRK71875','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (89,89,'5499 Jose Lake Apt. 017 Erikhaven, VT 41261','UPS','TRK10455','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (90,90,'9332 Hernandez Summit Suite 687 Port John, PA 11231','FedEx','TRK14400','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (91,91,'91088 Ashley Drive Apt. 587 Lake Jamieshire, CO 67396','UPS','TRK76046','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (92,92,'0391 Rodney Squares Apt. 801 Johnsonchester, WI 18251','UPS','TRK92050','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (93,93,'6766 Felicia Shore Apt. 512 Ricebury, AL 99614','DHL','TRK17552','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (94,94,'8686 John Key Apt. 431 Port Donnatown, IL 09320','FedEx','TRK89026','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (95,95,'9030 Gonzales Plains Port Michelle, DC 66547','FedEx','TRK52154','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (96,96,'Unit 3959 Box 9534 DPO AE 87036','UPS','TRK83731','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (97,97,'4089 Connie Meadow Suite 056 Heatherchester, ME 49844','FedEx','TRK94108','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (98,98,'34270 Faulkner Point Apt. 634 West Deborah, MN 12620','FedEx','TRK16358','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (99,99,'46990 Jacob Trace South Jason, MA 40240','UPS','TRK79758','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (100,100,'USS Lewis FPO AE 97687','FedEx','TRK41877','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (101,101,'85467 Parker Lake Suite 717 Robinstad, MT 06493','FedEx','TRK15577','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (102,102,'9378 Scott View Levyfort, GA 96546','FedEx','TRK14312','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (103,103,'87280 Mary Club Port Adamberg, SC 30835','DHL','TRK98740','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (104,104,'38750 Hopkins Brook New Andreatown, NC 95160','FedEx','TRK59207','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (105,105,'USNS Rodriguez FPO AE 69233','UPS','TRK61068','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (106,106,'845 Norton Common Susanmouth, IA 91889','DHL','TRK23538','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (107,107,'6870 Jacqueline Corner Suite 659 New Samanthabury, UT 74790','DHL','TRK74634','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (108,108,'92614 Anne Port Rhodesside, MS 99540','DHL','TRK91289','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (109,109,'501 Hall Club Cassiefurt, MD 04384','DHL','TRK92955','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (110,110,'3586 Lopez Prairie Suite 194 Lake Charles, FL 50308','FedEx','TRK37479','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (111,111,'655 Christopher Inlet Wardview, DC 11943','FedEx','TRK64827','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (112,112,'956 Kelly Loaf Lake Rachelbury, NC 22728','UPS','TRK83822','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (113,113,'44472 Gary Harbor Evansland, KS 32822','FedEx','TRK83137','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (114,114,'937 Derek Avenue Suite 596 Scottchester, SD 78409','UPS','TRK28569','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (115,115,'375 Tamara Island Suite 793 Nicholasfurt, DE 74406','FedEx','TRK41970','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (116,116,'4167 Cynthia Garden Donnachester, MS 10195','UPS','TRK36972','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (117,117,'688 Stephens Turnpike Suite 891 Port Johnstad, SD 80805','DHL','TRK70012','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (118,118,'Unit 5610 Box 1438 DPO AP 68500','FedEx','TRK60916','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (119,119,'5679 Michael Burg Garciachester, CO 15714','DHL','TRK27895','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (120,120,'4573 Bailey Court Bowenmouth, CA 39857','DHL','TRK32047','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (121,121,'51238 Andrea Isle Mullenbury, MO 83044','DHL','TRK25386','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (122,122,'660 Jamie Terrace Apt. 918 West Mark, DE 34888','FedEx','TRK32069','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (123,123,'596 Matthews Keys Suite 792 Samanthashire, TX 18057','DHL','TRK74154','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (124,124,'1252 Barnes Dam Hendersonfort, ND 91390','UPS','TRK70089','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (125,125,'PSC 2827, Box 4225 APO AA 81688','UPS','TRK84205','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (126,126,'72368 Ortiz Overpass Suite 772 New Anthonybury, AZ 36526','DHL','TRK69836','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (127,127,'79788 Ashley Grove Suite 807 South Curtis, SD 98981','FedEx','TRK95054','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (128,128,'39596 Christina Tunnel Port Jamie, OK 46483','UPS','TRK87814','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (129,129,'4494 Derek Terrace Sellersview, SD 17132','FedEx','TRK27324','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (130,130,'94667 Cynthia Trafficway Apt. 684 Shawnfort, OR 00825','DHL','TRK56030','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (131,131,'751 Robinson Meadow South Joseph, LA 44771','FedEx','TRK88774','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (132,132,'750 Cory Tunnel Smithburgh, NH 00589','UPS','TRK75481','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (133,133,'1520 Garrett Stream Apt. 611 East Thomasberg, IN 68585','UPS','TRK62163','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (134,134,'11554 Patrick Via Apt. 218 New Debramouth, VA 28426','FedEx','TRK99267','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (135,135,'9731 Donald Crossing Bellchester, WY 18828','FedEx','TRK17212','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (136,136,'89994 Melanie Shoals Jamiehaven, WA 51848','FedEx','TRK77793','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (137,137,'055 Paul Villages Diazburgh, NJ 10068','DHL','TRK30618','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (138,138,'43006 Fuller Parkway Hendersonfurt, SC 70829','UPS','TRK33456','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (139,139,'1418 Terri Drives Peterland, UT 57843','UPS','TRK62550','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (140,140,'31617 Kyle Streets North Alexander, UT 01988','DHL','TRK58270','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (141,141,'842 Martinez Tunnel Suite 105 Nelsonland, VT 76083','UPS','TRK53911','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (142,142,'8507 Michael Glens Apt. 913 North Micheletown, AZ 62336','UPS','TRK46677','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (143,143,'53654 Ashley Crest Apt. 238 South Caseymouth, LA 41224','DHL','TRK61505','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (144,144,'53494 Steven Ramp Suite 383 North Sarah, IN 71482','DHL','TRK71086','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (145,145,'0641 Alyssa Freeway Vasquezton, VT 37178','DHL','TRK89076','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (146,146,'PSC 7191, Box 8261 APO AP 74926','FedEx','TRK82105','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (147,147,'557 Hall Flats Apt. 912 East Shannonmouth, DE 70745','DHL','TRK99952','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (148,148,'4741 Eric Spur Margaretton, MD 19942','DHL','TRK26059','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (149,149,'6804 Wilkins Extensions South Melissaside, OH 33249','FedEx','TRK91156','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (150,150,'36519 Lowery Club North Jamesmouth, DC 12556','FedEx','TRK78919','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (151,151,'PSC 5107, Box 0296 APO AP 52274','UPS','TRK46822','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (152,152,'625 Rebekah Harbor Suite 720 Lake Kenneth, OH 63288','FedEx','TRK57026','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (153,153,'806 Castillo Tunnel Coopershire, MD 51406','UPS','TRK27103','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (154,154,'9304 Lindsey Mountains Katiebury, CT 32988','DHL','TRK19506','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (155,155,'039 Kelly Villages Apt. 239 Lindastad, OR 04198','FedEx','TRK90440','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (156,156,'70103 Andrew Neck Apt. 593 West Jennifer, MD 08307','FedEx','TRK38953','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (157,157,'56915 Morris Estate Suite 752 Jeffreyshire, HI 50096','UPS','TRK42707','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (158,158,'20969 Ian Island Apt. 917 West Julie, MI 42380','DHL','TRK59638','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (159,159,'570 Clark Square West Jonathanville, AL 06811','FedEx','TRK19830','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (160,160,'67658 Garcia Neck Apt. 271 West Andrewview, CA 45302','FedEx','TRK80795','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (161,161,'18159 Bush Meadows Apt. 962 North Markborough, UT 73129','UPS','TRK66047','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (162,162,'49731 Jamie Route Suite 171 Kristenfort, TN 35235','DHL','TRK25139','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (163,163,'56527 Jose Mountain Suite 349 East Karenville, TN 45562','DHL','TRK39654','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (164,164,'380 Cardenas Manor Suite 937 Christianton, OK 68241','UPS','TRK82561','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (165,165,'72233 Brad Common Harrisberg, PA 34302','UPS','TRK35260','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (166,166,'99861 Hernandez Port Apt. 191 Mikaylastad, MT 35121','UPS','TRK84264','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (167,167,'970 Joshua Divide Suite 065 North Julie, KY 49317','FedEx','TRK99235','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (168,168,'24754 Jacobs Corners South Jason, MT 97618','UPS','TRK49384','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (169,169,'82148 Taylor Vista Apt. 233 East Antonioton, MN 92858','UPS','TRK18600','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (170,170,'8610 Nathan Ranch Suite 279 Maxview, UT 12348','UPS','TRK99282','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (171,171,'346 Michelle Trafficway South Rhondaburgh, AL 29830','UPS','TRK94853','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (172,172,'466 Stevens Forge Suite 489 Silvatown, TN 49552','DHL','TRK70161','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (173,173,'432 Rachel Valley Suite 520 Brightview, MT 53532','FedEx','TRK95389','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (174,174,'584 Mary Wells Apt. 417 Lake Jonathan, OH 24496','FedEx','TRK84978','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (175,175,'USNV Pena FPO AE 47068','FedEx','TRK83273','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (176,176,'5549 Ford Crest Suite 099 South Pamelahaven, TX 50527','DHL','TRK25437','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (177,177,'PSC 7252, Box 1752 APO AA 83666','DHL','TRK28772','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (178,178,'3292 Glover Tunnel Apt. 296 Powellfort, AL 05445','UPS','TRK90541','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (179,179,'58300 Jeremy Wells Suite 421 Gordonport, CA 06493','UPS','TRK55134','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (180,180,'7532 Smith Fork East Jessica, NY 22650','UPS','TRK54922','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (181,181,'4890 Ebony Shoal North Hannahchester, MS 16700','DHL','TRK80088','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (182,182,'1891 Wilson Coves Gonzalezborough, KS 69070','DHL','TRK30070','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (183,183,'Unit 5642 Box 0873 DPO AP 63502','UPS','TRK44471','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (184,184,'11972 Kimberly Club West Dawnmouth, KS 61354','FedEx','TRK97690','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (185,185,'1100 Elizabeth Extension Suite 579 Natalieland, MA 24470','DHL','TRK98705','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (186,186,'4676 Daniel Square Apt. 216 Phammouth, RI 50275','FedEx','TRK45167','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (187,187,'277 Paige Mill North Josemouth, VT 89358','FedEx','TRK72684','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (188,188,'588 Ryan Stream South Michael, SD 50947','FedEx','TRK98918','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (189,189,'772 Karen Islands West Tara, NY 29691','UPS','TRK98857','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (190,190,'3177 Miller Parks Suite 517 North Richardton, OH 00523','FedEx','TRK17152','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (191,191,'837 Cox Center Apt. 758 Moranstad, NV 15446','UPS','TRK70174','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (192,192,'55488 Park Cape South Donald, WA 95077','FedEx','TRK93563','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (193,193,'331 Lewis Views Apt. 516 Lake Maryshire, WI 59549','UPS','TRK96364','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (194,194,'292 Dale Shoals Suite 866 West Raymond, LA 59856','FedEx','TRK63636','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (195,195,'833 Claudia Highway Suite 228 Jenniferstad, NJ 76890','FedEx','TRK26150','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (196,196,'846 Alexandra Burg Suite 200 West Karen, LA 90074','FedEx','TRK52184','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (197,197,'438 Michael Mission New Mirandaside, IN 97810','DHL','TRK82559','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (198,198,'004 Christine Tunnel Suite 359 Port Jenny, LA 59328','FedEx','TRK97445','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (199,199,'28160 Ramirez Greens East Brandy, AL 43828','DHL','TRK29192','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (200,200,'25909 Henry Ports Charlesmouth, IN 24601','DHL','TRK99803','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (201,201,'8861 Walker Forest Markport, WV 81540','DHL','TRK68827','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (202,202,'57399 Susan Springs Patrickville, KS 71310','UPS','TRK31093','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (203,203,'588 Tucker Hill West Willie, GA 71014','UPS','TRK34100','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (204,204,'120 Love Camp Apt. 102 Angelashire, IN 34402','DHL','TRK48479','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (205,205,'665 Perry Crest Apt. 919 Lake Melaniestad, CT 38490','DHL','TRK13238','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (206,206,'147 Foster Shore Apt. 728 East Julie, ND 39164','FedEx','TRK65601','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (207,207,'821 Adam Ranch Medinaland, IL 98581','UPS','TRK43018','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (208,208,'90878 Kelly Cliff Coreyshire, MA 47311','UPS','TRK19514','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (209,209,'49135 Hayes Ridges Heatherberg, OK 48275','UPS','TRK27875','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (210,210,'05336 Larsen Dale Suite 777 Kimfort, CT 23539','FedEx','TRK88204','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (211,211,'2834 Jessica Brook Port Bonniefurt, OR 28387','FedEx','TRK43127','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (212,212,'6394 Steven Pass South Michaeltown, IA 80983','UPS','TRK35362','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (213,213,'2299 Jill Orchard Billyfort, CA 35150','DHL','TRK70666','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (214,214,'385 Harrison Motorway North Tinamouth, VT 68838','DHL','TRK87337','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (215,215,'498 Nicholas Lane Suite 918 Nicholasbury, MO 46756','FedEx','TRK31737','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (216,216,'22259 Donna Mall Suite 177 Clarkburgh, MT 03443','DHL','TRK71561','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (217,217,'922 Patricia Drive East Jonathanburgh, MO 79059','FedEx','TRK81349','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (218,218,'36929 Cindy Pass Suite 257 East Nicholasberg, AK 27023','UPS','TRK29692','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (219,219,'72980 Boyd Land Lake Alyssabury, NJ 50470','UPS','TRK41938','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (220,220,'49864 Adam Summit New Alexandrahaven, MS 86293','DHL','TRK32356','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (221,221,'5126 Green Plain Suite 959 Victoriafurt, IL 54663','FedEx','TRK65023','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (222,222,'58874 Lane Trail Suite 213 Loganburgh, IL 67130','FedEx','TRK66224','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (223,223,'902 Oconnell Avenue Apt. 279 Davisview, MN 10991','DHL','TRK43791','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (224,224,'0384 Arthur Rapid Apt. 920 Johntown, CO 36668','DHL','TRK99208','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (225,225,'669 April Street Apt. 184 Michaelview, PA 25997','FedEx','TRK28096','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (226,226,'042 Hunter Points Apt. 845 Port Williamview, ND 75853','FedEx','TRK99727','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (227,227,'USCGC Maldonado FPO AP 04085','DHL','TRK88311','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (228,228,'63356 Black Branch Suite 341 Nunezmouth, OH 23895','DHL','TRK62354','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (229,229,'94237 Jimmy Garden Suite 333 Port Christine, WI 14484','UPS','TRK44223','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (230,230,'790 Melanie Landing Travisshire, KY 64831','UPS','TRK73172','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (231,231,'678 Wayne Lock South Tiffany, NC 60803','DHL','TRK56338','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (232,232,'36915 Salazar Green New Jose, NJ 80859','UPS','TRK36577','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (233,233,'6365 Dickerson Harbors Whiteberg, TX 30459','UPS','TRK73214','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (234,234,'86632 Thomas Branch Apt. 672 Kristenport, OH 74928','FedEx','TRK32911','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (235,235,'203 Woods Roads South Julieview, MN 73947','UPS','TRK81901','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (236,236,'5587 Preston Light Stevenberg, GA 84463','DHL','TRK69077','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (237,237,'9961 Fernando Forks Suite 544 Nelsonmouth, MN 98529','UPS','TRK29116','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (238,238,'2202 Ebony Summit Apt. 326 North Calebfort, AR 03956','FedEx','TRK22622','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (239,239,'49216 Perez Street Scottberg, NC 22862','FedEx','TRK80574','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (240,240,'7784 Taylor Square Apt. 997 Millsside, MI 63632','UPS','TRK93962','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (241,241,'4564 Kevin Alley West Justin, AL 90648','FedEx','TRK48188','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (242,242,'PSC 7406, Box 4930 APO AP 49475','UPS','TRK22524','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (243,243,'3266 Jose Manors Apt. 894 Deborahside, KY 54621','UPS','TRK21050','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (244,244,'24179 Nelson Road Lopeztown, AR 70620','DHL','TRK81898','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (245,245,'12073 Fisher Turnpike Boltonmouth, WY 04660','DHL','TRK71498','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (246,246,'0136 Wright Bypass Apt. 718 South Paul, MD 21290','DHL','TRK59592','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (247,247,'65024 Randy Gardens North Biancafort, PA 20816','FedEx','TRK69345','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (248,248,'27195 Brian Rue Lake Amanda, DC 64443','FedEx','TRK11075','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (249,249,'652 Roach Oval Hansenside, NM 25375','UPS','TRK42778','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (250,250,'7498 Casey Drives Suite 448 Shawnhaven, VA 24819','DHL','TRK52344','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (251,251,'351 Lee Springs Suite 829 Marcusmouth, CT 69077','DHL','TRK11974','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (252,252,'20317 Corey Ports Barretthaven, UT 77872','FedEx','TRK91087','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (253,253,'91037 Taylor Route Apt. 586 Lauraton, RI 35341','FedEx','TRK35292','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (254,254,'1381 Jessica Place Lopezhaven, IA 75215','FedEx','TRK71393','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (255,255,'861 Craig Squares Andradeburgh, HI 72586','FedEx','TRK58118','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (256,256,'6659 Anna Forest Suite 845 Westfurt, VA 05044','FedEx','TRK80642','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (257,257,'48889 Clinton Mount Suite 224 Pamelabury, KS 39862','UPS','TRK84843','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (258,258,'315 Thompson Views Apt. 940 Millerton, WI 44330','DHL','TRK20480','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (259,259,'1390 Brown Pine Apt. 589 West Wayne, FL 07122','DHL','TRK34832','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (260,260,'9981 Ryan Turnpike Suite 225 South Ashleyton, MO 34914','FedEx','TRK68066','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (261,261,'227 Tony Run Apt. 898 East Charles, NE 42891','FedEx','TRK43303','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (262,262,'66553 Cooper Shoal Port Kevinstad, NV 82182','UPS','TRK49562','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (263,263,'35211 John River Port Marissa, AL 45494','DHL','TRK58114','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (264,264,'792 Nicholas Shore Apt. 420 Jamesview, NH 86321','DHL','TRK66925','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (265,265,'USS Price FPO AA 87399','FedEx','TRK76155','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (266,266,'Unit 1579 Box 8123 DPO AP 60530','UPS','TRK73035','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (267,267,'4384 Connie Wells Suite 084 East Matthew, TN 18492','DHL','TRK57876','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (268,268,'92649 Cole Curve Apt. 298 Port Devin, VT 69157','FedEx','TRK58997','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (269,269,'PSC 6292, Box 5188 APO AP 16018','UPS','TRK54993','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (270,270,'056 Turner Summit Edwinborough, DC 24716','UPS','TRK59362','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (271,271,'993 Jerry Burg Suite 172 Josephstad, MS 64915','FedEx','TRK57214','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (272,272,'12797 Delacruz Gateway Sullivanton, WA 50357','FedEx','TRK30578','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (273,273,'998 Abigail Mission Suite 038 Terrellton, MS 68150','DHL','TRK96105','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (274,274,'PSC 8277, Box 1812 APO AP 91742','UPS','TRK28102','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (275,275,'5702 Garza Station Apt. 714 Heatherburgh, VA 16694','DHL','TRK49760','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (276,276,'518 Acosta Pass Apt. 686 Port Georgemouth, TN 20173','UPS','TRK88166','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (277,277,'2123 Cindy Glen Apt. 777 New Nicolebury, OR 86939','DHL','TRK72108','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (278,278,'22050 Melissa Shores Markland, CT 55152','UPS','TRK66040','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (279,279,'Unit 2499 Box 9827 DPO AP 76387','FedEx','TRK15144','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (280,280,'45561 Bridges Circles Thomasville, KY 43651','FedEx','TRK77760','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (281,281,'390 Ashley Roads South Jenniferport, PA 41983','FedEx','TRK31495','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (282,282,'2934 Aaron Burg Suite 139 Gutierrezmouth, OH 84059','DHL','TRK50378','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (283,283,'441 Evans Plaza Katieville, MA 45243','FedEx','TRK10753','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (284,284,'35577 Debbie Orchard Lake Steven, ND 44424','FedEx','TRK55746','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (285,285,'551 Juan Burgs Tonyaside, GA 75340','FedEx','TRK57210','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (286,286,'7438 Thompson Landing Port Jamesland, NY 03769','UPS','TRK45968','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (287,287,'57845 Kayla Courts East Jenny, MS 94044','FedEx','TRK47642','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (288,288,'40915 Small Cove Andrewport, IL 42559','FedEx','TRK25456','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (289,289,'8571 Hernandez Harbor Apt. 098 East Amyside, KY 19055','DHL','TRK43347','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (290,290,'USNV Andrews FPO AE 09838','FedEx','TRK90739','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (291,291,'702 Thomas Spring Apt. 160 South Philipshire, UT 92168','DHL','TRK70616','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (292,292,'5381 Bradley Course Suite 174 Ruizbury, RI 34324','FedEx','TRK31753','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (293,293,'PSC 6255, Box 7701 APO AA 15297','UPS','TRK78825','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (294,294,'8148 Morales Loop New John, NJ 50808','FedEx','TRK98698','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (295,295,'321 Wilson Ranch Suite 581 Thompsonfurt, PA 14754','UPS','TRK78233','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (296,296,'27846 Gonzalez Springs Kevinport, NE 94583','UPS','TRK30643','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (297,297,'85140 Ryan Ramp Garrettfurt, MS 57542','UPS','TRK50812','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (298,298,'2386 Larsen Drives Whitneyberg, AL 09904','UPS','TRK60279','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (299,299,'Unit 2126 Box 7969 DPO AE 60059','DHL','TRK71675','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (300,300,'5326 Becky Vista Apt. 846 Arthurton, NJ 92891','DHL','TRK32387','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (301,301,'128 Marshall Common Apt. 371 Chloemouth, WI 01914','DHL','TRK18658','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (302,302,'940 Lane Ports Apt. 490 Toddberg, CA 36919','DHL','TRK63188','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (303,303,'4019 Renee Streets Apt. 752 Kimberlybury, HI 69626','UPS','TRK69372','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (304,304,'USNS Monroe FPO AA 50723','FedEx','TRK55123','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (305,305,'239 Brown Greens Apt. 027 Alvarezfort, WV 70299','UPS','TRK46989','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (306,306,'5801 Blanchard Meadows Suite 544 West Destinyfurt, WI 89012','DHL','TRK97826','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (307,307,'010 Davis Cove Bellport, ID 04962','DHL','TRK60425','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (308,308,'PSC 3911, Box 1926 APO AP 85423','DHL','TRK58310','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (309,309,'24471 Livingston Harbor Schwartzmouth, GA 10199','DHL','TRK69511','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (310,310,'6504 Thompson Cliff Krauseborough, MO 23889','UPS','TRK96025','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (311,311,'86391 Baldwin Cove North Chadview, NV 02960','UPS','TRK24621','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (312,312,'6618 Aaron Spurs Suite 198 Mathewport, AR 83374','UPS','TRK88059','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (313,313,'Unit 1585 Box 1743 DPO AE 73177','UPS','TRK31967','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (314,314,'346 Crystal Knolls Suite 173 North James, OR 31759','DHL','TRK66595','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (315,315,'478 Levy Brook West Brianton, DE 28246','UPS','TRK78151','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (316,316,'829 Sandy Camp Apt. 707 East Jacquelineberg, HI 83425','UPS','TRK91185','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (317,317,'17993 Linda Meadow Lisafurt, DE 90165','FedEx','TRK34217','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (318,318,'3092 Brown Harbor Port Robert, MN 73037','DHL','TRK44690','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (319,319,'021 Strickland Brook Millertown, CO 93134','UPS','TRK75234','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (320,320,'7232 Mills Loop Apt. 290 Lake Vincent, SC 39979','FedEx','TRK39602','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (321,321,'331 Christine Wall South Kaylee, IL 36732','FedEx','TRK15155','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (322,322,'77220 Deanna Haven South John, WV 59895','DHL','TRK34833','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (323,323,'8113 Watkins Islands Gonzalezmouth, WI 14936','FedEx','TRK97466','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (324,324,'63631 Richards Center Thomasmouth, MS 49454','DHL','TRK22752','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (325,325,'543 Martinez Square West Derekmouth, MT 22940','DHL','TRK98918','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (326,326,'9292 Christopher Walks Atkinsborough, NJ 61156','FedEx','TRK31627','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (327,327,'060 Vickie Street South Amandafort, UT 13345','UPS','TRK93863','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (328,328,'80632 Phillips Rue North Timothyport, VT 60700','FedEx','TRK49478','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (329,329,'7262 Sims Squares Port Courtneyfurt, UT 44135','FedEx','TRK37277','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (330,330,'085 Daniel Lakes Suite 905 Gregoryside, CA 74000','DHL','TRK53816','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (331,331,'53817 Karen Trace West Michael, NY 89659','DHL','TRK77489','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (332,332,'9513 Miller Lock Apt. 411 West Daniel, NM 20227','UPS','TRK71733','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (333,333,'6827 Fisher Street West Jaimetown, IN 68608','FedEx','TRK57001','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (334,334,'4924 Kristina Forks Suite 540 West Justin, RI 21576','UPS','TRK93623','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (335,335,'22231 Victoria Ports Apt. 745 East Anna, TN 42043','FedEx','TRK72061','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (336,336,'USNS Gould FPO AA 20955','FedEx','TRK14406','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (337,337,'474 Lauren Stream Suite 517 East Ericaville, AK 53143','FedEx','TRK70199','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (338,338,'5150 Brandy Forges Jamesland, NV 89245','FedEx','TRK14287','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (339,339,'637 Morrison Pass Lake Michaelberg, NE 48949','DHL','TRK16758','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (340,340,'5547 Jason Mills Laraport, VA 56053','DHL','TRK86037','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (341,341,'99123 Wells Ways Suite 196 North Robertview, HI 73352','UPS','TRK71625','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (342,342,'26487 Mackenzie Hollow Troymouth, AK 00821','FedEx','TRK29392','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (343,343,'2730 Kathy Park Apt. 959 Cunninghamview, TX 62896','FedEx','TRK54024','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (344,344,'Unit 1589 Box 0429 DPO AE 19655','UPS','TRK91085','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (345,345,'2045 Fields Knolls West Kellyland, ID 82818','UPS','TRK67788','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (346,346,'285 Serrano Spur Josephstad, ND 76528','DHL','TRK29055','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (347,347,'28457 Peterson Estates East Ericbury, ID 73725','UPS','TRK50380','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (348,348,'7112 Timothy Inlet Donmouth, PA 69067','UPS','TRK12955','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (349,349,'40132 Hailey Inlet Apt. 321 Vazquezville, AK 63973','DHL','TRK68402','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (350,350,'0119 Briana Flats Lake Michael, FL 98306','DHL','TRK78852','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (351,351,'90833 Jackson Throughway Lake Coreyborough, NY 93268','UPS','TRK49582','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (352,352,'1256 Lewis Forks Rodriguezmouth, NH 14960','DHL','TRK64677','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (353,353,'4801 Snyder Lights Suite 794 Perezchester, NE 25245','FedEx','TRK57416','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (354,354,'520 Powers Locks Suite 811 South Richard, CT 97681','DHL','TRK31405','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (355,355,'Unit 1367 Box 4994 DPO AP 52960','FedEx','TRK49462','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (356,356,'8427 David Overpass Suite 320 Lake Brianland, TX 04007','FedEx','TRK78898','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (357,357,'Unit 6952 Box 4991 DPO AE 87150','UPS','TRK25544','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (358,358,'61675 Ramos Camp East Angelaport, VT 22015','UPS','TRK35736','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (359,359,'8280 Baker Ramp Suite 954 Bryanshire, DC 48527','UPS','TRK21898','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (360,360,'561 Reed Knolls Bellbury, IA 85446','UPS','TRK46943','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (361,361,'141 Jackson Plain Benjaminchester, NY 55704','UPS','TRK67627','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (362,362,'1357 Jackson Hills Taraborough, SC 10373','DHL','TRK47173','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (363,363,'4049 Ballard Road Lake Meganville, MA 36331','FedEx','TRK58161','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (364,364,'468 Gonzalez Locks Suite 987 North Courtney, HI 76109','DHL','TRK36248','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (365,365,'8969 Alexa Lakes Suite 232 Meganchester, CA 83591','DHL','TRK56674','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (366,366,'4249 Richard Crescent Apt. 303 Stevenside, NE 85294','FedEx','TRK13506','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (367,367,'PSC 3242, Box 0448 APO AE 84949','FedEx','TRK44296','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (368,368,'01594 Rachel Lodge Suite 162 North Ashley, DE 68915','DHL','TRK70248','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (369,369,'363 Daniel Forest Suite 764 South Amandaville, ND 56046','DHL','TRK74840','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (370,370,'2575 Smith Rest Port Joditon, WY 88528','DHL','TRK59882','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (371,371,'5183 Price Lock Suite 413 Jasonburgh, NV 83253','DHL','TRK32253','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (372,372,'41776 Love Wells Apt. 248 West Robertside, MD 59910','DHL','TRK23114','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (373,373,'272 Richard Road Leeland, GA 33217','FedEx','TRK38059','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (374,374,'2954 Christopher Land South Nancy, OK 29924','DHL','TRK96960','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (375,375,'931 Gonzalez Squares North Richard, PA 34600','FedEx','TRK71249','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (376,376,'91086 Wilcox Park Apt. 333 Keithfort, DC 57033','FedEx','TRK36680','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (377,377,'44397 Mike Spur Millerfort, MD 91336','UPS','TRK30887','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (378,378,'75990 Jon River Suite 465 New Blake, KS 22765','FedEx','TRK49056','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (379,379,'2158 Thomas Crescent Suite 027 Juliechester, KS 80839','FedEx','TRK75568','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (380,380,'562 Doyle Overpass Apt. 870 East Brian, AZ 62137','UPS','TRK24000','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (381,381,'7121 Davis Ways Suite 228 Annashire, OR 01041','UPS','TRK94593','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (382,382,'5915 Anthony Mount Gibsonview, TN 01261','DHL','TRK92752','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (383,383,'975 Jason Causeway Marcuston, CA 72217','DHL','TRK76366','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (384,384,'USCGC Davis FPO AA 23833','FedEx','TRK20778','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (385,385,'214 Owen Street Suite 925 Port Michaelborough, NV 51368','DHL','TRK59456','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (386,386,'3278 Kelly Mews Apt. 742 Lake Rebecca, IA 69063','UPS','TRK62564','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (387,387,'108 William Loop South Donnashire, KS 47091','DHL','TRK98291','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (388,388,'16459 Todd Mission Suite 523 North Julie, KS 88766','DHL','TRK33641','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (389,389,'61027 Holt Ways Turnerstad, TX 90979','FedEx','TRK62108','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (390,390,'22031 Heather Field Apt. 372 South Megan, WY 71094','DHL','TRK89478','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (391,391,'2760 Gabriel Drives Suite 770 Richardsborough, OK 51846','UPS','TRK76027','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (392,392,'66799 Johnson Locks Palmerfort, VT 08457','DHL','TRK15788','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (393,393,'581 Orozco Mall Suite 179 Shanechester, GA 38251','UPS','TRK34004','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (394,394,'7383 Dorsey Walk Suite 246 Whitakerstad, NJ 21738','DHL','TRK33678','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (395,395,'172 James Rest Suite 167 Jimmyside, AK 47527','UPS','TRK52406','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (396,396,'93183 Scott Junctions Suite 084 Port Hannah, PA 88251','DHL','TRK22130','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (397,397,'99180 Gary Crest West Eric, VT 58371','DHL','TRK50645','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (398,398,'Unit 0375 Box 4821 DPO AA 49316','UPS','TRK77284','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (399,399,'3286 Devin Meadow Suite 678 Sherrymouth, WI 01804','DHL','TRK48729','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (400,400,'084 Morales Springs Jennifermouth, MI 01536','DHL','TRK15932','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (401,401,'673 Terry Valleys Roweport, AZ 70943','DHL','TRK25293','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (402,402,'520 Pamela Plains Suite 346 Lake Brianstad, SC 67019','UPS','TRK12082','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (403,403,'174 Shawn Freeway West Kevin, WY 94198','DHL','TRK65296','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (404,404,'66110 Beasley Mountains South Christian, NC 53290','DHL','TRK16674','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (405,405,'28277 Tammy Passage Apt. 377 Lake Ericside, DE 79353','UPS','TRK45107','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (406,406,'59408 David Inlet Kevinfort, WY 19227','DHL','TRK88918','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (407,407,'701 Jones Cape Olsonport, NV 44780','DHL','TRK74713','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (408,408,'51996 Hall Locks Suite 807 Debbieburgh, AK 75473','UPS','TRK83660','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (409,409,'181 Stephanie Plains Apt. 983 Shawtown, TN 70212','FedEx','TRK89205','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (410,410,'3397 Lindsay Rest Richardton, AK 45059','FedEx','TRK23816','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (411,411,'85641 Tina Plains Apt. 422 Kaylaberg, MT 89447','UPS','TRK94815','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (412,412,'00461 Thomas Islands Suite 610 East Karen, IA 65116','UPS','TRK44867','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (413,413,'40578 Jones Burgs Suite 304 East Kathrynberg, OK 53814','DHL','TRK77653','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (414,414,'58238 Ali Point Williamsmouth, RI 38413','UPS','TRK66894','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (415,415,'07494 Kidd Ville New Mary, AZ 21658','FedEx','TRK36887','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (416,416,'1612 Johns Fords Nicolemouth, KS 99158','UPS','TRK78219','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (417,417,'700 Robert Square Farmerside, WY 85579','UPS','TRK68816','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (418,418,'715 Carey Knolls Thompsontown, NH 49060','FedEx','TRK42457','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (419,419,'USCGC Smith FPO AP 03093','DHL','TRK38152','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (420,420,'75047 Adrian View Rodriguezview, NY 65252','DHL','TRK69993','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (421,421,'999 Cameron Crossroad East Jordanshire, IN 69062','FedEx','TRK63558','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (422,422,'60566 Martinez Path Suite 758 Lake Jeffreyview, MT 70285','UPS','TRK28726','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (423,423,'3519 Veronica Fork Rosariobury, GA 43653','DHL','TRK85112','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (424,424,'76095 Wright Mountains West Marissa, MA 68615','FedEx','TRK63690','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (425,425,'06512 Samantha Mills West Cherylchester, CT 89310','UPS','TRK91094','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (426,426,'6619 Hall Rapid South Patrickchester, RI 81664','DHL','TRK62664','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (427,427,'10919 Rebecca Crossroad Michaelfort, RI 58778','UPS','TRK50212','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (428,428,'02496 Collins Plains East Terrance, MA 38651','DHL','TRK43807','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (429,429,'920 William Village South Mauriceborough, ID 09466','UPS','TRK51724','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (430,430,'795 Jensen Manor Suite 217 South Jeffreytown, IN 91362','DHL','TRK82623','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (431,431,'75636 Margaret Avenue Alejandrostad, OH 15599','DHL','TRK82764','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (432,432,'34234 Matthew Plaza East James, KS 13764','DHL','TRK56061','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (433,433,'1534 Allen Valleys Donnahaven, RI 57349','FedEx','TRK26118','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (434,434,'22338 Benson Island Rowlandbury, AZ 81245','DHL','TRK45784','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (435,435,'53042 Clark Common Suite 912 Potterhaven, NM 68513','FedEx','TRK72459','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (436,436,'587 Wells Prairie Suite 903 East Shannon, MO 29152','FedEx','TRK56919','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (437,437,'7853 Steven Road Ronaldmouth, MT 48671','FedEx','TRK49738','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (438,438,'3111 Johnson Flats Jamesmouth, ME 98177','FedEx','TRK99441','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (439,439,'92840 Campbell Key Suite 690 Valdezberg, MO 30330','DHL','TRK35146','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (440,440,'3898 Sharp Mountain Latoyamouth, ID 56703','UPS','TRK46429','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (441,441,'77805 Barbara Crossroad Suite 075 Jeremiahchester, WV 53371','FedEx','TRK91958','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (442,442,'3618 Lopez Coves Suite 974 East Damonside, AZ 90812','FedEx','TRK67478','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (443,443,'31643 Kelly Pine South Brianhaven, GA 43331','UPS','TRK26716','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (444,444,'2128 Mendoza Cliff Suite 323 Ryanfort, PA 75879','UPS','TRK90911','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (445,445,'9385 Stevens Ports Lake Christophermouth, UT 93778','FedEx','TRK18853','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (446,446,'263 Rachel Street Suite 762 South Hollyton, GA 36385','DHL','TRK50788','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (447,447,'137 Riddle Plaza Apt. 511 Robertburgh, IL 66831','UPS','TRK93958','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (448,448,'76563 Johnson Glen Lake Sallymouth, WA 61350','DHL','TRK15530','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (449,449,'124 Amanda Lock North Emily, TX 36316','DHL','TRK67725','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (450,450,'30837 Mary Valleys Apt. 647 New Adamfurt, ID 33229','FedEx','TRK32843','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (451,451,'10600 Hoover Springs East Susanville, TN 22505','DHL','TRK37556','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (452,452,'8155 Colleen Plains Mcmillanville, IL 14379','UPS','TRK35124','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (453,453,'65063 Robinson Shoals Debrastad, CA 29148','DHL','TRK37425','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (454,454,'89241 Jarvis Square Suite 252 Tiffanyfort, MA 02814','DHL','TRK78875','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (455,455,'8389 Jesse Ridges Apt. 436 New Christopher, MN 65870','DHL','TRK84890','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (456,456,'3039 Stevenson Isle West Lonnie, WV 05692','DHL','TRK51552','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (457,457,'403 Cooper Ford Apt. 339 Boydburgh, SC 01293','FedEx','TRK94365','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (458,458,'30232 Glenn Plaza Apt. 381 Hardyport, VA 26392','UPS','TRK98487','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (459,459,'56627 Henderson Ridge Suite 270 Simmonsland, ME 78512','DHL','TRK40634','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (460,460,'6747 Brooks Rest Jonesberg, NJ 26153','DHL','TRK11268','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (461,461,'08576 Bentley Summit Patrickport, OR 09837','FedEx','TRK14221','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (462,462,'USNV Hicks FPO AA 83729','FedEx','TRK33283','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (463,463,'663 Tim Via Crystaltown, TN 85086','DHL','TRK36986','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (464,464,'11669 April Field Martinchester, UT 40113','FedEx','TRK19012','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (465,465,'461 Daisy Trail Suite 243 Haletown, NM 00707','FedEx','TRK99762','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (466,466,'52237 Wayne Creek Bradleyborough, ID 08231','DHL','TRK48987','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (467,467,'6791 Christopher Corner Martinezland, AK 77262','DHL','TRK15723','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (468,468,'100 Walton Avenue Apt. 138 South Carrieview, NJ 99710','UPS','TRK76330','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (469,469,'5553 Ortega Lane Apt. 551 South Monicafurt, DC 03866','DHL','TRK70470','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (470,470,'50505 Hall Oval Stevensonland, NE 62907','UPS','TRK98785','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (471,471,'71487 Peggy Crescent Batesbury, IL 22839','UPS','TRK36212','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (472,472,'3471 Sandra Roads Suite 153 Lake Matthewfurt, SD 74150','DHL','TRK77174','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (473,473,'Unit 6334 Box 1411 DPO AE 45096','UPS','TRK18652','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (474,474,'195 Melissa Light West Bryanside, MS 56036','UPS','TRK80278','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (475,475,'752 Hood Parks Hernandezport, WA 87709','FedEx','TRK68839','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (476,476,'548 Joshua Vista Welchborough, LA 92794','UPS','TRK17854','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (477,477,'Unit 0523 Box 3027 DPO AP 51856','UPS','TRK46454','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (478,478,'86567 Todd Lock New Jessicaport, ID 92396','UPS','TRK39156','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (479,479,'25904 Pena Ports Apt. 774 East Jeffery, ID 96880','FedEx','TRK28550','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (480,480,'6201 Mccann Fall North Tinamouth, NE 19974','UPS','TRK65576','Shipped');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (481,481,'01367 Watts Extensions Suite 176 Cynthiamouth, AL 16229','UPS','TRK59993','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (482,482,'8309 Hill Summit Port Brittanyfurt, SD 92610','UPS','TRK34854','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (483,483,'8887 April Prairie Port Karenville, PA 91624','UPS','TRK35457','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (484,484,'1029 Denise Corners Suite 011 Michaelside, NE 86767','FedEx','TRK98660','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (485,485,'84872 Neal Pike Suite 988 Lake Corey, AZ 31578','DHL','TRK31734','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (486,486,'USNS Vargas FPO AA 17342','UPS','TRK22697','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (487,487,'84462 Bryant Glens Suite 283 Lake Jessicaborough, MN 74378','UPS','TRK69069','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (488,488,'2566 Tamara Gateway West Davidville, OH 53818','DHL','TRK92160','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (489,489,'0163 Lynn Tunnel East Alishaport, NM 13023','UPS','TRK72638','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (490,490,'491 George Terrace Suite 258 Woodsberg, AL 90502','DHL','TRK89034','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (491,491,'226 Brown Stream Jasminebury, PA 55321','DHL','TRK23130','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (492,492,'5784 Cisneros Pike West Cynthia, ME 53783','DHL','TRK69233','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (493,493,'113 Frederick Centers Lake Justinfort, AL 56073','DHL','TRK98857','Returned');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (494,494,'068 Sanchez Streets New Shaneburgh, WV 69119','FedEx','TRK76143','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (495,495,'1538 Kelly Orchard Josephtown, SC 75060','FedEx','TRK21722','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (496,496,'807 Brown Avenue Suite 545 North Michaelburgh, MI 01662','FedEx','TRK74482','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (497,497,'18826 Robin Avenue Apt. 437 Brooksstad, HI 70811','UPS','TRK21683','Delivered');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (498,498,'7225 Smith Ways North Jake, DC 52214','FedEx','TRK39116','Pending');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (499,499,'23741 Burns Park Apt. 568 Andersonville, AK 17032','FedEx','TRK14501','Cancelled');
-INSERT INTO Shipping (shipping_id,order_id,shipping_address,carrier,tracking_number,status) VALUES (500,500,'305 Bray Street South Timothyport, CO 56724','FedEx','TRK37605','Shipped');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (1,18,34,3,'Doctor from throw ball character.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (2,24,62,3,'Accept goal send table well industry section.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (3,38,7,5,'Agree hour north agree poor career left.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (4,27,59,1,'Wrong figure perform participant science way debate decision.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (5,32,68,4,'Light fight I evening.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (6,30,73,1,'Gun series personal service data near until.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (7,17,6,1,'Perhaps however bag forget purpose move.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (8,15,31,5,'Economy sense should race carry best physical always.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (9,29,80,5,'Pull public once state wait board.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (10,6,19,3,'Difference board suddenly happen several off southern.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (11,36,91,4,'Involve exist question main project animal.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (12,29,85,5,'Matter street south author technology.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (13,10,91,1,'Story turn because such during open model.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (14,20,18,2,'Culture own set pretty concern.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (15,5,24,5,'Goal avoid left also.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (16,20,33,1,'Quickly appear piece free form newspaper.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (17,24,42,3,'Institution simply down business draw police performance.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (18,10,20,4,'Billion old series card good full poor store.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (19,24,100,3,'Experience television answer pretty event.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (20,6,39,4,'Remember nearly face feel church remember.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (21,9,21,4,'General there sister policy consider whom item.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (22,5,92,3,'Each southern image law read citizen indeed.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (23,30,24,2,'Foreign husband believe word local very according.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (24,4,94,5,'Speak law message lead around left southern.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (25,2,11,1,'Section senior trial receive.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (26,6,89,5,'Ten scientist administration network once result far.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (27,9,75,4,'Movie expert maybe recently issue.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (28,6,71,1,'Feel stock ball yard practice.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (29,39,56,3,'Even under range exactly myself probably conference.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (30,5,47,5,'Issue news mention billion.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (31,30,21,3,'Or nation race nearly well.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (32,5,87,3,'None population position.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (33,32,95,5,'Control price how scene.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (34,28,81,3,'Fear yourself last give stage.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (35,29,50,1,'Economic represent stock seven.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (36,19,2,3,'Dark read car practice city usually.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (37,21,92,5,'Act receive stage write institution car.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (38,12,17,3,'Position six soldier dream history.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (39,25,30,5,'Him change use tax need trial.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (40,35,42,2,'Analysis discuss suddenly including.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (41,6,14,2,'Itself who door end.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (42,4,38,4,'Left sound cause activity.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (43,31,90,3,'Because him information poor.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (44,26,76,2,'Way nor none could write think.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (45,25,64,2,'Challenge relate center.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (46,20,85,5,'Enter example down anyone occur style child.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (47,34,11,4,'Treat trial attack hold however for.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (48,7,43,2,'Full soldier financial.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (49,26,63,5,'Agree anyone take sister Democrat.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (50,18,39,5,'Positive participant fear blue as write political.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (51,40,67,2,'Say on yes staff gas require.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (52,22,82,5,'Fear approach take case customer important notice.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (53,26,50,5,'Way lay minute model its.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (54,13,7,1,'Education reduce day rate act inside big.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (55,23,12,5,'Between company always.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (56,11,49,3,'Stuff next write approach.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (57,36,46,3,'Probably what care material morning any very.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (58,36,26,2,'Catch owner though mention.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (59,27,80,3,'Home memory someone receive realize another high.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (60,1,65,2,'Account assume prove similar ten interest billion.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (61,24,90,4,'Fear thought whole term.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (62,5,30,3,'Deep town surface central contain pattern.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (63,6,86,5,'Necessary myself your.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (64,36,21,2,'Main lot page maybe catch close.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (65,3,84,4,'Point these road start water describe paper.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (66,24,78,1,'Teacher mean information change benefit live pass.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (67,15,76,2,'Open scientist seven recent best care.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (68,31,96,1,'Also his worker pass minute represent our watch.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (69,29,82,1,'Reason whom none show serious.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (70,7,49,2,'Worker trouble exactly develop.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (71,34,61,5,'Use election after building test white current.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (72,16,90,5,'Control bill especially.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (73,12,63,4,'Bag seek certainly entire hotel myself.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (74,20,55,2,'Rock seat near business loss federal growth appear.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (75,32,2,4,'First next popular girl through.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (76,39,82,5,'Measure price move outside value total.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (77,25,88,4,'Other military year few feel.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (78,15,33,3,'Figure likely forward science.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (79,8,38,4,'Ten affect test power discuss herself.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (80,10,51,5,'Unit again easy morning four hotel church.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (81,13,45,5,'Role minute question their.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (82,34,84,4,'Case cover allow share address establish including.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (83,23,49,5,'While couple keep this similar experience coach family.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (84,18,4,3,'Than condition Republican information.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (85,6,29,1,'Law kind over according think everything pick.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (86,29,91,4,'Moment yet government can none.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (87,16,5,5,'Six including sea strong federal right firm.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (88,39,39,3,'Hope organization ten seem relate fire all including.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (89,12,48,1,'Long suffer executive give offer meet.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (90,13,5,4,'Future sport opportunity six.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (91,25,98,3,'Side her management produce bed stage thought tough.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (92,14,80,5,'Wrong old particularly member summer system.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (93,35,51,2,'Century those price.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (94,39,89,5,'Law town off former good within far.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (95,39,79,5,'Garden base certain.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (96,40,90,5,'Here relationship listen certain that.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (97,26,10,1,'Same open crime front real.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (98,10,55,5,'People arm order.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (99,40,76,2,'Chance policy usually professor entire record toward.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (100,12,77,2,'Toward star best.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (101,20,4,5,'Bit appear Mr.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (102,37,75,1,'Address into their easy its.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (103,36,15,2,'Allow international especially watch my some skin.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (104,30,31,4,'Everyone as generation main money but.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (105,28,17,1,'In garden position for order recent.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (106,37,94,4,'Challenge large wish move building agent.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (107,35,27,5,'Enjoy what strong line.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (108,29,94,4,'Amount blue soldier message arrive budget.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (109,27,76,4,'We girl civil may rock.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (110,28,54,3,'Ask window full organization.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (111,8,89,2,'Should society dark product make energy gas.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (112,15,85,5,'Issue fine home shake notice make network.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (113,35,46,4,'After like against first now.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (114,20,87,4,'Note most interview girl.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (115,35,72,3,'Wear use edge this draw business southern forget.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (116,33,39,5,'Require should power candidate order improve vote.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (117,35,37,2,'Outside yet executive quality industry.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (118,17,34,3,'Rather require remain save eight believe.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (119,38,36,4,'Clear level break time manager.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (120,27,95,1,'Short Congress turn east marriage behind forget.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (121,39,67,2,'Whole tend become system clear.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (122,39,3,5,'Environmental outside bed institution happy control piece.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (123,17,92,2,'One shoulder administration scientist leg.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (124,18,59,4,'Ground city still thus allow.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (125,30,31,4,'Relationship unit just lead.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (126,6,86,1,'Marriage that child hair standard but dark.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (127,15,10,1,'Want be fire word clearly article service.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (128,20,62,4,'Hope rest they minute must degree.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (129,14,20,4,'Public research mind easy foreign old state.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (130,32,81,4,'Next single the once PM you ready way.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (131,8,38,4,'Six instead view figure.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (132,27,72,1,'Little result paper seven measure leave.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (133,40,12,5,'Event production focus decision where foreign trial.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (134,38,87,5,'Quite remember course staff personal.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (135,33,74,3,'Court question yeah realize mouth.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (136,22,51,3,'Want simply people shake personal.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (137,4,3,3,'Fund visit situation law.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (138,16,60,5,'Fact create one she.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (139,12,99,1,'Interesting help church successful effort.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (140,8,64,3,'First him conference doctor population grow bar.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (141,21,56,1,'Federal only nothing allow cause with yes.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (142,29,77,5,'Onto maybe range every account.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (143,22,1,2,'Leave bar prevent require just likely evidence.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (144,15,96,3,'Interest paper field office whose.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (145,23,43,5,'Those yeah buy usually class several.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (146,39,68,1,'End lay race effect.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (147,14,1,2,'Attorney recent modern pressure.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (148,5,85,2,'But most week seem eat later rather thank.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (149,29,46,2,'Safe family crime century.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (150,14,4,1,'Black year ahead upon.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (151,24,13,5,'Side something value call professional opportunity.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (152,34,23,5,'Gun task big.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (153,20,65,3,'Fear by foot research television Mr.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (154,10,39,5,'Could feel strategy.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (155,12,82,2,'Forget become training sing.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (156,31,63,4,'Usually carry marriage rate quality mother by.');
-INSERT INTO Reviews (review_id,customer_id,product_id,rating,review_text) VALUES (157,40,12,3,'Company happen card government anything.');
+
+INSERT INTO Categories (category_id, category_name, parent_category_id)
+VALUES
+  (1, 'Electronics', NULL),
+  (2, 'Laptops', NULL),
+  (3, 'Smartphones', NULL),
+  (4, 'Headphones', NULL),
+  (5, 'Cameras', NULL),
+  (6, 'Home Appliances', NULL),
+  (7, 'Refrigerators', NULL),
+  (8, 'Washing Machines ', NULL),
+  (9, 'Furniture', NULL),
+  (10, 'Beds', NULL),
+  (11, 'Clothing', NULL),
+  (12, 'Men', NULL),
+  (13, 'Women', NULL),
+  (14, 'Shoes', NULL),
+  (15, 'Accessories', NULL),
+  (16, 'Sports', NULL),
+  (17, 'Fitness', NULL),
+  (18, 'Books', NULL),
+  (19, 'Fiction', NULL),
+  (20, 'Non-Fiction', NULL);
+
+
+INSERT INTO Products(product_id, product_name, category_id, brand, price, stock_quantity, created_at, updated_at)
+VALUES
+  (
+    1,
+    'Product 1',
+    7,
+    'Nike',
+    1346.66,
+    47,
+    '2024-09-13 06:46:56',
+    '2024-10-10 06:46:56'
+  ),
+  (
+    2,
+    'Product 2',
+    15,
+    'Canon',
+    503.33,
+    8,
+    '2024-11-10 10:22:32',
+    '2024-12-03 10:22:32'
+  ),
+  (
+    3,
+    'Product 3',
+    11,
+    'Sony',
+    467.93,
+    28,
+    '2024-10-02 23:58:43',
+    '2024-11-01 00:58:43'
+  ),
+  (
+    4,
+    'Product 4',
+    1,
+    'Samsung',
+    127.16,
+    8,
+    '2025-03-09 01:17:05',
+    '2025-03-30 01:12:23'
+  ),
+  (
+    5,
+    'Product 5',
+    2,
+    'adidas',
+    483.63,
+    85,
+    '2024-12-11 15:57:58',
+    '2024-12-16 15:57:58'
+  ),
+  (
+    6,
+    'Product 6',
+    16,
+    'Dell',
+    1449.47,
+    73,
+    '2025-01-09 00:29:56',
+    '2025-01-19 00:29:56'
+  ),
+  (
+    7,
+    'Product 7',
+    19,
+    'LG',
+    951.22,
+    52,
+    '2025-04-04 03:33:09',
+    '2025-04-16 03:33:09'
+  ),
+  (
+    8,
+    'Product 8',
+    7,
+    'samsung',
+    867.79,
+    54,
+    '2024-09-29 09:07:10',
+    '2024-10-22 09:07:10'
+  ),
+  (
+    9,
+    'Product 9',
+    14,
+    'LG',
+    117.80,
+    83,
+    '2025-02-25 08:22:39',
+    '2025-03-09 08:22:39'
+  ),
+  (
+    10,
+    'Product 10',
+    4,
+    'Sony',
+    685.21,
+    13,
+    '2025-04-11 12:19:03',
+    '2025-05-05 12:19:03'
+  ),
+  (
+    11,
+    'Product 11',
+    8,
+    'Dell',
+    902.74,
+    54,
+    '2025-01-09 11:44:09',
+    '2025-01-09 11:44:09'
+  ),
+  (
+    12,
+    'Product 12',
+    6,
+    'Nike',
+    1750.23,
+    9,
+    '2024-11-13 09:11:03',
+    '2024-12-01 09:11:03'
+  ),
+  (
+    13,
+    'Product 13',
+    15,
+    'canon',
+    1307.77,
+    69,
+    '2024-10-05 03:41:07',
+    '2024-10-31 04:41:07'
+  ),
+  (
+    14,
+    'Product 14',
+    1,
+    'Samsung',
+    1698.90,
+    21,
+    '2025-05-02 22:20:37',
+    '2025-05-13 22:20:37'
+  ),
+  (
+    15,
+    'Product 15',
+    14,
+    'LG',
+    1730.65,
+    7,
+    '2024-09-05 21:34:33',
+    '2024-10-03 21:34:33'
+  ),
+  (
+    16,
+    'Product 16',
+    6,
+    'bosch',
+    786.94,
+    100,
+    '2025-01-15 15:04:23',
+    '2025-01-22 15:04:23'
+  ),
+  (
+    17,
+    'Product 17',
+    15,
+    'Nike',
+    1915.06,
+    100,
+    '2025-02-05 12:34:25',
+    '2025-02-22 12:34:25'
+  ),
+  (
+    18,
+    'Product 18',
+    18,
+    'LG',
+    600.45,
+    7,
+    '2025-03-14 12:43:46',
+    '2025-04-06 11:43:46'
+  ),
+  (
+    19,
+    'Product 19',
+    19,
+    'canon',
+    634.07,
+    6,
+    '2024-09-24 02:41:21',
+    '2024-10-14 02:41:21'
+  ),
+  (
+    20,
+    'Product 20',
+    19,
+    'LG',
+    1706.91,
+    20,
+    '2024-12-21 16:34:47',
+    '2025-01-05 16:34:47'
+  ),
+  (
+    21,
+    'Product 21',
+    2,
+    'canon',
+    379.79,
+    76,
+    '2025-05-03 13:56:20',
+    '2025-05-26 13:56:20'
+  ),
+  (
+    22,
+    'Product 22',
+    3,
+    'Dell',
+    1883.78,
+    72,
+    '2024-11-30 14:11:44',
+    '2024-12-17 14:11:44'
+  ),
+  (
+    23,
+    'Product 23',
+    8,
+    'Ikea',
+    1242.57,
+    53,
+    '2025-03-07 20:26:59',
+    '2025-03-12 20:26:59'
+  ),
+  (
+    24,
+    'Product 24',
+    19,
+    'Ikea',
+    1870.07,
+    26,
+    '2024-10-30 16:09:45',
+    '2024-11-16 16:09:45'
+  ),
+  (
+    25,
+    'Product 25',
+    11,
+    'Dell',
+    270.45,
+    82,
+    '2025-02-20 14:02:22',
+    '2025-03-04 14:02:22'
+  ),
+  (
+    26,
+    'Product 26',
+    10,
+    'LG',
+    1506.21,
+    9,
+    '2025-02-27 02:35:27',
+    '2025-02-28 02:35:27'
+  ),
+  (
+    27,
+    'Product 27',
+    1,
+    'LG',
+    1130.36,
+    12,
+    '2024-09-04 20:37:26',
+    '2024-09-08 20:37:26'
+  ),
+  (
+    28,
+    'Product 28',
+    3,
+    'Canon',
+    537.75,
+    44,
+    '2025-02-25 04:24:00',
+    '2025-03-03 04:24:00'
+  ),
+  (
+    29,
+    'Product 29',
+    3,
+    'Dell',
+    323.92,
+    69,
+    '2024-09-09 01:48:57',
+    '2024-09-17 01:48:57'
+  ),
+  (
+    30,
+    'Product 30',
+    10,
+    'Ikea',
+    1616.13,
+    67,
+    '2025-01-15 16:19:14',
+    '2025-02-05 16:19:14'
+  ),
+  (
+    31,
+    'Product 31',
+    1,
+    'Canon',
+    1330.14,
+    17,
+    '2024-12-15 13:34:11',
+    '2025-01-14 13:34:11'
+  ),
+  (
+    32,
+    'Product 32',
+    9,
+    'Samsung',
+    1487.41,
+    19,
+    '2025-02-16 14:40:35',
+    '2025-03-08 14:40:35'
+  ),
+  (
+    33,
+    'Product 33',
+    9,
+    'Nike',
+    1438.05,
+    26,
+    '2025-02-11 05:00:51',
+    '2025-02-11 05:00:51'
+  ),
+  (
+    34,
+    'Product 34',
+    9,
+    'Canon',
+    1811.62,
+    6,
+    '2024-10-13 02:25:10',
+    '2024-11-01 03:25:10'
+  ),
+  (
+    35,
+    'Product 35',
+    3,
+    'Bosch',
+    97.73,
+    42,
+    '2024-09-25 05:33:21',
+    '2024-10-11 05:33:21'
+  ),
+  (
+    36,
+    'Product 36',
+    5,
+    'Nike',
+    889.25,
+    90,
+    '2025-01-16 20:24:45',
+    '2025-02-07 20:24:45'
+  ),
+  (
+    37,
+    'Product 37',
+    14,
+    'canon',
+    159.74,
+    88,
+    '2024-10-05 09:34:21',
+    '2024-10-07 09:34:21'
+  ),
+  (
+    38,
+    'Product 38',
+    5,
+    'canon',
+    744.74,
+    70,
+    '2025-02-16 04:43:10',
+    '2025-03-16 04:43:10'
+  ),
+  (
+    39,
+    'Product 39',
+    5,
+    'Bosch',
+    623.43,
+    5,
+    '2024-09-04 05:47:46',
+    '2024-09-29 05:47:46'
+  ),
+  (
+    40,
+    'Product 40',
+    12,
+    'Dell',
+    1337.20,
+    45,
+    '2025-03-28 01:01:38',
+    '2025-04-09 00:01:38'
+  ),
+  (
+    41,
+    'Product 41',
+    18,
+    'Bosch',
+    1501.46,
+    30,
+    '2024-09-29 10:55:13',
+    '2024-10-16 10:55:13'
+  ),
+  (
+    42,
+    'Product 42',
+    6,
+    'Apple',
+    59.32,
+    94,
+    '2025-02-04 22:29:05',
+    '2025-02-04 22:29:05'
+  ),
+  (
+    43,
+    'Product 43',
+    11,
+    'Bosch',
+    1729.49,
+    31,
+    '2025-01-04 04:31:33',
+    '2025-01-12 04:31:33'
+  ),
+  (
+    44,
+    'Product 44',
+    9,
+    'Apple',
+    225.11,
+    4,
+    '2025-03-03 11:07:09',
+    '2025-03-04 11:07:09'
+  ),
+  (
+    45,
+    'Product 45',
+    16,
+    'Dell',
+    1837.72,
+    44,
+    '2025-04-07 00:22:53',
+    '2025-04-17 00:22:53'
+  ),
+  (
+    46,
+    'Product 46',
+    10,
+    'Dell',
+    1323.47,
+    51,
+    '2025-02-08 18:25:36',
+    '2025-02-19 18:25:36'
+  ),
+  (
+    47,
+    'Product 47',
+    11,
+    'Nike',
+    1934.11,
+    35,
+    '2024-09-10 03:45:35',
+    '2024-09-30 03:45:35'
+  ),
+  (
+    48,
+    'Product 48',
+    12,
+    'Canon',
+    1962.49,
+    68,
+    '2024-11-03 14:16:21',
+    '2024-12-01 14:16:21'
+  ),
+  (
+    49,
+    'Product 49',
+    11,
+    'Sony',
+    1941.10,
+    22,
+    '2025-02-10 16:42:56',
+    '2025-02-12 16:42:56'
+  ),
+  (
+    50,
+    'Product 50',
+    19,
+    'nike',
+    1197.18,
+    44,
+    '2024-10-26 20:01:47',
+    '2024-11-06 21:01:47'
+  ),
+  (
+    51,
+    'Product 51',
+    11,
+    'Bosch',
+    1027.73,
+    49,
+    '2024-12-01 05:01:04',
+    '2024-12-24 05:01:04'
+  ),
+  (
+    52,
+    'Product 52',
+    19,
+    'Dell',
+    1420.48,
+    0,
+    '2024-10-01 08:31:18',
+    '2024-10-27 09:31:18'
+  ),
+  (
+    53,
+    'Product 53',
+    17,
+    'Canon',
+    1881.12,
+    94,
+    '2025-05-02 14:55:49',
+    '2025-05-03 14:55:49'
+  ),
+  (
+    54,
+    'Product 54',
+    7,
+    'Adidas',
+    1898.26,
+    42,
+    '2025-03-21 09:35:53',
+    '2025-04-02 08:35:53'
+  ),
+  (
+    55,
+    'Product 55',
+    20,
+    'Adidas',
+    258.00,
+    38,
+    '2025-03-28 17:12:07',
+    '2025-04-06 16:12:07'
+  ),
+  (
+    56,
+    'Product 56',
+    17,
+    'Nike',
+    659.10,
+    89,
+    '2024-10-27 17:06:58',
+    '2024-11-25 17:06:58'
+  ),
+  (
+    57,
+    'Product 57',
+    10,
+    'Canon',
+    846.69,
+    48,
+    '2024-12-23 01:07:58',
+    '2025-01-16 01:07:58'
+  ),
+  (
+    58,
+    'Product 58',
+    6,
+    'Ikea',
+    818.09,
+    0,
+    '2025-01-30 03:09:33',
+    '2025-02-10 03:09:33'
+  ),
+  (
+    59,
+    'Product 59',
+    10,
+    'Nike',
+    1573.66,
+    77,
+    '2024-10-20 00:47:07',
+    '2024-11-06 01:47:07'
+  ),
+  (
+    60,
+    'Product 60',
+    11,
+    'LG',
+    1354.50,
+    65,
+    '2025-01-10 02:49:07',
+    '2025-01-26 02:49:07'
+  ),
+  (
+    61,
+    'Product 61',
+    16,
+    'Apple',
+    574.73,
+    84,
+    '2024-10-17 08:26:16',
+    '2024-11-06 09:26:16'
+  ),
+  (
+    62,
+    'Product 62',
+    20,
+    'adidas',
+    1904.48,
+    30,
+    '2024-11-04 17:42:16',
+    '2024-11-29 17:42:16'
+  ),
+  (
+    63,
+    'Product 63',
+    10,
+    'Dell',
+    303.23,
+    5,
+    '2025-04-17 18:37:41',
+    '2025-04-29 18:37:41'
+  ),
+  (
+    64,
+    'Product 64',
+    8,
+    'LG',
+    1539.29,
+    58,
+    '2025-02-15 19:13:50',
+    '2025-02-16 19:13:50'
+  ),
+  (
+    65,
+    'Product 65',
+    14,
+    'Ikea',
+    1395.74,
+    63,
+    '2024-10-23 17:45:32',
+    '2024-11-06 18:45:32'
+  ),
+  (
+    66,
+    'Product 66',
+    13,
+    'Dell',
+    1378.37,
+    96,
+    '2024-09-08 22:07:15',
+    '2024-09-19 22:07:15'
+  ),
+  (
+    67,
+    'Product 67',
+    4,
+    'Bosch',
+    1610.18,
+    89,
+    '2025-02-22 14:43:49',
+    '2025-03-21 14:43:49'
+  ),
+  (
+    68,
+    'Product 68',
+    17,
+    'lg',
+    505.90,
+    15,
+    '2025-02-23 04:00:39',
+    '2025-03-04 04:00:39'
+  ),
+  (
+    69,
+    'Product 69',
+    15,
+    'Apple',
+    1338.48,
+    71,
+    '2025-02-14 13:39:05',
+    '2025-03-11 13:39:05'
+  ),
+  (
+    70,
+    'Product 70',
+    20,
+    'Adidas',
+    1783.94,
+    78,
+    '2024-09-11 21:23:02',
+    '2024-09-16 21:23:02'
+  ),
+  (
+    71,
+    'Product 71',
+    17,
+    'Bosch',
+    1100.27,
+    20,
+    '2025-03-22 12:34:42',
+    '2025-04-01 11:34:42'
+  ),
+  (
+    72,
+    'Product 72',
+    16,
+    'LG',
+    502.01,
+    81,
+    '2025-03-20 16:19:19',
+    '2025-04-05 15:19:19'
+  ),
+  (
+    73,
+    'Product 73',
+    9,
+    'Canon',
+    486.10,
+    56,
+    '2025-04-05 01:41:08',
+    '2025-04-09 01:41:08'
+  ),
+  (
+    74,
+    'Product 74',
+    3,
+    'Nike',
+    678.34,
+    69,
+    '2025-01-12 09:18:45',
+    '2025-01-28 09:18:45'
+  ),
+  (
+    75,
+    'Product 75',
+    3,
+    'Apple',
+    772.24,
+    19,
+    '2024-10-11 14:35:50',
+    '2024-10-28 15:35:50'
+  ),
+  (
+    76,
+    'Product 76',
+    7,
+    'Samsung',
+    668.45,
+    59,
+    '2025-01-22 06:20:03',
+    '2025-01-29 06:20:03'
+  ),
+  (
+    77,
+    'Product 77',
+    14,
+    'Sony',
+    846.09,
+    98,
+    '2025-04-10 08:30:44',
+    '2025-04-20 08:30:44'
+  ),
+  (
+    78,
+    'Product 78',
+    19,
+    'Sony',
+    1533.53,
+    48,
+    '2024-10-06 23:29:20',
+    '2024-10-14 23:29:20'
+  ),
+  (
+    79,
+    'Product 79',
+    16,
+    'Sony',
+    604.24,
+    49,
+    '2025-03-16 14:04:18',
+    '2025-03-23 14:04:18'
+  ),
+  (
+    80,
+    'Product 80',
+    14,
+    'Canon',
+    1096.80,
+    77,
+    '2024-11-18 21:37:58',
+    '2024-12-16 21:37:58'
+  ),
+  (
+    81,
+    'Product 81',
+    8,
+    'LG',
+    877.31,
+    3,
+    '2025-01-04 00:47:27',
+    '2025-01-12 00:47:27'
+  ),
+  (
+    82,
+    'Product 82',
+    13,
+    'Adidas',
+    1598.30,
+    92,
+    '2025-02-02 14:12:54',
+    '2025-02-03 14:12:54'
+  ),
+  (
+    83,
+    'Product 83',
+    6,
+    'LG',
+    1961.64,
+    68,
+    '2025-03-14 08:26:22',
+    '2025-03-16 08:26:22'
+  ),
+  (
+    84,
+    'Product 84',
+    1,
+    'Bosch',
+    1329.37,
+    10,
+    '2024-11-16 12:03:26',
+    '2024-12-02 12:03:26'
+  ),
+  (
+    85,
+    'Product 85',
+    14,
+    'Apple',
+    371.64,
+    33,
+    '2024-11-17 10:28:07',
+    '2024-12-11 10:28:07'
+  ),
+  (
+    86,
+    'Product 86',
+    13,
+    'Adidas',
+    660.42,
+    97,
+    '2024-09-07 13:56:43',
+    '2024-09-13 13:56:43'
+  ),
+  (
+    87,
+    'Product 87',
+    13,
+    'Nike',
+    1665.53,
+    32,
+    '2024-12-14 03:16:09',
+    '2025-01-01 03:16:09'
+  ),
+  (
+    88,
+    'Product 88',
+    3,
+    'lg',
+    1083.44,
+    44,
+    '2024-11-29 15:24:18',
+    '2024-12-01 15:24:18'
+  ),
+  (
+    89,
+    'Product 89',
+    8,
+    'Samsung',
+    1306.99,
+    96,
+    '2025-04-21 23:21:17',
+    '2025-05-01 23:21:17'
+  ),
+  (
+    90,
+    'Product 90',
+    1,
+    'Dell',
+    50.56,
+    19,
+    '2024-10-03 10:31:18',
+    '2024-10-13 10:31:18'
+  ),
+  (
+    91,
+    'Product 91',
+    8,
+    'Apple',
+    237.63,
+    27,
+    '2025-04-04 06:38:17',
+    '2025-04-21 06:38:17'
+  ),
+  (
+    92,
+    'Product 92',
+    15,
+    'Nike',
+    343.90,
+    77,
+    '2024-10-22 18:00:30',
+    '2024-11-20 19:00:30'
+  ),
+  (
+    93,
+    'Product 93',
+    4,
+    'Apple',
+    225.12,
+    3,
+    '2025-03-27 09:57:01',
+    '2025-03-31 08:57:01'
+  ),
+  (
+    94,
+    'Product 94',
+    10,
+    'Ikea',
+    1916.76,
+    50,
+    '2025-03-07 21:49:30',
+    '2025-03-22 21:49:30'
+  ),
+  (
+    95,
+    'Product 95',
+    7,
+    'Samsung',
+    1662.84,
+    31,
+    '2025-02-02 15:56:53',
+    '2025-02-26 15:56:53'
+  ),
+  (
+    96,
+    'Product 96',
+    4,
+    'Nike',
+    1204.82,
+    15,
+    '2024-09-11 21:04:20',
+    '2024-09-19 21:04:20'
+  ),
+  (
+    97,
+    'Product 97',
+    19,
+    'Sony',
+    862.47,
+    47,
+    '2025-04-13 08:49:48',
+    '2025-05-10 08:49:48'
+  ),
+  (
+    98,
+    'Product 98',
+    3,
+    'Canon',
+    35.18,
+    53,
+    '2025-03-08 17:57:59',
+    '2025-03-18 17:57:59'
+  ),
+  (
+    99,
+    'Product 99',
+    16,
+    'Samsung',
+    730.75,
+    58,
+    '2025-02-01 16:14:50',
+    '2025-03-02 16:14:50'
+  ),
+  (
+    100,
+    'Product 100',
+    5,
+    'Bosch',
+    1048.28,
+    83,
+    '2024-11-27 00:13:39',
+    '2024-12-23 00:13:39'
+  );
+
+
+INSERT INTO Customers (customer_id, first_name, last_name, email, phone_number, signup_date, country, city, loyalty_points, updated_at)
+VALUES
+  (
+    1,
+    'Danielle',
+    'Johnson',
+    'jeffreydoyle@hotmail.com',
+    '+49 125-859-4606',
+    '2024-09-09 03:56:01',
+    'Germany',
+    'New Roberttown',
+    125,
+    '2024-10-08 06:03:50'
+  ),
+  (
+    2,
+    'Clayton',
+    'Hall',
+    'jennifermiles@robinson-lawrence.com',
+    '+33 242-854-1779',
+    '2024-09-10 03:56:01',
+    'France',
+    'Lake Roberto',
+    346,
+    '2024-11-22 19:38:19'
+  ),
+  (
+    3,
+    'Joshua',
+    'Lewis',
+    'daviscolin@yahoo.com',
+    '+61 189-704-7012',
+    '2024-09-09 03:56:01',
+    'Australia',
+    'Lindsaymouth',
+    16,
+    '2025-02-23 02:46:06'
+  ),
+  (
+    4,
+    'Amanda',
+    'Dudley',
+    'arnoldmaria@hotmail.com',
+    '+48 195-323-3911',
+    '2024-09-09 03:56:01',
+    'Poland',
+    'Barbaraland',
+    258,
+    '2024-12-04 18:50:20'
+  ),
+  (
+    5,
+    'Brandon',
+    'Perez',
+    'wyattmichelle@yahoo.com',
+    '+31 127-674-3357',
+    '2024-09-09 03:56:01',
+    'Netherlands',
+    'Shawnstad',
+    366,
+    '2024-10-09 17:37:04'
+  ),
+  (
+    6,
+    'Francisco',
+    'Kelly',
+    'lynchgeorge@hotmail.com',
+    '+61 529-325-7459',
+    '2024-09-09 03:56:01',
+    'Australia',
+    'East Steven',
+    301,
+    '2025-05-02 03:45:54'
+  ),
+  (
+    7,
+    'Joseph',
+    'Schaefer',
+    'megan03@trujillo.com',
+    '+44 928-990-206',
+    '2024-09-10 03:56:01',
+    'UK',
+    'East Robinshire',
+    388,
+    '2025-01-28 23:18:25'
+  ),
+  (
+    8,
+    'Nancy',
+    'Edwards',
+    'pwilkerson@yahoo.com',
+    '+1 814-532-5674',
+    '2024-09-09 03:56:01',
+    'USA',
+    'West Donald',
+    142,
+    '2024-10-01 01:45:30'
+  ),
+  (
+    9,
+    'Julie',
+    'Ryan',
+    'icox@hotmail.com',
+    '+1 320-881-5614',
+    '2024-09-09 03:56:01',
+    'USA',
+    'Daviston',
+    52,
+    '2024-11-13 09:49:36'
+  ),
+  (
+    10,
+    'Michelle',
+    'Hernandez',
+    'ycarlson@carlson-mcdonald.com',
+    '+49 489-199-5981',
+    '2024-09-09 03:56:01',
+    'Germany',
+    'Lake Jenniferside',
+    433,
+    '2025-04-27 18:32:41'
+  ),
+  (
+    11,
+    'Karen',
+    'Mack',
+    'cartereric@gmail.com',
+    '+39 718-370-811',
+    '2024-09-09 03:56:01',
+    'Italy',
+    'Teresaburgh',
+    373,
+    '2025-06-15 10:13:22'
+  ),
+  (
+    12,
+    'William',
+    'Rodriguez',
+    'ericfarmer@hotmail.com',
+    '+1 649-227-6301',
+    '2024-09-09 03:56:01',
+    'Canada',
+    'New Mariotown',
+    40,
+    '2024-11-03 13:30:39'
+  ),
+  (
+    13,
+    'Daniel',
+    'Cox',
+    'brianhumphrey@gmail.com',
+    '+61 400-949-6025',
+    '2024-09-10 03:56:01',
+    'Australia',
+    'Lake Toddland',
+    295,
+    '2025-04-07 08:23:06'
+  ),
+  (
+    14,
+    'Tiffany',
+    'Patel',
+    'donnaarroyo@baker.biz',
+    '+33 821-171-850',
+    '2024-09-10 03:56:01',
+    'France',
+    'New Karina',
+    338,
+    '2024-11-29 23:37:01'
+  ),
+  (
+    15,
+    'Hannah',
+    'Marquez',
+    'samuel87@gmail.com',
+    '+33 891-396-1407',
+    '2024-09-09 03:56:01',
+    'France',
+    'East Caleb',
+    437,
+    '2025-05-15 00:01:50'
+  ),
+  (
+    16,
+    'Andrew',
+    'Spencer',
+    'jonescrystal@jones.com',
+    '+33 987-203-6327',
+    '2024-09-10 03:56:01',
+    'France',
+    'New Johnfort',
+    142,
+    '2024-09-28 01:18:01'
+  ),
+  (
+    17,
+    'Jason',
+    'Anderson',
+    'kristenaguirre@gmail.com',
+    '+1 750-954-6077',
+    '2024-09-10 03:56:01',
+    'Canada',
+    'North Donnastad',
+    83,
+    '2025-02-16 11:17:26'
+  ),
+  (
+    18,
+    'Rodney',
+    'Owens',
+    'brownjessica@wright.net',
+    '+39 463-314-4474',
+    '2024-09-09 03:56:01',
+    'Italy',
+    'Taylorburgh',
+    359,
+    '2025-02-28 01:39:40'
+  ),
+  (
+    19,
+    'Joshua',
+    'Wright',
+    'jmorton@williams.com',
+    '+49 723-750-2903',
+    '2024-09-09 03:56:01',
+    'Germany',
+    'Port Melindaburgh',
+    273,
+    '2024-09-22 23:03:38'
+  ),
+  (
+    20,
+    'Richard',
+    'Olson',
+    'martinaaron@yahoo.com',
+    '+33 267-573-6316',
+    '2024-09-11 03:56:01',
+    'France',
+    'Saramouth',
+    138,
+    '2025-05-27 00:10:42'
+  ),
+  (
+    21,
+    'Justin',
+    'Horton',
+    'jamesrobinson@gmail.com',
+    '+61 324-801-5413',
+    '2024-09-10 03:56:01',
+    'Australia',
+    'Lake Leeton',
+    431,
+    '2024-12-08 23:43:56'
+  ),
+  (
+    22,
+    'Breanna',
+    'Shaw',
+    'yuchristopher@jones.com',
+    '+48 334-941-625',
+    '2024-09-10 03:56:01',
+    'Poland',
+    'Wilsonshire',
+    412,
+    '2024-09-27 03:56:01'
+  ),
+  (
+    23,
+    'John',
+    'Wheeler',
+    'ksandoval@stewart.com',
+    '+39 510-374-1184',
+    '2024-09-10 03:56:01',
+    'Italy',
+    'West Randy',
+    108,
+    '2025-03-23 04:49:59'
+  ),
+  (
+    24,
+    'Emily',
+    'Evans',
+    'smithchristine@hotmail.com',
+    '+31 997-835-5255',
+    '2024-09-09 03:56:01',
+    'Netherlands',
+    'North Amandahaven',
+    108,
+    '2025-03-21 04:14:53'
+  ),
+  (
+    25,
+    'Joseph',
+    'Mahoney',
+    'mikemoore@warner.net',
+    '+1 505-758-7617',
+    '2024-09-11 03:56:01',
+    'Canada',
+    'Lake Lisaport',
+    73,
+    '2025-04-24 04:07:29'
+  ),
+  (
+    26,
+    'Sarah',
+    'Garcia',
+    'darrell18@nelson.com',
+    '+44 242-352-9297',
+    '2024-09-09 03:56:01',
+    'UK',
+    'Jamesview',
+    275,
+    '2024-11-03 05:28:21'
+  ),
+  (
+    27,
+    'William',
+    'King',
+    'waltersmaria@smith.com',
+    '+44 864-698-7119',
+    '2024-09-09 03:56:01',
+    'UK',
+    'Lake Scott',
+    459,
+    '2025-01-18 10:42:40'
+  ),
+  (
+    28,
+    'Janice',
+    'Hoffman',
+    'landryhannah@gardner.org',
+    '+31 508-470-3693',
+    '2024-09-10 03:56:01',
+    'Netherlands',
+    'South David',
+    70,
+    '2025-05-12 12:19:08'
+  ),
+  (
+    29,
+    'Kyle',
+    'Nolan',
+    'jason31@deleon-henson.biz',
+    '+61 605-193-871',
+    '2024-09-10 03:56:01',
+    'Australia',
+    'East Michelle',
+    440,
+    '2025-03-20 12:31:30'
+  ),
+  (
+    30,
+    'Theresa',
+    'Cochran',
+    'whitesandra@yahoo.com',
+    '+49 256-742-2721',
+    '2024-09-11 03:56:01',
+    'Germany',
+    'West Erik',
+    405,
+    '2025-06-04 09:22:58'
+  ),
+  (
+    31,
+    'Jacqueline',
+    'Reyes',
+    'dwalker@torres-pope.com',
+    '+34 710-165-6404',
+    '2024-09-09 03:56:01',
+    'Spain',
+    'North Donna',
+    195,
+    '2025-04-29 14:41:40'
+  ),
+  (
+    32,
+    'Raymond',
+    'Ramirez',
+    'michael86@zavala.com',
+    '+31 579-641-4219',
+    '2024-09-09 03:56:01',
+    'Netherlands',
+    'Gregoryview',
+    497,
+    '2025-01-01 09:27:56'
+  ),
+  (
+    33,
+    'Benjamin',
+    'Carlson',
+    'samuel81@yahoo.com',
+    '+61 981-111-1976',
+    '2024-09-10 03:56:01',
+    'Australia',
+    'West Bradley',
+    349,
+    '2025-03-31 13:50:54'
+  ),
+  (
+    34,
+    'Ryan',
+    'Meyer',
+    'ryan59@alvarado-martinez.com',
+    '+61 868-373-5673',
+    '2024-09-09 03:56:01',
+    'Australia',
+    'Elizabethmouth',
+    57,
+    '2025-06-10 20:35:49'
+  ),
+  (
+    35,
+    'Richard',
+    'Phillips',
+    'robertbentley@adkins.biz',
+    '+44 545-261-7533',
+    '2024-09-10 03:56:01',
+    'UK',
+    'West Justinchester',
+    1,
+    '2025-03-31 14:46:38'
+  ),
+  (
+    36,
+    'Kristi',
+    'Lawson',
+    'rramos@gmail.com',
+    '+44 612-880-3027',
+    '2024-09-09 03:56:01',
+    'UK',
+    'Leonburgh',
+    259,
+    '2025-05-08 01:21:53'
+  ),
+  (
+    37,
+    'Donna',
+    'Campbell',
+    'cardenaskaren@hotmail.com',
+    '+49 991-740-4989',
+    '2024-09-09 03:56:01',
+    'Germany',
+    'Jeffreyborough',
+    430,
+    '2025-06-24 19:41:58'
+  ),
+  (
+    38,
+    'Dylan',
+    'Williams',
+    'gibsonolivia@hotmail.com',
+    '+61 723-303-2604',
+    '2024-09-09 03:56:01',
+    'Australia',
+    'Lake Heather',
+    191,
+    '2025-04-10 17:07:13'
+  ),
+  (
+    39,
+    'Troy',
+    'Sanchez',
+    'osbornejeffery@holmes.com',
+    '+1 652-897-8789',
+    '2024-09-10 03:56:01',
+    'USA',
+    'Andersonmouth',
+    470,
+    '2025-06-13 12:35:38'
+  ),
+  (
+    40,
+    'Elizabeth',
+    'Travis',
+    'usalazar@hotmail.com',
+    '+48 713-431-8105',
+    '2024-09-09 03:56:01',
+    'Poland',
+    'Rivasside',
+    9,
+    '2025-02-25 09:47:40'
+  );
+
+
+INSERT INTO Orders (order_id, customer_id, order_date, status, updated_at)
+VALUES
+  (
+    1,
+    18,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    2,
+    18,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    3,
+    24,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    4,
+    38,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    5,
+    19,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    6,
+    4,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    7,
+    29,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    8,
+    31,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    9,
+    38,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    10,
+    33,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    11,
+    12,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    12,
+    26,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    13,
+    14,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    14,
+    19,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    15,
+    38,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    16,
+    27,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    17,
+    10,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    18,
+    32,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    19,
+    37,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    20,
+    30,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    21,
+    30,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    22,
+    39,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    23,
+    3,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    24,
+    11,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    25,
+    17,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    26,
+    20,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    27,
+    10,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    28,
+    16,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    29,
+    39,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    30,
+    15,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    31,
+    21,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    32,
+    29,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    33,
+    36,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    34,
+    7,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    35,
+    36,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    36,
+    7,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    37,
+    40,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    38,
+    30,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    39,
+    18,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    40,
+    3,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    41,
+    33,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    42,
+    26,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    43,
+    6,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    44,
+    13,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    45,
+    38,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    46,
+    36,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    47,
+    29,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    48,
+    10,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    49,
+    20,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    50,
+    5,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    51,
+    11,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    52,
+    20,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    53,
+    31,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    54,
+    6,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    55,
+    9,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    56,
+    8,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    57,
+    33,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    58,
+    22,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    59,
+    3,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    60,
+    24,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    61,
+    20,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    62,
+    10,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    63,
+    24,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    64,
+    29,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    65,
+    12,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    66,
+    27,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    67,
+    9,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    68,
+    6,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    69,
+    16,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    70,
+    9,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    71,
+    33,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    72,
+    7,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    73,
+    5,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    74,
+    31,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    75,
+    33,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    76,
+    11,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    77,
+    14,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    78,
+    17,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    79,
+    36,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    80,
+    14,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    81,
+    11,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    82,
+    12,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    83,
+    30,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    84,
+    13,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    85,
+    37,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    86,
+    19,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    87,
+    24,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    88,
+    30,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    89,
+    27,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    90,
+    30,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    91,
+    4,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    92,
+    21,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    93,
+    4,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    94,
+    27,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    95,
+    13,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    96,
+    35,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    97,
+    2,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    98,
+    23,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    99,
+    15,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    100,
+    2,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    101,
+    6,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    102,
+    31,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    103,
+    21,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    104,
+    9,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    105,
+    6,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    106,
+    6,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    107,
+    39,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    108,
+    27,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    109,
+    22,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    110,
+    16,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    111,
+    5,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    112,
+    39,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    113,
+    22,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    114,
+    15,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    115,
+    30,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    116,
+    36,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    117,
+    5,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    118,
+    40,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    119,
+    37,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    120,
+    36,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    121,
+    32,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    122,
+    23,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    123,
+    19,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    124,
+    18,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    125,
+    35,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    126,
+    4,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    127,
+    28,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    128,
+    15,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    129,
+    29,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    130,
+    7,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    131,
+    10,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    132,
+    19,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    133,
+    21,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    134,
+    27,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    135,
+    28,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    136,
+    12,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    137,
+    8,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    138,
+    37,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    139,
+    27,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    140,
+    19,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    141,
+    13,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    142,
+    25,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    143,
+    27,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    144,
+    18,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    145,
+    35,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    146,
+    6,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    147,
+    8,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    148,
+    17,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    149,
+    4,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    150,
+    27,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    151,
+    35,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    152,
+    31,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    153,
+    37,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    154,
+    21,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    155,
+    26,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    156,
+    25,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    157,
+    22,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    158,
+    7,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    159,
+    7,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    160,
+    6,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    161,
+    20,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    162,
+    31,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    163,
+    31,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    164,
+    10,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    165,
+    34,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    166,
+    13,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    167,
+    7,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    168,
+    4,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    169,
+    21,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    170,
+    26,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    171,
+    29,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    172,
+    18,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    173,
+    40,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    174,
+    4,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    175,
+    15,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    176,
+    22,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    177,
+    38,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    178,
+    12,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    179,
+    26,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    180,
+    38,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    181,
+    13,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    182,
+    2,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    183,
+    1,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    184,
+    23,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    185,
+    5,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    186,
+    8,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    187,
+    22,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    188,
+    11,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    189,
+    40,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    190,
+    37,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    191,
+    11,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    192,
+    29,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    193,
+    36,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    194,
+    36,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    195,
+    8,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    196,
+    38,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    197,
+    27,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    198,
+    23,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    199,
+    35,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    200,
+    19,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    201,
+    4,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    202,
+    5,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    203,
+    1,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    204,
+    27,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    205,
+    40,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    206,
+    24,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    207,
+    5,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    208,
+    27,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    209,
+    7,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    210,
+    35,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    211,
+    6,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    212,
+    4,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    213,
+    22,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    214,
+    20,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    215,
+    36,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    216,
+    37,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    217,
+    3,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    218,
+    24,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    219,
+    15,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    220,
+    9,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    221,
+    39,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    222,
+    12,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    223,
+    31,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    224,
+    37,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    225,
+    27,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    226,
+    29,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    227,
+    6,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    228,
+    12,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    229,
+    26,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    230,
+    7,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    231,
+    15,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    232,
+    18,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    233,
+    23,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    234,
+    32,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    235,
+    34,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    236,
+    22,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    237,
+    37,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    238,
+    1,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    239,
+    17,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    240,
+    19,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    241,
+    40,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    242,
+    26,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    243,
+    31,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    244,
+    16,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    245,
+    12,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    246,
+    20,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    247,
+    34,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    248,
+    32,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    249,
+    14,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    250,
+    8,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    251,
+    3,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    252,
+    38,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    253,
+    4,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    254,
+    23,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    255,
+    39,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    256,
+    25,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    257,
+    36,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    258,
+    34,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    259,
+    4,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    260,
+    16,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    261,
+    36,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    262,
+    29,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    263,
+    15,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    264,
+    6,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    265,
+    8,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    266,
+    10,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    267,
+    13,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    268,
+    2,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    269,
+    6,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    270,
+    31,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    271,
+    34,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    272,
+    15,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    273,
+    23,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    274,
+    40,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    275,
+    34,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    276,
+    18,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    277,
+    6,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    278,
+    27,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    279,
+    39,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    280,
+    4,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    281,
+    29,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    282,
+    24,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    283,
+    29,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    284,
+    16,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    285,
+    39,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    286,
+    24,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    287,
+    34,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    288,
+    21,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    289,
+    27,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    290,
+    33,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    291,
+    13,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    292,
+    4,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    293,
+    12,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    294,
+    13,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    295,
+    25,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    296,
+    14,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    297,
+    33,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    298,
+    35,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    299,
+    39,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    300,
+    10,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    301,
+    39,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    302,
+    28,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    303,
+    39,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    304,
+    29,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    305,
+    40,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    306,
+    26,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    307,
+    10,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    308,
+    1,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    309,
+    6,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    310,
+    37,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    311,
+    40,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    312,
+    29,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    313,
+    27,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    314,
+    20,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    315,
+    18,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    316,
+    12,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    317,
+    39,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    318,
+    17,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    319,
+    32,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    320,
+    1,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    321,
+    31,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    322,
+    20,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    323,
+    16,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    324,
+    35,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    325,
+    38,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    326,
+    37,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    327,
+    9,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    328,
+    27,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    329,
+    36,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    330,
+    31,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    331,
+    30,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    332,
+    38,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    333,
+    28,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    334,
+    37,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    335,
+    37,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    336,
+    16,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    337,
+    31,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    338,
+    2,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    339,
+    18,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    340,
+    30,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    341,
+    15,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    342,
+    35,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    343,
+    2,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    344,
+    21,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    345,
+    19,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    346,
+    14,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    347,
+    10,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    348,
+    15,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    349,
+    29,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    350,
+    27,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    351,
+    6,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    352,
+    36,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    353,
+    16,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    354,
+    28,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    355,
+    4,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    356,
+    24,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    357,
+    8,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    358,
+    15,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    359,
+    38,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    360,
+    18,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    361,
+    35,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    362,
+    28,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    363,
+    20,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    364,
+    7,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    365,
+    26,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    366,
+    26,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    367,
+    21,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    368,
+    35,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    369,
+    11,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    370,
+    40,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    371,
+    23,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    372,
+    3,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    373,
+    33,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    374,
+    26,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    375,
+    27,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    376,
+    35,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    377,
+    17,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    378,
+    36,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    379,
+    27,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    380,
+    38,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    381,
+    27,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    382,
+    16,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    383,
+    27,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    384,
+    39,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    385,
+    39,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    386,
+    40,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    387,
+    17,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    388,
+    13,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    389,
+    2,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    390,
+    28,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    391,
+    3,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    392,
+    30,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    393,
+    18,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    394,
+    11,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    395,
+    18,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    396,
+    30,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    397,
+    6,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    398,
+    24,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    399,
+    15,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    400,
+    33,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    401,
+    20,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    402,
+    26,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    403,
+    14,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    404,
+    32,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    405,
+    27,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    406,
+    8,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    407,
+    27,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    408,
+    2,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    409,
+    22,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    410,
+    29,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    411,
+    14,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    412,
+    9,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    413,
+    27,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    414,
+    29,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    415,
+    3,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    416,
+    40,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    417,
+    36,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    418,
+    1,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    419,
+    38,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    420,
+    26,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    421,
+    33,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    422,
+    3,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    423,
+    27,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    424,
+    22,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    425,
+    35,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    426,
+    4,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    427,
+    28,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    428,
+    4,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    429,
+    8,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    430,
+    5,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    431,
+    16,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    432,
+    19,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    433,
+    33,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    434,
+    18,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    435,
+    21,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    436,
+    12,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    437,
+    8,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    438,
+    3,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    439,
+    5,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    440,
+    35,
+    '2024-09-14 03:56:01',
+    'Delivered',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    441,
+    21,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    442,
+    38,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    443,
+    38,
+    '2024-09-12 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    444,
+    29,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    445,
+    1,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    446,
+    13,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    447,
+    10,
+    '2024-09-12 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    448,
+    22,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    449,
+    15,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    450,
+    24,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    451,
+    16,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    452,
+    24,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    453,
+    24,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    454,
+    40,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    455,
+    32,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    456,
+    24,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    457,
+    12,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    458,
+    15,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    459,
+    13,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    460,
+    36,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    461,
+    23,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    462,
+    39,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    463,
+    39,
+    '2024-09-14 03:56:01',
+    'Returned',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    464,
+    30,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    465,
+    14,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    466,
+    29,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    467,
+    12,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    468,
+    11,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    469,
+    5,
+    '2024-09-12 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    470,
+    29,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    471,
+    14,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    472,
+    22,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    473,
+    21,
+    '2024-09-13 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    474,
+    24,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    475,
+    21,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    476,
+    15,
+    '2024-09-11 03:56:01',
+    'Pending',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    477,
+    19,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    478,
+    3,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    479,
+    34,
+    '2024-09-12 03:56:01',
+    'Delivered',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    480,
+    36,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    481,
+    20,
+    '2024-09-13 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    482,
+    20,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    483,
+    32,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    484,
+    23,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    485,
+    10,
+    '2024-09-11 03:56:01',
+    'Delivered',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    486,
+    35,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    487,
+    27,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    488,
+    12,
+    '2024-09-11 03:56:01',
+    'Shipped',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    489,
+    6,
+    '2024-09-10 03:56:01',
+    'Delivered',
+    '2024-09-10 03:56:01'
+  ),
+  (
+    490,
+    7,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    491,
+    18,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    492,
+    26,
+    '2024-09-14 03:56:01',
+    'Shipped',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    493,
+    31,
+    '2024-09-11 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    494,
+    40,
+    '2024-09-13 03:56:01',
+    'Pending',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    495,
+    36,
+    '2024-09-10 03:56:01',
+    'Returned',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    496,
+    2,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    497,
+    22,
+    '2024-09-10 03:56:01',
+    'Shipped',
+    '2024-09-12 03:56:01'
+  ),
+  (
+    498,
+    13,
+    '2024-09-10 03:56:01',
+    'Pending',
+    '2024-09-11 03:56:01'
+  ),
+  (
+    499,
+    35,
+    '2024-09-13 03:56:01',
+    'Returned',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    500,
+    33,
+    '2024-09-14 03:56:01',
+    'Pending',
+    '2024-09-15 03:56:01'
+  );
+
+
+INSERT INTO Order_Items (order_item_id, order_id, product_id, quantity, unit_price, discount)
+VALUES
+  (1, 1, 56, 3, 659.10, 10.00),
+  (2, 1, 42, 1, 59.32, 0.00),
+  (3, 1, 36, 2, 889.25, 5.00),
+  (4, 1, 97, 2, 862.47, 0.00),
+  (5, 2, 2, 3, 503.33, 5.00),
+  (6, 2, 11, 1, 902.74, 0.00),
+  (7, 2, 63, 3, 303.23, 5.00),
+  (8, 2, 89, 2, 1306.99, 0.00),
+  (9, 2, 58, 1, 818.09, 0.00),
+  (10, 3, 68, 2, 505.90, 0.00),
+  (11, 3, 96, 3, 1204.82, 10.00),
+  (12, 3, 46, 3, 1323.47, 0.00),
+  (13, 3, 35, 2, 97.73, 10.00),
+  (14, 3, 30, 1, 1616.13, 5.00),
+  (15, 4, 25, 2, 270.45, 5.00),
+  (16, 5, 14, 1, 1698.90, 10.00),
+  (17, 5, 61, 2, 574.73, 0.00),
+  (18, 5, 44, 1, 225.11, 0.00),
+  (19, 5, 33, 2, 1438.05, 0.00),
+  (20, 6, 73, 2, 486.10, 0.00),
+  (21, 6, 32, 1, 1487.41, 0.00),
+  (22, 7, 55, 2, 258.00, 0.00),
+  (23, 7, 79, 3, 604.24, 0.00),
+  (24, 7, 98, 1, 35.18, 5.00),
+  (25, 7, 34, 3, 1811.62, 0.00),
+  (26, 7, 21, 1, 379.79, 5.00),
+  (27, 8, 30, 2, 1616.13, 10.00),
+  (28, 9, 15, 3, 1730.65, 5.00),
+  (29, 9, 83, 1, 1961.64, 10.00),
+  (30, 9, 19, 1, 634.07, 0.00),
+  (31, 9, 22, 2, 1883.78, 10.00),
+  (32, 10, 11, 3, 902.74, 0.00),
+  (33, 10, 56, 3, 659.10, 10.00),
+  (34, 10, 78, 2, 1533.53, 0.00),
+  (35, 10, 12, 1, 1750.23, 0.00),
+  (36, 11, 84, 2, 1329.37, 10.00),
+  (37, 11, 24, 3, 1870.07, 0.00),
+  (38, 11, 82, 2, 1598.30, 0.00),
+  (39, 11, 61, 2, 574.73, 0.00),
+  (40, 11, 43, 2, 1729.49, 0.00),
+  (41, 12, 12, 2, 1750.23, 10.00),
+  (42, 12, 42, 1, 59.32, 0.00),
+  (43, 12, 66, 1, 1378.37, 0.00),
+  (44, 12, 53, 1, 1881.12, 5.00),
+  (45, 13, 17, 2, 1915.06, 0.00),
+  (46, 13, 90, 2, 50.56, 0.00),
+  (47, 13, 4, 3, 127.16, 5.00),
+  (48, 13, 91, 1, 237.63, 10.00),
+  (49, 13, 71, 1, 1100.27, 0.00),
+  (50, 14, 62, 2, 1904.48, 5.00),
+  (51, 14, 59, 3, 1573.66, 5.00),
+  (52, 14, 50, 1, 1197.18, 5.00),
+  (53, 14, 9, 2, 117.80, 0.00),
+  (54, 15, 58, 3, 818.09, 0.00),
+  (55, 15, 45, 2, 1837.72, 0.00),
+  (56, 16, 96, 2, 1204.82, 0.00),
+  (57, 16, 50, 3, 1197.18, 5.00),
+  (58, 16, 64, 1, 1539.29, 5.00),
+  (59, 17, 10, 2, 685.21, 10.00),
+  (60, 17, 44, 3, 225.11, 0.00),
+  (61, 18, 9, 1, 117.80, 10.00),
+  (62, 18, 30, 3, 1616.13, 0.00),
+  (63, 18, 56, 1, 659.10, 0.00),
+  (64, 18, 57, 1, 846.69, 10.00),
+  (65, 18, 4, 1, 127.16, 10.00),
+  (66, 19, 23, 1, 1242.57, 0.00),
+  (67, 19, 80, 3, 1096.80, 5.00),
+  (68, 20, 60, 2, 1354.50, 5.00),
+  (69, 21, 50, 2, 1197.18, 0.00),
+  (70, 21, 31, 2, 1330.14, 10.00),
+  (71, 22, 100, 1, 1048.28, 10.00),
+  (72, 22, 29, 3, 323.92, 5.00),
+  (73, 22, 80, 2, 1096.80, 5.00),
+  (74, 23, 12, 2, 1750.23, 10.00),
+  (75, 23, 96, 2, 1204.82, 5.00),
+  (76, 24, 38, 3, 744.74, 10.00),
+  (77, 24, 15, 2, 1730.65, 0.00),
+  (78, 24, 19, 1, 634.07, 0.00),
+  (79, 24, 72, 2, 502.01, 0.00),
+  (80, 25, 14, 3, 1698.90, 5.00),
+  (81, 25, 61, 1, 574.73, 10.00),
+  (82, 25, 79, 1, 604.24, 0.00),
+  (83, 26, 13, 1, 1307.77, 5.00),
+  (84, 27, 63, 3, 303.23, 0.00),
+  (85, 28, 88, 2, 1083.44, 10.00),
+  (86, 29, 43, 1, 1729.49, 5.00),
+  (87, 30, 77, 1, 846.09, 10.00),
+  (88, 30, 19, 1, 634.07, 10.00),
+  (89, 31, 34, 1, 1811.62, 5.00),
+  (90, 31, 95, 2, 1662.84, 0.00),
+  (91, 32, 6, 3, 1449.47, 10.00),
+  (92, 32, 59, 3, 1573.66, 0.00),
+  (93, 32, 8, 2, 867.79, 0.00),
+  (94, 32, 55, 3, 258.00, 0.00),
+  (95, 32, 63, 3, 303.23, 0.00),
+  (96, 33, 77, 3, 846.09, 10.00),
+  (97, 33, 59, 3, 1573.66, 0.00),
+  (98, 33, 13, 3, 1307.77, 0.00),
+  (99, 33, 84, 3, 1329.37, 5.00),
+  (100, 34, 41, 3, 1501.46, 10.00),
+  (101, 34, 48, 1, 1962.49, 0.00),
+  (102, 34, 9, 1, 117.80, 0.00),
+  (103, 34, 12, 2, 1750.23, 0.00),
+  (104, 35, 53, 2, 1881.12, 0.00),
+  (105, 36, 85, 2, 371.64, 5.00),
+  (106, 36, 14, 2, 1698.90, 10.00),
+  (107, 37, 85, 3, 371.64, 10.00),
+  (108, 37, 4, 1, 127.16, 10.00),
+  (109, 37, 90, 2, 50.56, 10.00),
+  (110, 37, 45, 1, 1837.72, 5.00),
+  (111, 37, 19, 3, 634.07, 0.00),
+  (112, 38, 48, 2, 1962.49, 10.00),
+  (113, 38, 100, 3, 1048.28, 0.00),
+  (114, 39, 63, 3, 303.23, 0.00),
+  (115, 39, 54, 2, 1898.26, 5.00),
+  (116, 39, 97, 3, 862.47, 0.00),
+  (117, 39, 45, 2, 1837.72, 0.00),
+  (118, 40, 77, 1, 846.09, 0.00),
+  (119, 40, 27, 2, 1130.36, 5.00),
+  (120, 40, 99, 1, 730.75, 10.00),
+  (121, 40, 38, 2, 744.74, 0.00),
+  (122, 41, 51, 3, 1027.73, 0.00),
+  (123, 42, 15, 2, 1730.65, 0.00),
+  (124, 42, 42, 1, 59.32, 0.00),
+  (125, 42, 89, 2, 1306.99, 0.00),
+  (126, 43, 96, 2, 1204.82, 5.00),
+  (127, 43, 43, 1, 1729.49, 0.00),
+  (128, 43, 66, 3, 1378.37, 0.00),
+  (129, 44, 20, 3, 1706.91, 0.00),
+  (130, 44, 23, 3, 1242.57, 0.00),
+  (131, 44, 60, 3, 1354.50, 0.00),
+  (132, 44, 88, 3, 1083.44, 10.00),
+  (133, 44, 81, 2, 877.31, 5.00),
+  (134, 45, 65, 1, 1395.74, 10.00),
+  (135, 45, 60, 2, 1354.50, 0.00),
+  (136, 45, 8, 2, 867.79, 10.00),
+  (137, 46, 74, 3, 678.34, 5.00),
+  (138, 46, 42, 3, 59.32, 0.00),
+  (139, 46, 65, 1, 1395.74, 0.00),
+  (140, 46, 58, 1, 818.09, 10.00),
+  (141, 47, 48, 2, 1962.49, 0.00),
+  (142, 47, 53, 2, 1881.12, 0.00),
+  (143, 47, 81, 3, 877.31, 10.00),
+  (144, 48, 75, 3, 772.24, 5.00),
+  (145, 49, 17, 3, 1915.06, 0.00),
+  (146, 49, 83, 3, 1961.64, 0.00),
+  (147, 49, 66, 2, 1378.37, 0.00),
+  (148, 50, 65, 3, 1395.74, 0.00),
+  (149, 51, 53, 2, 1881.12, 5.00),
+  (150, 52, 48, 3, 1962.49, 0.00),
+  (151, 52, 60, 2, 1354.50, 0.00),
+  (152, 53, 14, 3, 1698.90, 0.00),
+  (153, 53, 37, 1, 159.74, 5.00),
+  (154, 53, 35, 2, 97.73, 5.00),
+  (155, 53, 56, 1, 659.10, 5.00),
+  (156, 53, 58, 2, 818.09, 0.00),
+  (157, 54, 4, 2, 127.16, 0.00),
+  (158, 54, 92, 3, 343.90, 10.00),
+  (159, 55, 79, 1, 604.24, 0.00),
+  (160, 55, 3, 2, 467.93, 5.00),
+  (161, 55, 20, 3, 1706.91, 0.00),
+  (162, 55, 15, 2, 1730.65, 5.00),
+  (163, 56, 69, 1, 1338.48, 5.00),
+  (164, 56, 92, 1, 343.90, 10.00),
+  (165, 56, 55, 1, 258.00, 10.00),
+  (166, 56, 31, 3, 1330.14, 0.00),
+  (167, 56, 24, 3, 1870.07, 0.00),
+  (168, 57, 61, 1, 574.73, 0.00),
+  (169, 57, 48, 2, 1962.49, 0.00),
+  (170, 57, 46, 1, 1323.47, 10.00),
+  (171, 57, 31, 3, 1330.14, 0.00),
+  (172, 58, 90, 2, 50.56, 5.00),
+  (173, 58, 18, 1, 600.45, 0.00),
+  (174, 58, 5, 2, 483.63, 5.00),
+  (175, 58, 6, 1, 1449.47, 0.00),
+  (176, 59, 46, 1, 1323.47, 10.00),
+  (177, 59, 35, 1, 97.73, 10.00),
+  (178, 59, 56, 2, 659.10, 0.00),
+  (179, 60, 94, 2, 1916.76, 0.00),
+  (180, 61, 92, 2, 343.90, 5.00),
+  (181, 61, 89, 2, 1306.99, 10.00),
+  (182, 61, 58, 1, 818.09, 10.00),
+  (183, 61, 79, 2, 604.24, 10.00),
+  (184, 61, 82, 1, 1598.30, 0.00),
+  (185, 62, 17, 1, 1915.06, 5.00),
+  (186, 63, 98, 1, 35.18, 5.00),
+  (187, 63, 68, 2, 505.90, 0.00),
+  (188, 63, 41, 3, 1501.46, 10.00),
+  (189, 63, 32, 1, 1487.41, 0.00),
+  (190, 64, 37, 3, 159.74, 0.00),
+  (191, 64, 26, 1, 1506.21, 5.00),
+  (192, 64, 10, 2, 685.21, 5.00),
+  (193, 64, 92, 2, 343.90, 0.00),
+  (194, 64, 88, 2, 1083.44, 10.00),
+  (195, 65, 29, 1, 323.92, 5.00),
+  (196, 65, 18, 1, 600.45, 0.00),
+  (197, 65, 4, 2, 127.16, 10.00),
+  (198, 65, 60, 3, 1354.50, 5.00),
+  (199, 65, 79, 1, 604.24, 0.00),
+  (200, 66, 41, 3, 1501.46, 0.00),
+  (201, 66, 58, 2, 818.09, 10.00),
+  (202, 67, 8, 1, 867.79, 5.00),
+  (203, 67, 39, 1, 623.43, 5.00),
+  (204, 67, 42, 3, 59.32, 5.00),
+  (205, 67, 45, 3, 1837.72, 10.00),
+  (206, 67, 11, 2, 902.74, 5.00),
+  (207, 68, 75, 1, 772.24, 5.00),
+  (208, 68, 85, 3, 371.64, 10.00),
+  (209, 68, 73, 1, 486.10, 0.00),
+  (210, 68, 11, 1, 902.74, 10.00),
+  (211, 68, 84, 1, 1329.37, 0.00),
+  (212, 69, 59, 1, 1573.66, 0.00),
+  (213, 69, 21, 2, 379.79, 0.00),
+  (214, 69, 62, 2, 1904.48, 5.00),
+  (215, 70, 72, 1, 502.01, 10.00),
+  (216, 70, 31, 2, 1330.14, 0.00),
+  (217, 70, 35, 2, 97.73, 5.00),
+  (218, 70, 19, 1, 634.07, 0.00),
+  (219, 70, 38, 2, 744.74, 0.00),
+  (220, 71, 40, 2, 1337.20, 0.00),
+  (221, 71, 12, 2, 1750.23, 0.00),
+  (222, 71, 31, 1, 1330.14, 10.00),
+  (223, 71, 7, 1, 951.22, 10.00),
+  (224, 72, 34, 3, 1811.62, 10.00),
+  (225, 72, 98, 2, 35.18, 10.00),
+  (226, 73, 58, 3, 818.09, 10.00),
+  (227, 73, 80, 3, 1096.80, 0.00),
+  (228, 73, 17, 1, 1915.06, 0.00),
+  (229, 73, 48, 2, 1962.49, 10.00),
+  (230, 73, 97, 1, 862.47, 5.00),
+  (231, 74, 78, 3, 1533.53, 5.00),
+  (232, 74, 42, 3, 59.32, 10.00),
+  (233, 75, 39, 2, 623.43, 0.00),
+  (234, 75, 48, 2, 1962.49, 0.00),
+  (235, 75, 54, 3, 1898.26, 10.00),
+  (236, 75, 93, 3, 225.12, 0.00),
+  (237, 75, 77, 2, 846.09, 10.00),
+  (238, 76, 88, 1, 1083.44, 0.00),
+  (239, 76, 74, 3, 678.34, 0.00),
+  (240, 77, 100, 3, 1048.28, 0.00),
+  (241, 77, 95, 3, 1662.84, 0.00),
+  (242, 77, 91, 1, 237.63, 5.00),
+  (243, 77, 72, 2, 502.01, 0.00),
+  (244, 77, 68, 2, 505.90, 10.00),
+  (245, 78, 32, 2, 1487.41, 10.00),
+  (246, 78, 29, 2, 323.92, 10.00),
+  (247, 79, 16, 3, 786.94, 0.00),
+  (248, 79, 51, 2, 1027.73, 5.00),
+  (249, 79, 38, 1, 744.74, 10.00),
+  (250, 80, 35, 3, 97.73, 10.00),
+  (251, 80, 18, 1, 600.45, 5.00),
+  (252, 80, 32, 1, 1487.41, 5.00),
+  (253, 80, 82, 1, 1598.30, 0.00),
+  (254, 80, 13, 2, 1307.77, 10.00),
+  (255, 81, 62, 3, 1904.48, 5.00),
+  (256, 81, 97, 2, 862.47, 10.00),
+  (257, 81, 37, 3, 159.74, 0.00),
+  (258, 81, 99, 1, 730.75, 5.00),
+  (259, 82, 64, 1, 1539.29, 10.00),
+  (260, 82, 5, 1, 483.63, 10.00),
+  (261, 82, 73, 3, 486.10, 0.00),
+  (262, 82, 43, 2, 1729.49, 0.00),
+  (263, 83, 15, 2, 1730.65, 5.00),
+  (264, 83, 94, 2, 1916.76, 10.00),
+  (265, 84, 82, 2, 1598.30, 0.00),
+  (266, 84, 66, 2, 1378.37, 0.00),
+  (267, 84, 52, 3, 1420.48, 0.00),
+  (268, 84, 24, 1, 1870.07, 0.00),
+  (269, 84, 42, 1, 59.32, 0.00),
+  (270, 85, 84, 2, 1329.37, 5.00),
+  (271, 85, 8, 3, 867.79, 0.00),
+  (272, 85, 60, 2, 1354.50, 5.00),
+  (273, 86, 29, 1, 323.92, 5.00),
+  (274, 86, 62, 1, 1904.48, 0.00),
+  (275, 86, 96, 3, 1204.82, 10.00),
+  (276, 86, 54, 3, 1898.26, 0.00),
+  (277, 86, 97, 3, 862.47, 5.00),
+  (278, 87, 15, 1, 1730.65, 5.00),
+  (279, 87, 74, 3, 678.34, 5.00),
+  (280, 87, 22, 2, 1883.78, 0.00),
+  (281, 87, 15, 3, 1730.65, 5.00),
+  (282, 87, 92, 3, 343.90, 0.00),
+  (283, 88, 60, 3, 1354.50, 10.00),
+  (284, 88, 93, 1, 225.12, 0.00),
+  (285, 88, 33, 1, 1438.05, 5.00),
+  (286, 88, 75, 1, 772.24, 0.00),
+  (287, 88, 55, 2, 258.00, 0.00),
+  (288, 89, 58, 2, 818.09, 0.00),
+  (289, 89, 11, 3, 902.74, 5.00),
+  (290, 89, 84, 2, 1329.37, 0.00),
+  (291, 89, 23, 3, 1242.57, 0.00),
+  (292, 90, 49, 1, 1941.10, 5.00),
+  (293, 90, 59, 2, 1573.66, 5.00),
+  (294, 90, 36, 1, 889.25, 0.00),
+  (295, 90, 5, 3, 483.63, 0.00),
+  (296, 90, 79, 1, 604.24, 5.00),
+  (297, 91, 52, 2, 1420.48, 5.00),
+  (298, 92, 39, 1, 623.43, 5.00),
+  (299, 92, 53, 2, 1881.12, 10.00),
+  (300, 93, 68, 2, 505.90, 0.00),
+  (301, 93, 53, 1, 1881.12, 10.00),
+  (302, 93, 49, 1, 1941.10, 0.00),
+  (303, 93, 31, 1, 1330.14, 10.00),
+  (304, 94, 32, 2, 1487.41, 5.00),
+  (305, 94, 43, 3, 1729.49, 0.00),
+  (306, 94, 58, 2, 818.09, 0.00),
+  (307, 94, 69, 3, 1338.48, 5.00),
+  (308, 95, 27, 2, 1130.36, 10.00),
+  (309, 95, 2, 1, 503.33, 5.00),
+  (310, 95, 95, 1, 1662.84, 0.00),
+  (311, 95, 32, 3, 1487.41, 5.00),
+  (312, 96, 34, 2, 1811.62, 0.00),
+  (313, 96, 60, 1, 1354.50, 0.00),
+  (314, 96, 98, 2, 35.18, 5.00),
+  (315, 97, 75, 3, 772.24, 0.00),
+  (316, 97, 38, 1, 744.74, 5.00),
+  (317, 97, 43, 1, 1729.49, 0.00),
+  (318, 97, 73, 1, 486.10, 0.00),
+  (319, 97, 71, 3, 1100.27, 10.00),
+  (320, 98, 93, 3, 225.12, 0.00),
+  (321, 98, 24, 3, 1870.07, 0.00),
+  (322, 99, 2, 1, 503.33, 0.00),
+  (323, 99, 48, 1, 1962.49, 0.00),
+  (324, 100, 37, 1, 159.74, 0.00),
+  (325, 100, 23, 1, 1242.57, 0.00),
+  (326, 100, 68, 1, 505.90, 5.00),
+  (327, 100, 25, 3, 270.45, 10.00),
+  (328, 100, 46, 2, 1323.47, 0.00),
+  (329, 101, 49, 3, 1941.10, 0.00),
+  (330, 101, 8, 3, 867.79, 0.00),
+  (331, 101, 90, 1, 50.56, 0.00),
+  (332, 101, 64, 2, 1539.29, 10.00),
+  (333, 102, 10, 3, 685.21, 10.00),
+  (334, 103, 76, 1, 668.45, 0.00),
+  (335, 103, 10, 2, 685.21, 5.00),
+  (336, 104, 96, 2, 1204.82, 0.00),
+  (337, 104, 13, 2, 1307.77, 5.00),
+  (338, 104, 10, 2, 685.21, 0.00),
+  (339, 104, 100, 2, 1048.28, 0.00),
+  (340, 104, 82, 2, 1598.30, 0.00),
+  (341, 105, 92, 1, 343.90, 0.00),
+  (342, 105, 35, 1, 97.73, 0.00),
+  (343, 106, 57, 2, 846.69, 10.00),
+  (344, 106, 14, 1, 1698.90, 0.00),
+  (345, 106, 24, 2, 1870.07, 0.00),
+  (346, 107, 2, 2, 503.33, 0.00),
+  (347, 107, 50, 1, 1197.18, 5.00),
+  (348, 107, 74, 3, 678.34, 5.00),
+  (349, 107, 88, 2, 1083.44, 5.00),
+  (350, 108, 10, 2, 685.21, 10.00),
+  (351, 108, 32, 3, 1487.41, 0.00),
+  (352, 108, 77, 3, 846.09, 5.00),
+  (353, 108, 59, 1, 1573.66, 5.00),
+  (354, 109, 56, 3, 659.10, 5.00),
+  (355, 109, 39, 2, 623.43, 5.00),
+  (356, 109, 62, 2, 1904.48, 5.00),
+  (357, 110, 36, 2, 889.25, 10.00),
+  (358, 110, 15, 3, 1730.65, 5.00),
+  (359, 110, 76, 3, 668.45, 5.00),
+  (360, 110, 88, 3, 1083.44, 0.00),
+  (361, 111, 18, 3, 600.45, 10.00),
+  (362, 111, 31, 2, 1330.14, 5.00),
+  (363, 111, 92, 2, 343.90, 0.00),
+  (364, 111, 10, 2, 685.21, 0.00),
+  (365, 112, 99, 1, 730.75, 10.00),
+  (366, 113, 2, 1, 503.33, 10.00),
+  (367, 114, 51, 2, 1027.73, 5.00),
+  (368, 114, 45, 1, 1837.72, 0.00),
+  (369, 114, 14, 2, 1698.90, 0.00),
+  (370, 115, 62, 2, 1904.48, 0.00),
+  (371, 115, 13, 2, 1307.77, 0.00),
+  (372, 115, 41, 1, 1501.46, 10.00),
+  (373, 115, 6, 3, 1449.47, 0.00),
+  (374, 115, 3, 2, 467.93, 0.00),
+  (375, 116, 30, 2, 1616.13, 5.00),
+  (376, 116, 24, 3, 1870.07, 0.00),
+  (377, 116, 51, 1, 1027.73, 5.00),
+  (378, 116, 58, 3, 818.09, 0.00),
+  (379, 117, 24, 2, 1870.07, 10.00),
+  (380, 117, 26, 2, 1506.21, 0.00),
+  (381, 117, 34, 3, 1811.62, 0.00),
+  (382, 117, 68, 3, 505.90, 10.00),
+  (383, 117, 77, 2, 846.09, 0.00),
+  (384, 118, 41, 1, 1501.46, 5.00),
+  (385, 118, 40, 1, 1337.20, 5.00),
+  (386, 119, 24, 2, 1870.07, 5.00),
+  (387, 119, 72, 1, 502.01, 0.00),
+  (388, 119, 37, 1, 159.74, 5.00),
+  (389, 119, 41, 2, 1501.46, 0.00),
+  (390, 120, 88, 2, 1083.44, 0.00),
+  (391, 120, 91, 2, 237.63, 0.00),
+  (392, 120, 22, 1, 1883.78, 0.00),
+  (393, 120, 98, 1, 35.18, 10.00),
+  (394, 121, 15, 2, 1730.65, 10.00),
+  (395, 121, 70, 1, 1783.94, 0.00),
+  (396, 121, 70, 1, 1783.94, 0.00),
+  (397, 121, 14, 3, 1698.90, 5.00),
+  (398, 121, 39, 1, 623.43, 0.00),
+  (399, 122, 79, 1, 604.24, 5.00),
+  (400, 122, 27, 1, 1130.36, 10.00),
+  (401, 123, 35, 3, 97.73, 0.00),
+  (402, 123, 18, 2, 600.45, 0.00),
+  (403, 123, 36, 3, 889.25, 5.00),
+  (404, 123, 90, 1, 50.56, 5.00),
+  (405, 123, 19, 3, 634.07, 10.00),
+  (406, 124, 58, 1, 818.09, 0.00),
+  (407, 124, 52, 3, 1420.48, 10.00),
+  (408, 124, 89, 2, 1306.99, 0.00),
+  (409, 124, 63, 2, 303.23, 0.00),
+  (410, 125, 55, 1, 258.00, 0.00),
+  (411, 125, 35, 2, 97.73, 10.00),
+  (412, 126, 81, 2, 877.31, 0.00),
+  (413, 127, 84, 2, 1329.37, 5.00),
+  (414, 127, 36, 1, 889.25, 10.00),
+  (415, 128, 91, 1, 237.63, 0.00),
+  (416, 129, 90, 2, 50.56, 0.00),
+  (417, 130, 48, 2, 1962.49, 5.00),
+  (418, 130, 49, 1, 1941.10, 5.00),
+  (419, 130, 9, 3, 117.80, 0.00),
+  (420, 131, 88, 2, 1083.44, 5.00),
+  (421, 131, 12, 1, 1750.23, 5.00),
+  (422, 131, 97, 1, 862.47, 0.00),
+  (423, 131, 45, 2, 1837.72, 10.00),
+  (424, 131, 18, 1, 600.45, 10.00),
+  (425, 132, 27, 3, 1130.36, 5.00),
+  (426, 132, 96, 2, 1204.82, 10.00),
+  (427, 132, 83, 1, 1961.64, 5.00),
+  (428, 133, 73, 2, 486.10, 10.00),
+  (429, 133, 70, 3, 1783.94, 5.00),
+  (430, 133, 98, 2, 35.18, 0.00),
+  (431, 133, 3, 3, 467.93, 0.00),
+  (432, 134, 11, 3, 902.74, 5.00),
+  (433, 134, 36, 1, 889.25, 10.00),
+  (434, 134, 11, 3, 902.74, 5.00),
+  (435, 134, 20, 3, 1706.91, 10.00),
+  (436, 135, 32, 1, 1487.41, 0.00),
+  (437, 136, 91, 1, 237.63, 0.00),
+  (438, 137, 55, 2, 258.00, 0.00),
+  (439, 137, 34, 3, 1811.62, 0.00),
+  (440, 137, 64, 2, 1539.29, 10.00),
+  (441, 138, 95, 3, 1662.84, 0.00),
+  (442, 138, 6, 1, 1449.47, 5.00),
+  (443, 139, 32, 2, 1487.41, 10.00),
+  (444, 139, 35, 1, 97.73, 10.00),
+  (445, 139, 16, 3, 786.94, 0.00),
+  (446, 140, 12, 3, 1750.23, 0.00),
+  (447, 140, 2, 2, 503.33, 5.00),
+  (448, 140, 38, 3, 744.74, 10.00),
+  (449, 141, 1, 2, 1346.66, 0.00),
+  (450, 141, 30, 3, 1616.13, 10.00),
+  (451, 142, 27, 3, 1130.36, 5.00),
+  (452, 143, 96, 1, 1204.82, 0.00),
+  (453, 143, 65, 1, 1395.74, 0.00),
+  (454, 143, 10, 3, 685.21, 0.00),
+  (455, 143, 56, 3, 659.10, 5.00),
+  (456, 144, 26, 1, 1506.21, 0.00),
+  (457, 145, 58, 2, 818.09, 0.00),
+  (458, 145, 34, 1, 1811.62, 0.00),
+  (459, 146, 51, 3, 1027.73, 0.00),
+  (460, 146, 87, 2, 1665.53, 10.00),
+  (461, 146, 23, 1, 1242.57, 0.00),
+  (462, 147, 100, 1, 1048.28, 5.00),
+  (463, 148, 9, 1, 117.80, 0.00),
+  (464, 149, 56, 3, 659.10, 0.00),
+  (465, 149, 64, 1, 1539.29, 0.00),
+  (466, 149, 88, 2, 1083.44, 5.00),
+  (467, 149, 46, 1, 1323.47, 5.00),
+  (468, 149, 36, 2, 889.25, 0.00),
+  (469, 150, 12, 2, 1750.23, 0.00),
+  (470, 151, 92, 2, 343.90, 0.00),
+  (471, 151, 70, 2, 1783.94, 10.00),
+  (472, 151, 73, 3, 486.10, 10.00),
+  (473, 151, 50, 2, 1197.18, 5.00),
+  (474, 152, 30, 1, 1616.13, 0.00),
+  (475, 152, 32, 3, 1487.41, 5.00),
+  (476, 152, 35, 3, 97.73, 0.00),
+  (477, 152, 98, 1, 35.18, 0.00),
+  (478, 152, 46, 1, 1323.47, 5.00),
+  (479, 153, 25, 2, 270.45, 10.00),
+  (480, 153, 23, 2, 1242.57, 0.00),
+  (481, 153, 12, 1, 1750.23, 5.00),
+  (482, 153, 78, 1, 1533.53, 0.00),
+  (483, 153, 68, 2, 505.90, 0.00),
+  (484, 154, 19, 3, 634.07, 5.00),
+  (485, 155, 39, 2, 623.43, 5.00),
+  (486, 155, 21, 3, 379.79, 0.00),
+  (487, 155, 82, 2, 1598.30, 10.00),
+  (488, 156, 17, 1, 1915.06, 0.00),
+  (489, 156, 90, 3, 50.56, 0.00),
+  (490, 156, 99, 3, 730.75, 0.00),
+  (491, 157, 45, 2, 1837.72, 5.00),
+  (492, 157, 82, 1, 1598.30, 10.00),
+  (493, 158, 50, 2, 1197.18, 0.00),
+  (494, 159, 84, 3, 1329.37, 5.00),
+  (495, 159, 21, 2, 379.79, 0.00),
+  (496, 159, 5, 2, 483.63, 0.00),
+  (497, 159, 41, 2, 1501.46, 0.00),
+  (498, 159, 10, 2, 685.21, 5.00),
+  (499, 160, 79, 2, 604.24, 0.00),
+  (500, 160, 56, 3, 659.10, 5.00),
+  (501, 160, 78, 2, 1533.53, 5.00),
+  (502, 160, 7, 1, 951.22, 10.00),
+  (503, 160, 27, 1, 1130.36, 0.00),
+  (504, 161, 7, 2, 951.22, 0.00),
+  (505, 162, 4, 1, 127.16, 5.00),
+  (506, 163, 12, 3, 1750.23, 0.00),
+  (507, 163, 24, 2, 1870.07, 0.00),
+  (508, 163, 48, 1, 1962.49, 0.00),
+  (509, 164, 86, 2, 660.42, 0.00),
+  (510, 165, 88, 2, 1083.44, 5.00),
+  (511, 165, 61, 2, 574.73, 0.00),
+  (512, 165, 51, 3, 1027.73, 0.00),
+  (513, 165, 65, 3, 1395.74, 5.00),
+  (514, 165, 16, 2, 786.94, 5.00),
+  (515, 166, 34, 2, 1811.62, 0.00),
+  (516, 166, 12, 2, 1750.23, 0.00),
+  (517, 166, 71, 2, 1100.27, 10.00),
+  (518, 166, 67, 2, 1610.18, 0.00),
+  (519, 166, 90, 3, 50.56, 0.00),
+  (520, 167, 100, 1, 1048.28, 10.00),
+  (521, 167, 69, 2, 1338.48, 0.00),
+  (522, 167, 34, 2, 1811.62, 0.00),
+  (523, 167, 74, 3, 678.34, 0.00),
+  (524, 167, 5, 1, 483.63, 10.00),
+  (525, 168, 48, 1, 1962.49, 10.00),
+  (526, 168, 39, 2, 623.43, 10.00),
+  (527, 168, 63, 3, 303.23, 0.00),
+  (528, 169, 78, 3, 1533.53, 0.00),
+  (529, 169, 25, 2, 270.45, 5.00),
+  (530, 169, 53, 3, 1881.12, 0.00),
+  (531, 169, 98, 3, 35.18, 10.00),
+  (532, 170, 73, 1, 486.10, 5.00),
+  (533, 170, 25, 1, 270.45, 0.00),
+  (534, 170, 32, 1, 1487.41, 0.00),
+  (535, 170, 7, 2, 951.22, 5.00),
+  (536, 170, 36, 2, 889.25, 0.00),
+  (537, 171, 76, 3, 668.45, 10.00),
+  (538, 171, 45, 1, 1837.72, 10.00),
+  (539, 171, 96, 3, 1204.82, 0.00),
+  (540, 171, 37, 1, 159.74, 0.00),
+  (541, 172, 3, 3, 467.93, 0.00),
+  (542, 172, 61, 1, 574.73, 5.00),
+  (543, 172, 77, 1, 846.09, 5.00),
+  (544, 172, 33, 3, 1438.05, 10.00),
+  (545, 172, 92, 3, 343.90, 10.00),
+  (546, 173, 14, 1, 1698.90, 10.00),
+  (547, 173, 72, 3, 502.01, 10.00),
+  (548, 173, 39, 3, 623.43, 0.00),
+  (549, 173, 62, 1, 1904.48, 10.00),
+  (550, 173, 36, 3, 889.25, 10.00),
+  (551, 174, 88, 1, 1083.44, 0.00),
+  (552, 174, 84, 2, 1329.37, 10.00),
+  (553, 174, 34, 2, 1811.62, 0.00),
+  (554, 175, 65, 2, 1395.74, 5.00),
+  (555, 175, 85, 3, 371.64, 5.00),
+  (556, 175, 38, 1, 744.74, 0.00),
+  (557, 176, 46, 1, 1323.47, 10.00),
+  (558, 176, 54, 2, 1898.26, 10.00),
+  (559, 177, 25, 3, 270.45, 0.00),
+  (560, 177, 88, 2, 1083.44, 10.00),
+  (561, 177, 53, 1, 1881.12, 5.00),
+  (562, 177, 18, 1, 600.45, 10.00),
+  (563, 178, 43, 3, 1729.49, 5.00),
+  (564, 178, 41, 3, 1501.46, 0.00),
+  (565, 178, 1, 2, 1346.66, 10.00),
+  (566, 178, 27, 1, 1130.36, 5.00),
+  (567, 179, 50, 1, 1197.18, 0.00),
+  (568, 179, 69, 1, 1338.48, 10.00),
+  (569, 179, 2, 2, 503.33, 5.00),
+  (570, 179, 3, 3, 467.93, 0.00),
+  (571, 180, 9, 1, 117.80, 10.00),
+  (572, 180, 38, 2, 744.74, 10.00),
+  (573, 181, 3, 1, 467.93, 5.00),
+  (574, 181, 94, 1, 1916.76, 5.00),
+  (575, 181, 94, 1, 1916.76, 5.00),
+  (576, 181, 16, 2, 786.94, 0.00),
+  (577, 182, 54, 2, 1898.26, 0.00),
+  (578, 183, 85, 1, 371.64, 10.00),
+  (579, 183, 80, 3, 1096.80, 5.00),
+  (580, 183, 54, 1, 1898.26, 0.00),
+  (581, 183, 37, 1, 159.74, 0.00),
+  (582, 184, 21, 1, 379.79, 0.00),
+  (583, 184, 27, 3, 1130.36, 0.00),
+  (584, 184, 43, 1, 1729.49, 0.00),
+  (585, 185, 83, 1, 1961.64, 0.00),
+  (586, 185, 38, 2, 744.74, 0.00),
+  (587, 185, 7, 1, 951.22, 5.00),
+  (588, 186, 2, 1, 503.33, 5.00),
+  (589, 187, 52, 2, 1420.48, 0.00),
+  (590, 188, 90, 3, 50.56, 0.00),
+  (591, 188, 21, 1, 379.79, 0.00),
+  (592, 189, 62, 2, 1904.48, 0.00),
+  (593, 189, 53, 2, 1881.12, 0.00),
+  (594, 190, 67, 3, 1610.18, 0.00),
+  (595, 190, 56, 3, 659.10, 5.00),
+  (596, 190, 62, 2, 1904.48, 0.00),
+  (597, 191, 22, 1, 1883.78, 0.00),
+  (598, 191, 42, 1, 59.32, 10.00),
+  (599, 191, 36, 1, 889.25, 5.00),
+  (600, 191, 71, 3, 1100.27, 0.00),
+  (601, 192, 58, 2, 818.09, 0.00),
+  (602, 192, 64, 3, 1539.29, 0.00),
+  (603, 192, 14, 2, 1698.90, 0.00),
+  (604, 192, 5, 3, 483.63, 0.00),
+  (605, 193, 44, 2, 225.11, 0.00),
+  (606, 193, 29, 2, 323.92, 10.00),
+  (607, 193, 72, 3, 502.01, 0.00),
+  (608, 193, 92, 3, 343.90, 10.00),
+  (609, 194, 6, 1, 1449.47, 0.00),
+  (610, 195, 59, 1, 1573.66, 10.00),
+  (611, 195, 14, 2, 1698.90, 0.00),
+  (612, 196, 1, 3, 1346.66, 0.00),
+  (613, 196, 71, 2, 1100.27, 0.00),
+  (614, 196, 66, 1, 1378.37, 5.00),
+  (615, 196, 94, 1, 1916.76, 0.00),
+  (616, 197, 51, 2, 1027.73, 10.00),
+  (617, 197, 58, 1, 818.09, 5.00),
+  (618, 197, 53, 3, 1881.12, 10.00),
+  (619, 198, 65, 3, 1395.74, 10.00),
+  (620, 198, 91, 1, 237.63, 10.00),
+  (621, 199, 2, 3, 503.33, 0.00),
+  (622, 199, 4, 2, 127.16, 5.00),
+  (623, 199, 7, 3, 951.22, 0.00),
+  (624, 199, 26, 2, 1506.21, 5.00),
+  (625, 200, 5, 2, 483.63, 0.00),
+  (626, 200, 14, 3, 1698.90, 5.00),
+  (627, 200, 96, 3, 1204.82, 0.00),
+  (628, 200, 31, 3, 1330.14, 10.00),
+  (629, 200, 89, 3, 1306.99, 0.00),
+  (630, 201, 26, 3, 1506.21, 0.00),
+  (631, 201, 29, 3, 323.92, 10.00),
+  (632, 201, 97, 3, 862.47, 5.00),
+  (633, 202, 95, 3, 1662.84, 0.00),
+  (634, 202, 49, 1, 1941.10, 0.00),
+  (635, 203, 91, 1, 237.63, 0.00),
+  (636, 203, 20, 2, 1706.91, 0.00),
+  (637, 203, 100, 3, 1048.28, 10.00),
+  (638, 203, 63, 3, 303.23, 10.00),
+  (639, 204, 45, 1, 1837.72, 5.00),
+  (640, 205, 97, 3, 862.47, 0.00),
+  (641, 205, 15, 3, 1730.65, 10.00),
+  (642, 205, 58, 1, 818.09, 5.00),
+  (643, 205, 6, 3, 1449.47, 10.00),
+  (644, 205, 49, 1, 1941.10, 0.00),
+  (645, 206, 6, 2, 1449.47, 5.00),
+  (646, 206, 42, 3, 59.32, 0.00),
+  (647, 206, 13, 1, 1307.77, 0.00),
+  (648, 206, 81, 1, 877.31, 5.00),
+  (649, 207, 59, 3, 1573.66, 10.00),
+  (650, 208, 81, 2, 877.31, 0.00),
+  (651, 208, 41, 1, 1501.46, 0.00),
+  (652, 208, 87, 1, 1665.53, 0.00),
+  (653, 208, 83, 3, 1961.64, 0.00),
+  (654, 209, 78, 1, 1533.53, 10.00),
+  (655, 209, 98, 2, 35.18, 0.00),
+  (656, 209, 51, 3, 1027.73, 0.00),
+  (657, 210, 39, 3, 623.43, 10.00),
+  (658, 210, 2, 3, 503.33, 5.00),
+  (659, 211, 96, 3, 1204.82, 10.00),
+  (660, 211, 28, 2, 537.75, 5.00),
+  (661, 212, 10, 2, 685.21, 0.00),
+  (662, 212, 33, 1, 1438.05, 5.00),
+  (663, 212, 93, 3, 225.12, 0.00),
+  (664, 212, 43, 2, 1729.49, 5.00),
+  (665, 212, 86, 3, 660.42, 5.00),
+  (666, 213, 20, 3, 1706.91, 10.00),
+  (667, 213, 41, 2, 1501.46, 5.00),
+  (668, 213, 1, 2, 1346.66, 5.00),
+  (669, 213, 29, 3, 323.92, 0.00),
+  (670, 213, 36, 2, 889.25, 5.00),
+  (671, 214, 14, 1, 1698.90, 0.00),
+  (672, 214, 36, 1, 889.25, 5.00),
+  (673, 214, 34, 3, 1811.62, 0.00),
+  (674, 214, 94, 1, 1916.76, 0.00),
+  (675, 214, 65, 3, 1395.74, 0.00),
+  (676, 215, 70, 2, 1783.94, 5.00),
+  (677, 215, 47, 2, 1934.11, 5.00),
+  (678, 215, 99, 3, 730.75, 10.00),
+  (679, 215, 18, 2, 600.45, 0.00),
+  (680, 215, 51, 2, 1027.73, 0.00),
+  (681, 216, 46, 1, 1323.47, 5.00),
+  (682, 216, 98, 2, 35.18, 5.00),
+  (683, 216, 9, 2, 117.80, 10.00),
+  (684, 216, 30, 1, 1616.13, 5.00),
+  (685, 217, 91, 3, 237.63, 10.00),
+  (686, 218, 33, 2, 1438.05, 5.00),
+  (687, 218, 67, 2, 1610.18, 10.00),
+  (688, 218, 45, 2, 1837.72, 0.00),
+  (689, 218, 78, 1, 1533.53, 5.00),
+  (690, 218, 57, 1, 846.69, 5.00),
+  (691, 219, 93, 1, 225.12, 0.00),
+  (692, 219, 87, 2, 1665.53, 0.00),
+  (693, 219, 27, 3, 1130.36, 5.00),
+  (694, 220, 19, 1, 634.07, 5.00),
+  (695, 220, 34, 1, 1811.62, 0.00),
+  (696, 220, 77, 3, 846.09, 0.00),
+  (697, 220, 93, 3, 225.12, 10.00),
+  (698, 220, 11, 1, 902.74, 0.00),
+  (699, 221, 99, 1, 730.75, 10.00),
+  (700, 221, 22, 3, 1883.78, 10.00),
+  (701, 221, 59, 3, 1573.66, 0.00),
+  (702, 221, 30, 2, 1616.13, 0.00),
+  (703, 221, 17, 1, 1915.06, 0.00),
+  (704, 222, 77, 1, 846.09, 0.00),
+  (705, 222, 12, 2, 1750.23, 5.00),
+  (706, 222, 78, 3, 1533.53, 0.00),
+  (707, 222, 100, 3, 1048.28, 0.00),
+  (708, 222, 67, 2, 1610.18, 10.00),
+  (709, 223, 76, 3, 668.45, 0.00),
+  (710, 223, 55, 1, 258.00, 10.00),
+  (711, 223, 62, 1, 1904.48, 0.00),
+  (712, 224, 1, 2, 1346.66, 5.00),
+  (713, 224, 89, 2, 1306.99, 0.00),
+  (714, 224, 47, 1, 1934.11, 5.00),
+  (715, 224, 55, 3, 258.00, 10.00),
+  (716, 224, 34, 3, 1811.62, 0.00),
+  (717, 225, 48, 3, 1962.49, 0.00),
+  (718, 225, 33, 2, 1438.05, 10.00),
+  (719, 226, 28, 3, 537.75, 0.00),
+  (720, 227, 77, 2, 846.09, 0.00),
+  (721, 227, 9, 2, 117.80, 5.00),
+  (722, 227, 48, 1, 1962.49, 0.00),
+  (723, 227, 93, 2, 225.12, 0.00),
+  (724, 228, 2, 1, 503.33, 10.00),
+  (725, 228, 25, 1, 270.45, 5.00),
+  (726, 228, 79, 1, 604.24, 0.00),
+  (727, 228, 47, 1, 1934.11, 0.00),
+  (728, 229, 2, 3, 503.33, 0.00),
+  (729, 229, 12, 3, 1750.23, 10.00),
+  (730, 229, 93, 3, 225.12, 10.00),
+  (731, 229, 45, 2, 1837.72, 5.00),
+  (732, 229, 78, 1, 1533.53, 0.00),
+  (733, 230, 38, 2, 744.74, 0.00),
+  (734, 230, 66, 2, 1378.37, 10.00),
+  (735, 230, 89, 2, 1306.99, 0.00),
+  (736, 230, 73, 2, 486.10, 5.00),
+  (737, 230, 97, 2, 862.47, 0.00),
+  (738, 231, 46, 3, 1323.47, 0.00),
+  (739, 231, 90, 2, 50.56, 5.00),
+  (740, 231, 37, 1, 159.74, 0.00),
+  (741, 231, 87, 3, 1665.53, 10.00),
+  (742, 232, 64, 3, 1539.29, 5.00),
+  (743, 232, 31, 3, 1330.14, 5.00),
+  (744, 233, 16, 1, 786.94, 0.00),
+  (745, 234, 24, 3, 1870.07, 10.00),
+  (746, 234, 51, 1, 1027.73, 5.00),
+  (747, 234, 7, 3, 951.22, 0.00),
+  (748, 234, 62, 3, 1904.48, 0.00),
+  (749, 235, 89, 1, 1306.99, 0.00),
+  (750, 235, 87, 1, 1665.53, 0.00),
+  (751, 235, 75, 1, 772.24, 10.00),
+  (752, 236, 64, 2, 1539.29, 5.00),
+  (753, 236, 54, 3, 1898.26, 10.00),
+  (754, 237, 93, 2, 225.12, 5.00),
+  (755, 238, 64, 1, 1539.29, 10.00),
+  (756, 238, 63, 2, 303.23, 10.00),
+  (757, 238, 72, 3, 502.01, 0.00),
+  (758, 238, 51, 1, 1027.73, 5.00),
+  (759, 239, 72, 3, 502.01, 10.00),
+  (760, 239, 45, 1, 1837.72, 0.00),
+  (761, 239, 16, 2, 786.94, 5.00),
+  (762, 240, 87, 3, 1665.53, 0.00),
+  (763, 240, 100, 3, 1048.28, 0.00),
+  (764, 240, 11, 2, 902.74, 10.00),
+  (765, 241, 11, 1, 902.74, 10.00),
+  (766, 242, 100, 2, 1048.28, 0.00),
+  (767, 242, 53, 1, 1881.12, 5.00),
+  (768, 242, 3, 1, 467.93, 5.00),
+  (769, 242, 85, 2, 371.64, 0.00),
+  (770, 243, 99, 2, 730.75, 0.00),
+  (771, 244, 81, 1, 877.31, 5.00),
+  (772, 244, 68, 1, 505.90, 0.00),
+  (773, 244, 5, 3, 483.63, 10.00),
+  (774, 244, 42, 2, 59.32, 0.00),
+  (775, 245, 56, 3, 659.10, 10.00),
+  (776, 245, 45, 2, 1837.72, 5.00),
+  (777, 245, 12, 2, 1750.23, 10.00),
+  (778, 245, 47, 2, 1934.11, 10.00),
+  (779, 245, 20, 2, 1706.91, 0.00),
+  (780, 246, 38, 3, 744.74, 5.00),
+  (781, 246, 1, 3, 1346.66, 10.00),
+  (782, 246, 25, 2, 270.45, 0.00),
+  (783, 246, 51, 1, 1027.73, 5.00),
+  (784, 247, 84, 3, 1329.37, 10.00),
+  (785, 247, 53, 1, 1881.12, 0.00),
+  (786, 247, 24, 1, 1870.07, 10.00),
+  (787, 248, 3, 1, 467.93, 0.00),
+  (788, 248, 69, 1, 1338.48, 5.00),
+  (789, 248, 14, 2, 1698.90, 10.00),
+  (790, 249, 40, 2, 1337.20, 10.00),
+  (791, 249, 60, 3, 1354.50, 0.00),
+  (792, 249, 43, 1, 1729.49, 5.00),
+  (793, 249, 8, 2, 867.79, 0.00),
+  (794, 250, 99, 2, 730.75, 5.00),
+  (795, 250, 95, 1, 1662.84, 5.00),
+  (796, 250, 59, 3, 1573.66, 0.00),
+  (797, 250, 67, 3, 1610.18, 5.00),
+  (798, 251, 62, 3, 1904.48, 10.00),
+  (799, 251, 26, 2, 1506.21, 0.00),
+  (800, 251, 86, 1, 660.42, 0.00),
+  (801, 252, 32, 1, 1487.41, 0.00),
+  (802, 252, 75, 3, 772.24, 0.00),
+  (803, 252, 89, 3, 1306.99, 5.00),
+  (804, 252, 48, 1, 1962.49, 5.00),
+  (805, 253, 83, 1, 1961.64, 0.00),
+  (806, 253, 17, 2, 1915.06, 5.00),
+  (807, 253, 41, 3, 1501.46, 10.00),
+  (808, 254, 6, 2, 1449.47, 0.00),
+  (809, 254, 72, 2, 502.01, 0.00),
+  (810, 254, 25, 3, 270.45, 5.00),
+  (811, 255, 68, 1, 505.90, 0.00),
+  (812, 256, 80, 2, 1096.80, 5.00),
+  (813, 257, 37, 2, 159.74, 0.00),
+  (814, 257, 83, 2, 1961.64, 0.00),
+  (815, 257, 13, 3, 1307.77, 0.00),
+  (816, 257, 6, 1, 1449.47, 5.00),
+  (817, 257, 5, 1, 483.63, 0.00),
+  (818, 258, 47, 1, 1934.11, 0.00),
+  (819, 259, 96, 2, 1204.82, 10.00),
+  (820, 259, 91, 1, 237.63, 10.00),
+  (821, 259, 68, 1, 505.90, 0.00),
+  (822, 259, 39, 1, 623.43, 5.00),
+  (823, 259, 67, 1, 1610.18, 0.00),
+  (824, 260, 96, 3, 1204.82, 0.00),
+  (825, 260, 96, 1, 1204.82, 10.00),
+  (826, 260, 87, 2, 1665.53, 0.00),
+  (827, 260, 14, 1, 1698.90, 5.00),
+  (828, 260, 71, 2, 1100.27, 10.00),
+  (829, 261, 53, 3, 1881.12, 0.00),
+  (830, 261, 93, 2, 225.12, 5.00),
+  (831, 261, 73, 3, 486.10, 5.00),
+  (832, 262, 93, 1, 225.12, 10.00),
+  (833, 263, 3, 3, 467.93, 10.00),
+  (834, 263, 71, 3, 1100.27, 5.00),
+  (835, 263, 13, 1, 1307.77, 0.00),
+  (836, 264, 28, 3, 537.75, 0.00),
+  (837, 264, 93, 2, 225.12, 0.00),
+  (838, 264, 23, 2, 1242.57, 0.00),
+  (839, 264, 77, 3, 846.09, 10.00),
+  (840, 264, 5, 3, 483.63, 0.00),
+  (841, 265, 2, 3, 503.33, 0.00),
+  (842, 265, 7, 2, 951.22, 0.00),
+  (843, 265, 41, 3, 1501.46, 5.00),
+  (844, 265, 42, 3, 59.32, 5.00),
+  (845, 265, 20, 1, 1706.91, 0.00),
+  (846, 266, 11, 2, 902.74, 0.00),
+  (847, 266, 71, 2, 1100.27, 10.00),
+  (848, 266, 11, 2, 902.74, 0.00),
+  (849, 267, 10, 2, 685.21, 0.00),
+  (850, 267, 42, 3, 59.32, 0.00),
+  (851, 268, 45, 3, 1837.72, 0.00),
+  (852, 268, 80, 1, 1096.80, 0.00),
+  (853, 269, 32, 3, 1487.41, 5.00),
+  (854, 270, 27, 3, 1130.36, 5.00),
+  (855, 270, 27, 3, 1130.36, 10.00),
+  (856, 270, 71, 2, 1100.27, 5.00),
+  (857, 271, 22, 1, 1883.78, 10.00),
+  (858, 271, 26, 3, 1506.21, 10.00),
+  (859, 271, 7, 2, 951.22, 0.00),
+  (860, 272, 91, 1, 237.63, 10.00),
+  (861, 272, 63, 3, 303.23, 0.00),
+  (862, 272, 24, 1, 1870.07, 0.00),
+  (863, 272, 72, 3, 502.01, 0.00),
+  (864, 272, 6, 1, 1449.47, 10.00),
+  (865, 273, 31, 3, 1330.14, 10.00),
+  (866, 273, 8, 3, 867.79, 10.00),
+  (867, 273, 50, 1, 1197.18, 10.00),
+  (868, 274, 31, 3, 1330.14, 5.00),
+  (869, 274, 55, 2, 258.00, 10.00),
+  (870, 274, 58, 3, 818.09, 5.00),
+  (871, 274, 27, 3, 1130.36, 5.00),
+  (872, 275, 99, 1, 730.75, 5.00),
+  (873, 275, 41, 1, 1501.46, 0.00),
+  (874, 275, 24, 2, 1870.07, 5.00),
+  (875, 275, 94, 1, 1916.76, 10.00),
+  (876, 276, 14, 1, 1698.90, 5.00),
+  (877, 276, 4, 3, 127.16, 10.00),
+  (878, 277, 65, 3, 1395.74, 0.00),
+  (879, 277, 92, 3, 343.90, 10.00),
+  (880, 278, 53, 1, 1881.12, 5.00),
+  (881, 278, 97, 1, 862.47, 0.00),
+  (882, 278, 23, 2, 1242.57, 0.00),
+  (883, 279, 51, 3, 1027.73, 0.00),
+  (884, 279, 67, 1, 1610.18, 0.00),
+  (885, 279, 59, 1, 1573.66, 5.00),
+  (886, 280, 57, 2, 846.69, 10.00),
+  (887, 280, 100, 2, 1048.28, 0.00),
+  (888, 280, 22, 2, 1883.78, 10.00),
+  (889, 281, 15, 1, 1730.65, 5.00),
+  (890, 281, 51, 2, 1027.73, 10.00),
+  (891, 281, 58, 1, 818.09, 5.00),
+  (892, 281, 59, 3, 1573.66, 5.00),
+  (893, 281, 59, 1, 1573.66, 10.00),
+  (894, 282, 91, 2, 237.63, 5.00),
+  (895, 282, 49, 3, 1941.10, 0.00),
+  (896, 282, 6, 1, 1449.47, 10.00),
+  (897, 282, 73, 3, 486.10, 5.00),
+  (898, 282, 21, 1, 379.79, 5.00),
+  (899, 283, 16, 1, 786.94, 5.00),
+  (900, 283, 1, 3, 1346.66, 10.00),
+  (901, 284, 85, 2, 371.64, 0.00),
+  (902, 284, 53, 2, 1881.12, 0.00),
+  (903, 284, 77, 3, 846.09, 0.00),
+  (904, 284, 32, 3, 1487.41, 10.00),
+  (905, 284, 80, 3, 1096.80, 5.00),
+  (906, 285, 12, 1, 1750.23, 0.00),
+  (907, 285, 54, 1, 1898.26, 5.00),
+  (908, 285, 87, 2, 1665.53, 5.00),
+  (909, 286, 98, 2, 35.18, 0.00),
+  (910, 287, 79, 1, 604.24, 0.00),
+  (911, 287, 74, 3, 678.34, 0.00),
+  (912, 288, 74, 3, 678.34, 10.00),
+  (913, 288, 17, 3, 1915.06, 0.00),
+  (914, 288, 67, 3, 1610.18, 0.00),
+  (915, 288, 64, 1, 1539.29, 5.00),
+  (916, 288, 91, 2, 237.63, 5.00),
+  (917, 289, 43, 2, 1729.49, 5.00),
+  (918, 290, 15, 3, 1730.65, 10.00),
+  (919, 291, 87, 2, 1665.53, 0.00),
+  (920, 291, 5, 3, 483.63, 5.00),
+  (921, 291, 62, 1, 1904.48, 0.00),
+  (922, 292, 93, 3, 225.12, 10.00),
+  (923, 292, 72, 3, 502.01, 0.00),
+  (924, 292, 27, 3, 1130.36, 10.00),
+  (925, 292, 46, 1, 1323.47, 5.00),
+  (926, 292, 36, 1, 889.25, 10.00),
+  (927, 293, 91, 2, 237.63, 0.00),
+  (928, 293, 35, 2, 97.73, 0.00),
+  (929, 293, 64, 1, 1539.29, 10.00),
+  (930, 294, 65, 1, 1395.74, 0.00),
+  (931, 294, 65, 1, 1395.74, 5.00),
+  (932, 294, 44, 2, 225.11, 10.00),
+  (933, 294, 100, 2, 1048.28, 5.00),
+  (934, 295, 40, 1, 1337.20, 0.00),
+  (935, 296, 25, 2, 270.45, 10.00),
+  (936, 296, 69, 2, 1338.48, 0.00),
+  (937, 297, 70, 2, 1783.94, 10.00),
+  (938, 297, 35, 1, 97.73, 10.00),
+  (939, 298, 17, 1, 1915.06, 0.00),
+  (940, 299, 46, 2, 1323.47, 10.00),
+  (941, 299, 26, 3, 1506.21, 0.00),
+  (942, 299, 97, 2, 862.47, 5.00),
+  (943, 299, 12, 3, 1750.23, 0.00),
+  (944, 299, 13, 2, 1307.77, 10.00),
+  (945, 300, 51, 1, 1027.73, 10.00),
+  (946, 300, 42, 2, 59.32, 0.00),
+  (947, 300, 4, 1, 127.16, 0.00),
+  (948, 301, 14, 2, 1698.90, 0.00),
+  (949, 301, 42, 3, 59.32, 0.00),
+  (950, 301, 39, 3, 623.43, 0.00),
+  (951, 301, 52, 3, 1420.48, 0.00),
+  (952, 301, 31, 3, 1330.14, 5.00),
+  (953, 302, 44, 3, 225.11, 5.00),
+  (954, 302, 23, 3, 1242.57, 0.00),
+  (955, 302, 95, 3, 1662.84, 0.00),
+  (956, 302, 15, 3, 1730.65, 0.00),
+  (957, 302, 42, 3, 59.32, 0.00),
+  (958, 303, 64, 3, 1539.29, 0.00),
+  (959, 303, 12, 1, 1750.23, 5.00),
+  (960, 303, 75, 3, 772.24, 0.00),
+  (961, 304, 88, 2, 1083.44, 10.00),
+  (962, 304, 73, 3, 486.10, 10.00),
+  (963, 305, 38, 1, 744.74, 10.00),
+  (964, 305, 71, 1, 1100.27, 0.00),
+  (965, 306, 52, 2, 1420.48, 0.00),
+  (966, 306, 70, 1, 1783.94, 5.00),
+  (967, 306, 61, 1, 574.73, 5.00),
+  (968, 306, 72, 2, 502.01, 10.00),
+  (969, 307, 18, 1, 600.45, 5.00),
+  (970, 307, 83, 2, 1961.64, 0.00),
+  (971, 307, 90, 3, 50.56, 0.00),
+  (972, 307, 80, 1, 1096.80, 0.00),
+  (973, 308, 92, 3, 343.90, 10.00),
+  (974, 308, 53, 3, 1881.12, 10.00),
+  (975, 309, 97, 2, 862.47, 0.00),
+  (976, 309, 67, 1, 1610.18, 0.00),
+  (977, 309, 32, 2, 1487.41, 0.00),
+  (978, 309, 88, 3, 1083.44, 10.00),
+  (979, 309, 79, 1, 604.24, 10.00),
+  (980, 310, 46, 2, 1323.47, 10.00),
+  (981, 310, 22, 1, 1883.78, 10.00),
+  (982, 310, 94, 3, 1916.76, 10.00),
+  (983, 310, 8, 3, 867.79, 0.00),
+  (984, 311, 63, 1, 303.23, 5.00),
+  (985, 311, 65, 1, 1395.74, 10.00),
+  (986, 311, 33, 1, 1438.05, 10.00),
+  (987, 312, 34, 3, 1811.62, 5.00),
+  (988, 312, 63, 1, 303.23, 0.00),
+  (989, 313, 85, 2, 371.64, 5.00),
+  (990, 313, 27, 3, 1130.36, 10.00),
+  (991, 314, 30, 2, 1616.13, 0.00),
+  (992, 314, 61, 2, 574.73, 5.00),
+  (993, 314, 68, 2, 505.90, 0.00),
+  (994, 314, 37, 2, 159.74, 0.00),
+  (995, 314, 87, 2, 1665.53, 0.00),
+  (996, 315, 35, 1, 97.73, 10.00),
+  (997, 315, 84, 3, 1329.37, 0.00),
+  (998, 315, 60, 3, 1354.50, 5.00),
+  (999, 316, 2, 3, 503.33, 0.00),
+  (1000, 316, 9, 1, 117.80, 0.00),
+  (1001, 316, 13, 3, 1307.77, 0.00),
+  (1002, 316, 88, 2, 1083.44, 10.00),
+  (1003, 316, 29, 3, 323.92, 10.00),
+  (1004, 317, 12, 3, 1750.23, 5.00),
+  (1005, 318, 85, 1, 371.64, 0.00),
+  (1006, 318, 36, 2, 889.25, 10.00),
+  (1007, 318, 33, 1, 1438.05, 0.00),
+  (1008, 318, 36, 1, 889.25, 0.00),
+  (1009, 319, 51, 1, 1027.73, 0.00),
+  (1010, 319, 14, 1, 1698.90, 0.00),
+  (1011, 319, 28, 3, 537.75, 0.00),
+  (1012, 319, 57, 3, 846.69, 10.00),
+  (1013, 319, 14, 1, 1698.90, 0.00),
+  (1014, 320, 35, 1, 97.73, 10.00),
+  (1015, 320, 51, 3, 1027.73, 0.00),
+  (1016, 320, 66, 3, 1378.37, 0.00),
+  (1017, 320, 62, 2, 1904.48, 0.00),
+  (1018, 321, 69, 2, 1338.48, 10.00),
+  (1019, 321, 88, 2, 1083.44, 0.00),
+  (1020, 321, 8, 3, 867.79, 0.00),
+  (1021, 321, 47, 3, 1934.11, 10.00),
+  (1022, 321, 11, 2, 902.74, 10.00),
+  (1023, 322, 81, 3, 877.31, 10.00),
+  (1024, 323, 9, 3, 117.80, 10.00),
+  (1025, 323, 64, 3, 1539.29, 0.00),
+  (1026, 323, 3, 1, 467.93, 10.00),
+  (1027, 323, 8, 2, 867.79, 0.00),
+  (1028, 324, 30, 1, 1616.13, 0.00),
+  (1029, 324, 95, 1, 1662.84, 0.00),
+  (1030, 324, 84, 1, 1329.37, 0.00),
+  (1031, 324, 80, 1, 1096.80, 5.00),
+  (1032, 324, 90, 3, 50.56, 5.00),
+  (1033, 325, 15, 2, 1730.65, 5.00),
+  (1034, 326, 28, 1, 537.75, 5.00),
+  (1035, 326, 43, 1, 1729.49, 0.00),
+  (1036, 326, 36, 1, 889.25, 0.00),
+  (1037, 327, 49, 1, 1941.10, 0.00),
+  (1038, 327, 63, 1, 303.23, 0.00),
+  (1039, 327, 1, 1, 1346.66, 0.00),
+  (1040, 327, 91, 3, 237.63, 10.00),
+  (1041, 327, 54, 3, 1898.26, 0.00),
+  (1042, 328, 79, 3, 604.24, 0.00),
+  (1043, 328, 77, 1, 846.09, 0.00),
+  (1044, 329, 16, 3, 786.94, 0.00),
+  (1045, 329, 80, 2, 1096.80, 5.00),
+  (1046, 330, 21, 3, 379.79, 0.00),
+  (1047, 330, 7, 3, 951.22, 10.00),
+  (1048, 331, 95, 1, 1662.84, 5.00),
+  (1049, 332, 26, 3, 1506.21, 10.00),
+  (1050, 332, 30, 1, 1616.13, 10.00),
+  (1051, 332, 30, 1, 1616.13, 5.00),
+  (1052, 332, 95, 2, 1662.84, 5.00),
+  (1053, 333, 79, 2, 604.24, 5.00),
+  (1054, 333, 50, 2, 1197.18, 5.00),
+  (1055, 334, 18, 1, 600.45, 0.00),
+  (1056, 334, 59, 2, 1573.66, 5.00),
+  (1057, 334, 98, 2, 35.18, 5.00),
+  (1058, 335, 53, 3, 1881.12, 0.00),
+  (1059, 336, 56, 3, 659.10, 5.00),
+  (1060, 336, 76, 1, 668.45, 0.00),
+  (1061, 336, 54, 1, 1898.26, 0.00),
+  (1062, 337, 64, 1, 1539.29, 0.00),
+  (1063, 337, 72, 1, 502.01, 0.00),
+  (1064, 337, 28, 1, 537.75, 10.00),
+  (1065, 337, 38, 1, 744.74, 0.00),
+  (1066, 338, 99, 1, 730.75, 0.00),
+  (1067, 338, 24, 2, 1870.07, 0.00),
+  (1068, 338, 91, 3, 237.63, 0.00),
+  (1069, 338, 81, 1, 877.31, 0.00),
+  (1070, 339, 80, 2, 1096.80, 0.00),
+  (1071, 340, 47, 1, 1934.11, 0.00),
+  (1072, 340, 72, 3, 502.01, 5.00),
+  (1073, 340, 18, 2, 600.45, 5.00),
+  (1074, 341, 35, 3, 97.73, 0.00),
+  (1075, 341, 36, 1, 889.25, 0.00),
+  (1076, 341, 48, 2, 1962.49, 0.00),
+  (1077, 342, 80, 2, 1096.80, 0.00),
+  (1078, 342, 25, 2, 270.45, 0.00),
+  (1079, 342, 11, 2, 902.74, 5.00),
+  (1080, 342, 37, 1, 159.74, 0.00),
+  (1081, 343, 88, 3, 1083.44, 5.00),
+  (1082, 343, 61, 2, 574.73, 0.00),
+  (1083, 343, 57, 3, 846.69, 0.00),
+  (1084, 343, 38, 1, 744.74, 0.00),
+  (1085, 344, 86, 3, 660.42, 0.00),
+  (1086, 344, 59, 2, 1573.66, 5.00),
+  (1087, 344, 40, 1, 1337.20, 10.00),
+  (1088, 344, 30, 2, 1616.13, 10.00),
+  (1089, 344, 37, 1, 159.74, 5.00),
+  (1090, 345, 91, 3, 237.63, 5.00),
+  (1091, 345, 21, 1, 379.79, 0.00),
+  (1092, 346, 45, 1, 1837.72, 10.00),
+  (1093, 346, 58, 3, 818.09, 5.00),
+  (1094, 346, 69, 2, 1338.48, 0.00),
+  (1095, 347, 65, 2, 1395.74, 10.00),
+  (1096, 347, 61, 2, 574.73, 5.00),
+  (1097, 347, 73, 3, 486.10, 0.00),
+  (1098, 347, 44, 3, 225.11, 0.00),
+  (1099, 347, 94, 2, 1916.76, 0.00),
+  (1100, 348, 12, 2, 1750.23, 0.00),
+  (1101, 348, 78, 3, 1533.53, 5.00),
+  (1102, 348, 75, 3, 772.24, 5.00),
+  (1103, 349, 51, 1, 1027.73, 0.00),
+  (1104, 349, 41, 3, 1501.46, 0.00),
+  (1105, 349, 86, 2, 660.42, 0.00),
+  (1106, 349, 19, 3, 634.07, 0.00),
+  (1107, 349, 48, 2, 1962.49, 10.00),
+  (1108, 350, 21, 3, 379.79, 0.00),
+  (1109, 350, 94, 2, 1916.76, 5.00),
+  (1110, 350, 76, 3, 668.45, 0.00),
+  (1111, 351, 82, 2, 1598.30, 0.00),
+  (1112, 351, 23, 3, 1242.57, 0.00),
+  (1113, 351, 91, 3, 237.63, 5.00),
+  (1114, 351, 26, 1, 1506.21, 0.00),
+  (1115, 352, 4, 1, 127.16, 5.00),
+  (1116, 352, 34, 2, 1811.62, 0.00),
+  (1117, 353, 98, 2, 35.18, 0.00),
+  (1118, 354, 89, 1, 1306.99, 10.00),
+  (1119, 354, 66, 3, 1378.37, 0.00),
+  (1120, 354, 34, 1, 1811.62, 0.00),
+  (1121, 354, 19, 2, 634.07, 0.00),
+  (1122, 355, 68, 3, 505.90, 0.00),
+  (1123, 355, 66, 1, 1378.37, 5.00),
+  (1124, 355, 98, 1, 35.18, 5.00),
+  (1125, 356, 75, 2, 772.24, 5.00),
+  (1126, 356, 2, 1, 503.33, 10.00),
+  (1127, 356, 48, 2, 1962.49, 0.00),
+  (1128, 356, 44, 1, 225.11, 0.00),
+  (1129, 356, 28, 1, 537.75, 5.00),
+  (1130, 357, 10, 1, 685.21, 5.00),
+  (1131, 357, 3, 2, 467.93, 10.00),
+  (1132, 357, 40, 3, 1337.20, 10.00),
+  (1133, 357, 18, 2, 600.45, 10.00),
+  (1134, 358, 27, 1, 1130.36, 0.00),
+  (1135, 358, 55, 3, 258.00, 0.00),
+  (1136, 359, 16, 2, 786.94, 0.00),
+  (1137, 359, 9, 2, 117.80, 0.00),
+  (1138, 359, 97, 1, 862.47, 0.00),
+  (1139, 359, 78, 1, 1533.53, 5.00),
+  (1140, 360, 21, 3, 379.79, 5.00),
+  (1141, 360, 65, 3, 1395.74, 0.00),
+  (1142, 360, 13, 3, 1307.77, 0.00),
+  (1143, 361, 28, 3, 537.75, 0.00),
+  (1144, 362, 30, 2, 1616.13, 0.00),
+  (1145, 362, 98, 2, 35.18, 0.00),
+  (1146, 362, 60, 1, 1354.50, 5.00),
+  (1147, 362, 64, 2, 1539.29, 10.00),
+  (1148, 362, 72, 3, 502.01, 0.00),
+  (1149, 363, 71, 2, 1100.27, 10.00),
+  (1150, 363, 55, 1, 258.00, 0.00),
+  (1151, 364, 67, 3, 1610.18, 0.00),
+  (1152, 364, 16, 1, 786.94, 0.00),
+  (1153, 364, 52, 3, 1420.48, 0.00),
+  (1154, 364, 95, 1, 1662.84, 0.00),
+  (1155, 365, 55, 3, 258.00, 0.00),
+  (1156, 365, 36, 3, 889.25, 10.00),
+  (1157, 366, 36, 1, 889.25, 0.00),
+  (1158, 366, 14, 1, 1698.90, 10.00),
+  (1159, 366, 63, 2, 303.23, 5.00),
+  (1160, 366, 81, 1, 877.31, 0.00),
+  (1161, 366, 13, 3, 1307.77, 0.00),
+  (1162, 367, 80, 3, 1096.80, 0.00),
+  (1163, 367, 98, 1, 35.18, 0.00),
+  (1164, 367, 60, 1, 1354.50, 10.00),
+  (1165, 368, 56, 1, 659.10, 0.00),
+  (1166, 369, 18, 2, 600.45, 0.00),
+  (1167, 369, 63, 1, 303.23, 0.00),
+  (1168, 369, 85, 3, 371.64, 0.00),
+  (1169, 369, 61, 3, 574.73, 5.00),
+  (1170, 370, 42, 1, 59.32, 0.00),
+  (1171, 370, 76, 1, 668.45, 5.00),
+  (1172, 370, 47, 2, 1934.11, 0.00),
+  (1173, 371, 8, 3, 867.79, 5.00),
+  (1174, 371, 32, 1, 1487.41, 10.00),
+  (1175, 371, 76, 1, 668.45, 0.00),
+  (1176, 372, 73, 3, 486.10, 0.00),
+  (1177, 372, 35, 1, 97.73, 0.00),
+  (1178, 372, 76, 1, 668.45, 10.00),
+  (1179, 372, 49, 3, 1941.10, 0.00),
+  (1180, 373, 79, 2, 604.24, 10.00),
+  (1181, 373, 56, 1, 659.10, 0.00),
+  (1182, 374, 96, 1, 1204.82, 0.00),
+  (1183, 374, 76, 2, 668.45, 10.00),
+  (1184, 374, 9, 3, 117.80, 0.00),
+  (1185, 374, 55, 1, 258.00, 10.00),
+  (1186, 374, 10, 3, 685.21, 10.00),
+  (1187, 375, 80, 3, 1096.80, 0.00),
+  (1188, 375, 86, 3, 660.42, 5.00),
+  (1189, 375, 3, 3, 467.93, 5.00),
+  (1190, 376, 94, 3, 1916.76, 0.00),
+  (1191, 376, 67, 1, 1610.18, 10.00),
+  (1192, 376, 60, 1, 1354.50, 5.00),
+  (1193, 376, 20, 3, 1706.91, 10.00),
+  (1194, 376, 56, 2, 659.10, 10.00),
+  (1195, 377, 31, 1, 1330.14, 5.00),
+  (1196, 377, 25, 1, 270.45, 5.00),
+  (1197, 377, 40, 2, 1337.20, 0.00),
+  (1198, 377, 72, 2, 502.01, 0.00),
+  (1199, 378, 93, 2, 225.12, 0.00),
+  (1200, 379, 51, 3, 1027.73, 5.00),
+  (1201, 380, 12, 1, 1750.23, 0.00),
+  (1202, 380, 99, 2, 730.75, 10.00),
+  (1203, 380, 75, 3, 772.24, 0.00),
+  (1204, 380, 96, 3, 1204.82, 5.00),
+  (1205, 381, 8, 2, 867.79, 10.00),
+  (1206, 381, 90, 1, 50.56, 10.00),
+  (1207, 381, 70, 2, 1783.94, 0.00),
+  (1208, 381, 88, 1, 1083.44, 10.00),
+  (1209, 381, 19, 2, 634.07, 0.00),
+  (1210, 382, 50, 2, 1197.18, 10.00),
+  (1211, 382, 88, 1, 1083.44, 5.00),
+  (1212, 382, 57, 2, 846.69, 0.00),
+  (1213, 382, 51, 2, 1027.73, 10.00),
+  (1214, 382, 12, 1, 1750.23, 10.00),
+  (1215, 383, 11, 2, 902.74, 0.00),
+  (1216, 383, 95, 2, 1662.84, 10.00),
+  (1217, 383, 92, 2, 343.90, 0.00),
+  (1218, 384, 89, 1, 1306.99, 0.00),
+  (1219, 384, 83, 3, 1961.64, 5.00),
+  (1220, 384, 81, 2, 877.31, 5.00),
+  (1221, 384, 1, 2, 1346.66, 5.00),
+  (1222, 385, 58, 2, 818.09, 5.00),
+  (1223, 385, 34, 1, 1811.62, 10.00),
+  (1224, 385, 37, 1, 159.74, 0.00),
+  (1225, 386, 60, 1, 1354.50, 10.00),
+  (1226, 387, 48, 1, 1962.49, 0.00),
+  (1227, 388, 96, 2, 1204.82, 0.00),
+  (1228, 388, 17, 2, 1915.06, 5.00),
+  (1229, 388, 77, 1, 846.09, 10.00),
+  (1230, 389, 31, 3, 1330.14, 0.00),
+  (1231, 389, 32, 2, 1487.41, 0.00),
+  (1232, 389, 11, 1, 902.74, 0.00),
+  (1233, 390, 13, 3, 1307.77, 0.00),
+  (1234, 391, 65, 3, 1395.74, 0.00),
+  (1235, 391, 39, 2, 623.43, 10.00),
+  (1236, 391, 17, 3, 1915.06, 0.00),
+  (1237, 392, 41, 3, 1501.46, 0.00),
+  (1238, 393, 37, 2, 159.74, 10.00),
+  (1239, 393, 67, 2, 1610.18, 0.00),
+  (1240, 393, 22, 2, 1883.78, 0.00),
+  (1241, 393, 98, 1, 35.18, 0.00),
+  (1242, 394, 15, 2, 1730.65, 0.00),
+  (1243, 394, 57, 2, 846.69, 0.00),
+  (1244, 394, 59, 2, 1573.66, 0.00),
+  (1245, 394, 93, 1, 225.12, 0.00),
+  (1246, 395, 1, 3, 1346.66, 5.00),
+  (1247, 395, 54, 1, 1898.26, 5.00),
+  (1248, 395, 99, 2, 730.75, 0.00),
+  (1249, 395, 43, 1, 1729.49, 10.00),
+  (1250, 395, 88, 3, 1083.44, 0.00),
+  (1251, 396, 85, 1, 371.64, 10.00),
+  (1252, 396, 6, 3, 1449.47, 0.00),
+  (1253, 396, 42, 3, 59.32, 5.00),
+  (1254, 396, 28, 1, 537.75, 10.00),
+  (1255, 396, 42, 1, 59.32, 0.00),
+  (1256, 397, 21, 2, 379.79, 0.00),
+  (1257, 397, 37, 3, 159.74, 5.00),
+  (1258, 398, 58, 2, 818.09, 0.00),
+  (1259, 398, 35, 3, 97.73, 0.00),
+  (1260, 398, 12, 2, 1750.23, 10.00),
+  (1261, 398, 79, 1, 604.24, 0.00),
+  (1262, 399, 68, 3, 505.90, 0.00),
+  (1263, 399, 38, 2, 744.74, 0.00),
+  (1264, 399, 11, 2, 902.74, 10.00),
+  (1265, 399, 20, 1, 1706.91, 10.00),
+  (1266, 400, 55, 2, 258.00, 0.00),
+  (1267, 400, 60, 3, 1354.50, 10.00),
+  (1268, 400, 46, 2, 1323.47, 0.00),
+  (1269, 400, 99, 3, 730.75, 0.00),
+  (1270, 400, 15, 3, 1730.65, 0.00),
+  (1271, 401, 93, 2, 225.12, 0.00),
+  (1272, 401, 80, 2, 1096.80, 10.00),
+  (1273, 401, 24, 1, 1870.07, 5.00),
+  (1274, 401, 11, 3, 902.74, 10.00),
+  (1275, 401, 87, 1, 1665.53, 0.00),
+  (1276, 402, 80, 3, 1096.80, 10.00),
+  (1277, 402, 89, 3, 1306.99, 0.00),
+  (1278, 402, 39, 1, 623.43, 5.00),
+  (1279, 403, 84, 1, 1329.37, 0.00),
+  (1280, 403, 81, 3, 877.31, 5.00),
+  (1281, 404, 58, 3, 818.09, 5.00),
+  (1282, 405, 77, 3, 846.09, 10.00),
+  (1283, 405, 5, 2, 483.63, 0.00),
+  (1284, 405, 63, 3, 303.23, 0.00),
+  (1285, 405, 30, 3, 1616.13, 0.00),
+  (1286, 405, 68, 1, 505.90, 0.00),
+  (1287, 406, 83, 2, 1961.64, 0.00),
+  (1288, 406, 90, 2, 50.56, 0.00),
+  (1289, 406, 21, 2, 379.79, 5.00),
+  (1290, 406, 61, 2, 574.73, 0.00),
+  (1291, 406, 30, 3, 1616.13, 5.00),
+  (1292, 407, 21, 3, 379.79, 5.00),
+  (1293, 407, 37, 3, 159.74, 0.00),
+  (1294, 407, 86, 2, 660.42, 5.00),
+  (1295, 407, 23, 1, 1242.57, 5.00),
+  (1296, 408, 46, 3, 1323.47, 5.00),
+  (1297, 408, 23, 3, 1242.57, 0.00),
+  (1298, 408, 9, 2, 117.80, 0.00),
+  (1299, 409, 99, 3, 730.75, 10.00),
+  (1300, 410, 14, 3, 1698.90, 0.00),
+  (1301, 411, 94, 2, 1916.76, 0.00),
+  (1302, 411, 98, 3, 35.18, 0.00),
+  (1303, 412, 57, 2, 846.69, 0.00),
+  (1304, 412, 32, 2, 1487.41, 10.00),
+  (1305, 413, 20, 3, 1706.91, 0.00),
+  (1306, 413, 30, 1, 1616.13, 0.00),
+  (1307, 414, 92, 3, 343.90, 0.00),
+  (1308, 415, 8, 3, 867.79, 10.00),
+  (1309, 415, 54, 2, 1898.26, 10.00),
+  (1310, 415, 93, 3, 225.12, 10.00),
+  (1311, 415, 45, 1, 1837.72, 10.00),
+  (1312, 415, 68, 3, 505.90, 5.00),
+  (1313, 416, 84, 2, 1329.37, 5.00),
+  (1314, 416, 39, 1, 623.43, 0.00),
+  (1315, 416, 69, 2, 1338.48, 0.00),
+  (1316, 417, 44, 3, 225.11, 5.00),
+  (1317, 417, 3, 1, 467.93, 10.00),
+  (1318, 417, 31, 2, 1330.14, 0.00),
+  (1319, 417, 65, 1, 1395.74, 0.00),
+  (1320, 417, 48, 2, 1962.49, 10.00),
+  (1321, 418, 31, 3, 1330.14, 5.00),
+  (1322, 418, 45, 2, 1837.72, 10.00),
+  (1323, 418, 86, 3, 660.42, 5.00),
+  (1324, 419, 59, 1, 1573.66, 5.00),
+  (1325, 419, 92, 2, 343.90, 0.00),
+  (1326, 419, 11, 1, 902.74, 0.00),
+  (1327, 420, 75, 2, 772.24, 0.00),
+  (1328, 420, 57, 3, 846.69, 0.00),
+  (1329, 420, 94, 2, 1916.76, 5.00),
+  (1330, 421, 59, 2, 1573.66, 0.00),
+  (1331, 421, 96, 1, 1204.82, 10.00),
+  (1332, 422, 48, 2, 1962.49, 10.00),
+  (1333, 423, 37, 1, 159.74, 5.00),
+  (1334, 423, 95, 2, 1662.84, 0.00),
+  (1335, 423, 16, 3, 786.94, 10.00),
+  (1336, 424, 93, 3, 225.12, 5.00),
+  (1337, 424, 98, 1, 35.18, 0.00),
+  (1338, 424, 98, 2, 35.18, 0.00),
+  (1339, 424, 20, 3, 1706.91, 10.00),
+  (1340, 425, 95, 2, 1662.84, 0.00),
+  (1341, 425, 22, 3, 1883.78, 0.00),
+  (1342, 425, 74, 3, 678.34, 10.00),
+  (1343, 425, 72, 3, 502.01, 0.00),
+  (1344, 426, 65, 1, 1395.74, 0.00),
+  (1345, 426, 85, 3, 371.64, 5.00),
+  (1346, 426, 3, 2, 467.93, 5.00),
+  (1347, 426, 32, 3, 1487.41, 0.00),
+  (1348, 427, 4, 3, 127.16, 10.00),
+  (1349, 427, 49, 2, 1941.10, 0.00),
+  (1350, 427, 15, 1, 1730.65, 5.00),
+  (1351, 427, 37, 1, 159.74, 5.00),
+  (1352, 428, 4, 3, 127.16, 0.00),
+  (1353, 428, 39, 2, 623.43, 0.00),
+  (1354, 429, 31, 3, 1330.14, 5.00),
+  (1355, 429, 64, 3, 1539.29, 0.00),
+  (1356, 430, 53, 3, 1881.12, 5.00),
+  (1357, 431, 73, 2, 486.10, 0.00),
+  (1358, 431, 11, 3, 902.74, 5.00),
+  (1359, 431, 19, 2, 634.07, 5.00),
+  (1360, 432, 8, 2, 867.79, 10.00),
+  (1361, 433, 21, 3, 379.79, 0.00),
+  (1362, 434, 79, 3, 604.24, 10.00),
+  (1363, 434, 88, 2, 1083.44, 10.00),
+  (1364, 435, 59, 3, 1573.66, 10.00),
+  (1365, 435, 3, 3, 467.93, 5.00),
+  (1366, 436, 90, 3, 50.56, 0.00),
+  (1367, 436, 98, 2, 35.18, 0.00),
+  (1368, 436, 84, 3, 1329.37, 0.00),
+  (1369, 436, 69, 1, 1338.48, 0.00),
+  (1370, 436, 87, 1, 1665.53, 10.00),
+  (1371, 437, 25, 2, 270.45, 0.00),
+  (1372, 437, 29, 3, 323.92, 0.00),
+  (1373, 437, 98, 2, 35.18, 10.00),
+  (1374, 438, 91, 3, 237.63, 5.00),
+  (1375, 438, 1, 1, 1346.66, 0.00),
+  (1376, 438, 15, 2, 1730.65, 0.00),
+  (1377, 438, 22, 3, 1883.78, 5.00),
+  (1378, 439, 17, 2, 1915.06, 5.00),
+  (1379, 440, 59, 1, 1573.66, 0.00),
+  (1380, 440, 83, 3, 1961.64, 0.00),
+  (1381, 440, 42, 2, 59.32, 0.00),
+  (1382, 440, 36, 1, 889.25, 0.00),
+  (1383, 440, 64, 2, 1539.29, 0.00),
+  (1384, 441, 25, 2, 270.45, 0.00),
+  (1385, 441, 74, 1, 678.34, 5.00),
+  (1386, 441, 89, 2, 1306.99, 0.00),
+  (1387, 441, 32, 1, 1487.41, 5.00),
+  (1388, 442, 32, 1, 1487.41, 0.00),
+  (1389, 442, 31, 2, 1330.14, 0.00),
+  (1390, 442, 43, 3, 1729.49, 5.00),
+  (1391, 443, 8, 1, 867.79, 0.00),
+  (1392, 444, 79, 3, 604.24, 0.00),
+  (1393, 444, 9, 1, 117.80, 0.00),
+  (1394, 444, 72, 1, 502.01, 10.00),
+  (1395, 445, 60, 2, 1354.50, 0.00),
+  (1396, 445, 44, 3, 225.11, 0.00),
+  (1397, 445, 59, 3, 1573.66, 10.00),
+  (1398, 445, 76, 1, 668.45, 0.00),
+  (1399, 446, 33, 2, 1438.05, 0.00),
+  (1400, 446, 62, 3, 1904.48, 0.00),
+  (1401, 446, 24, 1, 1870.07, 5.00),
+  (1402, 446, 6, 1, 1449.47, 5.00),
+  (1403, 446, 40, 3, 1337.20, 0.00),
+  (1404, 447, 40, 3, 1337.20, 10.00),
+  (1405, 447, 38, 2, 744.74, 0.00),
+  (1406, 447, 67, 3, 1610.18, 5.00),
+  (1407, 447, 8, 1, 867.79, 0.00),
+  (1408, 448, 89, 3, 1306.99, 0.00),
+  (1409, 448, 77, 3, 846.09, 10.00),
+  (1410, 448, 75, 3, 772.24, 10.00),
+  (1411, 448, 79, 2, 604.24, 0.00),
+  (1412, 449, 28, 1, 537.75, 0.00),
+  (1413, 449, 95, 2, 1662.84, 0.00),
+  (1414, 449, 27, 2, 1130.36, 5.00),
+  (1415, 449, 1, 2, 1346.66, 0.00),
+  (1416, 449, 10, 2, 685.21, 0.00),
+  (1417, 450, 26, 1, 1506.21, 10.00),
+  (1418, 451, 3, 1, 467.93, 10.00),
+  (1419, 451, 13, 1, 1307.77, 5.00),
+  (1420, 452, 68, 3, 505.90, 0.00),
+  (1421, 452, 92, 1, 343.90, 0.00),
+  (1422, 453, 55, 3, 258.00, 5.00),
+  (1423, 453, 6, 3, 1449.47, 5.00),
+  (1424, 453, 69, 2, 1338.48, 5.00),
+  (1425, 453, 42, 1, 59.32, 0.00),
+  (1426, 453, 81, 2, 877.31, 5.00),
+  (1427, 454, 66, 2, 1378.37, 10.00),
+  (1428, 454, 64, 3, 1539.29, 0.00),
+  (1429, 455, 75, 2, 772.24, 0.00),
+  (1430, 455, 27, 1, 1130.36, 5.00),
+  (1431, 455, 58, 1, 818.09, 0.00),
+  (1432, 456, 11, 1, 902.74, 0.00),
+  (1433, 456, 38, 2, 744.74, 10.00),
+  (1434, 456, 30, 3, 1616.13, 0.00),
+  (1435, 456, 60, 3, 1354.50, 10.00),
+  (1436, 456, 55, 2, 258.00, 0.00),
+  (1437, 457, 34, 3, 1811.62, 0.00),
+  (1438, 457, 46, 1, 1323.47, 10.00),
+  (1439, 458, 10, 2, 685.21, 0.00),
+  (1440, 459, 34, 1, 1811.62, 10.00),
+  (1441, 459, 37, 2, 159.74, 0.00),
+  (1442, 459, 52, 3, 1420.48, 0.00),
+  (1443, 459, 61, 3, 574.73, 5.00),
+  (1444, 459, 51, 1, 1027.73, 5.00),
+  (1445, 460, 44, 1, 225.11, 10.00),
+  (1446, 460, 25, 2, 270.45, 0.00),
+  (1447, 460, 27, 2, 1130.36, 0.00),
+  (1448, 460, 72, 1, 502.01, 10.00),
+  (1449, 461, 54, 2, 1898.26, 0.00),
+  (1450, 461, 98, 3, 35.18, 10.00),
+  (1451, 462, 27, 2, 1130.36, 0.00),
+  (1452, 462, 69, 2, 1338.48, 5.00),
+  (1453, 462, 61, 1, 574.73, 10.00),
+  (1454, 462, 73, 2, 486.10, 10.00),
+  (1455, 463, 24, 1, 1870.07, 0.00),
+  (1456, 464, 67, 1, 1610.18, 5.00),
+  (1457, 464, 42, 2, 59.32, 0.00),
+  (1458, 464, 21, 1, 379.79, 5.00),
+  (1459, 465, 40, 2, 1337.20, 0.00),
+  (1460, 465, 21, 3, 379.79, 10.00),
+  (1461, 466, 78, 1, 1533.53, 10.00),
+  (1462, 466, 73, 2, 486.10, 0.00),
+  (1463, 466, 60, 3, 1354.50, 0.00),
+  (1464, 466, 95, 1, 1662.84, 10.00),
+  (1465, 467, 23, 3, 1242.57, 0.00),
+  (1466, 467, 59, 2, 1573.66, 5.00),
+  (1467, 468, 38, 3, 744.74, 0.00),
+  (1468, 468, 90, 3, 50.56, 5.00),
+  (1469, 468, 64, 2, 1539.29, 0.00),
+  (1470, 468, 48, 1, 1962.49, 0.00),
+  (1471, 468, 65, 2, 1395.74, 0.00),
+  (1472, 469, 44, 3, 225.11, 0.00),
+  (1473, 469, 25, 2, 270.45, 0.00),
+  (1474, 469, 2, 2, 503.33, 0.00),
+  (1475, 469, 91, 1, 237.63, 10.00),
+  (1476, 470, 36, 1, 889.25, 5.00),
+  (1477, 470, 3, 3, 467.93, 0.00),
+  (1478, 470, 23, 2, 1242.57, 0.00),
+  (1479, 470, 69, 3, 1338.48, 0.00),
+  (1480, 471, 28, 2, 537.75, 0.00),
+  (1481, 471, 82, 3, 1598.30, 0.00),
+  (1482, 471, 50, 3, 1197.18, 10.00),
+  (1483, 471, 57, 1, 846.69, 0.00),
+  (1484, 471, 7, 2, 951.22, 5.00),
+  (1485, 472, 29, 1, 323.92, 5.00),
+  (1486, 473, 27, 3, 1130.36, 0.00),
+  (1487, 473, 55, 1, 258.00, 5.00),
+  (1488, 473, 28, 1, 537.75, 10.00),
+  (1489, 473, 42, 1, 59.32, 0.00),
+  (1490, 473, 52, 3, 1420.48, 10.00),
+  (1491, 474, 28, 2, 537.75, 10.00),
+  (1492, 475, 43, 1, 1729.49, 10.00),
+  (1493, 475, 86, 2, 660.42, 0.00),
+  (1494, 476, 3, 3, 467.93, 0.00),
+  (1495, 476, 40, 1, 1337.20, 0.00),
+  (1496, 477, 49, 1, 1941.10, 0.00),
+  (1497, 477, 31, 3, 1330.14, 0.00),
+  (1498, 478, 97, 1, 862.47, 5.00),
+  (1499, 478, 94, 2, 1916.76, 10.00),
+  (1500, 478, 32, 1, 1487.41, 0.00),
+  (1501, 479, 57, 3, 846.69, 0.00),
+  (1502, 479, 9, 2, 117.80, 0.00),
+  (1503, 480, 65, 1, 1395.74, 0.00),
+  (1504, 480, 93, 2, 225.12, 10.00),
+  (1505, 481, 58, 3, 818.09, 5.00),
+  (1506, 481, 35, 2, 97.73, 0.00),
+  (1507, 481, 47, 2, 1934.11, 0.00),
+  (1508, 481, 22, 2, 1883.78, 0.00),
+  (1509, 481, 55, 3, 258.00, 0.00),
+  (1510, 482, 94, 1, 1916.76, 10.00),
+  (1511, 482, 49, 2, 1941.10, 10.00),
+  (1512, 482, 59, 2, 1573.66, 0.00),
+  (1513, 482, 72, 3, 502.01, 0.00),
+  (1514, 482, 10, 2, 685.21, 5.00),
+  (1515, 483, 51, 3, 1027.73, 10.00),
+  (1516, 483, 50, 2, 1197.18, 10.00),
+  (1517, 483, 83, 3, 1961.64, 0.00),
+  (1518, 483, 53, 1, 1881.12, 0.00),
+  (1519, 484, 90, 1, 50.56, 0.00),
+  (1520, 484, 55, 3, 258.00, 5.00),
+  (1521, 484, 32, 2, 1487.41, 0.00),
+  (1522, 485, 59, 3, 1573.66, 5.00),
+  (1523, 485, 33, 1, 1438.05, 5.00),
+  (1524, 485, 2, 1, 503.33, 0.00),
+  (1525, 485, 83, 3, 1961.64, 0.00),
+  (1526, 485, 51, 3, 1027.73, 0.00),
+  (1527, 486, 40, 3, 1337.20, 0.00),
+  (1528, 486, 97, 3, 862.47, 0.00),
+  (1529, 486, 14, 3, 1698.90, 10.00),
+  (1530, 486, 19, 2, 634.07, 5.00),
+  (1531, 486, 96, 2, 1204.82, 10.00),
+  (1532, 487, 94, 2, 1916.76, 5.00),
+  (1533, 487, 23, 2, 1242.57, 5.00),
+  (1534, 487, 91, 1, 237.63, 5.00),
+  (1535, 488, 96, 1, 1204.82, 5.00),
+  (1536, 489, 49, 1, 1941.10, 10.00),
+  (1537, 490, 35, 1, 97.73, 0.00),
+  (1538, 491, 97, 2, 862.47, 0.00),
+  (1539, 491, 44, 2, 225.11, 10.00),
+  (1540, 491, 41, 1, 1501.46, 10.00),
+  (1541, 491, 86, 2, 660.42, 0.00),
+  (1542, 492, 78, 1, 1533.53, 10.00),
+  (1543, 493, 1, 3, 1346.66, 10.00),
+  (1544, 493, 3, 3, 467.93, 10.00),
+  (1545, 494, 55, 2, 258.00, 0.00),
+  (1546, 494, 94, 2, 1916.76, 10.00),
+  (1547, 494, 78, 1, 1533.53, 5.00),
+  (1548, 495, 58, 1, 818.09, 0.00),
+  (1549, 495, 85, 3, 371.64, 5.00),
+  (1550, 496, 50, 2, 1197.18, 5.00),
+  (1551, 496, 93, 2, 225.12, 0.00),
+  (1552, 496, 86, 1, 660.42, 5.00),
+  (1553, 497, 99, 3, 730.75, 0.00),
+  (1554, 497, 83, 2, 1961.64, 0.00),
+  (1555, 497, 92, 3, 343.90, 0.00),
+  (1556, 497, 84, 3, 1329.37, 0.00),
+  (1557, 497, 30, 1, 1616.13, 10.00),
+  (1558, 498, 48, 1, 1962.49, 10.00),
+  (1559, 498, 49, 3, 1941.10, 0.00),
+  (1560, 498, 40, 1, 1337.20, 5.00),
+  (1561, 498, 50, 2, 1197.18, 10.00),
+  (1562, 498, 99, 2, 730.75, 5.00),
+  (1563, 499, 19, 2, 634.07, 5.00),
+  (1564, 499, 64, 3, 1539.29, 0.00),
+  (1565, 499, 19, 3, 634.07, 10.00),
+  (1566, 500, 91, 3, 237.63, 0.00),
+  (1567, 500, 81, 1, 877.31, 0.00),
+  (1568, 500, 38, 3, 744.74, 0.00);
+
+
+INSERT INTO Payments (payment_id, order_id, payment_date, payment_method, amount, currency)
+VALUES
+  (
+    1,
+    1,
+    '2024-09-14 07:56:01',
+    'PayPal',
+    5540.06,
+    'USD'
+  ),
+  (
+    2,
+    2,
+    '2024-09-14 07:56:01',
+    'PayPal',
+    6754.49,
+    'USD'
+  ),
+  (
+    3,
+    3,
+    '2024-09-14 07:56:01',
+    'Bank Transfer',
+    10408.26,
+    'USD'
+  ),
+  (
+    4,
+    4,
+    '2024-09-12 06:56:01',
+    'PayPal',
+    540.90,
+    'USD'
+  ),
+  (
+    5,
+    5,
+    '2024-09-10 05:56:01',
+    'PayPal',
+    5949.57,
+    'USD'
+  ),
+  (
+    6,
+    6,
+    '2024-09-13 08:56:01',
+    'Bank Transfer',
+    2493.61,
+    'USD'
+  ),
+  (
+    7,
+    7,
+    '2024-09-13 13:56:01',
+    'Card',
+    8178.55,
+    'USD'
+  ),
+  (
+    8,
+    8,
+    '2024-09-12 08:56:01',
+    'PayPal',
+    3232.26,
+    'USD'
+  ),
+  (
+    9,
+    9,
+    '2024-09-13 05:56:01',
+    'PayPal',
+    11555.22,
+    'USD'
+  ),
+  (
+    10,
+    10,
+    '2024-09-11 07:56:01',
+    'Bank Transfer',
+    9502.81,
+    'USD'
+  ),
+  (
+    11,
+    11,
+    '2024-09-13 07:56:01',
+    'PayPal',
+    16073.99,
+    'USD'
+  ),
+  (
+    12,
+    12,
+    '2024-09-13 04:56:01',
+    'Bank Transfer',
+    6819.27,
+    'USD'
+  ),
+  (
+    13,
+    13,
+    '2024-09-14 14:56:01',
+    'PayPal',
+    5650.62,
+    'USD'
+  ),
+  (
+    14,
+    14,
+    '2024-09-11 08:56:01',
+    'Bank Transfer',
+    9962.72,
+    'USD'
+  ),
+  (
+    15,
+    15,
+    '2024-09-12 09:56:01',
+    'PayPal',
+    6129.71,
+    'USD'
+  ),
+  (
+    16,
+    16,
+    '2024-09-12 09:56:01',
+    'Bank Transfer',
+    7540.47,
+    'USD'
+  ),
+  (
+    17,
+    17,
+    '2024-09-12 05:56:01',
+    'PayPal',
+    2045.75,
+    'USD'
+  ),
+  (
+    18,
+    18,
+    '2024-09-10 07:56:01',
+    'PayPal',
+    6599.14,
+    'USD'
+  ),
+  (
+    19,
+    19,
+    '2024-09-10 12:56:01',
+    'Bank Transfer',
+    4532.97,
+    'USD'
+  ),
+  (
+    20,
+    20,
+    '2024-09-12 08:56:01',
+    'Bank Transfer',
+    2709.00,
+    'USD'
+  ),
+  (
+    21,
+    21,
+    '2024-09-13 04:56:01',
+    'Bank Transfer',
+    5054.64,
+    'USD'
+  ),
+  (
+    22,
+    22,
+    '2024-09-11 05:56:01',
+    'Bank Transfer',
+    4213.64,
+    'USD'
+  ),
+  (
+    23,
+    23,
+    '2024-09-12 15:56:01',
+    'Bank Transfer',
+    5910.10,
+    'USD'
+  ),
+  (
+    24,
+    24,
+    '2024-09-14 15:56:01',
+    'Card',
+    7333.61,
+    'USD'
+  ),
+  (
+    25,
+    25,
+    '2024-09-11 15:56:01',
+    'PayPal',
+    6275.67,
+    'USD'
+  ),
+  (
+    26,
+    26,
+    '2024-09-14 08:56:01',
+    'PayPal',
+    1307.77,
+    'USD'
+  ),
+  (
+    27,
+    27,
+    '2024-09-12 05:56:01',
+    'PayPal',
+    909.69,
+    'USD'
+  ),
+  (
+    28,
+    28,
+    '2024-09-11 14:56:01',
+    'Card',
+    2166.88,
+    'USD'
+  ),
+  (
+    29,
+    29,
+    '2024-09-10 15:56:01',
+    'Card',
+    1729.49,
+    'USD'
+  ),
+  (
+    30,
+    30,
+    '2024-09-13 12:56:01',
+    'Card',
+    1480.16,
+    'USD'
+  ),
+  (
+    31,
+    31,
+    '2024-09-13 14:56:01',
+    'PayPal',
+    5137.30,
+    'USD'
+  ),
+  (
+    32,
+    32,
+    '2024-09-13 12:56:01',
+    'PayPal',
+    12488.66,
+    'USD'
+  ),
+  (
+    33,
+    33,
+    '2024-09-12 10:56:01',
+    'Card',
+    15170.67,
+    'USD'
+  ),
+  (
+    34,
+    34,
+    '2024-09-11 07:56:01',
+    'PayPal',
+    10085.13,
+    'USD'
+  ),
+  (
+    35,
+    35,
+    '2024-09-13 09:56:01',
+    'Bank Transfer',
+    3762.24,
+    'USD'
+  ),
+  (
+    36,
+    36,
+    '2024-09-14 09:56:01',
+    'PayPal',
+    4141.08,
+    'USD'
+  ),
+  (
+    37,
+    37,
+    '2024-09-12 11:56:01',
+    'Card',
+    5083.13,
+    'USD'
+  ),
+  (
+    38,
+    38,
+    '2024-09-11 13:56:01',
+    'Card',
+    7069.82,
+    'USD'
+  ),
+  (
+    39,
+    39,
+    '2024-09-12 07:56:01',
+    'Bank Transfer',
+    10969.06,
+    'USD'
+  ),
+  (
+    40,
+    40,
+    '2024-09-11 12:56:01',
+    'Card',
+    5327.04,
+    'USD'
+  ),
+  (
+    41,
+    41,
+    '2024-09-12 10:56:01',
+    'PayPal',
+    3083.19,
+    'USD'
+  ),
+  (
+    42,
+    42,
+    '2024-09-10 11:56:01',
+    'Card',
+    6134.60,
+    'USD'
+  ),
+  (
+    43,
+    43,
+    '2024-09-13 04:56:01',
+    'Card',
+    8310.24,
+    'USD'
+  ),
+  (
+    44,
+    44,
+    '2024-09-11 05:56:01',
+    'PayPal',
+    17916.88,
+    'USD'
+  ),
+  (
+    45,
+    45,
+    '2024-09-12 04:56:01',
+    'Bank Transfer',
+    5840.32,
+    'USD'
+  ),
+  (
+    46,
+    46,
+    '2024-09-14 05:56:01',
+    'Card',
+    4426.81,
+    'USD'
+  ),
+  (
+    47,
+    47,
+    '2024-09-12 05:56:01',
+    'Bank Transfer',
+    10291.15,
+    'USD'
+  ),
+  (
+    48,
+    48,
+    '2024-09-13 11:56:01',
+    'PayPal',
+    2316.72,
+    'USD'
+  ),
+  (
+    49,
+    49,
+    '2024-09-12 10:56:01',
+    'Card',
+    14386.84,
+    'USD'
+  ),
+  (
+    50,
+    50,
+    '2024-09-10 07:56:01',
+    'Bank Transfer',
+    4187.22,
+    'USD'
+  ),
+  (
+    51,
+    51,
+    '2024-09-14 12:56:01',
+    'Bank Transfer',
+    3762.24,
+    'USD'
+  ),
+  (
+    52,
+    52,
+    '2024-09-11 15:56:01',
+    'PayPal',
+    8596.47,
+    'USD'
+  ),
+  (
+    53,
+    53,
+    '2024-09-13 12:56:01',
+    'PayPal',
+    7747.18,
+    'USD'
+  ),
+  (
+    54,
+    54,
+    '2024-09-13 15:56:01',
+    'Card',
+    1286.02,
+    'USD'
+  ),
+  (
+    55,
+    55,
+    '2024-09-10 15:56:01',
+    'Card',
+    10122.13,
+    'USD'
+  ),
+  (
+    56,
+    56,
+    '2024-09-13 04:56:01',
+    'PayPal',
+    11541.01,
+    'USD'
+  ),
+  (
+    57,
+    57,
+    '2024-09-11 12:56:01',
+    'Bank Transfer',
+    9813.60,
+    'USD'
+  ),
+  (
+    58,
+    58,
+    '2024-09-11 15:56:01',
+    'PayPal',
+    3118.30,
+    'USD'
+  ),
+  (
+    59,
+    59,
+    '2024-09-11 14:56:01',
+    'PayPal',
+    2739.40,
+    'USD'
+  ),
+  (
+    60,
+    60,
+    '2024-09-10 07:56:01',
+    'Card',
+    3833.52,
+    'USD'
+  ),
+  (
+    61,
+    61,
+    '2024-09-11 09:56:01',
+    'PayPal',
+    6926.65,
+    'USD'
+  ),
+  (
+    62,
+    62,
+    '2024-09-13 15:56:01',
+    'PayPal',
+    1915.06,
+    'USD'
+  ),
+  (
+    63,
+    63,
+    '2024-09-10 06:56:01',
+    'PayPal',
+    7073.77,
+    'USD'
+  ),
+  (
+    64,
+    64,
+    '2024-09-12 06:56:01',
+    'Bank Transfer',
+    6210.53,
+    'USD'
+  ),
+  (
+    65,
+    65,
+    '2024-09-10 15:56:01',
+    'Bank Transfer',
+    5846.43,
+    'USD'
+  ),
+  (
+    66,
+    66,
+    '2024-09-13 13:56:01',
+    'Bank Transfer',
+    6140.56,
+    'USD'
+  ),
+  (
+    67,
+    67,
+    '2024-09-11 06:56:01',
+    'Bank Transfer',
+    8987.82,
+    'USD'
+  ),
+  (
+    68,
+    68,
+    '2024-09-10 13:56:01',
+    'Card',
+    4605.37,
+    'USD'
+  ),
+  (
+    69,
+    69,
+    '2024-09-12 13:56:01',
+    'Card',
+    6142.20,
+    'USD'
+  ),
+  (
+    70,
+    70,
+    '2024-09-14 14:56:01',
+    'Card',
+    5481.30,
+    'USD'
+  ),
+  (
+    71,
+    71,
+    '2024-09-12 15:56:01',
+    'Bank Transfer',
+    8456.22,
+    'USD'
+  ),
+  (
+    72,
+    72,
+    '2024-09-13 08:56:01',
+    'Bank Transfer',
+    5505.22,
+    'USD'
+  ),
+  (
+    73,
+    73,
+    '2024-09-13 08:56:01',
+    'PayPal',
+    12447.18,
+    'USD'
+  ),
+  (
+    74,
+    74,
+    '2024-09-14 05:56:01',
+    'Bank Transfer',
+    4778.55,
+    'USD'
+  ),
+  (
+    75,
+    75,
+    '2024-09-13 11:56:01',
+    'Bank Transfer',
+    13234.16,
+    'USD'
+  ),
+  (
+    76,
+    76,
+    '2024-09-13 04:56:01',
+    'PayPal',
+    3118.46,
+    'USD'
+  ),
+  (
+    77,
+    77,
+    '2024-09-13 05:56:01',
+    'PayPal',
+    10386.81,
+    'USD'
+  ),
+  (
+    78,
+    78,
+    '2024-09-12 08:56:01',
+    'Bank Transfer',
+    3622.66,
+    'USD'
+  ),
+  (
+    79,
+    79,
+    '2024-09-13 12:56:01',
+    'Card',
+    5161.02,
+    'USD'
+  ),
+  (
+    80,
+    80,
+    '2024-09-11 05:56:01',
+    'Card',
+    6594.89,
+    'USD'
+  ),
+  (
+    81,
+    81,
+    '2024-09-13 08:56:01',
+    'Bank Transfer',
+    8648.35,
+    'USD'
+  ),
+  (
+    82,
+    82,
+    '2024-09-14 10:56:01',
+    'Bank Transfer',
+    6940.20,
+    'USD'
+  ),
+  (
+    83,
+    83,
+    '2024-09-13 14:56:01',
+    'Card',
+    7294.82,
+    'USD'
+  ),
+  (
+    84,
+    84,
+    '2024-09-12 15:56:01',
+    'Card',
+    12144.17,
+    'USD'
+  ),
+  (
+    85,
+    85,
+    '2024-09-11 14:56:01',
+    'Bank Transfer',
+    7971.11,
+    'USD'
+  ),
+  (
+    86,
+    86,
+    '2024-09-10 11:56:01',
+    'Bank Transfer',
+    14125.05,
+    'USD'
+  ),
+  (
+    87,
+    87,
+    '2024-09-14 09:56:01',
+    'PayPal',
+    13756.88,
+    'USD'
+  ),
+  (
+    88,
+    88,
+    '2024-09-14 05:56:01',
+    'Card',
+    7014.91,
+    'USD'
+  ),
+  (
+    89,
+    89,
+    '2024-09-10 06:56:01',
+    'Bank Transfer',
+    10730.85,
+    'USD'
+  ),
+  (
+    90,
+    90,
+    '2024-09-13 11:56:01',
+    'Card',
+    8032.80,
+    'USD'
+  ),
+  (
+    91,
+    91,
+    '2024-09-13 14:56:01',
+    'Card',
+    2840.96,
+    'USD'
+  ),
+  (
+    92,
+    92,
+    '2024-09-13 06:56:01',
+    'Bank Transfer',
+    4385.67,
+    'USD'
+  ),
+  (
+    93,
+    93,
+    '2024-09-10 13:56:01',
+    'Card',
+    6164.16,
+    'USD'
+  ),
+  (
+    94,
+    94,
+    '2024-09-10 12:56:01',
+    'Bank Transfer',
+    13814.91,
+    'USD'
+  ),
+  (
+    95,
+    95,
+    '2024-09-10 13:56:01',
+    'Card',
+    8889.12,
+    'USD'
+  ),
+  (
+    96,
+    96,
+    '2024-09-11 13:56:01',
+    'PayPal',
+    5048.10,
+    'USD'
+  ),
+  (
+    97,
+    97,
+    '2024-09-13 08:56:01',
+    'PayPal',
+    8577.86,
+    'USD'
+  ),
+  (
+    98,
+    98,
+    '2024-09-11 12:56:01',
+    'Card',
+    6285.57,
+    'USD'
+  ),
+  (
+    99,
+    99,
+    '2024-09-10 15:56:01',
+    'Card',
+    2465.82,
+    'USD'
+  ),
+  (
+    100,
+    100,
+    '2024-09-11 12:56:01',
+    'PayPal',
+    5366.50,
+    'USD'
+  ),
+  (
+    101,
+    101,
+    '2024-09-13 09:56:01',
+    'Card',
+    11555.81,
+    'USD'
+  ),
+  (
+    102,
+    102,
+    '2024-09-11 11:56:01',
+    'Bank Transfer',
+    2055.63,
+    'USD'
+  ),
+  (
+    103,
+    103,
+    '2024-09-12 14:56:01',
+    'Bank Transfer',
+    2038.87,
+    'USD'
+  ),
+  (
+    104,
+    104,
+    '2024-09-11 14:56:01',
+    'PayPal',
+    11653.76,
+    'USD'
+  ),
+  (
+    105,
+    105,
+    '2024-09-11 13:56:01',
+    'Bank Transfer',
+    441.63,
+    'USD'
+  ),
+  (
+    106,
+    106,
+    '2024-09-12 08:56:01',
+    'Bank Transfer',
+    7132.42,
+    'USD'
+  ),
+  (
+    107,
+    107,
+    '2024-09-10 06:56:01',
+    'PayPal',
+    6405.74,
+    'USD'
+  ),
+  (
+    108,
+    108,
+    '2024-09-12 07:56:01',
+    'PayPal',
+    9944.58,
+    'USD'
+  ),
+  (
+    109,
+    109,
+    '2024-09-13 07:56:01',
+    'PayPal',
+    7033.12,
+    'USD'
+  ),
+  (
+    110,
+    110,
+    '2024-09-11 14:56:01',
+    'PayPal',
+    12226.12,
+    'USD'
+  ),
+  (
+    111,
+    111,
+    '2024-09-10 11:56:01',
+    'Bank Transfer',
+    6519.85,
+    'USD'
+  ),
+  (
+    112,
+    112,
+    '2024-09-10 09:56:01',
+    'Bank Transfer',
+    730.75,
+    'USD'
+  ),
+  (
+    113,
+    113,
+    '2024-09-12 05:56:01',
+    'Bank Transfer',
+    503.33,
+    'USD'
+  ),
+  (
+    114,
+    114,
+    '2024-09-11 05:56:01',
+    'Card',
+    7290.98,
+    'USD'
+  ),
+  (
+    115,
+    115,
+    '2024-09-14 11:56:01',
+    'Card',
+    13210.23,
+    'USD'
+  ),
+  (
+    116,
+    116,
+    '2024-09-13 07:56:01',
+    'Bank Transfer',
+    12324.47,
+    'USD'
+  ),
+  (
+    117,
+    117,
+    '2024-09-12 11:56:01',
+    'PayPal',
+    15411.30,
+    'USD'
+  ),
+  (
+    118,
+    118,
+    '2024-09-13 10:56:01',
+    'Card',
+    2838.66,
+    'USD'
+  ),
+  (
+    119,
+    119,
+    '2024-09-14 07:56:01',
+    'Card',
+    7375.81,
+    'USD'
+  ),
+  (
+    120,
+    120,
+    '2024-09-12 15:56:01',
+    'Bank Transfer',
+    4561.10,
+    'USD'
+  ),
+  (
+    121,
+    121,
+    '2024-09-10 10:56:01',
+    'Card',
+    12749.31,
+    'USD'
+  ),
+  (
+    122,
+    122,
+    '2024-09-14 08:56:01',
+    'Bank Transfer',
+    1734.60,
+    'USD'
+  ),
+  (
+    123,
+    123,
+    '2024-09-12 09:56:01',
+    'Bank Transfer',
+    6114.61,
+    'USD'
+  ),
+  (
+    124,
+    124,
+    '2024-09-13 12:56:01',
+    'Bank Transfer',
+    8299.97,
+    'USD'
+  ),
+  (
+    125,
+    125,
+    '2024-09-14 12:56:01',
+    'Bank Transfer',
+    453.46,
+    'USD'
+  ),
+  (
+    126,
+    126,
+    '2024-09-13 15:56:01',
+    'Card',
+    1754.62,
+    'USD'
+  ),
+  (
+    127,
+    127,
+    '2024-09-14 08:56:01',
+    'PayPal',
+    3547.99,
+    'USD'
+  ),
+  (
+    128,
+    128,
+    '2024-09-13 14:56:01',
+    'Card',
+    237.63,
+    'USD'
+  ),
+  (
+    129,
+    129,
+    '2024-09-11 12:56:01',
+    'PayPal',
+    101.12,
+    'USD'
+  ),
+  (
+    130,
+    130,
+    '2024-09-12 13:56:01',
+    'Card',
+    6219.48,
+    'USD'
+  ),
+  (
+    131,
+    131,
+    '2024-09-13 12:56:01',
+    'Card',
+    9055.47,
+    'USD'
+  ),
+  (
+    132,
+    132,
+    '2024-09-14 15:56:01',
+    'Card',
+    7757.36,
+    'USD'
+  ),
+  (
+    133,
+    133,
+    '2024-09-13 04:56:01',
+    'Card',
+    7798.17,
+    'USD'
+  ),
+  (
+    134,
+    134,
+    '2024-09-12 15:56:01',
+    'Bank Transfer',
+    11426.42,
+    'USD'
+  ),
+  (
+    135,
+    135,
+    '2024-09-11 12:56:01',
+    'Bank Transfer',
+    1487.41,
+    'USD'
+  ),
+  (
+    136,
+    136,
+    '2024-09-12 05:56:01',
+    'PayPal',
+    237.63,
+    'USD'
+  ),
+  (
+    137,
+    137,
+    '2024-09-10 11:56:01',
+    'Card',
+    9029.44,
+    'USD'
+  ),
+  (
+    138,
+    138,
+    '2024-09-14 14:56:01',
+    'PayPal',
+    6437.99,
+    'USD'
+  ),
+  (
+    139,
+    139,
+    '2024-09-12 06:56:01',
+    'Bank Transfer',
+    5433.37,
+    'USD'
+  ),
+  (
+    140,
+    140,
+    '2024-09-10 06:56:01',
+    'Card',
+    8491.57,
+    'USD'
+  ),
+  (
+    141,
+    141,
+    '2024-09-10 11:56:01',
+    'Bank Transfer',
+    7541.71,
+    'USD'
+  ),
+  (
+    142,
+    142,
+    '2024-09-12 10:56:01',
+    'Card',
+    3391.08,
+    'USD'
+  ),
+  (
+    143,
+    143,
+    '2024-09-12 06:56:01',
+    'PayPal',
+    6633.49,
+    'USD'
+  ),
+  (
+    144,
+    144,
+    '2024-09-10 14:56:01',
+    'Card',
+    1506.21,
+    'USD'
+  ),
+  (
+    145,
+    145,
+    '2024-09-14 11:56:01',
+    'Bank Transfer',
+    3447.80,
+    'USD'
+  ),
+  (
+    146,
+    146,
+    '2024-09-14 15:56:01',
+    'Bank Transfer',
+    7656.82,
+    'USD'
+  ),
+  (
+    147,
+    147,
+    '2024-09-12 05:56:01',
+    'PayPal',
+    1048.28,
+    'USD'
+  ),
+  (
+    148,
+    148,
+    '2024-09-12 08:56:01',
+    'Card',
+    117.80,
+    'USD'
+  ),
+  (
+    149,
+    149,
+    '2024-09-11 06:56:01',
+    'Card',
+    8785.44,
+    'USD'
+  ),
+  (
+    150,
+    150,
+    '2024-09-10 07:56:01',
+    'Card',
+    3500.46,
+    'USD'
+  ),
+  (
+    151,
+    151,
+    '2024-09-14 05:56:01',
+    'Card',
+    8108.34,
+    'USD'
+  ),
+  (
+    152,
+    152,
+    '2024-09-13 05:56:01',
+    'PayPal',
+    7730.20,
+    'USD'
+  ),
+  (
+    153,
+    153,
+    '2024-09-12 13:56:01',
+    'Bank Transfer',
+    7321.60,
+    'USD'
+  ),
+  (
+    154,
+    154,
+    '2024-09-11 13:56:01',
+    'Bank Transfer',
+    1902.21,
+    'USD'
+  ),
+  (
+    155,
+    155,
+    '2024-09-10 08:56:01',
+    'Bank Transfer',
+    5582.83,
+    'USD'
+  ),
+  (
+    156,
+    156,
+    '2024-09-11 09:56:01',
+    'PayPal',
+    4258.99,
+    'USD'
+  ),
+  (
+    157,
+    157,
+    '2024-09-10 06:56:01',
+    'PayPal',
+    5273.74,
+    'USD'
+  ),
+  (
+    158,
+    158,
+    '2024-09-11 09:56:01',
+    'PayPal',
+    2394.36,
+    'USD'
+  ),
+  (
+    159,
+    159,
+    '2024-09-11 14:56:01',
+    'Card',
+    10088.29,
+    'USD'
+  ),
+  (
+    160,
+    160,
+    '2024-09-13 10:56:01',
+    'Bank Transfer',
+    8334.42,
+    'USD'
+  ),
+  (
+    161,
+    161,
+    '2024-09-13 08:56:01',
+    'PayPal',
+    1902.44,
+    'USD'
+  ),
+  (
+    162,
+    162,
+    '2024-09-10 05:56:01',
+    'Card',
+    127.16,
+    'USD'
+  ),
+  (
+    163,
+    163,
+    '2024-09-10 07:56:01',
+    'PayPal',
+    10953.32,
+    'USD'
+  ),
+  (
+    164,
+    164,
+    '2024-09-12 13:56:01',
+    'Bank Transfer',
+    1320.84,
+    'USD'
+  ),
+  (
+    165,
+    165,
+    '2024-09-14 15:56:01',
+    'Card',
+    12160.63,
+    'USD'
+  ),
+  (
+    166,
+    166,
+    '2024-09-12 04:56:01',
+    'Card',
+    12696.28,
+    'USD'
+  ),
+  (
+    167,
+    167,
+    '2024-09-14 12:56:01',
+    'Bank Transfer',
+    9867.13,
+    'USD'
+  ),
+  (
+    168,
+    168,
+    '2024-09-10 10:56:01',
+    'Card',
+    4119.04,
+    'USD'
+  ),
+  (
+    169,
+    169,
+    '2024-09-12 09:56:01',
+    'Bank Transfer',
+    10890.39,
+    'USD'
+  ),
+  (
+    170,
+    170,
+    '2024-09-11 10:56:01',
+    'Bank Transfer',
+    5924.90,
+    'USD'
+  ),
+  (
+    171,
+    171,
+    '2024-09-11 14:56:01',
+    'Card',
+    7598.27,
+    'USD'
+  ),
+  (
+    172,
+    172,
+    '2024-09-10 04:56:01',
+    'PayPal',
+    8170.46,
+    'USD'
+  ),
+  (
+    173,
+    173,
+    '2024-09-10 08:56:01',
+    'PayPal',
+    9647.45,
+    'USD'
+  ),
+  (
+    174,
+    174,
+    '2024-09-11 07:56:01',
+    'Card',
+    7365.42,
+    'USD'
+  ),
+  (
+    175,
+    175,
+    '2024-09-14 08:56:01',
+    'PayPal',
+    4651.14,
+    'USD'
+  ),
+  (
+    176,
+    176,
+    '2024-09-10 11:56:01',
+    'PayPal',
+    5119.99,
+    'USD'
+  ),
+  (
+    177,
+    177,
+    '2024-09-14 14:56:01',
+    'Bank Transfer',
+    5459.80,
+    'USD'
+  ),
+  (
+    178,
+    178,
+    '2024-09-13 12:56:01',
+    'Card',
+    13516.53,
+    'USD'
+  ),
+  (
+    179,
+    179,
+    '2024-09-14 07:56:01',
+    'Card',
+    4946.11,
+    'USD'
+  ),
+  (
+    180,
+    180,
+    '2024-09-10 11:56:01',
+    'Bank Transfer',
+    1607.28,
+    'USD'
+  ),
+  (
+    181,
+    181,
+    '2024-09-10 05:56:01',
+    'Bank Transfer',
+    5875.33,
+    'USD'
+  ),
+  (
+    182,
+    182,
+    '2024-09-10 07:56:01',
+    'PayPal',
+    3796.52,
+    'USD'
+  ),
+  (
+    183,
+    183,
+    '2024-09-10 07:56:01',
+    'Bank Transfer',
+    5720.04,
+    'USD'
+  ),
+  (
+    184,
+    184,
+    '2024-09-10 14:56:01',
+    'Card',
+    5500.36,
+    'USD'
+  ),
+  (
+    185,
+    185,
+    '2024-09-14 06:56:01',
+    'PayPal',
+    4400.34,
+    'USD'
+  ),
+  (
+    186,
+    186,
+    '2024-09-10 12:56:01',
+    'PayPal',
+    553.33,
+    'USD'
+  ),
+  (
+    187,
+    187,
+    '2024-09-13 14:56:01',
+    'PayPal',
+    2840.96,
+    'USD'
+  ),
+  (
+    188,
+    188,
+    '2024-09-12 08:56:01',
+    'PayPal',
+    531.47,
+    'USD'
+  ),
+  (
+    189,
+    189,
+    '2024-09-13 06:56:01',
+    'PayPal',
+    7571.20,
+    'USD'
+  ),
+  (
+    190,
+    190,
+    '2024-09-10 09:56:01',
+    'Bank Transfer',
+    10616.80,
+    'USD'
+  ),
+  (
+    191,
+    191,
+    '2024-09-10 06:56:01',
+    'Card',
+    6133.16,
+    'USD'
+  ),
+  (
+    192,
+    192,
+    '2024-09-11 08:56:01',
+    'Bank Transfer',
+    11102.74,
+    'USD'
+  ),
+  (
+    193,
+    193,
+    '2024-09-14 05:56:01',
+    'Card',
+    3635.79,
+    'USD'
+  ),
+  (
+    194,
+    194,
+    '2024-09-12 10:56:01',
+    'Bank Transfer',
+    1449.47,
+    'USD'
+  ),
+  (
+    195,
+    195,
+    '2024-09-12 09:56:01',
+    'Bank Transfer',
+    4971.46,
+    'USD'
+  ),
+  (
+    196,
+    196,
+    '2024-09-13 07:56:01',
+    'Bank Transfer',
+    9535.65,
+    'USD'
+  ),
+  (
+    197,
+    197,
+    '2024-09-14 10:56:01',
+    'Bank Transfer',
+    8516.91,
+    'USD'
+  ),
+  (
+    198,
+    198,
+    '2024-09-10 15:56:01',
+    'Bank Transfer',
+    4424.85,
+    'USD'
+  ),
+  (
+    199,
+    199,
+    '2024-09-14 11:56:01',
+    'Bank Transfer',
+    7630.39,
+    'USD'
+  ),
+  (
+    200,
+    200,
+    '2024-09-13 06:56:01',
+    'PayPal',
+    17589.81,
+    'USD'
+  ),
+  (
+    201,
+    201,
+    '2024-09-14 04:56:01',
+    'Card',
+    8077.80,
+    'USD'
+  ),
+  (
+    202,
+    202,
+    '2024-09-10 08:56:01',
+    'PayPal',
+    6929.62,
+    'USD'
+  ),
+  (
+    203,
+    203,
+    '2024-09-12 12:56:01',
+    'Bank Transfer',
+    7705.98,
+    'USD'
+  ),
+  (
+    204,
+    204,
+    '2024-09-12 13:56:01',
+    'PayPal',
+    1855.72,
+    'USD'
+  ),
+  (
+    205,
+    205,
+    '2024-09-14 04:56:01',
+    'Bank Transfer',
+    14886.96,
+    'USD'
+  ),
+  (
+    206,
+    206,
+    '2024-09-11 15:56:01',
+    'Card',
+    5261.98,
+    'USD'
+  ),
+  (
+    207,
+    207,
+    '2024-09-10 07:56:01',
+    'Card',
+    4720.98,
+    'USD'
+  ),
+  (
+    208,
+    208,
+    '2024-09-10 11:56:01',
+    'Bank Transfer',
+    10806.53,
+    'USD'
+  ),
+  (
+    209,
+    209,
+    '2024-09-13 10:56:01',
+    'Bank Transfer',
+    4687.08,
+    'USD'
+  ),
+  (
+    210,
+    210,
+    '2024-09-13 06:56:01',
+    'Card',
+    3380.28,
+    'USD'
+  ),
+  (
+    211,
+    211,
+    '2024-09-10 08:56:01',
+    'Card',
+    4689.96,
+    'USD'
+  ),
+  (
+    212,
+    212,
+    '2024-09-11 08:56:01',
+    'Bank Transfer',
+    8924.07,
+    'USD'
+  ),
+  (
+    213,
+    213,
+    '2024-09-11 08:56:01',
+    'PayPal',
+    13567.23,
+    'USD'
+  ),
+  (
+    214,
+    214,
+    '2024-09-13 04:56:01',
+    'Bank Transfer',
+    14126.99,
+    'USD'
+  ),
+  (
+    215,
+    215,
+    '2024-09-14 15:56:01',
+    'Bank Transfer',
+    12884.71,
+    'USD'
+  ),
+  (
+    216,
+    216,
+    '2024-09-12 07:56:01',
+    'PayPal',
+    3245.56,
+    'USD'
+  ),
+  (
+    217,
+    217,
+    '2024-09-14 11:56:01',
+    'PayPal',
+    712.89,
+    'USD'
+  ),
+  (
+    218,
+    218,
+    '2024-09-12 07:56:01',
+    'PayPal',
+    12152.12,
+    'USD'
+  ),
+  (
+    219,
+    219,
+    '2024-09-13 04:56:01',
+    'PayPal',
+    6947.26,
+    'USD'
+  ),
+  (
+    220,
+    220,
+    '2024-09-11 04:56:01',
+    'PayPal',
+    6562.06,
+    'USD'
+  ),
+  (
+    221,
+    221,
+    '2024-09-10 09:56:01',
+    'Bank Transfer',
+    16250.39,
+    'USD'
+  ),
+  (
+    222,
+    222,
+    '2024-09-12 08:56:01',
+    'Bank Transfer',
+    15312.34,
+    'USD'
+  ),
+  (
+    223,
+    223,
+    '2024-09-11 06:56:01',
+    'Bank Transfer',
+    4167.83,
+    'USD'
+  ),
+  (
+    224,
+    224,
+    '2024-09-11 10:56:01',
+    'Bank Transfer',
+    13450.27,
+    'USD'
+  ),
+  (
+    225,
+    225,
+    '2024-09-11 15:56:01',
+    'PayPal',
+    8763.57,
+    'USD'
+  ),
+  (
+    226,
+    226,
+    '2024-09-14 14:56:01',
+    'Bank Transfer',
+    1613.25,
+    'USD'
+  ),
+  (
+    227,
+    227,
+    '2024-09-13 13:56:01',
+    'Bank Transfer',
+    4356.51,
+    'USD'
+  ),
+  (
+    228,
+    228,
+    '2024-09-13 05:56:01',
+    'Card',
+    3312.13,
+    'USD'
+  ),
+  (
+    229,
+    229,
+    '2024-09-12 07:56:01',
+    'Bank Transfer',
+    12645.01,
+    'USD'
+  ),
+  (
+    230,
+    230,
+    '2024-09-14 11:56:01',
+    'Bank Transfer',
+    9557.34,
+    'USD'
+  ),
+  (
+    231,
+    231,
+    '2024-09-11 06:56:01',
+    'PayPal',
+    9227.86,
+    'USD'
+  ),
+  (
+    232,
+    232,
+    '2024-09-13 04:56:01',
+    'Card',
+    8608.29,
+    'USD'
+  ),
+  (
+    233,
+    233,
+    '2024-09-13 12:56:01',
+    'Bank Transfer',
+    786.94,
+    'USD'
+  ),
+  (
+    234,
+    234,
+    '2024-09-10 06:56:01',
+    'PayPal',
+    15205.04,
+    'USD'
+  ),
+  (
+    235,
+    235,
+    '2024-09-13 05:56:01',
+    'PayPal',
+    3744.76,
+    'USD'
+  ),
+  (
+    236,
+    236,
+    '2024-09-12 06:56:01',
+    'PayPal',
+    8773.36,
+    'USD'
+  ),
+  (
+    237,
+    237,
+    '2024-09-13 06:56:01',
+    'PayPal',
+    450.24,
+    'USD'
+  ),
+  (
+    238,
+    238,
+    '2024-09-10 12:56:01',
+    'PayPal',
+    4679.51,
+    'USD'
+  ),
+  (
+    239,
+    239,
+    '2024-09-12 12:56:01',
+    'Bank Transfer',
+    4917.63,
+    'USD'
+  ),
+  (
+    240,
+    240,
+    '2024-09-12 12:56:01',
+    'Card',
+    9946.91,
+    'USD'
+  ),
+  (
+    241,
+    241,
+    '2024-09-14 12:56:01',
+    'PayPal',
+    902.74,
+    'USD'
+  ),
+  (
+    242,
+    242,
+    '2024-09-14 04:56:01',
+    'PayPal',
+    5188.89,
+    'USD'
+  ),
+  (
+    243,
+    243,
+    '2024-09-11 04:56:01',
+    'Bank Transfer',
+    1461.50,
+    'USD'
+  ),
+  (
+    244,
+    244,
+    '2024-09-11 05:56:01',
+    'Bank Transfer',
+    2952.74,
+    'USD'
+  ),
+  (
+    245,
+    245,
+    '2024-09-13 07:56:01',
+    'PayPal',
+    16435.24,
+    'USD'
+  ),
+  (
+    246,
+    246,
+    '2024-09-13 11:56:01',
+    'Bank Transfer',
+    7846.83,
+    'USD'
+  ),
+  (
+    247,
+    247,
+    '2024-09-10 11:56:01',
+    'PayPal',
+    7739.30,
+    'USD'
+  ),
+  (
+    248,
+    248,
+    '2024-09-11 14:56:01',
+    'PayPal',
+    5204.21,
+    'USD'
+  ),
+  (
+    249,
+    249,
+    '2024-09-12 12:56:01',
+    'Card',
+    10202.97,
+    'USD'
+  ),
+  (
+    250,
+    250,
+    '2024-09-10 12:56:01',
+    'Bank Transfer',
+    12675.86,
+    'USD'
+  ),
+  (
+    251,
+    251,
+    '2024-09-11 09:56:01',
+    'PayPal',
+    9386.28,
+    'USD'
+  ),
+  (
+    252,
+    252,
+    '2024-09-10 06:56:01',
+    'Card',
+    9687.59,
+    'USD'
+  ),
+  (
+    253,
+    253,
+    '2024-09-14 15:56:01',
+    'PayPal',
+    10296.14,
+    'USD'
+  ),
+  (
+    254,
+    254,
+    '2024-09-14 10:56:01',
+    'PayPal',
+    4714.31,
+    'USD'
+  ),
+  (
+    255,
+    255,
+    '2024-09-14 11:56:01',
+    'PayPal',
+    505.90,
+    'USD'
+  ),
+  (
+    256,
+    256,
+    '2024-09-13 05:56:01',
+    'Card',
+    2193.60,
+    'USD'
+  ),
+  (
+    257,
+    257,
+    '2024-09-10 04:56:01',
+    'Card',
+    10099.17,
+    'USD'
+  ),
+  (
+    258,
+    258,
+    '2024-09-11 15:56:01',
+    'Bank Transfer',
+    1934.11,
+    'USD'
+  ),
+  (
+    259,
+    259,
+    '2024-09-11 13:56:01',
+    'Bank Transfer',
+    5386.78,
+    'USD'
+  ),
+  (
+    260,
+    260,
+    '2024-09-13 08:56:01',
+    'Bank Transfer',
+    12049.78,
+    'USD'
+  ),
+  (
+    261,
+    261,
+    '2024-09-10 07:56:01',
+    'Bank Transfer',
+    7551.90,
+    'USD'
+  ),
+  (
+    262,
+    262,
+    '2024-09-10 14:56:01',
+    'Bank Transfer',
+    259.12,
+    'USD'
+  ),
+  (
+    263,
+    263,
+    '2024-09-14 10:56:01',
+    'Card',
+    6029.37,
+    'USD'
+  ),
+  (
+    264,
+    264,
+    '2024-09-10 13:56:01',
+    'PayPal',
+    8537.79,
+    'USD'
+  ),
+  (
+    265,
+    265,
+    '2024-09-12 14:56:01',
+    'Bank Transfer',
+    9801.68,
+    'USD'
+  ),
+  (
+    266,
+    266,
+    '2024-09-10 09:56:01',
+    'Card',
+    5811.50,
+    'USD'
+  ),
+  (
+    267,
+    267,
+    '2024-09-11 15:56:01',
+    'PayPal',
+    1548.38,
+    'USD'
+  ),
+  (
+    268,
+    268,
+    '2024-09-10 12:56:01',
+    'Card',
+    6609.96,
+    'USD'
+  ),
+  (
+    269,
+    269,
+    '2024-09-13 13:56:01',
+    'PayPal',
+    4462.23,
+    'USD'
+  ),
+  (
+    270,
+    270,
+    '2024-09-13 04:56:01',
+    'Bank Transfer',
+    8982.70,
+    'USD'
+  ),
+  (
+    271,
+    271,
+    '2024-09-10 12:56:01',
+    'Bank Transfer',
+    8304.85,
+    'USD'
+  ),
+  (
+    272,
+    272,
+    '2024-09-10 06:56:01',
+    'PayPal',
+    5972.89,
+    'USD'
+  ),
+  (
+    273,
+    273,
+    '2024-09-12 06:56:01',
+    'PayPal',
+    7790.97,
+    'USD'
+  ),
+  (
+    274,
+    274,
+    '2024-09-13 07:56:01',
+    'Bank Transfer',
+    10351.77,
+    'USD'
+  ),
+  (
+    275,
+    275,
+    '2024-09-12 08:56:01',
+    'PayPal',
+    7889.11,
+    'USD'
+  ),
+  (
+    276,
+    276,
+    '2024-09-10 06:56:01',
+    'Bank Transfer',
+    2080.38,
+    'USD'
+  ),
+  (
+    277,
+    277,
+    '2024-09-14 11:56:01',
+    'PayPal',
+    5218.92,
+    'USD'
+  ),
+  (
+    278,
+    278,
+    '2024-09-10 04:56:01',
+    'PayPal',
+    5221.73,
+    'USD'
+  ),
+  (
+    279,
+    279,
+    '2024-09-13 10:56:01',
+    'PayPal',
+    6267.03,
+    'USD'
+  ),
+  (
+    280,
+    280,
+    '2024-09-14 06:56:01',
+    'Card',
+    7557.50,
+    'USD'
+  ),
+  (
+    281,
+    281,
+    '2024-09-10 09:56:01',
+    'Bank Transfer',
+    10898.84,
+    'USD'
+  ),
+  (
+    282,
+    282,
+    '2024-09-12 13:56:01',
+    'Card',
+    9586.12,
+    'USD'
+  ),
+  (
+    283,
+    283,
+    '2024-09-12 11:56:01',
+    'PayPal',
+    4826.92,
+    'USD'
+  ),
+  (
+    284,
+    284,
+    '2024-09-12 12:56:01',
+    'Card',
+    14796.42,
+    'USD'
+  ),
+  (
+    285,
+    285,
+    '2024-09-12 11:56:01',
+    'Bank Transfer',
+    6979.55,
+    'USD'
+  ),
+  (
+    286,
+    286,
+    '2024-09-14 15:56:01',
+    'Card',
+    70.36,
+    'USD'
+  ),
+  (
+    287,
+    287,
+    '2024-09-14 08:56:01',
+    'Bank Transfer',
+    2639.26,
+    'USD'
+  ),
+  (
+    288,
+    288,
+    '2024-09-11 06:56:01',
+    'PayPal',
+    14625.29,
+    'USD'
+  ),
+  (
+    289,
+    289,
+    '2024-09-12 05:56:01',
+    'Bank Transfer',
+    3458.98,
+    'USD'
+  ),
+  (
+    290,
+    290,
+    '2024-09-13 07:56:01',
+    'Bank Transfer',
+    5191.95,
+    'USD'
+  ),
+  (
+    291,
+    291,
+    '2024-09-12 13:56:01',
+    'Bank Transfer',
+    6686.43,
+    'USD'
+  ),
+  (
+    292,
+    292,
+    '2024-09-11 11:56:01',
+    'Bank Transfer',
+    7785.19,
+    'USD'
+  ),
+  (
+    293,
+    293,
+    '2024-09-13 15:56:01',
+    'PayPal',
+    2210.01,
+    'USD'
+  ),
+  (
+    294,
+    294,
+    '2024-09-13 09:56:01',
+    'Card',
+    5338.26,
+    'USD'
+  ),
+  (
+    295,
+    295,
+    '2024-09-13 05:56:01',
+    'Card',
+    1337.20,
+    'USD'
+  ),
+  (
+    296,
+    296,
+    '2024-09-13 07:56:01',
+    'PayPal',
+    3217.86,
+    'USD'
+  ),
+  (
+    297,
+    297,
+    '2024-09-10 09:56:01',
+    'Card',
+    3665.61,
+    'USD'
+  ),
+  (
+    298,
+    298,
+    '2024-09-13 14:56:01',
+    'Card',
+    1915.06,
+    'USD'
+  ),
+  (
+    299,
+    299,
+    '2024-09-14 15:56:01',
+    'Bank Transfer',
+    16756.74,
+    'USD'
+  ),
+  (
+    300,
+    300,
+    '2024-09-13 04:56:01',
+    'PayPal',
+    1273.53,
+    'USD'
+  ),
+  (
+    301,
+    301,
+    '2024-09-11 07:56:01',
+    'PayPal',
+    13697.91,
+    'USD'
+  ),
+  (
+    302,
+    302,
+    '2024-09-11 08:56:01',
+    'Card',
+    14761.47,
+    'USD'
+  ),
+  (
+    303,
+    303,
+    '2024-09-14 11:56:01',
+    'Bank Transfer',
+    8684.82,
+    'USD'
+  ),
+  (
+    304,
+    304,
+    '2024-09-14 14:56:01',
+    'PayPal',
+    3625.18,
+    'USD'
+  ),
+  (
+    305,
+    305,
+    '2024-09-14 10:56:01',
+    'PayPal',
+    1845.01,
+    'USD'
+  ),
+  (
+    306,
+    306,
+    '2024-09-12 04:56:01',
+    'Card',
+    6203.65,
+    'USD'
+  ),
+  (
+    307,
+    307,
+    '2024-09-14 15:56:01',
+    'Bank Transfer',
+    5772.21,
+    'USD'
+  ),
+  (
+    308,
+    308,
+    '2024-09-13 13:56:01',
+    'Bank Transfer',
+    6675.06,
+    'USD'
+  ),
+  (
+    309,
+    309,
+    '2024-09-14 11:56:01',
+    'Card',
+    10164.50,
+    'USD'
+  ),
+  (
+    310,
+    310,
+    '2024-09-14 11:56:01',
+    'Bank Transfer',
+    12884.37,
+    'USD'
+  ),
+  (
+    311,
+    311,
+    '2024-09-12 07:56:01',
+    'PayPal',
+    3137.02,
+    'USD'
+  ),
+  (
+    312,
+    312,
+    '2024-09-11 07:56:01',
+    'Card',
+    5738.09,
+    'USD'
+  ),
+  (
+    313,
+    313,
+    '2024-09-12 10:56:01',
+    'Card',
+    4134.36,
+    'USD'
+  ),
+  (
+    314,
+    314,
+    '2024-09-11 05:56:01',
+    'Bank Transfer',
+    9044.06,
+    'USD'
+  ),
+  (
+    315,
+    315,
+    '2024-09-13 13:56:01',
+    'Bank Transfer',
+    8149.34,
+    'USD'
+  ),
+  (
+    316,
+    316,
+    '2024-09-11 12:56:01',
+    'Card',
+    8689.74,
+    'USD'
+  ),
+  (
+    317,
+    317,
+    '2024-09-12 13:56:01',
+    'Bank Transfer',
+    5250.69,
+    'USD'
+  ),
+  (
+    318,
+    318,
+    '2024-09-14 10:56:01',
+    'Card',
+    4477.44,
+    'USD'
+  ),
+  (
+    319,
+    319,
+    '2024-09-12 09:56:01',
+    'PayPal',
+    8578.85,
+    'USD'
+  ),
+  (
+    320,
+    320,
+    '2024-09-14 05:56:01',
+    'Card',
+    11124.99,
+    'USD'
+  ),
+  (
+    321,
+    321,
+    '2024-09-12 14:56:01',
+    'Card',
+    15055.02,
+    'USD'
+  ),
+  (
+    322,
+    322,
+    '2024-09-14 07:56:01',
+    'Bank Transfer',
+    2631.93,
+    'USD'
+  ),
+  (
+    323,
+    323,
+    '2024-09-10 07:56:01',
+    'Card',
+    7174.78,
+    'USD'
+  ),
+  (
+    324,
+    324,
+    '2024-09-11 04:56:01',
+    'Card',
+    5856.82,
+    'USD'
+  ),
+  (
+    325,
+    325,
+    '2024-09-14 07:56:01',
+    'PayPal',
+    3461.30,
+    'USD'
+  ),
+  (
+    326,
+    326,
+    '2024-09-12 12:56:01',
+    'PayPal',
+    3156.49,
+    'USD'
+  ),
+  (
+    327,
+    327,
+    '2024-09-10 14:56:01',
+    'Card',
+    9998.66,
+    'USD'
+  ),
+  (
+    328,
+    328,
+    '2024-09-10 12:56:01',
+    'Card',
+    2658.81,
+    'USD'
+  ),
+  (
+    329,
+    329,
+    '2024-09-11 15:56:01',
+    'Bank Transfer',
+    4554.42,
+    'USD'
+  ),
+  (
+    330,
+    330,
+    '2024-09-11 07:56:01',
+    'PayPal',
+    3993.03,
+    'USD'
+  ),
+  (
+    331,
+    331,
+    '2024-09-13 06:56:01',
+    'Card',
+    1662.84,
+    'USD'
+  ),
+  (
+    332,
+    332,
+    '2024-09-10 08:56:01',
+    'Card',
+    11076.57,
+    'USD'
+  ),
+  (
+    333,
+    333,
+    '2024-09-14 10:56:01',
+    'Card',
+    3602.84,
+    'USD'
+  ),
+  (
+    334,
+    334,
+    '2024-09-10 08:56:01',
+    'Bank Transfer',
+    3818.13,
+    'USD'
+  ),
+  (
+    335,
+    335,
+    '2024-09-11 14:56:01',
+    'Card',
+    5643.36,
+    'USD'
+  ),
+  (
+    336,
+    336,
+    '2024-09-12 15:56:01',
+    'Bank Transfer',
+    4544.01,
+    'USD'
+  ),
+  (
+    337,
+    337,
+    '2024-09-13 14:56:01',
+    'Card',
+    3323.79,
+    'USD'
+  ),
+  (
+    338,
+    338,
+    '2024-09-14 06:56:01',
+    'PayPal',
+    6061.09,
+    'USD'
+  ),
+  (
+    339,
+    339,
+    '2024-09-13 13:56:01',
+    'Bank Transfer',
+    2193.60,
+    'USD'
+  ),
+  (
+    340,
+    340,
+    '2024-09-14 05:56:01',
+    'Bank Transfer',
+    4641.04,
+    'USD'
+  ),
+  (
+    341,
+    341,
+    '2024-09-12 04:56:01',
+    'Bank Transfer',
+    5107.42,
+    'USD'
+  ),
+  (
+    342,
+    342,
+    '2024-09-13 08:56:01',
+    'Card',
+    4699.72,
+    'USD'
+  ),
+  (
+    343,
+    343,
+    '2024-09-14 12:56:01',
+    'Bank Transfer',
+    7684.59,
+    'USD'
+  ),
+  (
+    344,
+    344,
+    '2024-09-11 08:56:01',
+    'PayPal',
+    9857.78,
+    'USD'
+  ),
+  (
+    345,
+    345,
+    '2024-09-12 10:56:01',
+    'Bank Transfer',
+    1092.68,
+    'USD'
+  ),
+  (
+    346,
+    346,
+    '2024-09-14 14:56:01',
+    'PayPal',
+    6968.95,
+    'USD'
+  ),
+  (
+    347,
+    347,
+    '2024-09-14 05:56:01',
+    'Bank Transfer',
+    9908.09,
+    'USD'
+  ),
+  (
+    348,
+    348,
+    '2024-09-11 04:56:01',
+    'PayPal',
+    10417.77,
+    'USD'
+  ),
+  (
+    349,
+    349,
+    '2024-09-11 09:56:01',
+    'PayPal',
+    12680.14,
+    'USD'
+  ),
+  (
+    350,
+    350,
+    '2024-09-10 14:56:01',
+    'PayPal',
+    6978.24,
+    'USD'
+  ),
+  (
+    351,
+    351,
+    '2024-09-12 10:56:01',
+    'PayPal',
+    9143.41,
+    'USD'
+  ),
+  (
+    352,
+    352,
+    '2024-09-10 10:56:01',
+    'Bank Transfer',
+    3750.40,
+    'USD'
+  ),
+  (
+    353,
+    353,
+    '2024-09-13 14:56:01',
+    'Card',
+    70.36,
+    'USD'
+  ),
+  (
+    354,
+    354,
+    '2024-09-14 13:56:01',
+    'Card',
+    8521.86,
+    'USD'
+  ),
+  (
+    355,
+    355,
+    '2024-09-14 09:56:01',
+    'PayPal',
+    2931.25,
+    'USD'
+  ),
+  (
+    356,
+    356,
+    '2024-09-10 13:56:01',
+    'Bank Transfer',
+    6735.65,
+    'USD'
+  ),
+  (
+    357,
+    357,
+    '2024-09-12 08:56:01',
+    'PayPal',
+    6833.57,
+    'USD'
+  ),
+  (
+    358,
+    358,
+    '2024-09-12 11:56:01',
+    'PayPal',
+    1904.36,
+    'USD'
+  ),
+  (
+    359,
+    359,
+    '2024-09-11 11:56:01',
+    'PayPal',
+    4205.48,
+    'USD'
+  ),
+  (
+    360,
+    360,
+    '2024-09-11 10:56:01',
+    'Bank Transfer',
+    9293.90,
+    'USD'
+  ),
+  (
+    361,
+    361,
+    '2024-09-10 06:56:01',
+    'Bank Transfer',
+    1613.25,
+    'USD'
+  ),
+  (
+    362,
+    362,
+    '2024-09-14 15:56:01',
+    'Card',
+    9241.73,
+    'USD'
+  ),
+  (
+    363,
+    363,
+    '2024-09-13 06:56:01',
+    'PayPal',
+    2458.54,
+    'USD'
+  ),
+  (
+    364,
+    364,
+    '2024-09-11 05:56:01',
+    'Card',
+    11541.76,
+    'USD'
+  ),
+  (
+    365,
+    365,
+    '2024-09-12 10:56:01',
+    'Bank Transfer',
+    3441.75,
+    'USD'
+  ),
+  (
+    366,
+    366,
+    '2024-09-13 14:56:01',
+    'PayPal',
+    7995.23,
+    'USD'
+  ),
+  (
+    367,
+    367,
+    '2024-09-10 05:56:01',
+    'PayPal',
+    4680.08,
+    'USD'
+  ),
+  (
+    368,
+    368,
+    '2024-09-10 09:56:01',
+    'PayPal',
+    659.10,
+    'USD'
+  ),
+  (
+    369,
+    369,
+    '2024-09-12 07:56:01',
+    'PayPal',
+    4343.24,
+    'USD'
+  ),
+  (
+    370,
+    370,
+    '2024-09-11 15:56:01',
+    'Bank Transfer',
+    4595.99,
+    'USD'
+  ),
+  (
+    371,
+    371,
+    '2024-09-13 04:56:01',
+    'Card',
+    4759.23,
+    'USD'
+  ),
+  (
+    372,
+    372,
+    '2024-09-10 15:56:01',
+    'Card',
+    8047.78,
+    'USD'
+  ),
+  (
+    373,
+    373,
+    '2024-09-13 04:56:01',
+    'Card',
+    1867.58,
+    'USD'
+  ),
+  (
+    374,
+    374,
+    '2024-09-12 10:56:01',
+    'PayPal',
+    5208.75,
+    'USD'
+  ),
+  (
+    375,
+    375,
+    '2024-09-11 06:56:01',
+    'Card',
+    6675.45,
+    'USD'
+  ),
+  (
+    376,
+    376,
+    '2024-09-12 13:56:01',
+    'Card',
+    15153.89,
+    'USD'
+  ),
+  (
+    377,
+    377,
+    '2024-09-14 14:56:01',
+    'Card',
+    5279.01,
+    'USD'
+  ),
+  (
+    378,
+    378,
+    '2024-09-10 05:56:01',
+    'PayPal',
+    450.24,
+    'USD'
+  ),
+  (
+    379,
+    379,
+    '2024-09-12 07:56:01',
+    'Bank Transfer',
+    3083.19,
+    'USD'
+  ),
+  (
+    380,
+    380,
+    '2024-09-13 08:56:01',
+    'Card',
+    9142.91,
+    'USD'
+  ),
+  (
+    381,
+    381,
+    '2024-09-13 14:56:01',
+    'PayPal',
+    7705.60,
+    'USD'
+  ),
+  (
+    382,
+    382,
+    '2024-09-11 09:56:01',
+    'Card',
+    8976.87,
+    'USD'
+  ),
+  (
+    383,
+    383,
+    '2024-09-11 13:56:01',
+    'Bank Transfer',
+    5818.96,
+    'USD'
+  ),
+  (
+    384,
+    384,
+    '2024-09-11 08:56:01',
+    'PayPal',
+    11639.85,
+    'USD'
+  ),
+  (
+    385,
+    385,
+    '2024-09-11 13:56:01',
+    'Card',
+    3607.54,
+    'USD'
+  ),
+  (
+    386,
+    386,
+    '2024-09-13 06:56:01',
+    'Card',
+    1354.50,
+    'USD'
+  ),
+  (
+    387,
+    387,
+    '2024-09-13 08:56:01',
+    'PayPal',
+    1962.49,
+    'USD'
+  ),
+  (
+    388,
+    388,
+    '2024-09-12 12:56:01',
+    'Card',
+    7085.85,
+    'USD'
+  ),
+  (
+    389,
+    389,
+    '2024-09-13 06:56:01',
+    'PayPal',
+    7867.98,
+    'USD'
+  ),
+  (
+    390,
+    390,
+    '2024-09-10 12:56:01',
+    'PayPal',
+    3923.31,
+    'USD'
+  ),
+  (
+    391,
+    391,
+    '2024-09-13 11:56:01',
+    'PayPal',
+    11179.26,
+    'USD'
+  ),
+  (
+    392,
+    392,
+    '2024-09-14 12:56:01',
+    'Card',
+    4504.38,
+    'USD'
+  ),
+  (
+    393,
+    393,
+    '2024-09-11 04:56:01',
+    'Card',
+    7342.58,
+    'USD'
+  ),
+  (
+    394,
+    394,
+    '2024-09-13 08:56:01',
+    'Card',
+    8527.12,
+    'USD'
+  ),
+  (
+    395,
+    395,
+    '2024-09-10 08:56:01',
+    'Bank Transfer',
+    12357.55,
+    'USD'
+  ),
+  (
+    396,
+    396,
+    '2024-09-12 08:56:01',
+    'Bank Transfer',
+    5495.08,
+    'USD'
+  ),
+  (
+    397,
+    397,
+    '2024-09-10 10:56:01',
+    'PayPal',
+    1238.80,
+    'USD'
+  ),
+  (
+    398,
+    398,
+    '2024-09-10 04:56:01',
+    'Card',
+    6034.07,
+    'USD'
+  ),
+  (
+    399,
+    399,
+    '2024-09-11 14:56:01',
+    'Bank Transfer',
+    6519.57,
+    'USD'
+  ),
+  (
+    400,
+    400,
+    '2024-09-11 05:56:01',
+    'Card',
+    14610.64,
+    'USD'
+  ),
+  (
+    401,
+    401,
+    '2024-09-11 12:56:01',
+    'Card',
+    8887.66,
+    'USD'
+  ),
+  (
+    402,
+    402,
+    '2024-09-11 04:56:01',
+    'Card',
+    7834.80,
+    'USD'
+  ),
+  (
+    403,
+    403,
+    '2024-09-11 09:56:01',
+    'Card',
+    3961.30,
+    'USD'
+  ),
+  (
+    404,
+    404,
+    '2024-09-13 15:56:01',
+    'Bank Transfer',
+    2454.27,
+    'USD'
+  ),
+  (
+    405,
+    405,
+    '2024-09-10 05:56:01',
+    'Bank Transfer',
+    9769.51,
+    'USD'
+  ),
+  (
+    406,
+    406,
+    '2024-09-14 08:56:01',
+    'Bank Transfer',
+    10781.83,
+    'USD'
+  ),
+  (
+    407,
+    407,
+    '2024-09-12 05:56:01',
+    'Card',
+    4182.00,
+    'USD'
+  ),
+  (
+    408,
+    408,
+    '2024-09-11 12:56:01',
+    'Card',
+    7933.72,
+    'USD'
+  ),
+  (
+    409,
+    409,
+    '2024-09-11 07:56:01',
+    'Bank Transfer',
+    2192.25,
+    'USD'
+  ),
+  (
+    410,
+    410,
+    '2024-09-12 04:56:01',
+    'Card',
+    5096.70,
+    'USD'
+  ),
+  (
+    411,
+    411,
+    '2024-09-12 12:56:01',
+    'Card',
+    3939.06,
+    'USD'
+  ),
+  (
+    412,
+    412,
+    '2024-09-13 12:56:01',
+    'Card',
+    4668.20,
+    'USD'
+  ),
+  (
+    413,
+    413,
+    '2024-09-13 15:56:01',
+    'PayPal',
+    6736.86,
+    'USD'
+  ),
+  (
+    414,
+    414,
+    '2024-09-14 13:56:01',
+    'PayPal',
+    1031.70,
+    'USD'
+  ),
+  (
+    415,
+    415,
+    '2024-09-10 11:56:01',
+    'PayPal',
+    10430.67,
+    'USD'
+  ),
+  (
+    416,
+    416,
+    '2024-09-11 12:56:01',
+    'Bank Transfer',
+    5959.13,
+    'USD'
+  ),
+  (
+    417,
+    417,
+    '2024-09-13 04:56:01',
+    'Bank Transfer',
+    9124.26,
+    'USD'
+  ),
+  (
+    418,
+    418,
+    '2024-09-10 06:56:01',
+    'Bank Transfer',
+    9647.12,
+    'USD'
+  ),
+  (
+    419,
+    419,
+    '2024-09-10 08:56:01',
+    'Card',
+    3164.20,
+    'USD'
+  ),
+  (
+    420,
+    420,
+    '2024-09-11 08:56:01',
+    'Card',
+    7918.07,
+    'USD'
+  ),
+  (
+    421,
+    421,
+    '2024-09-11 09:56:01',
+    'Card',
+    4352.14,
+    'USD'
+  ),
+  (
+    422,
+    422,
+    '2024-09-10 12:56:01',
+    'PayPal',
+    3924.98,
+    'USD'
+  ),
+  (
+    423,
+    423,
+    '2024-09-14 10:56:01',
+    'PayPal',
+    5846.24,
+    'USD'
+  ),
+  (
+    424,
+    424,
+    '2024-09-14 08:56:01',
+    'Bank Transfer',
+    5901.63,
+    'USD'
+  ),
+  (
+    425,
+    425,
+    '2024-09-12 13:56:01',
+    'Card',
+    12518.07,
+    'USD'
+  ),
+  (
+    426,
+    426,
+    '2024-09-12 06:56:01',
+    'Bank Transfer',
+    7908.75,
+    'USD'
+  ),
+  (
+    427,
+    427,
+    '2024-09-11 12:56:01',
+    'Card',
+    6154.07,
+    'USD'
+  ),
+  (
+    428,
+    428,
+    '2024-09-11 07:56:01',
+    'PayPal',
+    1628.34,
+    'USD'
+  ),
+  (
+    429,
+    429,
+    '2024-09-14 07:56:01',
+    'PayPal',
+    8608.29,
+    'USD'
+  ),
+  (
+    430,
+    430,
+    '2024-09-12 13:56:01',
+    'Card',
+    5643.36,
+    'USD'
+  ),
+  (
+    431,
+    431,
+    '2024-09-13 11:56:01',
+    'Bank Transfer',
+    4948.56,
+    'USD'
+  ),
+  (
+    432,
+    432,
+    '2024-09-11 10:56:01',
+    'Bank Transfer',
+    1735.58,
+    'USD'
+  ),
+  (
+    433,
+    433,
+    '2024-09-12 07:56:01',
+    'PayPal',
+    1139.37,
+    'USD'
+  ),
+  (
+    434,
+    434,
+    '2024-09-11 04:56:01',
+    'Bank Transfer',
+    3979.60,
+    'USD'
+  ),
+  (
+    435,
+    435,
+    '2024-09-10 06:56:01',
+    'Card',
+    6124.77,
+    'USD'
+  ),
+  (
+    436,
+    436,
+    '2024-09-11 08:56:01',
+    'PayPal',
+    7214.16,
+    'USD'
+  ),
+  (
+    437,
+    437,
+    '2024-09-10 10:56:01',
+    'Bank Transfer',
+    1583.02,
+    'USD'
+  ),
+  (
+    438,
+    438,
+    '2024-09-10 13:56:01',
+    'Bank Transfer',
+    11172.19,
+    'USD'
+  ),
+  (
+    439,
+    439,
+    '2024-09-12 11:56:01',
+    'Bank Transfer',
+    3830.12,
+    'USD'
+  ),
+  (
+    440,
+    440,
+    '2024-09-14 04:56:01',
+    'Card',
+    11545.05,
+    'USD'
+  ),
+  (
+    441,
+    441,
+    '2024-09-12 09:56:01',
+    'Card',
+    5320.63,
+    'USD'
+  ),
+  (
+    442,
+    442,
+    '2024-09-11 08:56:01',
+    'Bank Transfer',
+    9336.16,
+    'USD'
+  ),
+  (
+    443,
+    443,
+    '2024-09-12 12:56:01',
+    'Bank Transfer',
+    867.79,
+    'USD'
+  ),
+  (
+    444,
+    444,
+    '2024-09-11 15:56:01',
+    'PayPal',
+    2432.53,
+    'USD'
+  ),
+  (
+    445,
+    445,
+    '2024-09-14 04:56:01',
+    'Bank Transfer',
+    8748.76,
+    'USD'
+  ),
+  (
+    446,
+    446,
+    '2024-09-11 07:56:01',
+    'Bank Transfer',
+    15920.68,
+    'USD'
+  ),
+  (
+    447,
+    447,
+    '2024-09-12 11:56:01',
+    'Card',
+    11199.41,
+    'USD'
+  ),
+  (
+    448,
+    448,
+    '2024-09-14 06:56:01',
+    'Card',
+    9984.44,
+    'USD'
+  ),
+  (
+    449,
+    449,
+    '2024-09-13 14:56:01',
+    'Card',
+    10187.89,
+    'USD'
+  ),
+  (
+    450,
+    450,
+    '2024-09-14 09:56:01',
+    'PayPal',
+    1506.21,
+    'USD'
+  ),
+  (
+    451,
+    451,
+    '2024-09-11 15:56:01',
+    'Card',
+    1775.70,
+    'USD'
+  ),
+  (
+    452,
+    452,
+    '2024-09-13 09:56:01',
+    'Card',
+    1861.60,
+    'USD'
+  ),
+  (
+    453,
+    453,
+    '2024-09-11 09:56:01',
+    'Bank Transfer',
+    9613.31,
+    'USD'
+  ),
+  (
+    454,
+    454,
+    '2024-09-13 09:56:01',
+    'Bank Transfer',
+    7374.61,
+    'USD'
+  ),
+  (
+    455,
+    455,
+    '2024-09-12 12:56:01',
+    'PayPal',
+    3492.93,
+    'USD'
+  ),
+  (
+    456,
+    456,
+    '2024-09-13 09:56:01',
+    'PayPal',
+    11820.11,
+    'USD'
+  ),
+  (
+    457,
+    457,
+    '2024-09-11 13:56:01',
+    'Bank Transfer',
+    6758.33,
+    'USD'
+  ),
+  (
+    458,
+    458,
+    '2024-09-10 15:56:01',
+    'PayPal',
+    1370.42,
+    'USD'
+  ),
+  (
+    459,
+    459,
+    '2024-09-11 04:56:01',
+    'Card',
+    9144.46,
+    'USD'
+  ),
+  (
+    460,
+    460,
+    '2024-09-14 05:56:01',
+    'Card',
+    3528.74,
+    'USD'
+  ),
+  (
+    461,
+    461,
+    '2024-09-12 14:56:01',
+    'Card',
+    3902.06,
+    'USD'
+  ),
+  (
+    462,
+    462,
+    '2024-09-13 14:56:01',
+    'Bank Transfer',
+    6436.61,
+    'USD'
+  ),
+  (
+    463,
+    463,
+    '2024-09-14 14:56:01',
+    'PayPal',
+    1870.07,
+    'USD'
+  ),
+  (
+    464,
+    464,
+    '2024-09-13 13:56:01',
+    'PayPal',
+    2108.61,
+    'USD'
+  ),
+  (
+    465,
+    465,
+    '2024-09-10 06:56:01',
+    'Bank Transfer',
+    3800.77,
+    'USD'
+  ),
+  (
+    466,
+    466,
+    '2024-09-14 09:56:01',
+    'PayPal',
+    8232.07,
+    'USD'
+  ),
+  (
+    467,
+    467,
+    '2024-09-11 08:56:01',
+    'Card',
+    6875.03,
+    'USD'
+  ),
+  (
+    468,
+    468,
+    '2024-09-10 07:56:01',
+    'PayPal',
+    10218.45,
+    'USD'
+  ),
+  (
+    469,
+    469,
+    '2024-09-12 12:56:01',
+    'PayPal',
+    2460.52,
+    'USD'
+  ),
+  (
+    470,
+    470,
+    '2024-09-11 15:56:01',
+    'Bank Transfer',
+    8793.62,
+    'USD'
+  ),
+  (
+    471,
+    471,
+    '2024-09-13 09:56:01',
+    'PayPal',
+    12211.07,
+    'USD'
+  ),
+  (
+    472,
+    472,
+    '2024-09-14 14:56:01',
+    'Card',
+    323.92,
+    'USD'
+  ),
+  (
+    473,
+    473,
+    '2024-09-13 15:56:01',
+    'PayPal',
+    8507.59,
+    'USD'
+  ),
+  (
+    474,
+    474,
+    '2024-09-14 14:56:01',
+    'PayPal',
+    1046.50,
+    'USD'
+  ),
+  (
+    475,
+    475,
+    '2024-09-11 07:56:01',
+    'Bank Transfer',
+    3050.33,
+    'USD'
+  ),
+  (
+    476,
+    476,
+    '2024-09-11 11:56:01',
+    'Bank Transfer',
+    2740.99,
+    'USD'
+  ),
+  (
+    477,
+    477,
+    '2024-09-14 08:56:01',
+    'PayPal',
+    5931.52,
+    'USD'
+  ),
+  (
+    478,
+    478,
+    '2024-09-11 15:56:01',
+    'Bank Transfer',
+    6183.40,
+    'USD'
+  ),
+  (
+    479,
+    479,
+    '2024-09-12 12:56:01',
+    'Card',
+    2775.67,
+    'USD'
+  ),
+  (
+    480,
+    480,
+    '2024-09-10 12:56:01',
+    'Card',
+    1845.98,
+    'USD'
+  ),
+  (
+    481,
+    481,
+    '2024-09-13 13:56:01',
+    'PayPal',
+    11059.51,
+    'USD'
+  ),
+  (
+    482,
+    482,
+    '2024-09-14 07:56:01',
+    'Card',
+    11822.73,
+    'USD'
+  ),
+  (
+    483,
+    483,
+    '2024-09-13 09:56:01',
+    'Bank Transfer',
+    13243.59,
+    'USD'
+  ),
+  (
+    484,
+    484,
+    '2024-09-11 14:56:01',
+    'PayPal',
+    3799.38,
+    'USD'
+  ),
+  (
+    485,
+    485,
+    '2024-09-11 11:56:01',
+    'Card',
+    15630.47,
+    'USD'
+  ),
+  (
+    486,
+    486,
+    '2024-09-11 13:56:01',
+    'PayPal',
+    15373.49,
+    'USD'
+  ),
+  (
+    487,
+    487,
+    '2024-09-11 09:56:01',
+    'Bank Transfer',
+    6556.29,
+    'USD'
+  ),
+  (
+    488,
+    488,
+    '2024-09-11 15:56:01',
+    'PayPal',
+    1204.82,
+    'USD'
+  ),
+  (
+    489,
+    489,
+    '2024-09-10 10:56:01',
+    'Bank Transfer',
+    1941.10,
+    'USD'
+  ),
+  (
+    490,
+    490,
+    '2024-09-10 15:56:01',
+    'Card',
+    97.73,
+    'USD'
+  ),
+  (
+    491,
+    491,
+    '2024-09-13 09:56:01',
+    'PayPal',
+    4997.46,
+    'USD'
+  ),
+  (
+    492,
+    492,
+    '2024-09-14 11:56:01',
+    'Card',
+    1533.53,
+    'USD'
+  ),
+  (
+    493,
+    493,
+    '2024-09-11 11:56:01',
+    'Bank Transfer',
+    5443.77,
+    'USD'
+  ),
+  (
+    494,
+    494,
+    '2024-09-13 04:56:01',
+    'Bank Transfer',
+    5883.05,
+    'USD'
+  ),
+  (
+    495,
+    495,
+    '2024-09-10 13:56:01',
+    'Card',
+    1933.01,
+    'USD'
+  ),
+  (
+    496,
+    496,
+    '2024-09-10 13:56:01',
+    'Bank Transfer',
+    3505.02,
+    'USD'
+  ),
+  (
+    497,
+    497,
+    '2024-09-10 14:56:01',
+    'Card',
+    12751.47,
+    'USD'
+  ),
+  (
+    498,
+    498,
+    '2024-09-10 05:56:01',
+    'Bank Transfer',
+    12978.85,
+    'USD'
+  ),
+  (
+    499,
+    499,
+    '2024-09-13 10:56:01',
+    'Bank Transfer',
+    7788.22,
+    'USD'
+  ),
+  (
+    500,
+    500,
+    '2024-09-14 12:56:01',
+    'Card',
+    3824.42,
+    'USD'
+  );
+
+
+INSERT INTO Reviews(review_id, customer_id, product_id, rating, review_text, review_date)
+VALUES
+  (
+    1,
+    18,
+    34,
+    3,
+    'Doctor from throw ball character.',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    2,
+    24,
+    62,
+    3,
+    'Accept goal send table well industry section.',
+    '2024-09-26 03:56:01'
+  ),
+  (
+    3,
+    38,
+    7,
+    5,
+    'Agree hour north agree poor career left.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    4,
+    27,
+    59,
+    1,
+    'Wrong figure perform participant science way debate decision.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    5,
+    32,
+    68,
+    4,
+    'Light fight I evening.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    6,
+    30,
+    73,
+    1,
+    'Gun series personal service data near until.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    7,
+    17,
+    6,
+    1,
+    'Perhaps however bag forget purpose move.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    8,
+    15,
+    31,
+    5,
+    'Economy sense should race carry best physical always.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    9,
+    29,
+    80,
+    5,
+    'Pull public once state wait board.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    10,
+    6,
+    19,
+    3,
+    'Difference board suddenly happen several off southern.',
+    '2024-09-23 03:56:01'
+  ),
+  (
+    11,
+    36,
+    91,
+    4,
+    'Involve exist question main project animal.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    12,
+    29,
+    85,
+    5,
+    'Matter street south author technology.',
+    '2024-09-13 03:56:01'
+  ),
+  (
+    13,
+    10,
+    91,
+    1,
+    'Story turn because such during open model.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    14,
+    20,
+    18,
+    2,
+    'Culture own set pretty concern.',
+    '2024-09-23 03:56:01'
+  ),
+  (
+    15,
+    5,
+    24,
+    5,
+    'Goal avoid left also.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    16,
+    20,
+    33,
+    1,
+    'Quickly appear piece free form newspaper.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    17,
+    24,
+    42,
+    3,
+    'Institution simply down business draw police performance.',
+    '2024-09-24 03:56:01'
+  ),
+  (
+    18,
+    10,
+    20,
+    4,
+    'Billion old series card good full poor store.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    19,
+    24,
+    100,
+    3,
+    'Experience television answer pretty event.',
+    '2024-09-25 03:56:01'
+  ),
+  (
+    20,
+    6,
+    39,
+    4,
+    'Remember nearly face feel church remember.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    21,
+    9,
+    21,
+    4,
+    'General there sister policy consider whom item.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    22,
+    5,
+    92,
+    3,
+    'Each southern image law read citizen indeed.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    23,
+    30,
+    24,
+    2,
+    'Foreign husband believe word local very according.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    24,
+    4,
+    94,
+    5,
+    'Speak law message lead around left southern.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    25,
+    2,
+    11,
+    1,
+    'Section senior trial receive.',
+    '2024-09-23 03:56:01'
+  ),
+  (
+    26,
+    6,
+    89,
+    5,
+    'Ten scientist administration network once result far.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    27,
+    9,
+    75,
+    4,
+    'Movie expert maybe recently issue.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    28,
+    6,
+    71,
+    1,
+    'Feel stock ball yard practice.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    29,
+    39,
+    56,
+    3,
+    'Even under range exactly myself probably conference.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    30,
+    5,
+    47,
+    5,
+    'Issue news mention billion.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    31,
+    30,
+    21,
+    3,
+    'Or nation race nearly well.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    32,
+    5,
+    87,
+    3,
+    'None population position.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    33,
+    32,
+    95,
+    5,
+    'Control price how scene.',
+    '2024-09-23 03:56:01'
+  ),
+  (
+    34,
+    28,
+    81,
+    3,
+    'Fear yourself last give stage.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    35,
+    29,
+    50,
+    1,
+    'Economic represent stock seven.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    36,
+    19,
+    2,
+    3,
+    'Dark read car practice city usually.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    37,
+    21,
+    92,
+    5,
+    'Act receive stage write institution car.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    38,
+    12,
+    17,
+    3,
+    'Position six soldier dream history.',
+    '2024-09-23 03:56:01'
+  ),
+  (
+    39,
+    25,
+    30,
+    5,
+    'Him change use tax need trial.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    40,
+    35,
+    42,
+    2,
+    'Analysis discuss suddenly including.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    41,
+    6,
+    14,
+    2,
+    'Itself who door end.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    42,
+    4,
+    38,
+    4,
+    'Left sound cause activity.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    43,
+    31,
+    90,
+    3,
+    'Because him information poor.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    44,
+    26,
+    76,
+    2,
+    'Way nor none could write think.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    45,
+    25,
+    64,
+    2,
+    'Challenge relate center.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    46,
+    20,
+    85,
+    5,
+    'Enter example down anyone occur style child.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    47,
+    34,
+    11,
+    4,
+    'Treat trial attack hold however for.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    48,
+    7,
+    43,
+    2,
+    'Full soldier financial.',
+    '2024-09-24 03:56:01'
+  ),
+  (
+    49,
+    26,
+    63,
+    5,
+    'Agree anyone take sister Democrat.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    50,
+    18,
+    39,
+    5,
+    'Positive participant fear blue as write political.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    51,
+    40,
+    67,
+    2,
+    'Say on yes staff gas require.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    52,
+    22,
+    82,
+    5,
+    'Fear approach take case customer important notice.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    53,
+    26,
+    50,
+    5,
+    'Way lay minute model its.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    54,
+    13,
+    7,
+    1,
+    'Education reduce day rate act inside big.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    55,
+    23,
+    12,
+    5,
+    'Between company always.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    56,
+    11,
+    49,
+    3,
+    'Stuff next write approach.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    57,
+    36,
+    46,
+    3,
+    'Probably what care material morning any very.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    58,
+    36,
+    26,
+    2,
+    'Catch owner though mention.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    59,
+    27,
+    80,
+    3,
+    'Home memory someone receive realize another high.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    60,
+    1,
+    65,
+    2,
+    'Account assume prove similar ten interest billion.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    61,
+    24,
+    90,
+    4,
+    'Fear thought whole term.',
+    '2024-09-26 03:56:01'
+  ),
+  (
+    62,
+    5,
+    30,
+    3,
+    'Deep town surface central contain pattern.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    63,
+    6,
+    86,
+    5,
+    'Necessary myself your.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    64,
+    36,
+    21,
+    2,
+    'Main lot page maybe catch close.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    65,
+    3,
+    84,
+    4,
+    'Point these road start water describe paper.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    66,
+    24,
+    78,
+    1,
+    'Teacher mean information change benefit live pass.',
+    '2024-09-26 03:56:01'
+  ),
+  (
+    67,
+    15,
+    76,
+    2,
+    'Open scientist seven recent best care.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    68,
+    31,
+    96,
+    1,
+    'Also his worker pass minute represent our watch.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    69,
+    29,
+    82,
+    1,
+    'Reason whom none show serious.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    70,
+    7,
+    49,
+    2,
+    'Worker trouble exactly develop.',
+    '2024-09-24 03:56:01'
+  ),
+  (
+    71,
+    34,
+    61,
+    5,
+    'Use election after building test white current.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    72,
+    16,
+    90,
+    5,
+    'Control bill especially.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    73,
+    12,
+    63,
+    4,
+    'Bag seek certainly entire hotel myself.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    74,
+    20,
+    55,
+    2,
+    'Rock seat near business loss federal growth appear.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    75,
+    32,
+    2,
+    4,
+    'First next popular girl through.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    76,
+    39,
+    82,
+    5,
+    'Measure price move outside value total.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    77,
+    25,
+    88,
+    4,
+    'Other military year few feel.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    78,
+    15,
+    33,
+    3,
+    'Figure likely forward science.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    79,
+    8,
+    38,
+    4,
+    'Ten affect test power discuss herself.',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    80,
+    10,
+    51,
+    5,
+    'Unit again easy morning four hotel church.',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    81,
+    13,
+    45,
+    5,
+    'Role minute question their.',
+    '2024-09-24 03:56:01'
+  ),
+  (
+    82,
+    34,
+    84,
+    4,
+    'Case cover allow share address establish including.',
+    '2024-09-23 03:56:01'
+  ),
+  (
+    83,
+    23,
+    49,
+    5,
+    'While couple keep this similar experience coach family.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    84,
+    18,
+    4,
+    3,
+    'Than condition Republican information.',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    85,
+    6,
+    29,
+    1,
+    'Law kind over according think everything pick.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    86,
+    29,
+    91,
+    4,
+    'Moment yet government can none.',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    87,
+    16,
+    5,
+    5,
+    'Six including sea strong federal right firm.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    88,
+    39,
+    39,
+    3,
+    'Hope organization ten seem relate fire all including.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    89,
+    12,
+    48,
+    1,
+    'Long suffer executive give offer meet.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    90,
+    13,
+    5,
+    4,
+    'Future sport opportunity six.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    91,
+    25,
+    98,
+    3,
+    'Side her management produce bed stage thought tough.',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    92,
+    14,
+    80,
+    5,
+    'Wrong old particularly member summer system.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    93,
+    35,
+    51,
+    2,
+    'Century those price.',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    94,
+    39,
+    89,
+    5,
+    'Law town off former good within far.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    95,
+    39,
+    79,
+    5,
+    'Garden base certain.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    96,
+    40,
+    90,
+    5,
+    'Here relationship listen certain that.',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    97,
+    26,
+    10,
+    1,
+    'Same open crime front real.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    98,
+    10,
+    55,
+    5,
+    'People arm order.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    99,
+    40,
+    76,
+    2,
+    'Chance policy usually professor entire record toward.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    100,
+    12,
+    77,
+    2,
+    'Toward star best.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    101,
+    20,
+    4,
+    5,
+    'Bit appear Mr.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    102,
+    37,
+    75,
+    1,
+    'Address into their easy its.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    103,
+    36,
+    15,
+    2,
+    'Allow international especially watch my some skin.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    104,
+    30,
+    31,
+    4,
+    'Everyone as generation main money but.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    105,
+    28,
+    17,
+    1,
+    'In garden position for order recent.',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    106,
+    37,
+    94,
+    4,
+    'Challenge large wish move building agent.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    107,
+    35,
+    27,
+    5,
+    'Enjoy what strong line.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    108,
+    29,
+    94,
+    4,
+    'Amount blue soldier message arrive budget.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    109,
+    27,
+    76,
+    4,
+    'We girl civil may rock.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    110,
+    28,
+    54,
+    3,
+    'Ask window full organization.',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    111,
+    8,
+    89,
+    2,
+    'Should society dark product make energy gas.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    112,
+    15,
+    85,
+    5,
+    'Issue fine home shake notice make network.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    113,
+    35,
+    46,
+    4,
+    'After like against first now.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    114,
+    20,
+    87,
+    4,
+    'Note most interview girl.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    115,
+    35,
+    72,
+    3,
+    'Wear use edge this draw business southern forget.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    116,
+    33,
+    39,
+    5,
+    'Require should power candidate order improve vote.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    117,
+    35,
+    37,
+    2,
+    'Outside yet executive quality industry.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    118,
+    17,
+    34,
+    3,
+    'Rather require remain save eight believe.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    119,
+    38,
+    36,
+    4,
+    'Clear level break time manager.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    120,
+    27,
+    95,
+    1,
+    'Short Congress turn east marriage behind forget.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    121,
+    39,
+    67,
+    2,
+    'Whole tend become system clear.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    122,
+    39,
+    3,
+    5,
+    'Environmental outside bed institution happy control piece.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    123,
+    17,
+    92,
+    2,
+    'One shoulder administration scientist leg.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    124,
+    18,
+    59,
+    4,
+    'Ground city still thus allow.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    125,
+    30,
+    31,
+    4,
+    'Relationship unit just lead.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    126,
+    6,
+    86,
+    1,
+    'Marriage that child hair standard but dark.',
+    '2024-09-23 03:56:01'
+  ),
+  (
+    127,
+    15,
+    10,
+    1,
+    'Want be fire word clearly article service.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    128,
+    20,
+    62,
+    4,
+    'Hope rest they minute must degree.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    129,
+    14,
+    20,
+    4,
+    'Public research mind easy foreign old state.',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    130,
+    32,
+    81,
+    4,
+    'Next single the once PM you ready way.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    131,
+    8,
+    38,
+    4,
+    'Six instead view figure.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    132,
+    27,
+    72,
+    1,
+    'Little result paper seven measure leave.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    133,
+    40,
+    12,
+    5,
+    'Event production focus decision where foreign trial.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    134,
+    38,
+    87,
+    5,
+    'Quite remember course staff personal.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    135,
+    33,
+    74,
+    3,
+    'Court question yeah realize mouth.',
+    '2024-09-24 03:56:01'
+  ),
+  (
+    136,
+    22,
+    51,
+    3,
+    'Want simply people shake personal.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    137,
+    4,
+    3,
+    3,
+    'Fund visit situation law.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    138,
+    16,
+    60,
+    5,
+    'Fact create one she.',
+    '2024-09-17 03:56:01'
+  ),
+  (
+    139,
+    12,
+    99,
+    1,
+    'Interesting help church successful effort.',
+    '2024-09-24 03:56:01'
+  ),
+  (
+    140,
+    8,
+    64,
+    3,
+    'First him conference doctor population grow bar.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    141,
+    21,
+    56,
+    1,
+    'Federal only nothing allow cause with yes.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    142,
+    29,
+    77,
+    5,
+    'Onto maybe range every account.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    143,
+    22,
+    1,
+    2,
+    'Leave bar prevent require just likely evidence.',
+    '2024-09-14 03:56:01'
+  ),
+  (
+    144,
+    15,
+    96,
+    3,
+    'Interest paper field office whose.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    145,
+    23,
+    43,
+    5,
+    'Those yeah buy usually class several.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    146,
+    39,
+    68,
+    1,
+    'End lay race effect.',
+    '2024-09-19 03:56:01'
+  ),
+  (
+    147,
+    14,
+    1,
+    2,
+    'Attorney recent modern pressure.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    148,
+    5,
+    85,
+    2,
+    'But most week seem eat later rather thank.',
+    '2024-09-20 03:56:01'
+  ),
+  (
+    149,
+    29,
+    46,
+    2,
+    'Safe family crime century.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    150,
+    14,
+    4,
+    1,
+    'Black year ahead upon.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    151,
+    24,
+    13,
+    5,
+    'Side something value call professional opportunity.',
+    '2024-09-21 03:56:01'
+  ),
+  (
+    152,
+    34,
+    23,
+    5,
+    'Gun task big.',
+    '2024-09-22 03:56:01'
+  ),
+  (
+    153,
+    20,
+    65,
+    3,
+    'Fear by foot research television Mr.',
+    '2024-09-18 03:56:01'
+  ),
+  (
+    154,
+    10,
+    39,
+    5,
+    'Could feel strategy.',
+    '2024-09-16 03:56:01'
+  ),
+  (
+    155,
+    12,
+    82,
+    2,
+    'Forget become training sing.',
+    '2024-09-23 03:56:01'
+  ),
+  (
+    156,
+    31,
+    63,
+    4,
+    'Usually carry marriage rate quality mother by.',
+    '2024-09-15 03:56:01'
+  ),
+  (
+    157,
+    40,
+    12,
+    3,
+    'Company happen card government anything.',
+    '2024-09-18 03:56:01'
+  );
+
+
+INSERT INTO Shipping(shipping_id, order_id, shipping_address, carrier, tracking_number, ship_date, delivery_date, status)
+VALUES
+  (
+    1,
+    1,
+    '774 Mary Harbor Simsview, CA 94026',
+    'DHL',
+    'TRK33834',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    2,
+    2,
+    '316 Rivera Mountain Brownchester, WI 77057',
+    'FedEx',
+    'TRK41890',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    3,
+    3,
+    'USS Gates FPO AP 50358',
+    'FedEx',
+    'TRK34267',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    4,
+    4,
+    '3467 Paul Skyway Ramseymouth, DC 82061',
+    'UPS',
+    'TRK80010',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Shipped'
+  ),
+  (
+    5,
+    5,
+    '3755 Ramirez Village Suite 417 Lake Amberstad, SD 09494',
+    'DHL',
+    'TRK19710',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    6,
+    6,
+    '33092 David Skyway New Staciemouth, KS 48852',
+    'UPS',
+    'TRK78494',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    7,
+    7,
+    '41904 Sanders Stravenue North Brittany, SC 32331',
+    'UPS',
+    'TRK63545',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    8,
+    8,
+    '919 Michael Meadow Suite 185 Port Robertfort, NE 47973',
+    'UPS',
+    'TRK40595',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    9,
+    9,
+    '262 Gilbert Plain Suite 769 Marcusbury, CO 37060',
+    'FedEx',
+    'TRK49857',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    10,
+    10,
+    '9965 Troy Islands South Jason, KS 45109',
+    'DHL',
+    'TRK85529',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    11,
+    11,
+    '083 John Lodge Suite 837 Westtown, LA 29546',
+    'DHL',
+    'TRK74942',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    12,
+    12,
+    '9578 Coleman Summit Michaelmouth, ME 33452',
+    'DHL',
+    'TRK91973',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Returned'
+  ),
+  (
+    13,
+    13,
+    '1823 Joanna Harbor Tinaborough, IN 47802',
+    'UPS',
+    'TRK94896',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    14,
+    14,
+    '824 Terri Plaza Heidiberg, WV 64841',
+    'DHL',
+    'TRK10336',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    15,
+    15,
+    '477 Peterson Center Shelleyfort, CA 53022',
+    'UPS',
+    'TRK41300',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    16,
+    16,
+    '29413 Angela Mall Port Alexandra, NV 39475',
+    'DHL',
+    'TRK23154',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    17,
+    17,
+    '28120 Hayes Ranch Carterbury, VT 37557',
+    'FedEx',
+    'TRK79942',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    18,
+    18,
+    '34936 Amy Rue Apt. 421 East Laurashire, LA 58061',
+    'DHL',
+    'TRK59131',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Returned'
+  ),
+  (
+    19,
+    19,
+    '90659 Johnson Forks Apt. 490 South April, KY 24289',
+    'UPS',
+    'TRK40433',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    20,
+    20,
+    'Unit 6717 Box 5655 DPO AP 14211',
+    'DHL',
+    'TRK93746',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    21,
+    21,
+    '7468 Shawn Island Suite 516 Lake Mollymouth, AR 25087',
+    'DHL',
+    'TRK12875',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    22,
+    22,
+    '09324 Andrea Course Apt. 171 South Sarah, NY 92960',
+    'FedEx',
+    'TRK15167',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Delivered'
+  ),
+  (
+    23,
+    23,
+    '3782 Lee Rapid Apt. 146 Sarahhaven, AL 37573',
+    'DHL',
+    'TRK79579',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    24,
+    24,
+    '78755 Gibson Islands Apt. 396 Port Kimberly, MD 98110',
+    'DHL',
+    'TRK80329',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Pending'
+  ),
+  (
+    25,
+    25,
+    '2702 Kane Well Suite 187 Lake Douglasberg, NJ 35238',
+    'FedEx',
+    'TRK49608',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    26,
+    26,
+    'USCGC Brennan FPO AE 81432',
+    'FedEx',
+    'TRK80804',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    27,
+    27,
+    '16117 Heather Burgs Apt. 504 Nicholasberg, NC 54509',
+    'UPS',
+    'TRK58566',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    28,
+    28,
+    '21969 Tyler Prairie East Steven, NH 33967',
+    'UPS',
+    'TRK69600',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Pending'
+  ),
+  (
+    29,
+    29,
+    '8217 Huerta Hills Suite 474 South Melissa, IA 50487',
+    'UPS',
+    'TRK82641',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Shipped'
+  ),
+  (
+    30,
+    30,
+    '406 Smith Way Apt. 974 New Laurie, SC 25421',
+    'FedEx',
+    'TRK13379',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    31,
+    31,
+    '521 Murphy Mall East David, MN 70080',
+    'DHL',
+    'TRK57453',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    32,
+    32,
+    '47451 Mccarty Divide Apt. 685 Port Ralphview, DE 60110',
+    'FedEx',
+    'TRK29442',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    33,
+    33,
+    '859 Deborah Roads Blankenshipport, MT 15793',
+    'DHL',
+    'TRK54424',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    34,
+    34,
+    '7113 Paul Land Matthewsberg, MT 86342',
+    'UPS',
+    'TRK82924',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    35,
+    35,
+    '640 Robinson Mills Apt. 515 Bruceview, DE 60101',
+    'UPS',
+    'TRK47700',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    36,
+    36,
+    '900 Sanchez Crossroad North Maria, IL 77359',
+    'FedEx',
+    'TRK39643',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    37,
+    37,
+    '2904 Vanessa Plains Laurenville, AK 17776',
+    'UPS',
+    'TRK79531',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    38,
+    38,
+    '502 Williams Streets Foxland, NV 47954',
+    'UPS',
+    'TRK90981',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    39,
+    39,
+    '8390 Ellis Burgs South Melaniechester, CT 64761',
+    'FedEx',
+    'TRK73783',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    40,
+    40,
+    '15921 Joshua Roads Suite 698 Shawnchester, WY 92484',
+    'UPS',
+    'TRK59834',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    41,
+    41,
+    '7365 Ross Stream West Ronaldview, FL 90524',
+    'UPS',
+    'TRK51033',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    42,
+    42,
+    'PSC 1111, Box 6152 APO AP 08362',
+    'UPS',
+    'TRK67104',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    43,
+    43,
+    '165 Parrish Stravenue Apt. 494 Dalehaven, FL 86580',
+    'DHL',
+    'TRK56019',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    44,
+    44,
+    '402 Park Inlet Michaelburgh, FL 74729',
+    'DHL',
+    'TRK92756',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    45,
+    45,
+    '01836 Chavez Estate Larrymouth, OK 78649',
+    'FedEx',
+    'TRK76462',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    46,
+    46,
+    '29014 Stanley Oval Perryborough, NY 15419',
+    'FedEx',
+    'TRK94689',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    47,
+    47,
+    '34324 Murphy Avenue Burgessburgh, MS 70307',
+    'FedEx',
+    'TRK60667',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    48,
+    48,
+    '1596 Mckinney Mall Dariustown, GA 81519',
+    'FedEx',
+    'TRK96787',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    49,
+    49,
+    '535 Charles Roads Apt. 883 Michaelberg, CT 19695',
+    'UPS',
+    'TRK54791',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    50,
+    50,
+    '9979 Lin Road Suite 271 Ramosport, KY 78019',
+    'UPS',
+    'TRK88282',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    51,
+    51,
+    '19986 Carpenter Turnpike Apt. 793 Cassidyhaven, AR 59551',
+    'DHL',
+    'TRK68841',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Shipped'
+  ),
+  (
+    52,
+    52,
+    '182 John Mill Suite 889 West Nathan, MS 54079',
+    'UPS',
+    'TRK36174',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    53,
+    53,
+    '925 Brandi Divide Suite 462 West Angelicamouth, DC 88334',
+    'FedEx',
+    'TRK59015',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    54,
+    54,
+    '685 Michael Falls West Stacey, ID 30194',
+    'UPS',
+    'TRK47601',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    55,
+    55,
+    'Unit 2141 Box 8880 DPO AP 44641',
+    'UPS',
+    'TRK65027',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    56,
+    56,
+    '622 Marie Trail Lake Samuel, MN 89153',
+    'UPS',
+    'TRK78951',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Cancelled'
+  ),
+  (
+    57,
+    57,
+    '473 Kyle Valleys Suite 359 Murrayport, MS 66417',
+    'DHL',
+    'TRK27486',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    58,
+    58,
+    '92407 Spencer Cove West Christopherburgh, NV 67787',
+    'FedEx',
+    'TRK62196',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    59,
+    59,
+    '37506 Randy Landing Apt. 615 North Lucas, VT 85692',
+    'DHL',
+    'TRK34486',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    60,
+    60,
+    '04727 Gilbert Common West Jasonberg, VA 80308',
+    'FedEx',
+    'TRK48504',
+    '2024-09-10 03:56:01',
+    '2024-09-12 03:56:01',
+    'Delivered'
+  ),
+  (
+    61,
+    61,
+    '808 Jennifer Highway Suite 095 New Robert, TN 11722',
+    'DHL',
+    'TRK77251',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    62,
+    62,
+    '88888 Peter Mountains Apt. 654 West Kristinastad, VA 86628',
+    'DHL',
+    'TRK60181',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Cancelled'
+  ),
+  (
+    63,
+    63,
+    '221 Johnson Flats Apt. 305 Zacharyside, KS 05300',
+    'FedEx',
+    'TRK60723',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    64,
+    64,
+    '7652 Holt Land Suite 161 Morrisonburgh, LA 42602',
+    'FedEx',
+    'TRK48058',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    65,
+    65,
+    '447 Jackson Mills Suite 705 Hillton, TN 84061',
+    'FedEx',
+    'TRK72739',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    66,
+    66,
+    '29702 Joel Rue Michaelshire, PA 20612',
+    'FedEx',
+    'TRK87042',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    67,
+    67,
+    '7192 Sanders Run Suite 310 South April, OH 15936',
+    'DHL',
+    'TRK26406',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    68,
+    68,
+    '739 Benson Overpass Apt. 121 Thompsonmouth, TX 42390',
+    'DHL',
+    'TRK92203',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    69,
+    69,
+    '8313 Joel Park West Angelastad, OH 17510',
+    'DHL',
+    'TRK51853',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    70,
+    70,
+    '46786 Morrow Cliffs West Dawn, NH 89644',
+    'DHL',
+    'TRK85718',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    71,
+    71,
+    'PSC 0182, Box 4225 APO AP 30053',
+    'FedEx',
+    'TRK71680',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Delivered'
+  ),
+  (
+    72,
+    72,
+    '43842 Mendez Course Apt. 992 Lake Claudia, PA 44753',
+    'FedEx',
+    'TRK35513',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    73,
+    73,
+    '10943 Montgomery Burgs Smallside, SD 40097',
+    'FedEx',
+    'TRK15276',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Pending'
+  ),
+  (
+    74,
+    74,
+    '255 Hester Curve Suite 881 Johnville, NV 32996',
+    'FedEx',
+    'TRK49221',
+    '2024-09-16 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    75,
+    75,
+    '6963 Lisa Ports Jamesburgh, NY 61687',
+    'FedEx',
+    'TRK39824',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    76,
+    76,
+    '0168 Levy Forge Suite 004 Harperfort, ND 01572',
+    'DHL',
+    'TRK64890',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Shipped'
+  ),
+  (
+    77,
+    77,
+    '45650 Williams Points Apt. 584 South Williamside, RI 89682',
+    'FedEx',
+    'TRK54869',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    78,
+    78,
+    '65585 James Pass Porterton, DC 94032',
+    'FedEx',
+    'TRK74094',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    79,
+    79,
+    '729 Mark Ridge Suite 269 Brittneyhaven, NY 70275',
+    'DHL',
+    'TRK67983',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    80,
+    80,
+    '0551 Silva Underpass Apt. 974 Lake Brett, GA 69213',
+    'FedEx',
+    'TRK28018',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    81,
+    81,
+    '30913 Scott Manor Apt. 636 Salaston, DC 68485',
+    'UPS',
+    'TRK32946',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    82,
+    82,
+    '786 Frye Mount Suite 854 Leebury, OH 39625',
+    'FedEx',
+    'TRK74738',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Shipped'
+  ),
+  (
+    83,
+    83,
+    '3757 Castro Underpass Suite 419 Huangfurt, MI 19699',
+    'FedEx',
+    'TRK54185',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    84,
+    84,
+    '157 Burgess Forest Apt. 848 Derrickshire, IA 07154',
+    'DHL',
+    'TRK44995',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    85,
+    85,
+    '301 Rivera Mountains Lake Kellitown, GA 53835',
+    'FedEx',
+    'TRK50760',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    86,
+    86,
+    '3454 Rebecca Corners Apt. 802 Khanburgh, AZ 52535',
+    'FedEx',
+    'TRK20730',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    87,
+    87,
+    '400 Bradley Coves Justinside, NM 18090',
+    'UPS',
+    'TRK69432',
+    '2024-09-16 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    88,
+    88,
+    '3152 Wong Stravenue Apt. 054 East Cheryl, MO 56560',
+    'UPS',
+    'TRK71875',
+    '2024-09-16 03:56:01',
+    '2024-09-20 03:56:01',
+    'Pending'
+  ),
+  (
+    89,
+    89,
+    '5499 Jose Lake Apt. 017 Erikhaven, VT 41261',
+    'UPS',
+    'TRK10455',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    90,
+    90,
+    '9332 Hernandez Summit Suite 687 Port John, PA 11231',
+    'FedEx',
+    'TRK14400',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    91,
+    91,
+    '91088 Ashley Drive Apt. 587 Lake Jamieshire, CO 67396',
+    'UPS',
+    'TRK76046',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    92,
+    92,
+    '0391 Rodney Squares Apt. 801 Johnsonchester, WI 18251',
+    'UPS',
+    'TRK92050',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    93,
+    93,
+    '6766 Felicia Shore Apt. 512 Ricebury, AL 99614',
+    'DHL',
+    'TRK17552',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Cancelled'
+  ),
+  (
+    94,
+    94,
+    '8686 John Key Apt. 431 Port Donnatown, IL 09320',
+    'FedEx',
+    'TRK89026',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Pending'
+  ),
+  (
+    95,
+    95,
+    '9030 Gonzales Plains Port Michelle, DC 66547',
+    'FedEx',
+    'TRK52154',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    96,
+    96,
+    'Unit 3959 Box 9534 DPO AE 87036',
+    'UPS',
+    'TRK83731',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Shipped'
+  ),
+  (
+    97,
+    97,
+    '4089 Connie Meadow Suite 056 Heatherchester, ME 49844',
+    'FedEx',
+    'TRK94108',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    98,
+    98,
+    '34270 Faulkner Point Apt. 634 West Deborah, MN 12620',
+    'FedEx',
+    'TRK16358',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    99,
+    99,
+    '46990 Jacob Trace South Jason, MA 40240',
+    'UPS',
+    'TRK79758',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    100,
+    100,
+    'USS Lewis FPO AE 97687',
+    'FedEx',
+    'TRK41877',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    101,
+    101,
+    '85467 Parker Lake Suite 717 Robinstad, MT 06493',
+    'FedEx',
+    'TRK15577',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    102,
+    102,
+    '9378 Scott View Levyfort, GA 96546',
+    'FedEx',
+    'TRK14312',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    103,
+    103,
+    '87280 Mary Club Port Adamberg, SC 30835',
+    'DHL',
+    'TRK98740',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    104,
+    104,
+    '38750 Hopkins Brook New Andreatown, NC 95160',
+    'FedEx',
+    'TRK59207',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    105,
+    105,
+    'USNS Rodriguez FPO AE 69233',
+    'UPS',
+    'TRK61068',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    106,
+    106,
+    '845 Norton Common Susanmouth, IA 91889',
+    'DHL',
+    'TRK23538',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    107,
+    107,
+    '6870 Jacqueline Corner Suite 659 New Samanthabury, UT 74790',
+    'DHL',
+    'TRK74634',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    108,
+    108,
+    '92614 Anne Port Rhodesside, MS 99540',
+    'DHL',
+    'TRK91289',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    109,
+    109,
+    '501 Hall Club Cassiefurt, MD 04384',
+    'DHL',
+    'TRK92955',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    110,
+    110,
+    '3586 Lopez Prairie Suite 194 Lake Charles, FL 50308',
+    'FedEx',
+    'TRK37479',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    111,
+    111,
+    '655 Christopher Inlet Wardview, DC 11943',
+    'FedEx',
+    'TRK64827',
+    '2024-09-10 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    112,
+    112,
+    '956 Kelly Loaf Lake Rachelbury, NC 22728',
+    'UPS',
+    'TRK83822',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    113,
+    113,
+    '44472 Gary Harbor Evansland, KS 32822',
+    'FedEx',
+    'TRK83137',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    114,
+    114,
+    '937 Derek Avenue Suite 596 Scottchester, SD 78409',
+    'UPS',
+    'TRK28569',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    115,
+    115,
+    '375 Tamara Island Suite 793 Nicholasfurt, DE 74406',
+    'FedEx',
+    'TRK41970',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    116,
+    116,
+    '4167 Cynthia Garden Donnachester, MS 10195',
+    'UPS',
+    'TRK36972',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Delivered'
+  ),
+  (
+    117,
+    117,
+    '688 Stephens Turnpike Suite 891 Port Johnstad, SD 80805',
+    'DHL',
+    'TRK70012',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    118,
+    118,
+    'Unit 5610 Box 1438 DPO AP 68500',
+    'FedEx',
+    'TRK60916',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    119,
+    119,
+    '5679 Michael Burg Garciachester, CO 15714',
+    'DHL',
+    'TRK27895',
+    '2024-09-16 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    120,
+    120,
+    '4573 Bailey Court Bowenmouth, CA 39857',
+    'DHL',
+    'TRK32047',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    121,
+    121,
+    '51238 Andrea Isle Mullenbury, MO 83044',
+    'DHL',
+    'TRK25386',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    122,
+    122,
+    '660 Jamie Terrace Apt. 918 West Mark, DE 34888',
+    'FedEx',
+    'TRK32069',
+    '2024-09-16 03:56:01',
+    '2024-09-18 03:56:01',
+    'Delivered'
+  ),
+  (
+    123,
+    123,
+    '596 Matthews Keys Suite 792 Samanthashire, TX 18057',
+    'DHL',
+    'TRK74154',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    124,
+    124,
+    '1252 Barnes Dam Hendersonfort, ND 91390',
+    'UPS',
+    'TRK70089',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    125,
+    125,
+    'PSC 2827, Box 4225 APO AA 81688',
+    'UPS',
+    'TRK84205',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    126,
+    126,
+    '72368 Ortiz Overpass Suite 772 New Anthonybury, AZ 36526',
+    'DHL',
+    'TRK69836',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    127,
+    127,
+    '79788 Ashley Grove Suite 807 South Curtis, SD 98981',
+    'FedEx',
+    'TRK95054',
+    '2024-09-16 03:56:01',
+    '2024-09-17 03:56:01',
+    'Shipped'
+  ),
+  (
+    128,
+    128,
+    '39596 Christina Tunnel Port Jamie, OK 46483',
+    'UPS',
+    'TRK87814',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    129,
+    129,
+    '4494 Derek Terrace Sellersview, SD 17132',
+    'FedEx',
+    'TRK27324',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    130,
+    130,
+    '94667 Cynthia Trafficway Apt. 684 Shawnfort, OR 00825',
+    'DHL',
+    'TRK56030',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    131,
+    131,
+    '751 Robinson Meadow South Joseph, LA 44771',
+    'FedEx',
+    'TRK88774',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    132,
+    132,
+    '750 Cory Tunnel Smithburgh, NH 00589',
+    'UPS',
+    'TRK75481',
+    '2024-09-16 03:56:01',
+    '2024-09-18 03:56:01',
+    'Cancelled'
+  ),
+  (
+    133,
+    133,
+    '1520 Garrett Stream Apt. 611 East Thomasberg, IN 68585',
+    'UPS',
+    'TRK62163',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    134,
+    134,
+    '11554 Patrick Via Apt. 218 New Debramouth, VA 28426',
+    'FedEx',
+    'TRK99267',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    135,
+    135,
+    '9731 Donald Crossing Bellchester, WY 18828',
+    'FedEx',
+    'TRK17212',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Delivered'
+  ),
+  (
+    136,
+    136,
+    '89994 Melanie Shoals Jamiehaven, WA 51848',
+    'FedEx',
+    'TRK77793',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    137,
+    137,
+    '055 Paul Villages Diazburgh, NJ 10068',
+    'DHL',
+    'TRK30618',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    138,
+    138,
+    '43006 Fuller Parkway Hendersonfurt, SC 70829',
+    'UPS',
+    'TRK33456',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    139,
+    139,
+    '1418 Terri Drives Peterland, UT 57843',
+    'UPS',
+    'TRK62550',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    140,
+    140,
+    '31617 Kyle Streets North Alexander, UT 01988',
+    'DHL',
+    'TRK58270',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    141,
+    141,
+    '842 Martinez Tunnel Suite 105 Nelsonland, VT 76083',
+    'UPS',
+    'TRK53911',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Pending'
+  ),
+  (
+    142,
+    142,
+    '8507 Michael Glens Apt. 913 North Micheletown, AZ 62336',
+    'UPS',
+    'TRK46677',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Pending'
+  ),
+  (
+    143,
+    143,
+    '53654 Ashley Crest Apt. 238 South Caseymouth, LA 41224',
+    'DHL',
+    'TRK61505',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    144,
+    144,
+    '53494 Steven Ramp Suite 383 North Sarah, IN 71482',
+    'DHL',
+    'TRK71086',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Delivered'
+  ),
+  (
+    145,
+    145,
+    '0641 Alyssa Freeway Vasquezton, VT 37178',
+    'DHL',
+    'TRK89076',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    146,
+    146,
+    'PSC 7191, Box 8261 APO AP 74926',
+    'FedEx',
+    'TRK82105',
+    '2024-09-16 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    147,
+    147,
+    '557 Hall Flats Apt. 912 East Shannonmouth, DE 70745',
+    'DHL',
+    'TRK99952',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Pending'
+  ),
+  (
+    148,
+    148,
+    '4741 Eric Spur Margaretton, MD 19942',
+    'DHL',
+    'TRK26059',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    149,
+    149,
+    '6804 Wilkins Extensions South Melissaside, OH 33249',
+    'FedEx',
+    'TRK91156',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    150,
+    150,
+    '36519 Lowery Club North Jamesmouth, DC 12556',
+    'FedEx',
+    'TRK78919',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    151,
+    151,
+    'PSC 5107, Box 0296 APO AP 52274',
+    'UPS',
+    'TRK46822',
+    '2024-09-16 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    152,
+    152,
+    '625 Rebekah Harbor Suite 720 Lake Kenneth, OH 63288',
+    'FedEx',
+    'TRK57026',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    153,
+    153,
+    '806 Castillo Tunnel Coopershire, MD 51406',
+    'UPS',
+    'TRK27103',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    154,
+    154,
+    '9304 Lindsey Mountains Katiebury, CT 32988',
+    'DHL',
+    'TRK19506',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    155,
+    155,
+    '039 Kelly Villages Apt. 239 Lindastad, OR 04198',
+    'FedEx',
+    'TRK90440',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Delivered'
+  ),
+  (
+    156,
+    156,
+    '70103 Andrew Neck Apt. 593 West Jennifer, MD 08307',
+    'FedEx',
+    'TRK38953',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    157,
+    157,
+    '56915 Morris Estate Suite 752 Jeffreyshire, HI 50096',
+    'UPS',
+    'TRK42707',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    158,
+    158,
+    '20969 Ian Island Apt. 917 West Julie, MI 42380',
+    'DHL',
+    'TRK59638',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    159,
+    159,
+    '570 Clark Square West Jonathanville, AL 06811',
+    'FedEx',
+    'TRK19830',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    160,
+    160,
+    '67658 Garcia Neck Apt. 271 West Andrewview, CA 45302',
+    'FedEx',
+    'TRK80795',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    161,
+    161,
+    '18159 Bush Meadows Apt. 962 North Markborough, UT 73129',
+    'UPS',
+    'TRK66047',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Pending'
+  ),
+  (
+    162,
+    162,
+    '49731 Jamie Route Suite 171 Kristenfort, TN 35235',
+    'DHL',
+    'TRK25139',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    163,
+    163,
+    '56527 Jose Mountain Suite 349 East Karenville, TN 45562',
+    'DHL',
+    'TRK39654',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    164,
+    164,
+    '380 Cardenas Manor Suite 937 Christianton, OK 68241',
+    'UPS',
+    'TRK82561',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    165,
+    165,
+    '72233 Brad Common Harrisberg, PA 34302',
+    'UPS',
+    'TRK35260',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    166,
+    166,
+    '99861 Hernandez Port Apt. 191 Mikaylastad, MT 35121',
+    'UPS',
+    'TRK84264',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    167,
+    167,
+    '970 Joshua Divide Suite 065 North Julie, KY 49317',
+    'FedEx',
+    'TRK99235',
+    '2024-09-16 03:56:01',
+    '2024-09-19 03:56:01',
+    'Returned'
+  ),
+  (
+    168,
+    168,
+    '24754 Jacobs Corners South Jason, MT 97618',
+    'UPS',
+    'TRK49384',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    169,
+    169,
+    '82148 Taylor Vista Apt. 233 East Antonioton, MN 92858',
+    'UPS',
+    'TRK18600',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    170,
+    170,
+    '8610 Nathan Ranch Suite 279 Maxview, UT 12348',
+    'UPS',
+    'TRK99282',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    171,
+    171,
+    '346 Michelle Trafficway South Rhondaburgh, AL 29830',
+    'UPS',
+    'TRK94853',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Shipped'
+  ),
+  (
+    172,
+    172,
+    '466 Stevens Forge Suite 489 Silvatown, TN 49552',
+    'DHL',
+    'TRK70161',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Delivered'
+  ),
+  (
+    173,
+    173,
+    '432 Rachel Valley Suite 520 Brightview, MT 53532',
+    'FedEx',
+    'TRK95389',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    174,
+    174,
+    '584 Mary Wells Apt. 417 Lake Jonathan, OH 24496',
+    'FedEx',
+    'TRK84978',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    175,
+    175,
+    'USNV Pena FPO AE 47068',
+    'FedEx',
+    'TRK83273',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    176,
+    176,
+    '5549 Ford Crest Suite 099 South Pamelahaven, TX 50527',
+    'DHL',
+    'TRK25437',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    177,
+    177,
+    'PSC 7252, Box 1752 APO AA 83666',
+    'DHL',
+    'TRK28772',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    178,
+    178,
+    '3292 Glover Tunnel Apt. 296 Powellfort, AL 05445',
+    'UPS',
+    'TRK90541',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    179,
+    179,
+    '58300 Jeremy Wells Suite 421 Gordonport, CA 06493',
+    'UPS',
+    'TRK55134',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    180,
+    180,
+    '7532 Smith Fork East Jessica, NY 22650',
+    'UPS',
+    'TRK54922',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    181,
+    181,
+    '4890 Ebony Shoal North Hannahchester, MS 16700',
+    'DHL',
+    'TRK80088',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Cancelled'
+  ),
+  (
+    182,
+    182,
+    '1891 Wilson Coves Gonzalezborough, KS 69070',
+    'DHL',
+    'TRK30070',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    183,
+    183,
+    'Unit 5642 Box 0873 DPO AP 63502',
+    'UPS',
+    'TRK44471',
+    '2024-09-10 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    184,
+    184,
+    '11972 Kimberly Club West Dawnmouth, KS 61354',
+    'FedEx',
+    'TRK97690',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    185,
+    185,
+    '1100 Elizabeth Extension Suite 579 Natalieland, MA 24470',
+    'DHL',
+    'TRK98705',
+    '2024-09-16 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    186,
+    186,
+    '4676 Daniel Square Apt. 216 Phammouth, RI 50275',
+    'FedEx',
+    'TRK45167',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    187,
+    187,
+    '277 Paige Mill North Josemouth, VT 89358',
+    'FedEx',
+    'TRK72684',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    188,
+    188,
+    '588 Ryan Stream South Michael, SD 50947',
+    'FedEx',
+    'TRK98918',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    189,
+    189,
+    '772 Karen Islands West Tara, NY 29691',
+    'UPS',
+    'TRK98857',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    190,
+    190,
+    '3177 Miller Parks Suite 517 North Richardton, OH 00523',
+    'FedEx',
+    'TRK17152',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    191,
+    191,
+    '837 Cox Center Apt. 758 Moranstad, NV 15446',
+    'UPS',
+    'TRK70174',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    192,
+    192,
+    '55488 Park Cape South Donald, WA 95077',
+    'FedEx',
+    'TRK93563',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    193,
+    193,
+    '331 Lewis Views Apt. 516 Lake Maryshire, WI 59549',
+    'UPS',
+    'TRK96364',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    194,
+    194,
+    '292 Dale Shoals Suite 866 West Raymond, LA 59856',
+    'FedEx',
+    'TRK63636',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    195,
+    195,
+    '833 Claudia Highway Suite 228 Jenniferstad, NJ 76890',
+    'FedEx',
+    'TRK26150',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    196,
+    196,
+    '846 Alexandra Burg Suite 200 West Karen, LA 90074',
+    'FedEx',
+    'TRK52184',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Cancelled'
+  ),
+  (
+    197,
+    197,
+    '438 Michael Mission New Mirandaside, IN 97810',
+    'DHL',
+    'TRK82559',
+    '2024-09-16 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    198,
+    198,
+    '004 Christine Tunnel Suite 359 Port Jenny, LA 59328',
+    'FedEx',
+    'TRK97445',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    199,
+    199,
+    '28160 Ramirez Greens East Brandy, AL 43828',
+    'DHL',
+    'TRK29192',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    200,
+    200,
+    '25909 Henry Ports Charlesmouth, IN 24601',
+    'DHL',
+    'TRK99803',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    201,
+    201,
+    '8861 Walker Forest Markport, WV 81540',
+    'DHL',
+    'TRK68827',
+    '2024-09-16 03:56:01',
+    '2024-09-20 03:56:01',
+    'Shipped'
+  ),
+  (
+    202,
+    202,
+    '57399 Susan Springs Patrickville, KS 71310',
+    'UPS',
+    'TRK31093',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    203,
+    203,
+    '588 Tucker Hill West Willie, GA 71014',
+    'UPS',
+    'TRK34100',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    204,
+    204,
+    '120 Love Camp Apt. 102 Angelashire, IN 34402',
+    'DHL',
+    'TRK48479',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    205,
+    205,
+    '665 Perry Crest Apt. 919 Lake Melaniestad, CT 38490',
+    'DHL',
+    'TRK13238',
+    '2024-09-16 03:56:01',
+    '2024-09-19 03:56:01',
+    'Cancelled'
+  ),
+  (
+    206,
+    206,
+    '147 Foster Shore Apt. 728 East Julie, ND 39164',
+    'FedEx',
+    'TRK65601',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    207,
+    207,
+    '821 Adam Ranch Medinaland, IL 98581',
+    'UPS',
+    'TRK43018',
+    '2024-09-10 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    208,
+    208,
+    '90878 Kelly Cliff Coreyshire, MA 47311',
+    'UPS',
+    'TRK19514',
+    '2024-09-10 03:56:01',
+    '2024-09-12 03:56:01',
+    'Delivered'
+  ),
+  (
+    209,
+    209,
+    '49135 Hayes Ridges Heatherberg, OK 48275',
+    'UPS',
+    'TRK27875',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    210,
+    210,
+    '05336 Larsen Dale Suite 777 Kimfort, CT 23539',
+    'FedEx',
+    'TRK88204',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    211,
+    211,
+    '2834 Jessica Brook Port Bonniefurt, OR 28387',
+    'FedEx',
+    'TRK43127',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    212,
+    212,
+    '6394 Steven Pass South Michaeltown, IA 80983',
+    'UPS',
+    'TRK35362',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    213,
+    213,
+    '2299 Jill Orchard Billyfort, CA 35150',
+    'DHL',
+    'TRK70666',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    214,
+    214,
+    '385 Harrison Motorway North Tinamouth, VT 68838',
+    'DHL',
+    'TRK87337',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    215,
+    215,
+    '498 Nicholas Lane Suite 918 Nicholasbury, MO 46756',
+    'FedEx',
+    'TRK31737',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    216,
+    216,
+    '22259 Donna Mall Suite 177 Clarkburgh, MT 03443',
+    'DHL',
+    'TRK71561',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    217,
+    217,
+    '922 Patricia Drive East Jonathanburgh, MO 79059',
+    'FedEx',
+    'TRK81349',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Cancelled'
+  ),
+  (
+    218,
+    218,
+    '36929 Cindy Pass Suite 257 East Nicholasberg, AK 27023',
+    'UPS',
+    'TRK29692',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    219,
+    219,
+    '72980 Boyd Land Lake Alyssabury, NJ 50470',
+    'UPS',
+    'TRK41938',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Pending'
+  ),
+  (
+    220,
+    220,
+    '49864 Adam Summit New Alexandrahaven, MS 86293',
+    'DHL',
+    'TRK32356',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    221,
+    221,
+    '5126 Green Plain Suite 959 Victoriafurt, IL 54663',
+    'FedEx',
+    'TRK65023',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    222,
+    222,
+    '58874 Lane Trail Suite 213 Loganburgh, IL 67130',
+    'FedEx',
+    'TRK66224',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Shipped'
+  ),
+  (
+    223,
+    223,
+    '902 Oconnell Avenue Apt. 279 Davisview, MN 10991',
+    'DHL',
+    'TRK43791',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    224,
+    224,
+    '0384 Arthur Rapid Apt. 920 Johntown, CO 36668',
+    'DHL',
+    'TRK99208',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    225,
+    225,
+    '669 April Street Apt. 184 Michaelview, PA 25997',
+    'FedEx',
+    'TRK28096',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    226,
+    226,
+    '042 Hunter Points Apt. 845 Port Williamview, ND 75853',
+    'FedEx',
+    'TRK99727',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    227,
+    227,
+    'USCGC Maldonado FPO AP 04085',
+    'DHL',
+    'TRK88311',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Pending'
+  ),
+  (
+    228,
+    228,
+    '63356 Black Branch Suite 341 Nunezmouth, OH 23895',
+    'DHL',
+    'TRK62354',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Delivered'
+  ),
+  (
+    229,
+    229,
+    '94237 Jimmy Garden Suite 333 Port Christine, WI 14484',
+    'UPS',
+    'TRK44223',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    230,
+    230,
+    '790 Melanie Landing Travisshire, KY 64831',
+    'UPS',
+    'TRK73172',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    231,
+    231,
+    '678 Wayne Lock South Tiffany, NC 60803',
+    'DHL',
+    'TRK56338',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    232,
+    232,
+    '36915 Salazar Green New Jose, NJ 80859',
+    'UPS',
+    'TRK36577',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    233,
+    233,
+    '6365 Dickerson Harbors Whiteberg, TX 30459',
+    'UPS',
+    'TRK73214',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Delivered'
+  ),
+  (
+    234,
+    234,
+    '86632 Thomas Branch Apt. 672 Kristenport, OH 74928',
+    'FedEx',
+    'TRK32911',
+    '2024-09-10 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    235,
+    235,
+    '203 Woods Roads South Julieview, MN 73947',
+    'UPS',
+    'TRK81901',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    236,
+    236,
+    '5587 Preston Light Stevenberg, GA 84463',
+    'DHL',
+    'TRK69077',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Shipped'
+  ),
+  (
+    237,
+    237,
+    '9961 Fernando Forks Suite 544 Nelsonmouth, MN 98529',
+    'UPS',
+    'TRK29116',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    238,
+    238,
+    '2202 Ebony Summit Apt. 326 North Calebfort, AR 03956',
+    'FedEx',
+    'TRK22622',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Returned'
+  ),
+  (
+    239,
+    239,
+    '49216 Perez Street Scottberg, NC 22862',
+    'FedEx',
+    'TRK80574',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Shipped'
+  ),
+  (
+    240,
+    240,
+    '7784 Taylor Square Apt. 997 Millsside, MI 63632',
+    'UPS',
+    'TRK93962',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    241,
+    241,
+    '4564 Kevin Alley West Justin, AL 90648',
+    'FedEx',
+    'TRK48188',
+    '2024-09-16 03:56:01',
+    '2024-09-20 03:56:01',
+    'Delivered'
+  ),
+  (
+    242,
+    242,
+    'PSC 7406, Box 4930 APO AP 49475',
+    'UPS',
+    'TRK22524',
+    '2024-09-16 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    243,
+    243,
+    '3266 Jose Manors Apt. 894 Deborahside, KY 54621',
+    'UPS',
+    'TRK21050',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    244,
+    244,
+    '24179 Nelson Road Lopeztown, AR 70620',
+    'DHL',
+    'TRK81898',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Returned'
+  ),
+  (
+    245,
+    245,
+    '12073 Fisher Turnpike Boltonmouth, WY 04660',
+    'DHL',
+    'TRK71498',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Cancelled'
+  ),
+  (
+    246,
+    246,
+    '0136 Wright Bypass Apt. 718 South Paul, MD 21290',
+    'DHL',
+    'TRK59592',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    247,
+    247,
+    '65024 Randy Gardens North Biancafort, PA 20816',
+    'FedEx',
+    'TRK69345',
+    '2024-09-10 03:56:01',
+    '2024-09-12 03:56:01',
+    'Delivered'
+  ),
+  (
+    248,
+    248,
+    '27195 Brian Rue Lake Amanda, DC 64443',
+    'FedEx',
+    'TRK11075',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    249,
+    249,
+    '652 Roach Oval Hansenside, NM 25375',
+    'UPS',
+    'TRK42778',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    250,
+    250,
+    '7498 Casey Drives Suite 448 Shawnhaven, VA 24819',
+    'DHL',
+    'TRK52344',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    251,
+    251,
+    '351 Lee Springs Suite 829 Marcusmouth, CT 69077',
+    'DHL',
+    'TRK11974',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    252,
+    252,
+    '20317 Corey Ports Barretthaven, UT 77872',
+    'FedEx',
+    'TRK91087',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Delivered'
+  ),
+  (
+    253,
+    253,
+    '91037 Taylor Route Apt. 586 Lauraton, RI 35341',
+    'FedEx',
+    'TRK35292',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    254,
+    254,
+    '1381 Jessica Place Lopezhaven, IA 75215',
+    'FedEx',
+    'TRK71393',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    255,
+    255,
+    '861 Craig Squares Andradeburgh, HI 72586',
+    'FedEx',
+    'TRK58118',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    256,
+    256,
+    '6659 Anna Forest Suite 845 Westfurt, VA 05044',
+    'FedEx',
+    'TRK80642',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    257,
+    257,
+    '48889 Clinton Mount Suite 224 Pamelabury, KS 39862',
+    'UPS',
+    'TRK84843',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    258,
+    258,
+    '315 Thompson Views Apt. 940 Millerton, WI 44330',
+    'DHL',
+    'TRK20480',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    259,
+    259,
+    '1390 Brown Pine Apt. 589 West Wayne, FL 07122',
+    'DHL',
+    'TRK34832',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    260,
+    260,
+    '9981 Ryan Turnpike Suite 225 South Ashleyton, MO 34914',
+    'FedEx',
+    'TRK68066',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    261,
+    261,
+    '227 Tony Run Apt. 898 East Charles, NE 42891',
+    'FedEx',
+    'TRK43303',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Delivered'
+  ),
+  (
+    262,
+    262,
+    '66553 Cooper Shoal Port Kevinstad, NV 82182',
+    'UPS',
+    'TRK49562',
+    '2024-09-10 03:56:01',
+    '2024-09-12 03:56:01',
+    'Pending'
+  ),
+  (
+    263,
+    263,
+    '35211 John River Port Marissa, AL 45494',
+    'DHL',
+    'TRK58114',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    264,
+    264,
+    '792 Nicholas Shore Apt. 420 Jamesview, NH 86321',
+    'DHL',
+    'TRK66925',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Returned'
+  ),
+  (
+    265,
+    265,
+    'USS Price FPO AA 87399',
+    'FedEx',
+    'TRK76155',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    266,
+    266,
+    'Unit 1579 Box 8123 DPO AP 60530',
+    'UPS',
+    'TRK73035',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    267,
+    267,
+    '4384 Connie Wells Suite 084 East Matthew, TN 18492',
+    'DHL',
+    'TRK57876',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    268,
+    268,
+    '92649 Cole Curve Apt. 298 Port Devin, VT 69157',
+    'FedEx',
+    'TRK58997',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    269,
+    269,
+    'PSC 6292, Box 5188 APO AP 16018',
+    'UPS',
+    'TRK54993',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    270,
+    270,
+    '056 Turner Summit Edwinborough, DC 24716',
+    'UPS',
+    'TRK59362',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    271,
+    271,
+    '993 Jerry Burg Suite 172 Josephstad, MS 64915',
+    'FedEx',
+    'TRK57214',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    272,
+    272,
+    '12797 Delacruz Gateway Sullivanton, WA 50357',
+    'FedEx',
+    'TRK30578',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    273,
+    273,
+    '998 Abigail Mission Suite 038 Terrellton, MS 68150',
+    'DHL',
+    'TRK96105',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    274,
+    274,
+    'PSC 8277, Box 1812 APO AP 91742',
+    'UPS',
+    'TRK28102',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    275,
+    275,
+    '5702 Garza Station Apt. 714 Heatherburgh, VA 16694',
+    'DHL',
+    'TRK49760',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    276,
+    276,
+    '518 Acosta Pass Apt. 686 Port Georgemouth, TN 20173',
+    'UPS',
+    'TRK88166',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    277,
+    277,
+    '2123 Cindy Glen Apt. 777 New Nicolebury, OR 86939',
+    'DHL',
+    'TRK72108',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    278,
+    278,
+    '22050 Melissa Shores Markland, CT 55152',
+    'UPS',
+    'TRK66040',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    279,
+    279,
+    'Unit 2499 Box 9827 DPO AP 76387',
+    'FedEx',
+    'TRK15144',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    280,
+    280,
+    '45561 Bridges Circles Thomasville, KY 43651',
+    'FedEx',
+    'TRK77760',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    281,
+    281,
+    '390 Ashley Roads South Jenniferport, PA 41983',
+    'FedEx',
+    'TRK31495',
+    '2024-09-10 03:56:01',
+    '2024-09-12 03:56:01',
+    'Pending'
+  ),
+  (
+    282,
+    282,
+    '2934 Aaron Burg Suite 139 Gutierrezmouth, OH 84059',
+    'DHL',
+    'TRK50378',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    283,
+    283,
+    '441 Evans Plaza Katieville, MA 45243',
+    'FedEx',
+    'TRK10753',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    284,
+    284,
+    '35577 Debbie Orchard Lake Steven, ND 44424',
+    'FedEx',
+    'TRK55746',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    285,
+    285,
+    '551 Juan Burgs Tonyaside, GA 75340',
+    'FedEx',
+    'TRK57210',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    286,
+    286,
+    '7438 Thompson Landing Port Jamesland, NY 03769',
+    'UPS',
+    'TRK45968',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    287,
+    287,
+    '57845 Kayla Courts East Jenny, MS 94044',
+    'FedEx',
+    'TRK47642',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    288,
+    288,
+    '40915 Small Cove Andrewport, IL 42559',
+    'FedEx',
+    'TRK25456',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Shipped'
+  ),
+  (
+    289,
+    289,
+    '8571 Hernandez Harbor Apt. 098 East Amyside, KY 19055',
+    'DHL',
+    'TRK43347',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    290,
+    290,
+    'USNV Andrews FPO AE 09838',
+    'FedEx',
+    'TRK90739',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    291,
+    291,
+    '702 Thomas Spring Apt. 160 South Philipshire, UT 92168',
+    'DHL',
+    'TRK70616',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    292,
+    292,
+    '5381 Bradley Course Suite 174 Ruizbury, RI 34324',
+    'FedEx',
+    'TRK31753',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    293,
+    293,
+    'PSC 6255, Box 7701 APO AA 15297',
+    'UPS',
+    'TRK78825',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    294,
+    294,
+    '8148 Morales Loop New John, NJ 50808',
+    'FedEx',
+    'TRK98698',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    295,
+    295,
+    '321 Wilson Ranch Suite 581 Thompsonfurt, PA 14754',
+    'UPS',
+    'TRK78233',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    296,
+    296,
+    '27846 Gonzalez Springs Kevinport, NE 94583',
+    'UPS',
+    'TRK30643',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    297,
+    297,
+    '85140 Ryan Ramp Garrettfurt, MS 57542',
+    'UPS',
+    'TRK50812',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    298,
+    298,
+    '2386 Larsen Drives Whitneyberg, AL 09904',
+    'UPS',
+    'TRK60279',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    299,
+    299,
+    'Unit 2126 Box 7969 DPO AE 60059',
+    'DHL',
+    'TRK71675',
+    '2024-09-16 03:56:01',
+    '2024-09-17 03:56:01',
+    'Shipped'
+  ),
+  (
+    300,
+    300,
+    '5326 Becky Vista Apt. 846 Arthurton, NJ 92891',
+    'DHL',
+    'TRK32387',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Delivered'
+  ),
+  (
+    301,
+    301,
+    '128 Marshall Common Apt. 371 Chloemouth, WI 01914',
+    'DHL',
+    'TRK18658',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    302,
+    302,
+    '940 Lane Ports Apt. 490 Toddberg, CA 36919',
+    'DHL',
+    'TRK63188',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    303,
+    303,
+    '4019 Renee Streets Apt. 752 Kimberlybury, HI 69626',
+    'UPS',
+    'TRK69372',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Cancelled'
+  ),
+  (
+    304,
+    304,
+    'USNS Monroe FPO AA 50723',
+    'FedEx',
+    'TRK55123',
+    '2024-09-16 03:56:01',
+    '2024-09-19 03:56:01',
+    'Pending'
+  ),
+  (
+    305,
+    305,
+    '239 Brown Greens Apt. 027 Alvarezfort, WV 70299',
+    'UPS',
+    'TRK46989',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    306,
+    306,
+    '5801 Blanchard Meadows Suite 544 West Destinyfurt, WI 89012',
+    'DHL',
+    'TRK97826',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    307,
+    307,
+    '010 Davis Cove Bellport, ID 04962',
+    'DHL',
+    'TRK60425',
+    '2024-09-16 03:56:01',
+    '2024-09-19 03:56:01',
+    'Delivered'
+  ),
+  (
+    308,
+    308,
+    'PSC 3911, Box 1926 APO AP 85423',
+    'DHL',
+    'TRK58310',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    309,
+    309,
+    '24471 Livingston Harbor Schwartzmouth, GA 10199',
+    'DHL',
+    'TRK69511',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    310,
+    310,
+    '6504 Thompson Cliff Krauseborough, MO 23889',
+    'UPS',
+    'TRK96025',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    311,
+    311,
+    '86391 Baldwin Cove North Chadview, NV 02960',
+    'UPS',
+    'TRK24621',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    312,
+    312,
+    '6618 Aaron Spurs Suite 198 Mathewport, AR 83374',
+    'UPS',
+    'TRK88059',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    313,
+    313,
+    'Unit 1585 Box 1743 DPO AE 73177',
+    'UPS',
+    'TRK31967',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    314,
+    314,
+    '346 Crystal Knolls Suite 173 North James, OR 31759',
+    'DHL',
+    'TRK66595',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    315,
+    315,
+    '478 Levy Brook West Brianton, DE 28246',
+    'UPS',
+    'TRK78151',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Delivered'
+  ),
+  (
+    316,
+    316,
+    '829 Sandy Camp Apt. 707 East Jacquelineberg, HI 83425',
+    'UPS',
+    'TRK91185',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    317,
+    317,
+    '17993 Linda Meadow Lisafurt, DE 90165',
+    'FedEx',
+    'TRK34217',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    318,
+    318,
+    '3092 Brown Harbor Port Robert, MN 73037',
+    'DHL',
+    'TRK44690',
+    '2024-09-16 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    319,
+    319,
+    '021 Strickland Brook Millertown, CO 93134',
+    'UPS',
+    'TRK75234',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    320,
+    320,
+    '7232 Mills Loop Apt. 290 Lake Vincent, SC 39979',
+    'FedEx',
+    'TRK39602',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Pending'
+  ),
+  (
+    321,
+    321,
+    '331 Christine Wall South Kaylee, IL 36732',
+    'FedEx',
+    'TRK15155',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    322,
+    322,
+    '77220 Deanna Haven South John, WV 59895',
+    'DHL',
+    'TRK34833',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    323,
+    323,
+    '8113 Watkins Islands Gonzalezmouth, WI 14936',
+    'FedEx',
+    'TRK97466',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    324,
+    324,
+    '63631 Richards Center Thomasmouth, MS 49454',
+    'DHL',
+    'TRK22752',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    325,
+    325,
+    '543 Martinez Square West Derekmouth, MT 22940',
+    'DHL',
+    'TRK98918',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    326,
+    326,
+    '9292 Christopher Walks Atkinsborough, NJ 61156',
+    'FedEx',
+    'TRK31627',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    327,
+    327,
+    '060 Vickie Street South Amandafort, UT 13345',
+    'UPS',
+    'TRK93863',
+    '2024-09-10 03:56:01',
+    '2024-09-13 03:56:01',
+    'Delivered'
+  ),
+  (
+    328,
+    328,
+    '80632 Phillips Rue North Timothyport, VT 60700',
+    'FedEx',
+    'TRK49478',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Delivered'
+  ),
+  (
+    329,
+    329,
+    '7262 Sims Squares Port Courtneyfurt, UT 44135',
+    'FedEx',
+    'TRK37277',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    330,
+    330,
+    '085 Daniel Lakes Suite 905 Gregoryside, CA 74000',
+    'DHL',
+    'TRK53816',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    331,
+    331,
+    '53817 Karen Trace West Michael, NY 89659',
+    'DHL',
+    'TRK77489',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    332,
+    332,
+    '9513 Miller Lock Apt. 411 West Daniel, NM 20227',
+    'UPS',
+    'TRK71733',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Cancelled'
+  ),
+  (
+    333,
+    333,
+    '6827 Fisher Street West Jaimetown, IN 68608',
+    'FedEx',
+    'TRK57001',
+    '2024-09-16 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    334,
+    334,
+    '4924 Kristina Forks Suite 540 West Justin, RI 21576',
+    'UPS',
+    'TRK93623',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    335,
+    335,
+    '22231 Victoria Ports Apt. 745 East Anna, TN 42043',
+    'FedEx',
+    'TRK72061',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    336,
+    336,
+    'USNS Gould FPO AA 20955',
+    'FedEx',
+    'TRK14406',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    337,
+    337,
+    '474 Lauren Stream Suite 517 East Ericaville, AK 53143',
+    'FedEx',
+    'TRK70199',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    338,
+    338,
+    '5150 Brandy Forges Jamesland, NV 89245',
+    'FedEx',
+    'TRK14287',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Delivered'
+  ),
+  (
+    339,
+    339,
+    '637 Morrison Pass Lake Michaelberg, NE 48949',
+    'DHL',
+    'TRK16758',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    340,
+    340,
+    '5547 Jason Mills Laraport, VA 56053',
+    'DHL',
+    'TRK86037',
+    '2024-09-16 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    341,
+    341,
+    '99123 Wells Ways Suite 196 North Robertview, HI 73352',
+    'UPS',
+    'TRK71625',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    342,
+    342,
+    '26487 Mackenzie Hollow Troymouth, AK 00821',
+    'FedEx',
+    'TRK29392',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    343,
+    343,
+    '2730 Kathy Park Apt. 959 Cunninghamview, TX 62896',
+    'FedEx',
+    'TRK54024',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    344,
+    344,
+    'Unit 1589 Box 0429 DPO AE 19655',
+    'UPS',
+    'TRK91085',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Shipped'
+  ),
+  (
+    345,
+    345,
+    '2045 Fields Knolls West Kellyland, ID 82818',
+    'UPS',
+    'TRK67788',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    346,
+    346,
+    '285 Serrano Spur Josephstad, ND 76528',
+    'DHL',
+    'TRK29055',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    347,
+    347,
+    '28457 Peterson Estates East Ericbury, ID 73725',
+    'UPS',
+    'TRK50380',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Pending'
+  ),
+  (
+    348,
+    348,
+    '7112 Timothy Inlet Donmouth, PA 69067',
+    'UPS',
+    'TRK12955',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    349,
+    349,
+    '40132 Hailey Inlet Apt. 321 Vazquezville, AK 63973',
+    'DHL',
+    'TRK68402',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    350,
+    350,
+    '0119 Briana Flats Lake Michael, FL 98306',
+    'DHL',
+    'TRK78852',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    351,
+    351,
+    '90833 Jackson Throughway Lake Coreyborough, NY 93268',
+    'UPS',
+    'TRK49582',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    352,
+    352,
+    '1256 Lewis Forks Rodriguezmouth, NH 14960',
+    'DHL',
+    'TRK64677',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    353,
+    353,
+    '4801 Snyder Lights Suite 794 Perezchester, NE 25245',
+    'FedEx',
+    'TRK57416',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    354,
+    354,
+    '520 Powers Locks Suite 811 South Richard, CT 97681',
+    'DHL',
+    'TRK31405',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    355,
+    355,
+    'Unit 1367 Box 4994 DPO AP 52960',
+    'FedEx',
+    'TRK49462',
+    '2024-09-16 03:56:01',
+    '2024-09-20 03:56:01',
+    'Delivered'
+  ),
+  (
+    356,
+    356,
+    '8427 David Overpass Suite 320 Lake Brianland, TX 04007',
+    'FedEx',
+    'TRK78898',
+    '2024-09-10 03:56:01',
+    '2024-09-12 03:56:01',
+    'Cancelled'
+  ),
+  (
+    357,
+    357,
+    'Unit 6952 Box 4991 DPO AE 87150',
+    'UPS',
+    'TRK25544',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    358,
+    358,
+    '61675 Ramos Camp East Angelaport, VT 22015',
+    'UPS',
+    'TRK35736',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    359,
+    359,
+    '8280 Baker Ramp Suite 954 Bryanshire, DC 48527',
+    'UPS',
+    'TRK21898',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    360,
+    360,
+    '561 Reed Knolls Bellbury, IA 85446',
+    'UPS',
+    'TRK46943',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    361,
+    361,
+    '141 Jackson Plain Benjaminchester, NY 55704',
+    'UPS',
+    'TRK67627',
+    '2024-09-10 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    362,
+    362,
+    '1357 Jackson Hills Taraborough, SC 10373',
+    'DHL',
+    'TRK47173',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    363,
+    363,
+    '4049 Ballard Road Lake Meganville, MA 36331',
+    'FedEx',
+    'TRK58161',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Shipped'
+  ),
+  (
+    364,
+    364,
+    '468 Gonzalez Locks Suite 987 North Courtney, HI 76109',
+    'DHL',
+    'TRK36248',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    365,
+    365,
+    '8969 Alexa Lakes Suite 232 Meganchester, CA 83591',
+    'DHL',
+    'TRK56674',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    366,
+    366,
+    '4249 Richard Crescent Apt. 303 Stevenside, NE 85294',
+    'FedEx',
+    'TRK13506',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    367,
+    367,
+    'PSC 3242, Box 0448 APO AE 84949',
+    'FedEx',
+    'TRK44296',
+    '2024-09-10 03:56:01',
+    '2024-09-12 03:56:01',
+    'Cancelled'
+  ),
+  (
+    368,
+    368,
+    '01594 Rachel Lodge Suite 162 North Ashley, DE 68915',
+    'DHL',
+    'TRK70248',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Pending'
+  ),
+  (
+    369,
+    369,
+    '363 Daniel Forest Suite 764 South Amandaville, ND 56046',
+    'DHL',
+    'TRK74840',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    370,
+    370,
+    '2575 Smith Rest Port Joditon, WY 88528',
+    'DHL',
+    'TRK59882',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    371,
+    371,
+    '5183 Price Lock Suite 413 Jasonburgh, NV 83253',
+    'DHL',
+    'TRK32253',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    372,
+    372,
+    '41776 Love Wells Apt. 248 West Robertside, MD 59910',
+    'DHL',
+    'TRK23114',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Shipped'
+  ),
+  (
+    373,
+    373,
+    '272 Richard Road Leeland, GA 33217',
+    'FedEx',
+    'TRK38059',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    374,
+    374,
+    '2954 Christopher Land South Nancy, OK 29924',
+    'DHL',
+    'TRK96960',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    375,
+    375,
+    '931 Gonzalez Squares North Richard, PA 34600',
+    'FedEx',
+    'TRK71249',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    376,
+    376,
+    '91086 Wilcox Park Apt. 333 Keithfort, DC 57033',
+    'FedEx',
+    'TRK36680',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    377,
+    377,
+    '44397 Mike Spur Millerfort, MD 91336',
+    'UPS',
+    'TRK30887',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    378,
+    378,
+    '75990 Jon River Suite 465 New Blake, KS 22765',
+    'FedEx',
+    'TRK49056',
+    '2024-09-10 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    379,
+    379,
+    '2158 Thomas Crescent Suite 027 Juliechester, KS 80839',
+    'FedEx',
+    'TRK75568',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    380,
+    380,
+    '562 Doyle Overpass Apt. 870 East Brian, AZ 62137',
+    'UPS',
+    'TRK24000',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    381,
+    381,
+    '7121 Davis Ways Suite 228 Annashire, OR 01041',
+    'UPS',
+    'TRK94593',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Cancelled'
+  ),
+  (
+    382,
+    382,
+    '5915 Anthony Mount Gibsonview, TN 01261',
+    'DHL',
+    'TRK92752',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Delivered'
+  ),
+  (
+    383,
+    383,
+    '975 Jason Causeway Marcuston, CA 72217',
+    'DHL',
+    'TRK76366',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    384,
+    384,
+    'USCGC Davis FPO AA 23833',
+    'FedEx',
+    'TRK20778',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    385,
+    385,
+    '214 Owen Street Suite 925 Port Michaelborough, NV 51368',
+    'DHL',
+    'TRK59456',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    386,
+    386,
+    '3278 Kelly Mews Apt. 742 Lake Rebecca, IA 69063',
+    'UPS',
+    'TRK62564',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Cancelled'
+  ),
+  (
+    387,
+    387,
+    '108 William Loop South Donnashire, KS 47091',
+    'DHL',
+    'TRK98291',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    388,
+    388,
+    '16459 Todd Mission Suite 523 North Julie, KS 88766',
+    'DHL',
+    'TRK33641',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    389,
+    389,
+    '61027 Holt Ways Turnerstad, TX 90979',
+    'FedEx',
+    'TRK62108',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    390,
+    390,
+    '22031 Heather Field Apt. 372 South Megan, WY 71094',
+    'DHL',
+    'TRK89478',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Cancelled'
+  ),
+  (
+    391,
+    391,
+    '2760 Gabriel Drives Suite 770 Richardsborough, OK 51846',
+    'UPS',
+    'TRK76027',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    392,
+    392,
+    '66799 Johnson Locks Palmerfort, VT 08457',
+    'DHL',
+    'TRK15788',
+    '2024-09-16 03:56:01',
+    '2024-09-19 03:56:01',
+    'Shipped'
+  ),
+  (
+    393,
+    393,
+    '581 Orozco Mall Suite 179 Shanechester, GA 38251',
+    'UPS',
+    'TRK34004',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    394,
+    394,
+    '7383 Dorsey Walk Suite 246 Whitakerstad, NJ 21738',
+    'DHL',
+    'TRK33678',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    395,
+    395,
+    '172 James Rest Suite 167 Jimmyside, AK 47527',
+    'UPS',
+    'TRK52406',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Shipped'
+  ),
+  (
+    396,
+    396,
+    '93183 Scott Junctions Suite 084 Port Hannah, PA 88251',
+    'DHL',
+    'TRK22130',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    397,
+    397,
+    '99180 Gary Crest West Eric, VT 58371',
+    'DHL',
+    'TRK50645',
+    '2024-09-10 03:56:01',
+    '2024-09-12 03:56:01',
+    'Cancelled'
+  ),
+  (
+    398,
+    398,
+    'Unit 0375 Box 4821 DPO AA 49316',
+    'UPS',
+    'TRK77284',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    399,
+    399,
+    '3286 Devin Meadow Suite 678 Sherrymouth, WI 01804',
+    'DHL',
+    'TRK48729',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    400,
+    400,
+    '084 Morales Springs Jennifermouth, MI 01536',
+    'DHL',
+    'TRK15932',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    401,
+    401,
+    '673 Terry Valleys Roweport, AZ 70943',
+    'DHL',
+    'TRK25293',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    402,
+    402,
+    '520 Pamela Plains Suite 346 Lake Brianstad, SC 67019',
+    'UPS',
+    'TRK12082',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    403,
+    403,
+    '174 Shawn Freeway West Kevin, WY 94198',
+    'DHL',
+    'TRK65296',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    404,
+    404,
+    '66110 Beasley Mountains South Christian, NC 53290',
+    'DHL',
+    'TRK16674',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    405,
+    405,
+    '28277 Tammy Passage Apt. 377 Lake Ericside, DE 79353',
+    'UPS',
+    'TRK45107',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    406,
+    406,
+    '59408 David Inlet Kevinfort, WY 19227',
+    'DHL',
+    'TRK88918',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    407,
+    407,
+    '701 Jones Cape Olsonport, NV 44780',
+    'DHL',
+    'TRK74713',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    408,
+    408,
+    '51996 Hall Locks Suite 807 Debbieburgh, AK 75473',
+    'UPS',
+    'TRK83660',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    409,
+    409,
+    '181 Stephanie Plains Apt. 983 Shawtown, TN 70212',
+    'FedEx',
+    'TRK89205',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    410,
+    410,
+    '3397 Lindsay Rest Richardton, AK 45059',
+    'FedEx',
+    'TRK23816',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    411,
+    411,
+    '85641 Tina Plains Apt. 422 Kaylaberg, MT 89447',
+    'UPS',
+    'TRK94815',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    412,
+    412,
+    '00461 Thomas Islands Suite 610 East Karen, IA 65116',
+    'UPS',
+    'TRK44867',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Delivered'
+  ),
+  (
+    413,
+    413,
+    '40578 Jones Burgs Suite 304 East Kathrynberg, OK 53814',
+    'DHL',
+    'TRK77653',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    414,
+    414,
+    '58238 Ali Point Williamsmouth, RI 38413',
+    'UPS',
+    'TRK66894',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    415,
+    415,
+    '07494 Kidd Ville New Mary, AZ 21658',
+    'FedEx',
+    'TRK36887',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Cancelled'
+  ),
+  (
+    416,
+    416,
+    '1612 Johns Fords Nicolemouth, KS 99158',
+    'UPS',
+    'TRK78219',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Cancelled'
+  ),
+  (
+    417,
+    417,
+    '700 Robert Square Farmerside, WY 85579',
+    'UPS',
+    'TRK68816',
+    '2024-09-14 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    418,
+    418,
+    '715 Carey Knolls Thompsontown, NH 49060',
+    'FedEx',
+    'TRK42457',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    419,
+    419,
+    'USCGC Smith FPO AP 03093',
+    'DHL',
+    'TRK38152',
+    '2024-09-10 03:56:01',
+    '2024-09-12 03:56:01',
+    'Returned'
+  ),
+  (
+    420,
+    420,
+    '75047 Adrian View Rodriguezview, NY 65252',
+    'DHL',
+    'TRK69993',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    421,
+    421,
+    '999 Cameron Crossroad East Jordanshire, IN 69062',
+    'FedEx',
+    'TRK63558',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    422,
+    422,
+    '60566 Martinez Path Suite 758 Lake Jeffreyview, MT 70285',
+    'UPS',
+    'TRK28726',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    423,
+    423,
+    '3519 Veronica Fork Rosariobury, GA 43653',
+    'DHL',
+    'TRK85112',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    424,
+    424,
+    '76095 Wright Mountains West Marissa, MA 68615',
+    'FedEx',
+    'TRK63690',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    425,
+    425,
+    '06512 Samantha Mills West Cherylchester, CT 89310',
+    'UPS',
+    'TRK91094',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    426,
+    426,
+    '6619 Hall Rapid South Patrickchester, RI 81664',
+    'DHL',
+    'TRK62664',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    427,
+    427,
+    '10919 Rebecca Crossroad Michaelfort, RI 58778',
+    'UPS',
+    'TRK50212',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    428,
+    428,
+    '02496 Collins Plains East Terrance, MA 38651',
+    'DHL',
+    'TRK43807',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    429,
+    429,
+    '920 William Village South Mauriceborough, ID 09466',
+    'UPS',
+    'TRK51724',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    430,
+    430,
+    '795 Jensen Manor Suite 217 South Jeffreytown, IN 91362',
+    'DHL',
+    'TRK82623',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Cancelled'
+  ),
+  (
+    431,
+    431,
+    '75636 Margaret Avenue Alejandrostad, OH 15599',
+    'DHL',
+    'TRK82764',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    432,
+    432,
+    '34234 Matthew Plaza East James, KS 13764',
+    'DHL',
+    'TRK56061',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Shipped'
+  ),
+  (
+    433,
+    433,
+    '1534 Allen Valleys Donnahaven, RI 57349',
+    'FedEx',
+    'TRK26118',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    434,
+    434,
+    '22338 Benson Island Rowlandbury, AZ 81245',
+    'DHL',
+    'TRK45784',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    435,
+    435,
+    '53042 Clark Common Suite 912 Potterhaven, NM 68513',
+    'FedEx',
+    'TRK72459',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    436,
+    436,
+    '587 Wells Prairie Suite 903 East Shannon, MO 29152',
+    'FedEx',
+    'TRK56919',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    437,
+    437,
+    '7853 Steven Road Ronaldmouth, MT 48671',
+    'FedEx',
+    'TRK49738',
+    '2024-09-10 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    438,
+    438,
+    '3111 Johnson Flats Jamesmouth, ME 98177',
+    'FedEx',
+    'TRK99441',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    439,
+    439,
+    '92840 Campbell Key Suite 690 Valdezberg, MO 30330',
+    'DHL',
+    'TRK35146',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    440,
+    440,
+    '3898 Sharp Mountain Latoyamouth, ID 56703',
+    'UPS',
+    'TRK46429',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    441,
+    441,
+    '77805 Barbara Crossroad Suite 075 Jeremiahchester, WV 53371',
+    'FedEx',
+    'TRK91958',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    442,
+    442,
+    '3618 Lopez Coves Suite 974 East Damonside, AZ 90812',
+    'FedEx',
+    'TRK67478',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    443,
+    443,
+    '31643 Kelly Pine South Brianhaven, GA 43331',
+    'UPS',
+    'TRK26716',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    444,
+    444,
+    '2128 Mendoza Cliff Suite 323 Ryanfort, PA 75879',
+    'UPS',
+    'TRK90911',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    445,
+    445,
+    '9385 Stevens Ports Lake Christophermouth, UT 93778',
+    'FedEx',
+    'TRK18853',
+    '2024-09-16 03:56:01',
+    '2024-09-19 03:56:01',
+    'Cancelled'
+  ),
+  (
+    446,
+    446,
+    '263 Rachel Street Suite 762 South Hollyton, GA 36385',
+    'DHL',
+    'TRK50788',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    447,
+    447,
+    '137 Riddle Plaza Apt. 511 Robertburgh, IL 66831',
+    'UPS',
+    'TRK93958',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Shipped'
+  ),
+  (
+    448,
+    448,
+    '76563 Johnson Glen Lake Sallymouth, WA 61350',
+    'DHL',
+    'TRK15530',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    449,
+    449,
+    '124 Amanda Lock North Emily, TX 36316',
+    'DHL',
+    'TRK67725',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    450,
+    450,
+    '30837 Mary Valleys Apt. 647 New Adamfurt, ID 33229',
+    'FedEx',
+    'TRK32843',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    451,
+    451,
+    '10600 Hoover Springs East Susanville, TN 22505',
+    'DHL',
+    'TRK37556',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    452,
+    452,
+    '8155 Colleen Plains Mcmillanville, IL 14379',
+    'UPS',
+    'TRK35124',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    453,
+    453,
+    '65063 Robinson Shoals Debrastad, CA 29148',
+    'DHL',
+    'TRK37425',
+    '2024-09-12 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    454,
+    454,
+    '89241 Jarvis Square Suite 252 Tiffanyfort, MA 02814',
+    'DHL',
+    'TRK78875',
+    '2024-09-13 03:56:01',
+    '2024-09-15 03:56:01',
+    'Returned'
+  ),
+  (
+    455,
+    455,
+    '8389 Jesse Ridges Apt. 436 New Christopher, MN 65870',
+    'DHL',
+    'TRK84890',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    456,
+    456,
+    '3039 Stevenson Isle West Lonnie, WV 05692',
+    'DHL',
+    'TRK51552',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Delivered'
+  ),
+  (
+    457,
+    457,
+    '403 Cooper Ford Apt. 339 Boydburgh, SC 01293',
+    'FedEx',
+    'TRK94365',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    458,
+    458,
+    '30232 Glenn Plaza Apt. 381 Hardyport, VA 26392',
+    'UPS',
+    'TRK98487',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Delivered'
+  ),
+  (
+    459,
+    459,
+    '56627 Henderson Ridge Suite 270 Simmonsland, ME 78512',
+    'DHL',
+    'TRK40634',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Cancelled'
+  ),
+  (
+    460,
+    460,
+    '6747 Brooks Rest Jonesberg, NJ 26153',
+    'DHL',
+    'TRK11268',
+    '2024-09-16 03:56:01',
+    '2024-09-17 03:56:01',
+    'Returned'
+  ),
+  (
+    461,
+    461,
+    '08576 Bentley Summit Patrickport, OR 09837',
+    'FedEx',
+    'TRK14221',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Shipped'
+  ),
+  (
+    462,
+    462,
+    'USNV Hicks FPO AA 83729',
+    'FedEx',
+    'TRK33283',
+    '2024-09-15 03:56:01',
+    '2024-09-18 03:56:01',
+    'Pending'
+  ),
+  (
+    463,
+    463,
+    '663 Tim Via Crystaltown, TN 85086',
+    'DHL',
+    'TRK36986',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    464,
+    464,
+    '11669 April Field Martinchester, UT 40113',
+    'FedEx',
+    'TRK19012',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    465,
+    465,
+    '461 Daisy Trail Suite 243 Haletown, NM 00707',
+    'FedEx',
+    'TRK99762',
+    '2024-09-10 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    466,
+    466,
+    '52237 Wayne Creek Bradleyborough, ID 08231',
+    'DHL',
+    'TRK48987',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Returned'
+  ),
+  (
+    467,
+    467,
+    '6791 Christopher Corner Martinezland, AK 77262',
+    'DHL',
+    'TRK15723',
+    '2024-09-12 03:56:01',
+    '2024-09-14 03:56:01',
+    'Shipped'
+  ),
+  (
+    468,
+    468,
+    '100 Walton Avenue Apt. 138 South Carrieview, NJ 99710',
+    'UPS',
+    'TRK76330',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Pending'
+  ),
+  (
+    469,
+    469,
+    '5553 Ortega Lane Apt. 551 South Monicafurt, DC 03866',
+    'DHL',
+    'TRK70470',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    470,
+    470,
+    '50505 Hall Oval Stevensonland, NE 62907',
+    'UPS',
+    'TRK98785',
+    '2024-09-12 03:56:01',
+    '2024-09-13 03:56:01',
+    'Delivered'
+  ),
+  (
+    471,
+    471,
+    '71487 Peggy Crescent Batesbury, IL 22839',
+    'UPS',
+    'TRK36212',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Pending'
+  ),
+  (
+    472,
+    472,
+    '3471 Sandra Roads Suite 153 Lake Matthewfurt, SD 74150',
+    'DHL',
+    'TRK77174',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Pending'
+  ),
+  (
+    473,
+    473,
+    'Unit 6334 Box 1411 DPO AE 45096',
+    'UPS',
+    'TRK18652',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Delivered'
+  ),
+  (
+    474,
+    474,
+    '195 Melissa Light West Bryanside, MS 56036',
+    'UPS',
+    'TRK80278',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Cancelled'
+  ),
+  (
+    475,
+    475,
+    '752 Hood Parks Hernandezport, WA 87709',
+    'FedEx',
+    'TRK68839',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Returned'
+  ),
+  (
+    476,
+    476,
+    '548 Joshua Vista Welchborough, LA 92794',
+    'UPS',
+    'TRK17854',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  ),
+  (
+    477,
+    477,
+    'Unit 0523 Box 3027 DPO AP 51856',
+    'UPS',
+    'TRK46454',
+    '2024-09-15 03:56:01',
+    '2024-09-16 03:56:01',
+    'Delivered'
+  ),
+  (
+    478,
+    478,
+    '86567 Todd Lock New Jessicaport, ID 92396',
+    'UPS',
+    'TRK39156',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    479,
+    479,
+    '25904 Pena Ports Apt. 774 East Jeffery, ID 96880',
+    'FedEx',
+    'TRK28550',
+    '2024-09-13 03:56:01',
+    '2024-09-17 03:56:01',
+    'Shipped'
+  ),
+  (
+    480,
+    480,
+    '6201 Mccann Fall North Tinamouth, NE 19974',
+    'UPS',
+    'TRK65576',
+    '2024-09-10 03:56:01',
+    '2024-09-13 03:56:01',
+    'Shipped'
+  ),
+  (
+    481,
+    481,
+    '01367 Watts Extensions Suite 176 Cynthiamouth, AL 16229',
+    'UPS',
+    'TRK59993',
+    '2024-09-15 03:56:01',
+    '2024-09-19 03:56:01',
+    'Returned'
+  ),
+  (
+    482,
+    482,
+    '8309 Hill Summit Port Brittanyfurt, SD 92610',
+    'UPS',
+    'TRK34854',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    483,
+    483,
+    '8887 April Prairie Port Karenville, PA 91624',
+    'UPS',
+    'TRK35457',
+    '2024-09-14 03:56:01',
+    '2024-09-18 03:56:01',
+    'Returned'
+  ),
+  (
+    484,
+    484,
+    '1029 Denise Corners Suite 011 Michaelside, NE 86767',
+    'FedEx',
+    'TRK98660',
+    '2024-09-13 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    485,
+    485,
+    '84872 Neal Pike Suite 988 Lake Corey, AZ 31578',
+    'DHL',
+    'TRK31734',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    486,
+    486,
+    'USNS Vargas FPO AA 17342',
+    'UPS',
+    'TRK22697',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    487,
+    487,
+    '84462 Bryant Glens Suite 283 Lake Jessicaborough, MN 74378',
+    'UPS',
+    'TRK69069',
+    '2024-09-12 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    488,
+    488,
+    '2566 Tamara Gateway West Davidville, OH 53818',
+    'DHL',
+    'TRK92160',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Cancelled'
+  ),
+  (
+    489,
+    489,
+    '0163 Lynn Tunnel East Alishaport, NM 13023',
+    'UPS',
+    'TRK72638',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Returned'
+  ),
+  (
+    490,
+    490,
+    '491 George Terrace Suite 258 Woodsberg, AL 90502',
+    'DHL',
+    'TRK89034',
+    '2024-09-11 03:56:01',
+    '2024-09-13 03:56:01',
+    'Cancelled'
+  ),
+  (
+    491,
+    491,
+    '226 Brown Stream Jasminebury, PA 55321',
+    'DHL',
+    'TRK23130',
+    '2024-09-15 03:56:01',
+    '2024-09-17 03:56:01',
+    'Pending'
+  ),
+  (
+    492,
+    492,
+    '5784 Cisneros Pike West Cynthia, ME 53783',
+    'DHL',
+    'TRK69233',
+    '2024-09-16 03:56:01',
+    '2024-09-18 03:56:01',
+    'Cancelled'
+  ),
+  (
+    493,
+    493,
+    '113 Frederick Centers Lake Justinfort, AL 56073',
+    'DHL',
+    'TRK98857',
+    '2024-09-11 03:56:01',
+    '2024-09-12 03:56:01',
+    'Returned'
+  ),
+  (
+    494,
+    494,
+    '068 Sanchez Streets New Shaneburgh, WV 69119',
+    'FedEx',
+    'TRK76143',
+    '2024-09-13 03:56:01',
+    '2024-09-16 03:56:01',
+    'Pending'
+  ),
+  (
+    495,
+    495,
+    '1538 Kelly Orchard Josephtown, SC 75060',
+    'FedEx',
+    'TRK21722',
+    '2024-09-10 03:56:01',
+    '2024-09-11 03:56:01',
+    'Pending'
+  ),
+  (
+    496,
+    496,
+    '807 Brown Avenue Suite 545 North Michaelburgh, MI 01662',
+    'FedEx',
+    'TRK74482',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Pending'
+  ),
+  (
+    497,
+    497,
+    '18826 Robin Avenue Apt. 437 Brooksstad, HI 70811',
+    'UPS',
+    'TRK21683',
+    '2024-09-11 03:56:01',
+    '2024-09-15 03:56:01',
+    'Delivered'
+  ),
+  (
+    498,
+    498,
+    '7225 Smith Ways North Jake, DC 52214',
+    'FedEx',
+    'TRK39116',
+    '2024-09-11 03:56:01',
+    '2024-09-14 03:56:01',
+    'Pending'
+  ),
+  (
+    499,
+    499,
+    '23741 Burns Park Apt. 568 Andersonville, AK 17032',
+    'FedEx',
+    'TRK14501',
+    '2024-09-14 03:56:01',
+    '2024-09-17 03:56:01',
+    'Cancelled'
+  ),
+  (
+    500,
+    500,
+    '305 Bray Street South Timothyport, CO 56724',
+    'FedEx',
+    'TRK37605',
+    '2024-09-14 03:56:01',
+    '2024-09-16 03:56:01',
+    'Shipped'
+  );
