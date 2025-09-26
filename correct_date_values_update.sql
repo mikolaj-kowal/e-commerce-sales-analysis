@@ -4,7 +4,7 @@
  Script:    fix_incorrect_dates.sql
  Purpose:   Correct date values in the AI-generated e-commerce dataset to make them more realistic for this kind of project.
  Author:    Mikołaj Kowal
- Date:      2025-09-21
+ Date:      2025-09-26
 =====================================================
 */
 
@@ -23,7 +23,9 @@ USE ecommerce_db;
 -- 'Shipping.ship_date'       -> random dates after the later of 'Orders.updated_at' 
 --                               or 'Payments.payment_date' + 1 day
 -- 'Shipping.delivery_date'   -> random dates between 'Shipping.ship_date' and 6 days later
+-- 'Reviews.review_date'	  -> random dates after related 'Orders.order_date' of the product by customer and today
  */
+
 
 
 -- Update 'Orders.order_date' to random values between '2024-09-01' and '2025-08-31'.
@@ -127,6 +129,29 @@ WHERE	delivery_date NOT BETWEEN ship_date
 		AND ship_date + INTERVAL 6 DAY;
 
 
+
+-- Update 'Reviews.order_id' to a random order of the product placed by that customer
+UPDATE 	Reviews r1
+		INNER JOIN (SELECT	r2.review_id AS review_id, c.customer_id, p.product_id, o.order_id AS order_id,
+							ROW_NUMBER() OVER (PARTITION BY r2.review_id ORDER BY RAND()) AS row_num		
+					FROM 	Reviews r2
+							INNER JOIN Products p ON r2.product_id = p.product_id 
+							INNER JOIN Customers c ON r2.customer_id = c.customer_id
+							INNER JOIN Order_Items oi ON p.product_id = oi.product_id 
+							INNER JOIN Orders o ON o.order_id = oi.order_id
+					WHERE	o.customer_id = r2.customer_id
+							AND oi.product_id = r2.product_id) AS t1
+		ON r1.review_id = t1.review_id
+SET		r1.order_id = t1.order_id;
+
+-- Update 'Reviews.review_date' to a random date between the related 'Orders.order_date' and 50 days later
+UPDATE	Reviews r
+		INNER JOIN Orders o ON r.order_id = o.order_id
+SET		r.review_date = o.order_date + INTERVAL FLOOR(0 + RAND() * 50) DAY
+WHERE	r.review_date NOT BETWEEN o.order_date AND DATE_ADD(o.order_date, INTERVAL 50 DAY);
+
+
+
 -- Final validation check
 -- should return all zeroes
 SELECT
@@ -147,10 +172,13 @@ SELECT
 			s.ship_date NOT BETWEEN o.updated_at AND DATE_ADD(o.updated_at, INTERVAL 1 DAY)
 			AND s.ship_date NOT BETWEEN ps.payment_date AND DATE_ADD(ps.payment_date, INTERVAL 1 DAY) THEN 1 ELSE 0 END) AS invalid_ship_date,
 		-- Delivery date checks
-		SUM(CASE WHEN s.delivery_date NOT BETWEEN s.ship_date AND DATE_ADD(s.ship_date, INTERVAL 6 DAY) THEN 1 ELSE 0 END) AS invalid_delivery_dates
+		SUM(CASE WHEN s.delivery_date NOT BETWEEN s.ship_date AND DATE_ADD(s.ship_date, INTERVAL 6 DAY) THEN 1 ELSE 0 END) AS invalid_delivery_date,
+		-- Review date checks
+		SUM(CASE WHEN r.review_date NOT BETWEEN o.order_date AND DATE_ADD(o.order_date, INTERVAL 50 DAY) THEN 1 ELSE 0 END) AS invalid_review_dates
 FROM	Orders o 
 		LEFT JOIN Shipping s ON s.order_id = o.order_id
 		LEFT JOIN Order_Items oi ON o.order_id = oi.order_id
 		LEFT JOIN Products p ON oi.product_id = p.product_id
 		LEFT JOIN Customers c ON o.customer_id = c.customer_id
-		LEFT JOIN Payments ps ON o.order_id = ps.order_id;
+		LEFT JOIN Payments ps ON o.order_id = ps.order_id
+		LEFT JOIN Reviews r ON o.order_id = r.order_id;

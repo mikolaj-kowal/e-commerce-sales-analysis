@@ -8,20 +8,22 @@
 -- Table structure for table `Categories`
 --
 
+USE ecommerce_db;
+
 SET FOREIGN_KEY_CHECKS = 0;  
 
-DROP TABLE IF EXISTS `Categories`;
-
-CREATE TABLE `Categories` (
-	`category_id` int NOT NULL AUTO_INCREMENT,
-	`category_name` varchar(50) NOT NULL,
-	`parent_category_id` int DEFAULT NULL,
-	PRIMARY KEY (`category_id`), KEY `parent_category_id` (`parent_category_id`),
-	CONSTRAINT `Categories_ibfk_1` FOREIGN KEY (`parent_category_id`) REFERENCES `Categories` (`category_id`) ON DELETE SET NULL);
-
---
--- Dumping data for table `Categories`
---
+-- DROP TABLE IF EXISTS `Categories`;
+-- 
+-- CREATE TABLE `Categories` (
+-- 	`category_id` int NOT NULL AUTO_INCREMENT,
+-- 	`category_name` varchar(50) NOT NULL,
+-- 	`parent_category_id` int DEFAULT NULL,
+-- 	PRIMARY KEY (`category_id`), KEY `parent_category_id` (`parent_category_id`),
+-- 	CONSTRAINT `Categories_ibfk_1` FOREIGN KEY (`parent_category_id`) REFERENCES `Categories` (`category_id`) ON DELETE SET NULL);
+-- 
+-- --
+-- -- Dumping data for table `Categories`
+-- --
 
 INSERT INTO `Categories`
 VALUES (1, 'Electronics', NULL),
@@ -47,24 +49,24 @@ VALUES (1, 'Electronics', NULL),
 
 --
 -- Table structure for table `Customers`
---
+-- 
 
-DROP TABLE IF EXISTS `Customers`;
-
-
-CREATE TABLE `Customers` (
-	`customer_id` int NOT NULL AUTO_INCREMENT,
-     	`first_name` varchar(50) NOT NULL,
-	`last_name` varchar(50) NOT NULL,
-	`email` varchar(100) NOT NULL,
-	`phone_number` varchar(30) DEFAULT NULL,
-	`signup_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-	`country` varchar(70) DEFAULT NULL,
-	`city` varchar(50) DEFAULT NULL,
-	`loyalty_points` int DEFAULT '0',
-	`updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY (`customer_id`), UNIQUE KEY `email` (`email`)
-);
+-- DROP TABLE IF EXISTS `Customers`;
+-- 
+-- 
+-- CREATE TABLE `Customers` (
+-- 	`customer_id` int NOT NULL AUTO_INCREMENT,
+--      	`first_name` varchar(50) NOT NULL,
+-- 	`last_name` varchar(50) NOT NULL,
+-- 	`email` varchar(100) NOT NULL,
+-- 	`phone_number` varchar(30) DEFAULT NULL,
+-- 	`signup_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+-- 	`country` varchar(70) DEFAULT NULL,
+-- 	`city` varchar(50) DEFAULT NULL,
+-- 	`loyalty_points` int DEFAULT '0',
+-- 	`updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+-- 	PRIMARY KEY (`customer_id`), UNIQUE KEY `email` (`email`)
+-- );
 
 --
 -- Dumping data for table `Customers`
@@ -116,19 +118,20 @@ VALUES (1, 'Danielle', 'Johnson', 'jeffreydoyle@hotmail.com', '+49 125-859-4606'
 -- Table structure for table `Order_Items`
 --
 
-DROP TABLE IF EXISTS `Order_Items`;
-
-CREATE TABLE `Order_Items` (
-	`order_item_id` int NOT NULL AUTO_INCREMENT,
-	`order_id` int NOT NULL,
-	`product_id` int NOT NULL,
-	`quantity` int NOT NULL,
-	`unit_price` decimal(10, 2) NOT NULL,
-	`discount` decimal(10, 2) DEFAULT '0.00',
-	PRIMARY KEY (`order_item_id`), KEY `order_id` (`order_id`),
-	KEY `product_id` (`product_id`),
-	CONSTRAINT `Order_Items_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `Orders` (`order_id`)
-);
+-- DROP TABLE IF EXISTS `Order_Items`;
+-- 
+-- CREATE TABLE `Order_Items` (
+-- 	`order_item_id` int NOT NULL AUTO_INCREMENT,
+-- 	`order_id` int NOT NULL,
+-- 	`product_id` int NOT NULL,
+-- 	`quantity` int NOT NULL,
+-- 	`unit_price` decimal(10, 2) NOT NULL,
+-- 	`discount` decimal(10, 2) DEFAULT '0.00',
+-- 	PRIMARY KEY (`order_item_id`), KEY `order_id` (`order_id`),
+-- 	KEY `product_id` (`product_id`),
+-- 	CONSTRAINT `Order_Items_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `Orders` (`order_id`),
+-- 	CONSTRAINT `Order_Items_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `Products` (`product_id`)
+-- );
 
 --
 -- Dumping data for table `Order_Items`
@@ -1707,18 +1710,18 @@ VALUES (1,1,56,3,659.10,10.00),
 --
 -- Table structure for table `Orders`
 --
-
-DROP TABLE IF EXISTS `Orders`;
-
-CREATE TABLE `Orders` (
-	`order_id` int NOT NULL AUTO_INCREMENT,
-	`customer_id` int NOT NULL,
-	`order_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-	`status` enum('Pending', 'Shipped', 'Delivered', 'Returned') NOT NULL DEFAULT 'Pending',
-	`updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY (`order_id`), KEY `customer_id` (`customer_id`),
-	CONSTRAINT `Orders_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `Customers` (`customer_id`)
-);
+-- 
+-- DROP TABLE IF EXISTS `Orders`;
+-- 
+-- CREATE TABLE `Orders` (
+-- 	`order_id` int NOT NULL AUTO_INCREMENT,
+-- 	`customer_id` int NOT NULL,
+-- 	`order_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+-- 	`status` enum('Pending', 'Shipped', 'Delivered', 'Returned') NOT NULL DEFAULT 'Pending',
+-- 	`updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+-- 	PRIMARY KEY (`order_id`), KEY `customer_id` (`customer_id`),
+-- 	CONSTRAINT `Orders_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `Customers` (`customer_id`)
+-- );
 
 --
 -- Dumping data for table `Orders`
@@ -2229,18 +2232,18 @@ VALUES (1,18,'2025-04-17 07:43:19','Returned','2025-04-17 19:09:29'),
 --
 -- Table structure for table `Payments`
 --
-
-DROP TABLE IF EXISTS `Payments`;
-
-CREATE TABLE `Payments` (
-	`payment_id` int NOT NULL AUTO_INCREMENT,
-	`order_id` int NOT NULL,
-	`payment_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-	`payment_method` varchar(50) DEFAULT NULL,
-	`amount` decimal(10, 2) NOT NULL,
-	`currency` varchar(10) DEFAULT 'USD',
-        PRIMARY KEY (`payment_id`), KEY `order_id` (`order_id`),
-	CONSTRAINT `Payments_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `Orders` (`order_id`));
+-- 
+-- DROP TABLE IF EXISTS `Payments`;
+-- 
+-- CREATE TABLE `Payments` (
+-- 	`payment_id` int NOT NULL AUTO_INCREMENT,
+-- 	`order_id` int NOT NULL,
+-- 	`payment_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+-- 	`payment_method` varchar(50) DEFAULT NULL,
+-- 	`amount` decimal(10, 2) NOT NULL,
+-- 	`currency` varchar(10) DEFAULT 'USD',
+--         PRIMARY KEY (`payment_id`), KEY `order_id` (`order_id`),
+-- 	CONSTRAINT `Payments_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `Orders` (`order_id`));
 
 --
 -- Dumping data for table `Payments`
@@ -2752,19 +2755,19 @@ VALUES (1,1,'2025-04-17 22:46:23','PayPal',5540.06,'USD'),
 -- Table structure for table `Products`
 --
 
-DROP TABLE IF EXISTS `Products`;
-
-CREATE TABLE `Products` (
-	`product_id` int NOT NULL AUTO_INCREMENT,
-	`product_name` varchar(100) NOT NULL,
-	`category_id` int NOT NULL,
-	`brand` varchar(50) DEFAULT NULL,
-	`price` decimal(10, 2) NOT NULL,
-	`stock_quantity` int DEFAULT '0',
-	`created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-	`updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY (`product_id`), KEY `category_id` (`category_id`),
-	CONSTRAINT `Products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `Categories` (`category_id`));
+-- DROP TABLE IF EXISTS `Products`;
+-- 
+-- CREATE TABLE `Products` (
+-- 	`product_id` int NOT NULL AUTO_INCREMENT,
+-- 	`product_name` varchar(100) NOT NULL,
+-- 	`category_id` int NOT NULL,
+-- 	`brand` varchar(50) DEFAULT NULL,
+-- 	`price` decimal(10, 2) NOT NULL,
+-- 	`stock_quantity` int DEFAULT '0',
+-- 	`created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+-- 	`updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+-- 	PRIMARY KEY (`product_id`), KEY `category_id` (`category_id`),
+-- 	CONSTRAINT `Products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `Categories` (`category_id`));
 
 --
 -- Dumping data for table `Products`
@@ -2876,26 +2879,28 @@ VALUES (1,'Product 1',7,'Nike',1346.66,47,'2024-08-13 06:04:24','2024-08-24 08:2
 -- Table structure for table `Reviews`
 --
 
-DROP TABLE IF EXISTS `Reviews`;
-
-CREATE TABLE `Reviews` (
-	`review_id` int NOT NULL AUTO_INCREMENT,
-	`customer_id` int NOT NULL,
-	`product_id` int NOT NULL,
-	`rating` int DEFAULT NULL,
-	`review_text` text, `review_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY (`review_id`), KEY `customer_id` (`customer_id`),
-	 KEY `product_id` (`product_id`),
-	CONSTRAINT `Reviews_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `Customers` (`customer_id`),
-	CONSTRAINT `Reviews_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `Products` (`product_id`),
-	CONSTRAINT `Reviews_chk_1` CHECK ((`rating` BETWEEN 1 AND 5))
-);
+-- DROP TABLE IF EXISTS `Reviews`;
+-- 
+-- CREATE TABLE `Reviews` (
+-- 	`review_id` int NOT NULL AUTO_INCREMENT,
+-- 	`customer_id` int NOT NULL,
+-- 	`product_id` int NOT NULL,
+-- 	`order_id` int ,
+-- 	`rating` int DEFAULT NULL,
+-- 	`review_text` text, `review_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+-- 	PRIMARY KEY (`review_id`), KEY `customer_id` (`customer_id`),
+-- 	 KEY `product_id` (`product_id`),
+-- 	CONSTRAINT `Reviews_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `Customers` (`customer_id`),
+-- 	CONSTRAINT `Reviews_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `Products` (`product_id`),
+-- 	CONSTRAINT `Reviews_ibfk_3` FOREIGN KEY (`order_id`) REFERENCES `Orders` (`order_id`),
+-- 	CONSTRAINT `Reviews_chk_1` CHECK ((`rating` BETWEEN 1 AND 5))
+-- );
 
 --
 -- Dumping data for table `Reviews`
 --
 
-INSERT INTO `Reviews`
+INSERT INTO Reviews (review_id, customer_id, product_id, rating, review_text, review_date)
 VALUES (1,18,34,3,'Doctor from throw ball character.','2024-09-13 01:56:01'),
        (2,24,62,3,'Accept goal send table well industry section.','2024-09-26 01:56:01'),
        (3,38,7,5,'Agree hour north agree poor career left.','2024-09-20 01:56:01'),
@@ -3058,20 +3063,20 @@ VALUES (1,18,34,3,'Doctor from throw ball character.','2024-09-13 01:56:01'),
 -- Table structure for table `Shipping`
 --
 
-DROP TABLE IF EXISTS `Shipping`;
-
-CREATE TABLE `Shipping` (
-	`shipping_id` int NOT NULL AUTO_INCREMENT,
-	`order_id` int NOT NULL,
-	`shipping_address` varchar(200) DEFAULT NULL,
-	`carrier` varchar(50) DEFAULT NULL,
-	`tracking_number` varchar(100) DEFAULT NULL,
-	`ship_date` timestamp NULL DEFAULT NULL,
-	`delivery_date` timestamp NULL DEFAULT NULL,
-	`status` enum('Pending', 'Shipped', 'Delivered', 'Returned', 'Cancelled') DEFAULT NULL,
-	PRIMARY KEY (`shipping_id`), KEY `order_id` (`order_id`),
-	CONSTRAINT `Shipping_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `Orders` (`order_id`)
-);
+-- DROP TABLE IF EXISTS `Shipping`;
+-- 
+-- CREATE TABLE `Shipping` (
+-- 	`shipping_id` int NOT NULL AUTO_INCREMENT,
+-- 	`order_id` int NOT NULL,
+-- 	`shipping_address` varchar(200) DEFAULT NULL,
+-- 	`carrier` varchar(50) DEFAULT NULL,
+-- 	`tracking_number` varchar(100) DEFAULT NULL,
+-- 	`ship_date` timestamp NULL DEFAULT NULL,
+-- 	`delivery_date` timestamp NULL DEFAULT NULL,
+-- 	`status` enum('Pending', 'Shipped', 'Delivered', 'Returned', 'Cancelled') DEFAULT NULL,
+-- 	PRIMARY KEY (`shipping_id`), KEY `order_id` (`order_id`),
+-- 	CONSTRAINT `Shipping_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `Orders` (`order_id`)
+-- );
 
 --
 -- Dumping data for table `Shipping`
